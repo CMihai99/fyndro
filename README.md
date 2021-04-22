@@ -5,7 +5,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/stargazers)
 [![GitHub license](https://img.shields.io/github/license/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE)
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
-[![Crowdin](https://badges.crowdin.net/Andro/localized.svg)](https://crowdin.com/project/andro-dashboard)
 
 ### Internationalization
 
