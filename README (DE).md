@@ -1,6 +1,10 @@
 # Andro
 
-[![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues) [![GitHub forks](https://img.shields.io/github/forks/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/network) [![GitHub stars](https://img.shields.io/github/stars/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/stargazers) [![GitHub license](https://img.shields.io/github/license/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE) ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
+[![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues)
+[![GitHub forks](https://img.shields.io/github/forks/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/network)
+[![GitHub stars](https://img.shields.io/github/stars/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/stargazers)
+[![GitHub license](https://img.shields.io/github/license/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE)
+![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 
 ## Dokumentation
 
