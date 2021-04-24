@@ -1,0 +1,80 @@
+h1, h2, h3, h4, h5, h6, p { /* Text font */
+	color: #8e8d8a;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	margin-top: -7.5px;
+	margin-left: 0px;
+}
+  
+.navbar a {
+	margin-left: 5px;
+}
+
+.notifications, .create-new {
+	background-color: #d6c2a3;
+	width: 34px;
+	height: 34px;
+	margin-top: -8px;
+	border-radius: 12.5%;
+	float: right;
+}
+
+.more, .home {
+	background-color: #d6c2a3;
+	width: 34px;
+	height: 34px;
+	margin-top: -8px;
+	border-radius: 12.5%;
+	float: left;
+}
+
+.twitter, .instagram {
+	background-color: #d6c2a3;
+	width: 34px;
+	height: 34px;
+	margin-top: -8px;
+	border-radius: 12.5%;
+	float: left;
+}
+
+.boards {
+	background-color: #d6c2a3;
+	width: 102px;
+	height: 34px;
+	margin-top: -8px;
+	border-radius: 7.5%;
+	float: left;
+}
+
+.boards strong {
+	position: absolute;
+	margin-top: 4.5px;
+	margin-left: 3.5px;
+	color: #fafafa;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.notifications:hover, .create-new:hover, .more:hover, .home:hover, .boards:hover, .twitter:hover, .instagram:hover {
+	-webkit-transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-o-transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+	background-color: #dfc9a9;
+}
+
+#nav-items {
+	height: 20px;
+	align-items: center;
+	margin-left: 3.5px;
+	margin-top: 6.5px;
+	filter: invert(100%) sepia(82%) saturate(283%) hue-rotate(185deg) brightness(109%) contrast(96%);
+}
