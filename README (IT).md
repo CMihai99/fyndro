@@ -8,9 +8,9 @@
 
 ## Documentazione
 
-- [Informazioni tecniche](https://github.com/CMihai99/andro/blob/main/README.md)
-- [Contribuire a Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
-- [Licenza progetto](https://github.com/CMihai99/andro/blob/main/LICENSE)
+  - [Informazioni tecniche](https://github.com/CMihai99/andro/blob/main/README.md)
+  - [Contribuire a Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
+  - [Licenza progetto](https://github.com/CMihai99/andro/blob/main/LICENSE)
 
 ## Contribuire
 
@@ -18,8 +18,8 @@ Lo scopo principale di questo repository è quello di continuare a evolvere Andr
 
 Ci sono molti modi in cui puoi partecipare al progetto, per esempio:
 
-* [Invia bug e richieste di funzionalità](https://github.com/CMihai99/andro/issues) e aiutaci a migliorare il nostro prodotto
-* [Fondare questo progetto](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US) e aiutaci a continuare lo sviluppo
+  - [Invia bug e richieste di funzionalità](https://github.com/CMihai99/andro/issues) e aiutaci a migliorare il nostro prodotto
+  - [Fondare questo progetto](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US) e aiutaci a continuare lo sviluppo
 
 ## Codice di condotta
 

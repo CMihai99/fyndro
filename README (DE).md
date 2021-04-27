@@ -8,9 +8,9 @@
 
 ## Dokumentation
 
-- [Technische Informationen](https://github.com/CMihai99/andro/blob/main/README.md)
-- [Beitragen zu Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
-- [Projektlizenz](https://github.com/CMihai99/andro/blob/main/LICENSE)
+  - [Technische Informationen](https://github.com/CMihai99/andro/blob/main/README.md)
+  - [Beitragen zu Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
+  - [Projektlizenz](https://github.com/CMihai99/andro/blob/main/LICENSE)
 
 ## Mitwirken
 
@@ -18,8 +18,8 @@ Der Hauptzweck dieses Projektarchivs ist die Weiterentwicklung von Andro, wodurc
 
 Es gibt viele Möglichkeiten, an dem Projekt teilzunehmen, zum Beispiel:
 
-* [Senden Sie Fehler und Feature-Anfragen](https://github.com/CMihai99/andro/issues), und helfen Sie uns, unser Produkt zu verbessern
-* [Dieses Projekt finanzieren](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), und helfen Sie uns, die Entwicklung fortzusetzen
+  - [Senden Sie Fehler und Feature-Anfragen](https://github.com/CMihai99/andro/issues), und helfen Sie uns, unser Produkt zu verbessern
+  - [Dieses Projekt finanzieren](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), und helfen Sie uns, die Entwicklung fortzusetzen
 
 ## Verhaltenskodex
 

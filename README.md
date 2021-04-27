@@ -12,9 +12,9 @@ We currently support 5 languages. Are we missing your language? [Contribute a tr
 
 ## Documentation
 
-- [Technical information](https://github.com/CMihai99/andro/blob/main/README.md)
-- [Contributing to Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
-- [Project license](https://github.com/CMihai99/andro/blob/main/LICENSE)
+  - [Technical information](https://github.com/CMihai99/andro/blob/main/README.md)
+  - [Contributing to Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
+  - [Project license](https://github.com/CMihai99/andro/blob/main/LICENSE)
 
 ## Contributing
 
@@ -22,8 +22,8 @@ The main purpose of this repository is to continue evolving Andro, making it fas
 
 There are many ways in which you can participate in the project, for example:
 
-* [Submit bugs and feature requests](https://github.com/CMihai99/andro/issues), and help us improve our product
-* [Fund this project](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), and help us continue development
+  - [Submit bugs and feature requests](https://github.com/CMihai99/andro/issues), and help us improve our product
+  - [Fund this project](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), and help us continue development
 
 ## Code of Conduct
 

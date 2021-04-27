@@ -4,8 +4,8 @@ The main purpose of this repository is to continue evolving Andro, making it fas
 
 There are many ways in which you can participate in the project, for example:
 
-* [Submit bugs and feature requests](https://github.com/CMihai99/andro/issues), and help us improve our product
-* [Fund this project](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), and help us continue development
+  - [Submit bugs and feature requests](https://github.com/CMihai99/andro/issues), and help us improve our product
+  - [Fund this project](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), and help us continue development
 
 ## Copyright
 
@@ -17,11 +17,7 @@ Andro has adopted a Code of Conduct that we expect project participants to adher
 
 ## Pull Request Process
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment 
-   variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
-   do not have permission to do that, you may request the second reviewer to merge it for you.
+ 1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
+ 2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
+ 3. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent
+ 4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.

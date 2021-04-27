@@ -8,9 +8,9 @@
 
 ## Documentation
 
-- [Techniques d'information](https://github.com/CMihai99/andro/blob/main/README.md)
-- [Contribuer à Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
-- [Licence de projet](https://github.com/CMihai99/andro/blob/main/LICENSE)
+  - [Techniques d'information](https://github.com/CMihai99/andro/blob/main/README.md)
+  - [Contribuer à Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
+  - [Licence de projet](https://github.com/CMihai99/andro/blob/main/LICENSE)
 
 ## Contribuant
 
@@ -18,8 +18,8 @@ Le but principal de ce référentiel est de continuer à faire évoluer Andro, l
 
 Vous pouvez participer au projet de plusieurs manières, par exemple:
 
-* [Soumettre des bugs et des demandes de fonctionnalités](https://github.com/CMihai99/andro/issues), et nous aider à améliorer notre produit
-* [Financez ce projet](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), et aidez-nous à poursuivre le développement
+  - [Soumettre des bugs et des demandes de fonctionnalités](https://github.com/CMihai99/andro/issues), et nous aider à améliorer notre produit
+  - [Financez ce projet](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), et aidez-nous à poursuivre le développement
 
 ## Code de Conduite
 
