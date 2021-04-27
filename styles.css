@@ -15,15 +15,29 @@ h1, h2, h3, h4, h5, h6, p, li, .caret, #footer-copyright {
 
 /* Footer alignment */
 footer {
-  margin-left: -1.121cm;
+  margin-left: -2.121cm;
   text-align: center;
-  position: absolute;
   bottom: 0;
-  margin-bottom: 31.5px;
+  margin-bottom: 40px;
+  margin-top: 50px;
   width: 100%;
   background-color: #dadada;
 }
 
 #footer-copyright:hover {
   text-decoration: none;
+}
+
+/* Site box in which main content is displayed within */
+.page-border {
+  margin-left: 162.5px;
+  margin-right: 190px;
+  margin-top: 40px;
+  border-radius: 7px;
+  border: 1.5px solid #b5b5b5;
+  background-color: #eeeeee;
+}
+
+.content-border {
+  margin: 37.5px;
 }

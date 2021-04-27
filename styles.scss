@@ -27,3 +27,17 @@ background-color: #dadada;
 #footer-copyright:hover {
 text-decoration: none;
 }
+
+/* Site box in which main content is displayed within */
+.page-border {
+    margin-left: 162.5px;
+    margin-right: 190px;
+    margin-top: 40px;
+    border-radius: 7px;
+    border: 1.5px solid #b5b5b5;
+    background-color: #eeeeee;
+  }
+  
+  .content-border {
+    margin: 37.5px;
+  }
