@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, p, li, .caret, #footer-copyright {
 footer {
   margin-left: -1.121cm;
   text-align: center;
+  position: absolute;
   bottom: 0;
   margin-bottom: 31.5px;
   width: 100%;
@@ -26,5 +27,3 @@ footer {
 #footer-copyright:hover {
   text-decoration: none;
 }
-
-/*# sourceMappingURL=styles.css.map */
