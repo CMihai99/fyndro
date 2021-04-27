@@ -1,11 +1,11 @@
 # Andro
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0ca8f8699e3b487fbf19596a1a410fdd)](https://app.codacy.com/gh/CMihai99/andro?utm_source=github.com&utm_medium=referral&utm_content=CMihai99/andro&utm_campaign=Badge_Grade_Settings)
 [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues)
-[![GitHub forks](https://img.shields.io/github/forks/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/network)
-[![GitHub stars](https://img.shields.io/github/stars/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/stargazers)
-[![GitHub license](https://img.shields.io/github/license/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE)
+[![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub license](https://img.shields.io/github/license/CMihai99/andro?color=g&style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE)
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
+![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
+![Codacy badge](https://img.shields.io/codacy/grade/23f542e075834f949e2871a52692a5da?color=g&style=flat-square)
 
 ## Internationalization
 
