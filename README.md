@@ -1,5 +1,6 @@
 # Andro
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0ca8f8699e3b487fbf19596a1a410fdd)](https://app.codacy.com/gh/CMihai99/andro?utm_source=github.com&utm_medium=referral&utm_content=CMihai99/andro&utm_campaign=Badge_Grade_Settings)
 [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues)
 [![GitHub forks](https://img.shields.io/github/forks/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/network)
 [![GitHub stars](https://img.shields.io/github/stars/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/stargazers)
