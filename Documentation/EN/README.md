@@ -4,12 +4,12 @@
 [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub license](https://img.shields.io/github/license/CMihai99/andro?color=g&style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE)
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
-![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
+[![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)](https://github.com/CMihai99/andro/issues)
 ![Codacy badge](https://img.shields.io/codacy/grade/23f542e075834f949e2871a52692a5da?color=g&style=flat-square)
 
 ## Internationalization
 
-We currently support 10 languages, including English. Are we missing your language? [Contribute a translation via Crowdin](https://crowdin.com/project/andro-dashboard)!
+We currently support 5 languages. Are we missing your language? [Contribute a translation via Crowdin](https://crowdin.com/project/andro-dashboard)!
 
 ## Documentation
 
