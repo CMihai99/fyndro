@@ -1,0 +1,99 @@
+/* Background color */
+body {
+  background-color: #ececec;
+}
+
+/* Text color */
+h1, h2, h3, h4, h5, h6, p, li, .caret, #footer-copyright {
+  color: #5c5c5c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Icons color */
+#menubar {
+  filter: invert(37%) sepia(0%) saturate(0%) hue-rotate(212deg) brightness(88%) contrast(80%);
+}
+
+.menubar:active {
+  cursor: default;
+}
+
+/* Footer alignment */
+footer {
+  margin-left: -2.121cm;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #ececec;
+}
+
+#footer-copyright:hover {
+  text-decoration: none;
+}
+
+/* Site box in which main content is displayed within */
+.page-border {
+  margin-left: 162.5px;
+  margin-right: 190px;
+  margin-top: 109px;
+  border-radius: 7px;
+  border: 1.5px solid #b5b5b5;
+  background-color: #ffffff;
+}
+
+.content-border {
+  margin: 55px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+/* Main actions in the navbar */
+.tool {
+  margin-top: 0px;
+  margin-left: 96.5px;
+  list-style: none;
+  display: inline-block;
+}
+
+.tool a {
+  color: #5c5c5c;
+  font-size: medium;
+  margin-left: 0px;
+}
+
+.tool a:hover, .tool a:focus, .tool a:active {
+  text-decoration: none;
+}
+
+.tool a:hover, .tool a:active {
+  color: #858585;
+}
+
+.nav-actions {
+  text-align: center;
+}
+
+/* Navbar background */
+.navbar {
+  background-color: #dbdbdb;
+  height: 65px;
+}
+
+/* Dropdown menu background */
+.dropdown-menu {
+  margin-top: -6.5px;
+  margin-right: 30px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
+}
+
+.dropdown-menu li:hover {
+  background-color: #ececec;
+}
+
+/* Dropdown background */
+#options-menu {
+  background-color: #dbdbdb;
+}
