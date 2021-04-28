@@ -1,13 +1,5 @@
 # vscode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
-
-# Dump file
-*.stackdump
 
 # Folder config file
 [Dd]esktop.ini
@@ -17,9 +9,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# Prerequisites
-*.d
 
 # Compiled Object files
 *.slo
@@ -38,8 +27,3 @@ ClientBin/
 *.pfx
 *.publishsettings
 bower_components/
-
-# Business Intelligence projects
-*.rdl.data
-*.bim.layout
-*.bim_*.settings
