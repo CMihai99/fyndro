@@ -9,7 +9,7 @@
 
 ## Internationalization
 
-We currently support 5 languages. Are we missing your language? [Contribute a translation via Crowdin](https://crowdin.com/project/andro-dashboard)!
+We currently support 10 languages including English. Are we missing your language? [Contribute a translation via Crowdin](https://crowdin.com/project/andro-dashboard)!
 
 ## Documentation
 
