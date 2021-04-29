@@ -1,21 +1,37 @@
-/* Site background color */
 body {
   background-color: #ececec;
 }
 
-/* Text color */
 h1, h2, h3, h4, h5, h6, p, li, .caret, #footer-copyright {
   color: #5c5c5c;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Menubar color */
+/* Navbar icon */
+#nav-icon {
+  width: 36px;
+  height: 36px;
+  margin-left: 75.5px;
+  margin-top: -40px;
+}
+
+#footer-icon {
+  width: 28px;
+  height: 28px;
+  margin-top: 0px;
+}
+
+/* Navbar menubar */
 #menubar {
   filter: invert(37%) sepia(0%) saturate(0%) hue-rotate(212deg) brightness(88%) contrast(80%);
 }
 
 .menubar:active {
   cursor: default;
+}
+
+#nav-menu-text {
+  color: #5c5c5c;
 }
 
 /* Footer alignment */
@@ -29,14 +45,20 @@ footer {
   background-color: #ececec;
 }
 
+#footer-copyright {
+  color: #5c5c5c;
+  margin-left: 87.25px;
+  font-size: 13px;
+}
+
 #footer-copyright:hover {
   text-decoration: none;
 }
 
-/* Border box in which main content is displayed in */
+/* Border box in which page content is displayed in */
 .page-border {
-  margin-left: 162.5px;
-  margin-right: 190px;
+  margin-left: 50px;
+  margin-right: 389px;
   margin-top: 109px;
   border-radius: 7px;
   border: 1.5px solid #b5b5b5;
@@ -45,28 +67,62 @@ footer {
 
 .content-border {
   margin: 55px;
-  margin-top: 55px;
-  margin-bottom: 55px;
+}
+
+/* Border box in which ad content is displayed in */
+.ads-page-border {
+  float: right;
+  width: 289px;
+  margin-right: 50px;
+  border-radius: 7px;
+  border: 1.5px solid #b5b5b5;
+  background-color: #ffffff;
+}
+
+.ads-content-border {
+  margin: 7.5px;
+}
+
+/* Ad image */
+.ad-image {
+  border-radius: 7px;
+  width: 271.25px;
+  height: 271.25px;
+  box-shadow: 0 0 6.75px #5c5c5c;
+}
+
+/* Ad text */
+.sponsored-text {
+  margin-top: 11px;
+  margin-left: 8.5px;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #00a8b4;
+}
+
+.ad-text {
+  margin-top: -6.5px;
+  margin-left: 8.5px;
+  margin-right: 10.5px;
+  font-size: 12px;
 }
 
 /* Navbar quick actions */
-.tool {
+.tool, #tool {
   margin-top: 0px;
   margin-left: 96.5px;
   list-style: none;
   display: inline-block;
 }
 
-.tool a {
+.tool a, #tool a  {
   color: #5c5c5c;
   font-size: medium;
 }
 
-.tool a:hover, .tool a:focus, .tool a:active {
+.tool a:hover, .tool a:focus, .tool a:active,
+#tool a:hover, #tool a:focus, #tool a:active {
   text-decoration: none;
-}
-
-.tool a:hover, .tool a:active {
   color: #858585;
 }
 
@@ -95,4 +151,37 @@ footer {
 /* Dropdown background */
 #options-menu {
   background-color: #dbdbdb;
+}
+
+/* Search bar background */
+.search {
+  width: 0; height: 0;
+}
+
+/* Search bar */
+.search input {
+  height: 30px;
+  text-indent: 25px;
+  border: 1.5px solid #b5b5b5;
+  margin-top: -45px;
+  margin-left: 61px;
+  padding-left: -50px;
+  border-radius: 5.625px;
+  width: 225px;
+}
+
+.search input:focus, .search input:active {
+  border: 1px solid #337ff0;
+  box-shadow: none;
+}
+
+/* Vertical bar over text while typing */
+.form-control {
+  color: #5c5c5c;
+  margin-left: -601px;
+}
+
+/* Same color on anchor tags */
+#links, #links:hover {
+  color: #337ff0;
 }
