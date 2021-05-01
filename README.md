@@ -7,11 +7,11 @@
 ![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
 ![Codacy badge](https://img.shields.io/codacy/grade/23f542e075834f949e2871a52692a5da?color=g&style=flat-square)
 
-Andro lets you find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites, which you may not even knew existed.
+Andro lets you find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites, which you may not knew existed.
 
 ## 🌎 Internationalization
 
-We currently support 10 languages, including English. Are we missing your language? [Contribute a translation via Crowdin](https://crowdin.com/project/andro-dashboard)!
+We currently support 15 languages, including English. Are we missing your language? [Contribute a translation via Crowdin](https://crowdin.com/project/andro-dashboard)!
 
 ## 📃 Documentation
 
@@ -28,11 +28,11 @@ There are many ways in which you can participate in the project, for example:
   - [Submit bugs and feature requests](https://github.com/CMihai99/andro/issues), and help us improve our product
   - [Fund this project](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US), and help us continue development
 
-### Code of Conduct
+### 🙌 Code of Conduct
 
 Andro has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](https://code.fb.com/codeofconduct) so that you can understand what actions will and will not be tolerated.
 
-## 🎉 Supporters
+## 👏 Supporters
 
 [![Stargazers repo roster for @CMihai99/andro](https://reporoster.com/stars/CMihai99/andro)](https://github.com/CMihai99/andro/stargazers)
 
