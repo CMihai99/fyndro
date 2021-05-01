@@ -7,11 +7,7 @@
 ![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
 ![Codacy badge](https://img.shields.io/codacy/grade/23f542e075834f949e2871a52692a5da?color=g&style=flat-square)
 
-Andro lets you find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites, which you may not knew existed.
-
-## 🌎 Internationalization
-
-We currently support 15 languages, including English. Are we missing your language? [Contribute a translation via Crowdin](https://crowdin.com/project/andro-dashboard)!
+Andro lets you find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites, which you didn't knew existed.
 
 ## 📃 Documentation
 
