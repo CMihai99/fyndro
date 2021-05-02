@@ -31,22 +31,25 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
   cursor: default;
 }
 
-/* links text */
+
+/* nav links */
 #nav-menu-text {
   color: #5c5c5c;
 }
 
 
+/* footer */
 footer {
   margin-left: -1.746cm;
   text-align: center;
   bottom: 0;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   width: 100%;
   background-color: transparent;
 }
 
-/* footer separator */
+/* separator */
 footer hr {
   margin-left: 6.325cm;
   text-align: center;
@@ -136,16 +139,17 @@ footer hr {
   margin-left: 96.5px;
   list-style: none;
   display: inline-block;
+  font-weight: 550;
+  font-size: 9px;
 }
 
 .tool a, #tool a  {
-  color: #5c5c5c;
-  font-size: medium;
+  color: #808080;
 }
 
 .tool a:hover, .tool a:focus, .tool a:active,
 #tool a:hover, #tool a:focus, #tool a:active {
-  color: #b3b3b3;
+  color: #a8a8a8;
   text-decoration: none;
 }
 
