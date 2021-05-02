@@ -7,7 +7,8 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Navbar icon */
+
+/* navbar icon */
 #nav-icon {
   width: 36px;
   height: 36px;
@@ -21,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
   margin-top: 0px;
 }
 
-/* Navbar menubar */
+/* menubar */
 #menubar {
   filter: invert(37%) sepia(0%) saturate(0%) hue-rotate(212deg) brightness(88%) contrast(80%);
 }
@@ -30,11 +31,12 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
   cursor: default;
 }
 
+/* links text */
 #nav-menu-text {
   color: #5c5c5c;
 }
 
-/* Footer alignment */
+
 footer {
   margin-left: -2.121cm;
   text-align: center;
@@ -44,7 +46,7 @@ footer {
   background-color: transparent;
 }
 
-/* Footer separator */
+/* footer separator */
 footer hr {
   margin-left: 6.325cm;
   text-align: center;
@@ -54,6 +56,7 @@ footer hr {
   background-color: #cfcfcf;
 }
 
+/* text */
 #footer-copyright {
   color: #5c5c5c;
   margin-left: 87.25px;
@@ -70,7 +73,8 @@ footer hr {
   font-size: 13px;
 }
 
-/* Border box in which page content is displayed in */
+
+/* box in which page content is displayed */
 .page-border {
   margin-left: 50px;
   margin-right: 389px;
@@ -84,7 +88,8 @@ footer hr {
   margin: 55px;
 }
 
-/* Border box in which ad content is displayed in */
+
+/* box in which ad content is displayed */
 .ads-page-border {
   float: right;
   width: 289px;
@@ -98,7 +103,7 @@ footer hr {
   margin: 7.5px;
 }
 
-/* Ad image */
+/* image */
 .ad-image {
   border-radius: 7px;
   width: 266.25px;
@@ -108,7 +113,7 @@ footer hr {
   border-radius: 7px;
 }
 
-/* Ad text */
+/* text */
 .sponsored-text {
   margin-top: 11px;
   margin-left: 8.5px;
@@ -124,7 +129,8 @@ footer hr {
   font-size: 12px;
 }
 
-/* Navbar quick actions */
+
+/* navbar links */
 .tool, #tool {
   margin-top: 0px;
   margin-left: 96.5px;
@@ -139,17 +145,17 @@ footer hr {
 
 .tool a:hover, .tool a:focus, .tool a:active,
 #tool a:hover, #tool a:focus, #tool a:active {
-  text-decoration: none;
   color: #b3b3b3;
+  text-decoration: none;
 }
 
-/* Navbar background */
 .navbar {
   background-color: #ffffff;
   height: 65px;
 }
 
-/* Dropdown menu */
+
+/* dropdown menu */
 .dropdown-menu {
   margin-right: 30px;
   background-color: #ffffff;
@@ -160,19 +166,15 @@ footer hr {
   background-color: #ececec;
 }
 
-/* Dropdown menu background */
+/* background */
 #options-menu {
   margin-top: 6.5px;
   margin-right: 18px;
   background-color: #ffffff;
 }
 
-/* Search bar background */
-.search {
-  width: 0; height: 0;
-}
 
-/* Search bar */
+/* search bar */
 .search input {
   height: 30px;
   text-indent: 25px;
@@ -184,10 +186,16 @@ footer hr {
   width: 123px;
 }
 
+/* background */
+.search {
+  width: 0; height: 0;
+}
+
 .search input:focus, .search input:active {
   border: 1px solid #337ff0;
   box-shadow: none;
 }
+
 
 /* anchor tags */
 #links, #links:hover {
