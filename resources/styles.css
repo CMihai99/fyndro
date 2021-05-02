@@ -185,8 +185,8 @@ footer hr {
   border: 1.5px solid #b5b5b5;
   margin-top: -45px;
   margin-left: 61px;
-  padding-left: -50px;
-  border-radius: 5.625px;
+  padding-left: 0px;
+  border-radius: 7px;
   width: 123px;
 }
 
@@ -195,6 +195,7 @@ footer hr {
   width: 0; height: 0;
 }
 
+/* when clicked */
 .search input:focus, .search input:active {
   border: 1px solid #337ff0;
   box-shadow: none;
