@@ -140,7 +140,7 @@ footer hr {
 .tool a:hover, .tool a:focus, .tool a:active,
 #tool a:hover, #tool a:focus, #tool a:active {
   text-decoration: none;
-  color: #858585;
+  color: #b3b3b3;
 }
 
 /* Navbar background */
