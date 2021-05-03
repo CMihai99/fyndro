@@ -166,11 +166,11 @@ footer hr {
   box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
 }
 
-.dropdown-menu li:hover {
+.dropdown-menu li:hover, #nav-menu-text:hover {
   background-color: #ececec;
 }
 
-/* background */
+/* icons */
 #options-menu {
   margin-top: 23px;
   margin-right: 33px;
