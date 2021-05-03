@@ -211,3 +211,26 @@ footer hr {
 #links:active {
   text-decoration: none;
 }
+
+
+/* table of contents */
+#tableofcontents-icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 3.5px;
+  padding: 7.5px;
+}
+
+#tableofcontents-icon:hover, #tableofcontents-text:hover {
+  background-color: #f0f0f0;
+}
+
+#tableofcontents-icon:active, #tableofcontents-text:active {
+  background-color: #e2e2e2;
+}
+
+/* menu */
+#tableofcontents {
+  padding: 5.5px;
+  border-radius: 7px;
+}
