@@ -1,277 +1,283 @@
 <!DOCTYPE html>
 <html>
 
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-      <!-- Bootstrap -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="resources/styles.css">
-      <link rel="icon" href="">
-      <title>Andro - Privacy</title>
-   </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/styles.css">
+    
+    <link rel="icon" href="">
+    <title>Andro - Privacy</title>
+ </head>
 
 
-   <body>
-      <!-- Navbar -->
-      <nav class="navbar navbar-fixed-top">
-        <div class="container-fluid">
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
 
-          <div class="navbar-header">
-            <!-- Main actions -->
+        <div class="navbar-header">
+
+          <!-- Main actions -->
+          <div>
+            <li class="tool" style="margin-top: 20px; margin-left: 223.5px"><a href="categories.html" style="margin-left: 0px; font-size: 15px">Categories</a></li>
+            <li class="tool"><a href="explore.html" style="margin-top: 5px; margin-left: -77.5px; margin-right: 18px; font-size: 15px">Explore</li>
+          </div>
+
+          <!-- Navbar icon -->
+          <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="nav-icon"></a>
+        
+          <!-- Search bar -->
+          <div>
             <div>
-              <li class="tool" style="margin-top: 20px; margin-left: 223.5px"><a href="categories.html" style="margin-left: 0px; font-size: 15px">Categories</a></li>
-              <li class="tool"><a href="explore.html" style="margin-top: 5px; margin-left: -77.5px; margin-right: 18px; font-size: 15px">Explore</li>
-            </div>
-
-            <!-- Navbar icon -->
-            <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="nav-icon"></a>
-          
-            <!-- Search bar -->
-            <div>
-              <div>
-                <div class="col-md-8">
-                  <div class="search">
-                    <input type="text" class="form-control" placeholder="Search">
-                  </div>
+              <div class="col-md-8">
+                <div class="search">
+                  <input type="text" class="form-control" placeholder="Search">
                 </div>
               </div>
             </div>
-            
           </div>
           
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown"><a class="dropdown-toggle" id="options-menu" data-toggle="dropdown" href="#"><img src="resources/list.svg" id="menubar"><span class="caret"></span></a>
-              <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 10px">
-                <!-- First section -->
-                <li><a href="about.html" id="nav-menu-text">About Us</a></li>
-                <li><a href="help.html"  id="nav-menu-text">Help</a></li>
-
-                <li class="divider"></li>
-
-                <!-- Second section -->
-                <li><a href="https://github.com/CMihai99/andro" target="_blank" id="nav-menu-text">Contribute</a><li>
-                <li><a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US" target="_blank" id="nav-menu-text">Donate</a></li>
-
-                <li class="divider"></li>
-
-                <!-- Third section -->
-                <li><a href="contact.html" id="nav-menu-text">Contact</a></li>
-                <li><a href="privacy.html" id="nav-menu-text">Privacy Policy</a></li>
-                <li><a href="terms.html"   id="nav-menu-text">Terms of Use</a></li>
-              </ul>
-            </li>
-          </ul>
-
         </div>
-      </nav>
-
-
-    <!-- Page and content borders -->
-    <div class="page-border" style="margin-right: 50px">
-      <div class="content-border">
-        <!-- Dropdown menu -->
-        <li class="dropdown" style="list-style-type: none;"><a class="dropdown-toggle" style="margin-left: 197.5px" id="options-menu" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-          <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 6px; margin-left: 197.5px">
-            <li><a href="#top" id="nav-menu-text">Go to top</a></li>
-
-            <li class="divider"></li>
-
-            <li><a href="#definitions" id="nav-menu-text">Definitions</a></li>
-
-            <li class="divider"></li>
-
-            <li><a href="#data-collection" id="nav-menu-text">Data collection</a></li>
-            <li><a href="#tracking-technologies" id="nav-menu-text">Tracking technologies</a></li>
-            <li><a href="#data-use" id="nav-menu-text">Data use</a></li>
-            <li><a href="#data-retention"  id="nav-menu-text">Data retention</a></li>
-            <li><a href="#data-transfer"   id="nav-menu-text">Data transfer</a></li>
-            <li><a href="#data-disclosure" id="nav-menu-text">Data disclosure</a></li>
-            <li><a href="#data-security"   id="nav-menu-text">Data security</a></li>
-
-            <li class="divider"></li>
-
-            <li><a href="#children-privacy" id="nav-menu-text">Children privacy</a></li>
-            <li><a href="#other-websites"   id="nav-menu-text">Links to other websites</a></li>
-            <li><a href="#policy-changes"   id="nav-menu-text">Policy changes</a></li>
-
-            <li><a href="#contact" id="nav-menu-text">Contact us</a></li>
-          </ul>
-        </li>
         
-        <!-- Webpage content -->
-        <h2 id="top" style="margin-top: -20px">Privacy Policy</h2>
-        <p>(Last updated: 30th April, 2021)</p>
-        <h3></h3>
-        <p>This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use the service and tells you about your privacy rights and how the law protects you.</p>
-        <p>We use your personal data to provide and improve the service. By using the service, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
-        <br>
+        <ul class="nav navbar-nav navbar-right">
 
-        <h3 id="definitions">Definitions</h3>
-        <p>For the purposes of this Privacy Policy:</p>
-        <ul>
-          <li>
-            <p><strong>We</strong> refers to Andro, Inc.</p>
-          </li>
+          <li class="dropdown"><a class="dropdown-toggle" id="options-menu" data-toggle="dropdown" href="#"><img src="resources/list.svg" id="menubar"><span class="caret"></span></a>
+            <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 10px">
 
-          <li>
-            <p><strong>Cookies</strong> are small files that are placed on your computer, mobile device or any other device by a website, containing the details of your browsing history on that website among its many uses.</p>
-          </li>
+              <!-- First section -->
+              <li><a href="about.html" id="nav-menu-text">About Us</a></li>
+              <li><a href="help.html"  id="nav-menu-text">Help</a></li>
 
-          <li>
-            <p><strong>Country</strong> refers to Romania.</p>
-          </li>
+              <li class="divider"></li>
 
-          <li>
-            <p><strong>Device</strong> means any device that can access the service such as a computer, a cellphone or a digital tablet.</p>
-          </li>
+              <!-- Second section -->
+              <li><a href="https://github.com/CMihai99/andro" target="_blank" id="nav-menu-text">Contribute</a><li>
+              <li><a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US" target="_blank" id="nav-menu-text">Donate</a></li>
 
-          <li>
-            <p><strong>Personal data</strong> is any information that relates to an identified or identifiable individual.</p>
-          </li>
+              <li class="divider"></li>
 
-          <li>
-            <p><strong>Service</strong> refers to the website.</p>
-          </li>
-
-          <li>
-            <p><strong>Service provider</strong> means any natural or legal person who processes the data on behalf of us. It refers to third-party companies or individuals employed by us to facilitate the service, to provide the service on behalf of us, to perform services related to the service or to assist us in analyzing how the service is used.</p>
-          </li>
-
-          <li>
-            <p><strong>Usage data</strong> refers to data collected automatically, either generated by the use of the service or from the service infrastructure itself (for example, the duration of a page visit).</p>
-          </li>
-
-          <li>
-            <p><strong>Website</strong> refers to Andro, accessible from <a href="http://cmihai99.github.io/andro" target="_blank" id="links">http://cmihai99.github.io/andro</a>.</p>
-          </li>
-
-          <li>
-            <p><strong>You</strong> means the individual accessing or using the service, or us, or other legal entity on behalf of which such individual is accessing or using the service, as applicable.</p>
+              <!-- Third section -->
+              <li><a href="contact.html" id="nav-menu-text">Contact</a></li>
+              <li><a href="privacy.html" id="nav-menu-text">Privacy Policy</a></li>
+              <li><a href="terms.html"   id="nav-menu-text">Terms of Use</a></li>
+            </ul>
           </li>
 
         </ul>
-        
-        <h3 id="data-collection">Collecting and using your personal data</h3>
-        <p>While using our service, you will need to provide us with certain personal identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to Usage data. Usage data is collected automatically when using the service.</p>
 
-        <p>Usage data may include information such as your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-        <p>When you access the service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.</p>
-        <p>We may also collect information that your browser sends whenever you visit our service or when you access the service by or through a mobile device.</p>
-        
-        <h3 id="tracking-technologies">Tracking Technologies and Cookies</h3>
-        <p>We use Cookies and similar tracking technologies to track the activity on our service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze our service. The technologies we use may include:</p>
-        
-        <ul>
-          <li><strong>Cookies or Browser Cookies:</strong> A cookie is a small file placed on your device. you can instruct your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if you do not accept Cookies, you may not be able to use some parts of our service. Unless you have adjusted your browser setting so that it will refuse Cookies, our service may use Cookies.</li>
-        </ul>
-        
-        <ul>
-          <li><strong>Web Beacons:</strong> Certain sections of our service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit We, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
-        </ul>
-
-        <p>Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when you go offline, while Session Cookies are deleted as soon as you close your web browser.</p>
-        <p>We use Session Cookies because they identify if users have accepted the use of Cookies on our website.</p>
-        
-        <h3 id="data-use">Use of your personal data</h3>
-        <p>We may use your personal data for the following purposes:</p>
-        <ul>
-          <li>
-            <p><strong>To provide and maintain our service</strong>, including to monitor the usage of our service.</p>
-          </li>
-
-          <li>
-            <p><strong>To contact you</strong> via email, SMS, or other equivalent forms of electronic communication.</p>
-          </li>
-
-          <li>
-            <p><strong>To manage your requests</strong>.</p>
-          </li>
-
-          <li>
-            <p><strong>For other purposes:</strong> Such as data analysis, identifying usage trends and to evaluate and improve our service, products, services, marketing and your experience.</p>
-          </li>
-        </ul>
-        
-        <p>We may share your personal information with:</p>
-        <ul>
-          <li>
-            <strong>Service providers:</strong> To monitor and analyze the use of our service,  to contact you.
-          </li>
-
-          <li>
-            <strong>Affiliates:</strong> We may share your information with our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include our joint venture partners or other companies that are under common control with us.
-          </li>
-        </ul>
-        
-        <h3 id="data-retention">Retention of your personal data</h3>
-        <p>We will retain your personal data only for as long as it's necessary for the purposes set out in this Privacy Policy. We will retain and use your personal data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
-        <p>We will also retain usage data for internal analysis purposes. Usage data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our service, or we are legally obligated to retain this data for longer time periods.</p>
-        
-        <h3 id="data-transfer">Transfer of your personal data</h3>
-        <p>Your information, including personal data, is processed at our operating office and in any other places where the third-parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
-        <p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
-        <p>We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your personal data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
-        
-        <h3 id="data-disclosure">Disclosure of your personal data</h3>
-        <p>If we are involved in a merger, acquisition or asset sale, your personal data may be transferred.</p>
-        <p>Under certain circumstances, we may be required to disclose your personal data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
-        <p>We may disclose your personal data in the good faith belief that such action is necessary to:</p>
-        <ul>
-          <li>Comply with a legal obligation</li>
-          <li>Protect and defend the rights or property of us</li>
-          <li>Prevent or investigate possible wrongdoing in connection with the service</li>
-          <li>Protect the personal safety of users of the service or the public</li>
-          <li>Protect against legal liability</li>
-        </ul>
-
-        <h3 id="data-security">Security of your personal data</h3>
-        <p>The security of your personal data is important to us, but remember that no method of transmission over the internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security.</p>
-        
-        <h3 id="children-privacy">Children's Privacy</h3>
-        <p>Our service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with personal data, please <a href="contact.html" target="_blank" id="links">contact us</a>. If we become aware that we have collected personal data from anyone under the age of 13 without verification of parental consent, we will take steps to remove that information from our servers.</p>
-        <p>If we need to rely on consent as a legal basis for processing your information and your country requires consent from a parent, we may require your parent's consent before we collect and use that information.</p>
-        
-        <h3 id="other-websites">Links to other websites</h3>
-        <p>Our service may contain links to other websites that are not operated by us. If you click on a third-party link, you will be redirected to that third-party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
-        <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party site or service.</p>
-        
-        <h3 id="policy-changes">Changes to this Privacy Policy</h3>
-        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-        <p>We will let you know via a prominent notice on our service, by updating this Privacy Policy with the "Last updated" date at the top of this page.</p>
-        <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
-        
-        <h3 id="contact">Contact us</h3>
-        <p>If you have any questions about this Privacy Policy, you can contact us by visiting our <a href="contact.html" id="links">contact</a> page.</p>
-      
       </div>
-    </div>
+    </nav>
 
 
-    <!-- Footer -->
-    <footer>
-      <hr>
+  <!-- Page and content borders -->
+  <div class="page-border" style="margin-right: 50px">
+    <div class="content-border">
 
+      <!-- Dropdown menu -->
+      <li class="dropdown" style="list-style-type: none;"><a class="dropdown-toggle" style="margin-left: 197.5px" id="options-menu" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+        <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 6px; margin-left: 197.5px">
+          <li><a href="#top" id="nav-menu-text">Go to top</a></li>
+
+          <li class="divider"></li>
+
+          <li><a href="#definitions" id="nav-menu-text">Definitions</a></li>
+
+          <li class="divider"></li>
+
+          <li><a href="#data-collection" id="nav-menu-text">Data collection</a></li>
+          <li><a href="#tracking-technologies" id="nav-menu-text">Tracking technologies</a></li>
+          <li><a href="#data-use" id="nav-menu-text">Data use</a></li>
+          <li><a href="#data-retention"  id="nav-menu-text">Data retention</a></li>
+          <li><a href="#data-transfer"   id="nav-menu-text">Data transfer</a></li>
+          <li><a href="#data-disclosure" id="nav-menu-text">Data disclosure</a></li>
+          <li><a href="#data-security"   id="nav-menu-text">Data security</a></li>
+
+          <li class="divider"></li>
+
+          <li><a href="#children-privacy" id="nav-menu-text">Children privacy</a></li>
+          <li><a href="#other-websites"   id="nav-menu-text">Links to other websites</a></li>
+          <li><a href="#policy-changes"   id="nav-menu-text">Policy changes</a></li>
+
+          <li><a href="#contact" id="nav-menu-text">Contact us</a></li>
+        </ul>
+      </li>
+      
+      <!-- Webpage content -->
+      <h2 id="top" style="margin-top: -20px">Privacy Policy</h2>
+      <p>(Last updated: 30th April, 2021)</p>
+      <h3></h3>
+      <p>This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use the service and tells you about your privacy rights and how the law protects you.</p>
+      <p>We use your personal data to provide and improve the service. By using the service, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+      <br>
+
+      <h3 id="definitions">Definitions</h3>
+      <p>For the purposes of this Privacy Policy:</p>
       <ul>
-        <a id="footer-copyright">© 2021 Andro, Inc.</a>
-        <a href="terms.html"    id="footer-links">Terms</a>
-        <a href="privacy.html"  id="footer-links">Privacy</a>
-        <a href="contact.html"  id="footer-links" style="margin-right: 75px">Contact</a>
+        <li>
+          <p><strong>We</strong> refers to Andro, Inc.</p>
+        </li>
 
-        <!-- Icon -->
-        <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="footer-icon"></a>
-        
-        <a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US" target="_blank" id="footer-links" style="margin-left: 75px">Donate</a>
-        <a href="https://github.com/CMihai99/andro" target="_blank" id="footer-links">Contribute</a>
-        <a href="help.html"  id="footer-links">Help</a>
-        <a href="about.html" id="footer-links">About</a>
+        <li>
+          <p><strong>Cookies</strong> are small files that are placed on your computer, mobile device or any other device by a website, containing the details of your browsing history on that website among its many uses.</p>
+        </li>
+
+        <li>
+          <p><strong>Country</strong> refers to Romania.</p>
+        </li>
+
+        <li>
+          <p><strong>Device</strong> means any device that can access the service such as a computer, a cellphone or a digital tablet.</p>
+        </li>
+
+        <li>
+          <p><strong>Personal data</strong> is any information that relates to an identified or identifiable individual.</p>
+        </li>
+
+        <li>
+          <p><strong>Service</strong> refers to the website.</p>
+        </li>
+
+        <li>
+          <p><strong>Service provider</strong> means any natural or legal person who processes the data on behalf of us. It refers to third-party companies or individuals employed by us to facilitate the service, to provide the service on behalf of us, to perform services related to the service or to assist us in analyzing how the service is used.</p>
+        </li>
+
+        <li>
+          <p><strong>Usage data</strong> refers to data collected automatically, either generated by the use of the service or from the service infrastructure itself (for example, the duration of a page visit).</p>
+        </li>
+
+        <li>
+          <p><strong>Website</strong> refers to Andro, accessible from <a href="http://cmihai99.github.io/andro" target="_blank" id="links">http://cmihai99.github.io/andro</a>.</p>
+        </li>
+
+        <li>
+          <p><strong>You</strong> means the individual accessing or using the service, or us, or other legal entity on behalf of which such individual is accessing or using the service, as applicable.</p>
+        </li>
+
+      </ul>
+      
+      <h3 id="data-collection">Collecting and using your personal data</h3>
+      <p>While using our service, you will need to provide us with certain personal identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to Usage data. Usage data is collected automatically when using the service.</p>
+
+      <p>Usage data may include information such as your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+      <p>When you access the service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.</p>
+      <p>We may also collect information that your browser sends whenever you visit our service or when you access the service by or through a mobile device.</p>
+      
+      <h3 id="tracking-technologies">Tracking Technologies and Cookies</h3>
+      <p>We use Cookies and similar tracking technologies to track the activity on our service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze our service. The technologies we use may include:</p>
+      
+      <ul>
+        <li><strong>Cookies or Browser Cookies:</strong> A cookie is a small file placed on your device. you can instruct your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if you do not accept Cookies, you may not be able to use some parts of our service. Unless you have adjusted your browser setting so that it will refuse Cookies, our service may use Cookies.</li>
+      </ul>
+      
+      <ul>
+        <li><strong>Web Beacons:</strong> Certain sections of our service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit We, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
       </ul>
 
-    </footer>
+      <p>Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when you go offline, while Session Cookies are deleted as soon as you close your web browser.</p>
+      <p>We use Session Cookies because they identify if users have accepted the use of Cookies on our website.</p>
+      
+      <h3 id="data-use">Use of your personal data</h3>
+      <p>We may use your personal data for the following purposes:</p>
+      <ul>
+        <li>
+          <p><strong>To provide and maintain our service</strong>, including to monitor the usage of our service.</p>
+        </li>
 
-   </body>
+        <li>
+          <p><strong>To contact you</strong> via email, SMS, or other equivalent forms of electronic communication.</p>
+        </li>
+
+        <li>
+          <p><strong>To manage your requests</strong>.</p>
+        </li>
+
+        <li>
+          <p><strong>For other purposes:</strong> Such as data analysis, identifying usage trends and to evaluate and improve our service, products, services, marketing and your experience.</p>
+        </li>
+      </ul>
+      
+      <p>We may share your personal information with:</p>
+      <ul>
+        <li>
+          <strong>Service providers:</strong> To monitor and analyze the use of our service,  to contact you.
+        </li>
+
+        <li>
+          <strong>Affiliates:</strong> We may share your information with our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include our joint venture partners or other companies that are under common control with us.
+        </li>
+      </ul>
+      
+      <h3 id="data-retention">Retention of your personal data</h3>
+      <p>We will retain your personal data only for as long as it's necessary for the purposes set out in this Privacy Policy. We will retain and use your personal data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
+      <p>We will also retain usage data for internal analysis purposes. Usage data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our service, or we are legally obligated to retain this data for longer time periods.</p>
+      
+      <h3 id="data-transfer">Transfer of your personal data</h3>
+      <p>Your information, including personal data, is processed at our operating office and in any other places where the third-parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+      <p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+      <p>We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your personal data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+      
+      <h3 id="data-disclosure">Disclosure of your personal data</h3>
+      <p>If we are involved in a merger, acquisition or asset sale, your personal data may be transferred.</p>
+      <p>Under certain circumstances, we may be required to disclose your personal data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
+      <p>We may disclose your personal data in the good faith belief that such action is necessary to:</p>
+      <ul>
+        <li>Comply with a legal obligation</li>
+        <li>Protect and defend the rights or property of us</li>
+        <li>Prevent or investigate possible wrongdoing in connection with the service</li>
+        <li>Protect the personal safety of users of the service or the public</li>
+        <li>Protect against legal liability</li>
+      </ul>
+
+      <h3 id="data-security">Security of your personal data</h3>
+      <p>The security of your personal data is important to us, but remember that no method of transmission over the internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security.</p>
+      
+      <h3 id="children-privacy">Children's Privacy</h3>
+      <p>Our service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with personal data, please <a href="contact.html" target="_blank" id="links">contact us</a>. If we become aware that we have collected personal data from anyone under the age of 13 without verification of parental consent, we will take steps to remove that information from our servers.</p>
+      <p>If we need to rely on consent as a legal basis for processing your information and your country requires consent from a parent, we may require your parent's consent before we collect and use that information.</p>
+      
+      <h3 id="other-websites">Links to other websites</h3>
+      <p>Our service may contain links to other websites that are not operated by us. If you click on a third-party link, you will be redirected to that third-party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+      <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party site or service.</p>
+      
+      <h3 id="policy-changes">Changes to this Privacy Policy</h3>
+      <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+      <p>We will let you know via a prominent notice on our service, by updating this Privacy Policy with the "Last updated" date at the top of this page.</p>
+      <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+      
+      <h3 id="contact">Contact us</h3>
+      <p>If you have any questions about this Privacy Policy, you can contact us by visiting our <a href="contact.html" id="links">contact</a> page.</p>
+    
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    
+    <hr>
+    <ul>
+      <a id="footer-copyright">© 2021 Andro, Inc.</a>
+      <a href="terms.html"    id="footer-links">Terms</a>
+      <a href="privacy.html"  id="footer-links">Privacy</a>
+      <a href="contact.html"  id="footer-links" style="margin-right: 75px">Contact</a>
+
+      <!-- Icon -->
+      <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="footer-icon"></a>
+      
+      <a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US" target="_blank" id="footer-links" style="margin-left: 75px">Donate</a>
+      <a href="https://github.com/CMihai99/andro" target="_blank" id="footer-links">Contribute</a>
+      <a href="help.html"  id="footer-links">Help</a>
+      <a href="about.html" id="footer-links">About</a>
+    </ul>
+
+  </footer>
+
+  </body>
 
 </html>
