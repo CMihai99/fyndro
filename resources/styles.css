@@ -92,47 +92,6 @@ footer hr {
 }
 
 
-/* box in which ad content is displayed */
-.ads-page-border {
-  float: right;
-  width: 289px;
-  margin-right: 50px;
-  border-radius: 7px;
-  border: 1.5px solid #ffffff;
-  background-color: #ffffff;
-}
-
-.ads-content-border {
-  margin: 7.5px;
-}
-
-/* image */
-.ad-image {
-  border-radius: 7px;
-  width: 266.25px;
-  height: 266.25px;
-  margin-left: 2.5px;
-  box-shadow: 0 0 5px #696969;
-  border-radius: 7px;
-}
-
-/* text */
-.sponsored-text {
-  margin-top: 11px;
-  margin-left: 8.5px;
-  font-size: 10px;
-  font-family: 'Courier New', Courier, monospace;
-  color: #00a9d3;
-}
-
-.ad-text {
-  margin-top: -6.5px;
-  margin-left: 8.5px;
-  margin-right: 10.5px;
-  font-size: 12px;
-}
-
-
 /* navbar links */
 .tool, #tool {
   margin-top: 0px;
