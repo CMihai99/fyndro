@@ -130,12 +130,21 @@ footer hr {
   background-color: #ececec;
 }
 
+.dropdown-menu li:focus, #nav-menu-text:focus {
+  background-color: #dbdbdb;
+}
+
 /* icons */
 #options-menu {
   margin-top: 23px;
   margin-right: 33px;
   background-color: #ffffff;
   padding: 0px;
+}
+
+/* active items */
+.active {
+  background-color: #e6e6e6;
 }
 
 
