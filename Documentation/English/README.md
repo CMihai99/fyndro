@@ -6,7 +6,7 @@
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
 
-Andro lets you find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites, which you may not knew existed.
+With Andro you can find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites.
 
 ## 📃 Documentation
 
