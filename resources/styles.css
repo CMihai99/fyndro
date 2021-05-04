@@ -12,8 +12,8 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
 #nav-icon {
   width: 36px;
   height: 36px;
-  margin-left: 75.5px;
-  margin-top: -40px;
+  margin-left: 17.5px;
+  margin-top: 14.5px;
 }
 
 /* navbar icon */
@@ -148,7 +148,7 @@ footer hr {
   height: 30px;
   text-indent: 25px;
   border: 1.5px solid #b5b5b5;
-  margin-top: -45px;
+  margin-top: -33px;
   margin-left: 61px;
   padding-left: 0px;
   border-radius: 7px;
