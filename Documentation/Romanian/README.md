@@ -1,4 +1,4 @@
-# ⚡ Andro
+# ⚡ Andro [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers)
 
 [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues)
 [![GitHub issues](https://img.shields.io/github/issues-closed/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
