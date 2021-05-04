@@ -4,9 +4,9 @@
 [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub license](https://img.shields.io/github/license/CMihai99/andro?color=g&style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE)
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
-![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
+![Commit activity](https://img.shields.io/github/commit-activity/m/CMihai99/andro?color=g&style=flat-square)
 
-With Andro you can find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites.
+With Andro you can find new websites quickly and easily by looking through monthly-updated lists full of new and useful websites categorized by industry, color-coded, graded from F to A+ by our staff team, and provided with the website's traffic for the past 7 days.
 
 ## 📃 Documentation
 
