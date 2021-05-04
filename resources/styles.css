@@ -127,11 +127,11 @@ footer hr {
 }
 
 .dropdown-menu li:hover, #nav-menu-text:hover {
-  background-color: #ececec;
+  background-color: #eeeeee;
 }
 
-.dropdown-menu li:focus, #nav-menu-text:focus {
-  background-color: #dbdbdb;
+.dropdown-menu li:focus, #nav-menu-text:focus, .active, .active:hover, .active:focus {
+  background-color: #e0e0e0;
 }
 
 /* icons */
@@ -140,11 +140,6 @@ footer hr {
   margin-right: 33px;
   background-color: #ffffff;
   padding: 0px;
-}
-
-/* active items */
-.active {
-  background-color: #e6e6e6;
 }
 
 
