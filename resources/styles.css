@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
   margin-top: -40px;
 }
 
+/* navbar icon */
 #footer-icon {
   width: 28px;
   height: 28px;
@@ -31,8 +32,7 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
   cursor: default;
 }
 
-
-/* nav links */
+/* links */
 #nav-menu-text {
   color: #5c5c5c;
 }
@@ -77,7 +77,7 @@ footer hr {
 }
 
 
-/* box in which page content is displayed */
+/* page content boxes */
 .page-border {
   margin-left: 50px;
   margin-right: 389px;
@@ -111,6 +111,7 @@ footer hr {
   color: #a8a8a8;
   text-decoration: none;
 }
+
 
 .navbar {
   background-color: #ffffff;
@@ -155,7 +156,6 @@ footer hr {
   width: 0; height: 0;
 }
 
-/* when clicked */
 .search input:focus, .search input:active {
   border: 1px solid #337ff0;
   box-shadow: none;
@@ -194,4 +194,20 @@ footer hr {
 
 #tableofcontents-icon:active, #tableofcontents-text:active {
   background-color: #dbdbdb;
+}
+
+
+/* table of contents and page title sticky navbar */
+.title-nav {
+  position: sticky;
+  top: 65px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px -8px #858585;
+}
+
+.title-nav hr {
+  height: 1px;
+  margin-top: 25px;
+  border-width: 0;
+  background-color: #cfcfcf;
 }
