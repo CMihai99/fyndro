@@ -1,10 +1,10 @@
-# ⚡ Andro
+# ⚡ Andro [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers)
 
 [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues)
 [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub license](https://img.shields.io/github/license/CMihai99/andro?color=g&style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE)
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
-![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
+![Commit activity](https://img.shields.io/github/commit-activity/m/CMihai99/andro?color=g&style=flat-square)
 
 Andro lets you find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites, which you didn't knew existed.
 
