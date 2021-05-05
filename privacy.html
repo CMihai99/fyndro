@@ -22,14 +22,17 @@
     <meta property="twitter:description" content="This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use the service and tells you about your privacy rights and how the law protects you.">
     <meta property="twitter:image" content="">
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/styles.css">
     
-    <link rel="icon" href="">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&display=swap">
+
+    <link rel="icon" href="resources/icon.png">
     <title>Andro: Find new websites quickly and easily - Privacy</title>
 
   </head>
@@ -66,19 +69,20 @@
           <li class="dropdown"><a class="dropdown-toggle" id="options-menu" data-toggle="dropdown" href="#"><img src="resources/list.svg" id="menubar"><span class="caret"></span></a>
             <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 10px">
               
-              <li><a href="about.html" id="nav-menu-text" title="Learn more about Andro">About Us</a></li>
-              <li><a href="help.html"  id="nav-menu-text" title="Need help?">Help</a></li>
+              <li><a id="nav-menu-text" title="Request a website for us to add"     target="_blank" href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title=">Request a Website</a></li>
+              <li><a id="nav-menu-text" title="Report a bug for us to fix"          target="_blank" href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D">Report a Bug</a></li>
+              <li><a id="nav-menu-text" title="Request a feature for us to improve" target="_blank" href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=feature_request.md&title=">Request a Feature</a></li>
 
               <li class="divider"></li>
 
-              <li><a href="contributing.html" id="nav-menu-text" title="Contribute to this project">Contribute</a><li>
-              <li><a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US" target="_blank" id="nav-menu-text" title="Donate and help continue development">Donate</a></li>
+              <li><a href="index.html" id="nav-menu-text" title="Explore the homepage">Explore</a></li>
+              <li><a href="help.html"  id="nav-menu-text" title="Need help?">Get Help</a></li>
 
               <li class="divider"></li>
 
-              <li><a href="contact.html" id="nav-menu-text" title="Contact us for any queries">Contact</a></li>
-              <li><a href="privacy.html" id="nav-menu-text" title="Your privacy" class="active">Privacy Policy</a></li>
-              <li><a href="terms.html"   id="nav-menu-text" title="Our terms and regulations">Terms of Use</a></li>
+              <li><a href="newsletter.html" id="nav-menu-text" title="Join our newsletter">Newsletter</a><li>
+              <li><a href="contact.html"    id="nav-menu-text" title="Contact us for any queries">Contact Us</a></li>
+              <li><a href="about.html"      id="nav-menu-text" title="Learn more about Andro">About Us</a></li>
 
             </ul>
           </li>
@@ -269,26 +273,80 @@
   </div>
 
 
-  <!-- Footer -->
-  <footer>
-  
-    <hr>
-    <ul>
-      <a id="footer-copyright">© 2021 Andro, Inc.</a>
-      <a href="terms.html"    id="footer-links" title="Our terms and regulations">Terms</a>
-      <a href="privacy.html"  id="footer-links" title="Your privacy">Privacy</a>
-      <a href="contact.html"  id="footer-links" title="Contact us for any queries" style="margin-right: 75px">Contact</a>
+  <!-- Footer Content -->
+  <section id="footer">
 
-      <!-- Icon -->
-      <a href="https://cmihai99.github.io/andro"><img src="resources/icon.png" id="footer-icon"></a>
-      
-      <a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US" target="_blank" id="footer-links" style="margin-left: 75px" title="Donate and help continue development">Donate</a>
-      <a href="contributing.html" id="footer-links" title="Contribute to this project">Contribute</a>
-      <a href="help.html"  id="footer-links" title="Need help?">Help</a>
-      <a href="about.html" id="footer-links" title="Learn more about Andro">About</a>
-    </ul>
+    <div class="container">
 
-  </footer>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h2>project</h2>
+        <ul class="list-unstyled quick-links">
+          <li><a href="https://twitter.com/androteamfaq"target="_blank">Twitter</a></li>
+          <li><a href="https://www.instagram.com/androteamfaq/"target="_blank">Instagram</a></li>
+          <li><a href="https://github.com/CMihai99/andro" target="_blank">GitHub Project</a></li>
+          <li><a href="contributing.html">Contribute</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h2>website</h2>
+        <ul class="list-unstyled quick-links">
+          <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title=">Request a Website</a></li>
+          <li><a href="index.html">Explore</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h2>support</h2>
+        <ul class="list-unstyled quick-links">
+          <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D">Report a Bug</a></li>
+          <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=feature_request.md&title=">Request a Feature</a></li>
+          <li><a href="help.html">Get Help</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h2>company</h2>
+        <ul class="list-unstyled quick-links">
+          <li><a href="newsletter.html">Newsletter</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer Description -->
+  <section id="footer-description">
+
+    <div class="description-container">
+
+      <div class="left-description">
+        <p style="width: 340.5px;">
+          Made with <img src="resources/heart-solid.svg" title="love" style="height: 14px; margin-top: -2px; filter: invert(63%) sepia(0%) saturate(1006%) hue-rotate(251deg) brightness(88%) contrast(80%)">
+          in <a id="description-location" target="_blank" title="our location" href="https://www.google.com/maps/place/Dragomire%C8%99ti-Vale/@44.4754276,25.9174561,14z/data=!3m1!4b1!4m5!3m4!1s0x40b206edc6b95395:0x705882d43cbacae3!8m2!3d44.4764792!4d25.9345222">Dragomiresti-Vale, RO</a>.
+        </p>
+      </div>
+
+      <div class="right-description">
+        <p id="trademark">
+          © Andro, Inc.
+        </p>
+
+        <p>
+          <a href="terms.html" id="terms">Terms</a>
+        </p>
+
+        <p>
+          <a href="privacy.html" id="privacy">Privacy</a>
+        </p>
+      </div>
+
+    </div>
+
+  </section>
 
   </body>
 
