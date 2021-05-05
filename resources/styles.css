@@ -88,7 +88,9 @@ footer hr {
 }
 
 .content-border {
-  margin: 55px;
+  padding: 55px;
+  margin-top: -25px;
+  margin-bottom: -10px;
 }
 
 
@@ -130,8 +132,12 @@ footer hr {
   background-color: #eeeeee;
 }
 
-.dropdown-menu li:focus, #nav-menu-text:focus, .active, .active:hover, .active:focus {
+.dropdown-menu li:focus, .active, .active:hover, .active:focus {
   background-color: #e0e0e0;
+}
+
+#nav-menu-text:focus {
+  background-color: #e5e5e5;
 }
 
 /* icons */
@@ -201,7 +207,7 @@ footer hr {
 }
 
 
-/* table of contents and page title sticky navbar */
+/* page title and table of contents sticky navbar */
 .title-nav {
   position: sticky;
   top: 65px;
@@ -214,4 +220,43 @@ footer hr {
   margin-top: 25px;
   border-width: 0;
   background-color: #cfcfcf;
+}
+
+
+/* definition links */
+#definition-links {
+  position: absolute;
+  text-decoration: none;
+  font-size: 11px;
+  margin-left: -0.5px;
+}
+
+#definition-title {
+  margin-top: 0px;
+}
+
+#definition-content-separator {
+  margin-top: -5px;
+  border-color: #dbdbdb;
+}
+
+#definition-description {
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+/* dropdown */
+.definition-dropdown {
+  position: absolute;
+  display: none;
+  background-color: #ffffff;
+  box-shadow: 0 4px 21px #dbdbdb;
+  width: 225px;
+  padding: 16px;
+  border-radius: 7px;
+  margin-top: 3.5px;
+}
+
+#definition-links:hover + .definition-dropdown {
+  display: block;
 }
