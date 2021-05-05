@@ -6,7 +6,7 @@
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
 
-Androは、毎週厳選されたカテゴリと新しい楽しさと便利なウェブサイトに満ちたトレンドをサーフィンすることで、新しいウェブサイトを見つけることができます。 存在を知らなかったかもしれません
+Androを使用すると、業界別に分類され、色分けされ、スタッフチームによってFからA +に格付けされ、過去のWebサイトのトラフィックが提供された、新しくて便利なWebサイトが満載の毎月更新されるリストを調べることで、新しいWebサイトをすばやく簡単に見つけることができます。 7日。
 
 ## 📃 ドキュメンテーション
 
