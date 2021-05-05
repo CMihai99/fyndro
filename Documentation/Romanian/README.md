@@ -6,7 +6,7 @@
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
 
-Andro îți permite să găsești site-uri noi navigând prin categorii și tendințe alese manual săptămânal, pline de site-uri utile și distractive, pe care probabil nu știai că există.
+Cu Andro puteți găsi noi site-uri web rapid și ușor, căutând prin liste actualizate lunar, pline de site-uri web noi și utile, clasificate în funcție de industrie, codificate în culori, clasificate de la F la A + de către echipa noastră de personal și furnizate cu traficul site-ului web pentru ultimele 7 zile.
 
 ## 📃 Documentație
 
