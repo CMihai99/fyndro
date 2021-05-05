@@ -6,7 +6,7 @@
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
 
-Andro permite encontrar novos sites navegando por categorias semanais e tendências cheias de novas sites divertidos e úteis, que talvez você não soubesse existiam.
+Com o Andro, você pode encontrar novos sites de forma rápida e fácil procurando em listas atualizadas mensalmente cheias de sites novos e úteis categorizados por setor, codificados por cores, classificados de F a A + por nossa equipe de funcionários e fornecidos com o tráfego do site no passado 7 dias.
 
 ## 📃 Documentação
 
