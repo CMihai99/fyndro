@@ -6,7 +6,8 @@
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Commit activity](https://img.shields.io/github/license/CMihai99/andro?color=g&style=flat-square)
 
-Andro vous permet de trouver de nouveaux sites Web en surfant à travers des catégories et des tendances triées sur le volet hebdomadaire pleines de nouveaux sites Web amusants et utiles, que vous ne connaissiez peut-être pas.
+Avec Andro, vous pouvez trouver de nouveaux sites Web rapidement et facilement en parcourant des listes mises à jour mensuellement remplies de sites Web nouveaux et utiles classés par secteur, codés par couleur, classés de F à A + par notre équipe de personnel et fournis avec le trafic du site Web pour le passé. 7 jours.
+
 
 ## 📃 Documentation
 
