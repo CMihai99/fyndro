@@ -8,7 +8,6 @@
 
 Avec Andro, vous pouvez trouver de nouveaux sites Web rapidement et facilement en parcourant des listes mises à jour mensuellement remplies de sites Web nouveaux et utiles classés par secteur, codés par couleur, classés de F à A + par notre équipe de personnel et fournis avec le trafic du site Web pour le passé. 7 jours.
 
-
 ## 📃 Documentation
 
   - [Techniques d'information](https://github.com/CMihai99/andro/blob/main/README.md)
