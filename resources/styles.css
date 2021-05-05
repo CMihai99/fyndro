@@ -1,5 +1,5 @@
 body {
-  background-color: #ececec;
+  background-color: #eeeeee;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, .caret {
@@ -38,42 +38,127 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
 }
 
 
-/* footer */
-footer {
-  margin-left: -1.746cm;
-  text-align: center;
-  bottom: 0;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  width: 100%;
-  background-color: transparent;
+/* footer content */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  padding-left: 72px;
+  padding-right: 72px;
+  margin-top: 50px;
 }
 
-/* separator */
-footer hr {
-  margin-left: 6.325cm;
-  text-align: center;
-  width: 77.5%;
-  height: 0.5px;
-  border-width: 0;
-  background-color: #cfcfcf;
+.container {
+  margin: 0;
+  margin-right: 0;
+  padding: 0;
 }
 
-/* text */
-#footer-copyright {
-  color: #5c5c5c;
-  margin-left: 87.25px;
-  font-size: 13px;
+.container .col-xs-12 {
+  padding: 0;
+  width: 250px;
 }
 
-#footer-copyright:hover {
+.container .col-xs-12 .list-unstyled {
+  margin: 0;
+}
+
+#footer {
+  background-color: #ffffff;
+}
+
+#footer h2 {
+  color: #8b8b8b;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Itim', cursive;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+#footer ul.quick-links li a {
+	color: #8b8b8b;
   text-decoration: none;
+  font-size: 16px;
 }
 
-#footer-links {
-  color: #337ff0;
-  margin-left: 50px;
-  font-size: 13px;
+#footer ul.quick-links li a:hover {
+	color: #5c5c5c;
+}
+
+#footer ul.quick-links li{
+	padding: 3px 0;
+	transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+}
+
+#footer ul.social li a img {
+  margin-right: 5px;
+  font-size:25px;
+  transition: .5s all ease;
+}
+
+/* footer description */
+#footer-description {
+  margin: 0;
+  margin-right: 0;
+  padding: 0;
+  height: 75px;
+  background-color: #eeeeee;
+}
+
+.left-description p {
+  padding-top: 30px;
+  padding-bottom: 27px;
+  padding-left: 48px;
+  margin-bottom: 0;
+  color: #8b8b8b;
+  font-size: 12.5px;
+}
+
+#description-location {
+  text-decoration: none;
+  color: #8b8b8b;
+}
+
+#description-location:hover {
+  color: #5c5c5c;
+}
+
+.right-description p {
+  margin-top: -47px; 
+  margin-bottom: 0;
+  padding-bottom: 27px;
+  padding-right: 48px;
+  float: right;
+  font-size: 12.5px;
+}
+
+.right-description #trademark {
+  margin-right: 135px;
+  color: #8b8b8b;
+}
+
+.right-description #terms {
+  margin-right: 60px;
+  color: #8b8b8b;
+}
+
+.right-description #privacy {
+  margin-right: 0px;
+  color: #8b8b8b;
+}
+
+.right-description #privacy:hover, .right-description #terms:hover {
+  color: #5c5c5c;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 
