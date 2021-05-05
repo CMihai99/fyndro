@@ -6,7 +6,7 @@
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
 
-Mit Andro findest du neue Webseiten, indem du wöchentlich von Hand ausgewählte Kategorien und Trends durchsuchst, die voller Spaß und nützlicher Websites sind, von dem Sie vielleicht nicht wussten, dass es existierte.
+Mit Andro können Sie neue Websites schnell und einfach finden, indem Sie monatlich aktualisierte Listen mit neuen und nützlichen Websites durchsuchen, die nach Branchen geordnet, farbcodiert, von unserem Mitarbeiterteam von F bis A + bewertet und mit dem Datenverkehr der Website für die Vergangenheit versehen sind 7 Tage.
 
 ## 📃 Dokumentation
 
