@@ -6,6 +6,7 @@
 ![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Commit activity](https://img.shields.io/github/commit-activity/w/CMihai99/andro?color=g&style=flat-square)
 
+
 Con Andro puoi trovare nuovi siti Web rapidamente e facilmente sfogliando elenchi aggiornati mensilmente pieni di siti Web nuovi e utili classificati per settore, codificati a colori, classificati da F ad A + dal nostro team di personale e forniti con il traffico del sito Web per il passato 7 giorni.
 
 ## 📃 Documentazione
