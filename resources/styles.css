@@ -1,12 +1,3 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
-*,
-*::after,
-*::before{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   background-color: #eeeeee;
@@ -48,12 +39,7 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
 }
 
 
-/*
-============ 
-FOOTER AREA
-============ 
-*/
-
+/* footer */
 footer{
   position: absolute;
   bottom: 0;
@@ -61,35 +47,6 @@ footer{
   flex-direction: column;
   width: 100%;
   background-color: #ffffff;
-}
-
-
-/* 
-===================
-FOOTER MENU SECTION
-===================
-*/
-
-.footer-menu-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 4rem 3rem;
-}
-
-.menu-container{
-  display: flex;
-  justify-content: space-evenly;
-  width: 80%;
-}
-
-.menu-container .col-xs-12 {
-  padding: 0;
-  width: 250px;
-}
-
-.menu-container .col-xs-12 .list-unstyled {
-  margin: 0;
 }
 
 footer h2 {
@@ -128,37 +85,45 @@ footer ul.social li a img {
   transition: .5s all ease;
 }
 
-/*
-======================
-FOOTER DESC CONTAINER
-======================
-*/
+/* menu */
+.footer-menu-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 3rem;
+}
 
+.menu-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.menu-container .col-xs-12 {
+  padding: 0;
+}
+
+.menu-container .col-xs-12 .list-unstyled {
+  margin: 0;
+}
+
+/* description */
 .footer-desc-wrapper {
   width: 100%;
   height: 75px;
   background-color: #eeeeee;
   position: relative;
   display: flex;
-  justify-content: center;
 }
 
-.desc-container{
+.desc-container {
   position: relative;
   width: 75%;
 }
 
-.footer-left-desc,.footer-right-desc{
-  width: 20%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-left-desc{
+.footer-left-desc {
   position: absolute;
-  left: 0;
+  left: 15.4%;
 }
 
 .footer-left-desc p {
@@ -166,7 +131,7 @@ FOOTER DESC CONTAINER
   font-size: 1.25rem;
 }
 
-.footer-left-desc a{
+.footer-left-desc a {
   text-decoration: none;
   color: #8b8b8b;
 }
@@ -175,24 +140,31 @@ FOOTER DESC CONTAINER
   color: #5c5c5c;
 }
 
-.footer-right-desc{
+.footer-right-desc {
   position: absolute;
-  right:0;
+  right: 0.65%;
   font-size: 1.25rem;
 }
 
-.footer-right-desc ul li{
+.footer-right-desc ul li {
   list-style: none;
   float: left;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 
-.footer-right-desc a{
+.footer-right-desc a {
   text-decoration: none;
   color: #8b8b8b;
 }
 
-#privacy:hover,#terms:hover {
+.footer-left-desc, .footer-right-desc {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#privacy:hover, #terms:hover {
   color: #5c5c5c;
   cursor: pointer;
   text-decoration: none;
