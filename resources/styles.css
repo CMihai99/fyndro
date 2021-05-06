@@ -1,3 +1,13 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #eeeeee;
 }
@@ -38,37 +48,51 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
 }
 
 
-/* footer content */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/*
+============ 
+FOOTER AREA
+============ 
+*/
 
-section {
-  padding-top: 42px;
-  padding-bottom: 42px;
-  padding-left: 72px;
-  padding-right: 72px;
-  margin-top: 50px;
+footer{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
 }
 
-.container {
-  margin: 0;
-  margin-right: 0;
-  padding: 0;
+
+/* 
+===================
+FOOTER MENU SECTION
+===================
+*/
+
+.footer-menu-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 3rem;
 }
 
-.container .col-xs-12 {
+.menu-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.menu-container .col-xs-12 {
   padding: 0;
   width: 250px;
 }
 
-.container .col-xs-12 .list-unstyled {
+.menu-container .col-xs-12 .list-unstyled {
   margin: 0;
 }
 
-#footer {
-  background-color: #ffffff;
-}
-
-#footer h2 {
+footer h2 {
   color: #8b8b8b;
   font-weight: 600;
   letter-spacing: 1px;
@@ -79,83 +103,96 @@ section {
   margin-bottom: 14px;
 }
 
-#footer ul.quick-links li a {
+footer ul.quick-links li a {
 	color: #8b8b8b;
   text-decoration: none;
   font-size: 16px;
 }
 
-#footer ul.quick-links li a:hover {
+footer ul.quick-links li a:hover {
 	color: #5c5c5c;
 }
 
-#footer ul.quick-links li{
+footer ul.quick-links li{
 	padding: 3px 0;
 	transition: .5s all ease;
 }
 
-#footer ul.quick-links li:hover{
+footer ul.quick-links li:hover{
 	padding: 3px 0;
 }
 
-#footer ul.social li a img {
+footer ul.social li a img {
   margin-right: 5px;
   font-size:25px;
   transition: .5s all ease;
 }
 
-/* footer description */
-#footer-description {
-  margin: 0;
-  margin-right: 0;
-  padding: 0;
+/*
+======================
+FOOTER DESC CONTAINER
+======================
+*/
+
+.footer-desc-wrapper {
+  width: 100%;
   height: 75px;
   background-color: #eeeeee;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-.left-description p {
-  padding-top: 30px;
-  padding-bottom: 27px;
-  padding-left: 48px;
-  margin-bottom: 0;
+.desc-container{
+  position: relative;
+  width: 75%;
+}
+
+.footer-left-desc,.footer-right-desc{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left-desc{
+  position: absolute;
+  left: 0;
+}
+
+.footer-left-desc p {
   color: #8b8b8b;
-  font-size: 12.5px;
+  font-size: 1.25rem;
 }
 
-#description-location {
+.footer-left-desc a{
   text-decoration: none;
   color: #8b8b8b;
 }
 
-#description-location:hover {
+.footer-left-desc a:hover {
   color: #5c5c5c;
 }
 
-.right-description p {
-  margin-top: -47px; 
-  margin-bottom: 0;
-  padding-bottom: 27px;
-  padding-right: 48px;
-  float: right;
-  font-size: 12.5px;
+.footer-right-desc{
+  position: absolute;
+  right:0;
+  font-size: 1.25rem;
 }
 
-.right-description #trademark {
-  margin-right: 135px;
+.footer-right-desc ul li{
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+}
+
+.footer-right-desc a{
+  text-decoration: none;
   color: #8b8b8b;
 }
 
-.right-description #terms {
-  margin-right: 60px;
-  color: #8b8b8b;
-}
-
-.right-description #privacy {
-  margin-right: 0px;
-  color: #8b8b8b;
-}
-
-.right-description #privacy:hover, .right-description #terms:hover {
+#privacy:hover,#terms:hover {
   color: #5c5c5c;
   cursor: pointer;
   text-decoration: none;
