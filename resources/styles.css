@@ -40,11 +40,7 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
 
 /* footer */
 footer {
-  position: relative;
-  bottom: 0;
-  display: flex;
   flex-direction: column;
-  width: 100%;
   background-color: #ffffff;
   margin-top: 50px;
 }
@@ -71,7 +67,7 @@ footer ul.quick-links li a {
 }
 
 footer ul.quick-links li a:hover {
-	color: #5f5f5f;
+	color: #555555;
 }
 
 /* menu */
@@ -96,10 +92,18 @@ footer ul.quick-links li a:hover {
 }
 
 /* description */
+#desc-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: -5px;
+  border: 0;
+  background-color: #cfcfcf;
+}
+
 .footer-desc-wrapper {
   width: 100%;
   height: 75px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   position: relative;
   display: flex;
 }
@@ -132,7 +136,8 @@ footer ul.quick-links li a:hover {
 /* trademark, terms, privacy */
 .footer-right-desc {
   position: absolute;
-  right: 0.65%;
+  right: 0%;
+  margin-right: 109px;
   font-size: 1.25rem;
 }
 
@@ -148,7 +153,7 @@ footer ul.quick-links li a:hover {
 }
 
 .footer-left-desc, .footer-right-desc {
-  height: 100%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
