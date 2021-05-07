@@ -1,3 +1,4 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
   background-color: #eeeeee;
@@ -17,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p, li, .caret {
   margin-top: 14.5px;
 }
 
-/* navbar icon */
+/* footer icon */
 #footer-icon {
   width: 28px;
   height: 28px;
@@ -300,8 +301,7 @@ footer ul.social li a img {
   background-color: #dbdbdb;
 }
 
-
-/* page title and table of contents sticky navbar */
+/* sticky navbar */
 .title-nav {
   position: sticky;
   top: 65px;
@@ -349,6 +349,7 @@ footer ul.social li a img {
   padding: 16px;
   border-radius: 7px;
   margin-top: 3.5px;
+  z-index: 1;
 }
 
 #definition-links:hover + .definition-dropdown {
