@@ -109,6 +109,7 @@ footer ul.quick-links li a:hover {
   width: 75%;
 }
 
+/* made with <love> in <location> */
 .footer-left-desc {
   position: absolute;
   left: 15.4%;
@@ -128,6 +129,7 @@ footer ul.quick-links li a:hover {
   color: #5c5c5c;
 }
 
+/* trademark, terms, privacy */
 .footer-right-desc {
   position: absolute;
   right: 0.65%;
@@ -159,7 +161,7 @@ footer ul.quick-links li a:hover {
 }
 
 
-/* page content boxes */
+/* content boxes */
 .page-border {
   margin-left: 50px;
   margin-right: 389px;
@@ -278,6 +280,7 @@ footer ul.quick-links li a:hover {
 #tableofcontents-text {
   padding-left: 10px;
   border-radius: 7px;
+  color: #5c5c5c;
 }
 
 #tableofcontents-icon:hover, #tableofcontents-icon:focus, #tableofcontents-text:hover {
