@@ -22,9 +22,11 @@
     <meta property="twitter:description" content="With Andro you can find new websites by surfing through weekly hand-picked categories and trends full of new, fun and useful websites.">
     <meta property="twitter:image" content="">
 
+    <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/styles.css">
     
@@ -42,6 +44,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-fixed-top">
+
       <div class="container-fluid">
 
         <div class="navbar-header">
@@ -55,7 +58,7 @@
 
               <div class="col-md-8">
                 <div class="search">
-                  <input type="text" class="form-control" placeholder="Search" title="Search websites">
+                  <input type="text" class="form-control" placeholder="Search">
                 </div>
               </div>
 
@@ -66,7 +69,7 @@
         
         <ul class="nav navbar-nav navbar-right">
 
-          <li class="dropdown"><a class="dropdown-toggle" id="options-menu" data-toggle="dropdown" href="#"><img src="resources/list.svg" id="menubar"><span class="caret"></span></a>
+          <li class="dropdown"><a class="dropdown-toggle" id="dropdown-icons" data-toggle="dropdown" href="#"><img src="resources/list.svg" id="menubar"><span class="caret"></span></a>
             <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 10px">
               
               <li><a id="nav-menu-text" title="Request a website for us to add"     target="_blank" href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title=">Request a Website</a></li>
@@ -91,12 +94,12 @@
     </nav>
 
 
-    <!-- Page and content borders -->
+    <!-- Borders -->
     <div class="page-border" style="margin-right: 50px">
       <div class="content-border">
 
         <div class="title-nav">
-          <hr style="margin-top: 25px">
+          <hr>
 
           <!-- Table of contents -->
           <li class="dropdown" style="list-style-type: none"><a class="dropdown-toggle" style="margin-left: 2.5px" id="options-menu" data-toggle="dropdown" href="#"><img src="resources/list-ul.svg" id="tableofcontents-icon"></a>
@@ -118,7 +121,7 @@
 
 
     <!-- Footer -->
-    <footer style="bottom:0">
+    <footer>
 
       <!-- Menu -->
       <div class="footer-menu-wrapper">

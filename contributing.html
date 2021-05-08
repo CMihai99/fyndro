@@ -22,9 +22,11 @@
     <meta property="twitter:description" content="The main purpose of making Andro open-source is to continue evolving the product, making it faster and easier to use. Read below to learn how you can take part in improving Andro.">
     <meta property="twitter:image" content="">
 
+    <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/styles.css">
     
@@ -42,6 +44,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-fixed-top">
+
       <div class="container-fluid">
 
         <div class="navbar-header">
@@ -55,7 +58,7 @@
 
               <div class="col-md-8">
                 <div class="search">
-                  <input type="text" class="form-control" placeholder="Search" title="Search websites">
+                  <input type="text" class="form-control" placeholder="Search">
                 </div>
               </div>
 
@@ -66,7 +69,7 @@
         
         <ul class="nav navbar-nav navbar-right">
 
-          <li class="dropdown"><a class="dropdown-toggle" id="options-menu" data-toggle="dropdown" href="#"><img src="resources/list.svg" id="menubar"><span class="caret"></span></a>
+          <li class="dropdown"><a class="dropdown-toggle" id="dropdown-icons" data-toggle="dropdown" href="#"><img src="resources/list.svg" id="menubar"><span class="caret"></span></a>
             <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 10px">
               
               <li><a id="nav-menu-text" title="Request a website for us to add"     target="_blank" href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title=">Request a Website</a></li>
@@ -91,12 +94,12 @@
     </nav>
 
 
-    <!-- Page and content borders -->
+    <!-- Borders -->
     <div class="page-border" style="margin-right: 50px">
       <div class="content-border">
 
         <div class="title-nav">
-          <hr style="margin-top: 25px">
+          <hr">
 
           <!-- Table of contents -->
           <li class="dropdown" style="list-style-type: none"><a class="dropdown-toggle" style="margin-left: 2.5px" id="options-menu" data-toggle="dropdown" href="#"><img src="resources/list-ul.svg" id="tableofcontents-icon"></a>
@@ -117,13 +120,9 @@
         <p>The main purpose of making Andro open-source is to continue evolving the product, making it faster and easier to use. Read below to learn how you can take part in improving Andro.</p>
         
         <p>There are 3 ways in which you can participate in the project:</p>
-
         <ol>
-
           <li><a href="https://github.com/CMihai99/andro/issues/new/choose" target="_blank" id="links">Submit bugs and feature requests</a>, and help us improve our product</li>
-          
           <li>
-
             <a href="https://github.com/CMihai99/andro" target="_blank" id="links">Clone the repository
 
             <a href="#" id="definition-links">
@@ -155,7 +154,6 @@
                 <a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests" target="_blank" id="links">Learn more</a>
               </p>
             </div>
-
           </li>
 
           <li><a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US" target="_blank" id="links">Donate</a>, and help us continue development</li>
@@ -170,14 +168,12 @@
             <div class="definition-dropdown" style="height: 163.5px; margin-left: 91.5px">
               <h4 id="definition-title">Starring</h4>
               <hr id="definition-content-divider">
-              
               <p id="definition-description">
                 You can star repositories and topics to keep track of projects you find interesting and discover related content in your news feed.
                 <a href="https://docs.github.com/en/github/getting-started-with-github/saving-repositories-with-stars" target="_blank" id="links">Learn more</a>
               </p>
             </div>
           </li>
-
         </ol>
 
         <h3 id="copyright">Copyright</h3>
@@ -185,6 +181,7 @@
 
         <h3 id="code-of-conduct">Code of Conduct</h3>
         <p>Andro has adopted a Code of Conduct that we expect project participants to adhere to. Please <a href="code-of-conduct.html" id="links">read the full text</a> so that you can understand what actions will and will not be tolerated.</p>
+        
         <h3 id="pull-request-process">Pull Request Process</h3>
         <ol>
           <li>Ensure any install or build dependencies are removed before the end of the layer when doing a build.</li>
