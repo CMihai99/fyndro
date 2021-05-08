@@ -86,7 +86,7 @@ At the moment, we aim to support all major web browsers. Any issue in the browse
 
 (Current - 1) and Current means that we support the current stable version of the browser and the version that precedes it.
 
-<a id="bugs-and-requests"><h2>Bugs and feature/website requests</h2></a>
+<a id="bugs-and-requests"><h2>Bugs, feature requests and website ideas</h2></a>
 
 Found a bug you want to report? Have a feature you want to request? Got a website idea for us to publish? First, search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/CMihai99/andro/issues/new/choose).
 
@@ -106,7 +106,6 @@ Special thanks to everyone who contributed in getting Andro to its current state
 - [GitHub Pages](https://pages.github.com/) - Development hosting
 - [FontAwesome](https://www.fontawesome.com/) - Page icons
 - [Codacy](https://www.codacy.com/) - Code analytics
-- [Fiverr](https://www.fiverr.com/) - Brand icon
 - [The Community](#) - Last but not least, massive thanks to our community for making all of this possible. ♥
 
 <a id="supporters"><h2>Supporters</h2></a>
