@@ -50,12 +50,18 @@
   height: 0;
 }
 
-.search input:focus,
-.search input:active {
-  border: 1px solid var(--links);
-  box-shadow: none;
+.search input {
+  text-indent: 10px;
+  color: var(--dark-gray);
+  border: 0;
+  box-shadow: 0 0 8px #cfcfcf;
 }
 
+.search input:focus,
+.search input:active {
+  border: 0;
+  box-shadow: 0 0 8px var(--links);
+}
 
 /* navbar */
 .navbar {
