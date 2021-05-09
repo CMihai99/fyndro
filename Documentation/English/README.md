@@ -89,12 +89,7 @@ In the `Documentation` folder there is the documentation available in 12 languag
 At the moment, we aim to support all major web browsers. Any issue in the browsers listed below should be reported as a bug:
 
 - Microsoft Edge 14+
-- Safari 6+
-- Firefox (Current - 1) and Current versions
 - Chrome (Current - 1) and Current versions
-- Opera (Current - 1) and Current versions
-- Safari iOS 9.2+
-- Android 6.0+
 
 (Current - 1) and Current means that we support the current stable version of the browser and the version that precedes it.
 
