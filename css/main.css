@@ -26,10 +26,10 @@
 
 * {
   box-sizing: border-box;
-
-    /* Firefox scrollbar */
-    scrollbar-color: auto;
-    scrollbar-width: thin;
+  
+  /* Firefox scrollbar */
+  scrollbar-color: auto;
+  scrollbar-width: thin;
 }
 
 body {
