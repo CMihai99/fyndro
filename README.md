@@ -90,6 +90,8 @@ At the moment, we aim to support all major web browsers. Any issue in the browse
 
 - Microsoft Edge 14+
 - Chrome (Current - 1) and Current versions
+- Firefox (Current - 1) and Current versions
+- Opera (Current - 1) and Current versions
 
 (Current - 1) and Current means that we support the current stable version of the browser and the version that precedes it.
 
@@ -113,7 +115,7 @@ Special thanks to everyone who contributed in getting Andro to its current state
 - [GitHub Pages](https://pages.github.com/) - Development hosting
 - [FontAwesome](https://www.fontawesome.com/) - Page icons
 - [Codacy](https://www.codacy.com/) - Code analytics
-- [The Community](#) - Last but not least, massive thanks to our community for making all of this possible. ♥
+- The Community - Last but not least, massive thanks to our community for making all of this possible. ♥
 
 <a id="supporters"><h2>Supporters</h2></a>
 
