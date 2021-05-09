@@ -17,10 +17,9 @@
 .question {
   border: none;
   background-color: transparent;
-  font-size: 5px;
-  max-width: 5px;
-  height: 5px;
   padding: 0;
+  max-height: 10px;
+  max-width: 10px;
   display: block;
 }
 
@@ -32,4 +31,6 @@
 
 .question .caret {
   color: #5c5c5c !important;
+  position: absolute;
+  margin-top: -23px;
 }
