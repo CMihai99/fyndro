@@ -43,11 +43,22 @@ andro/
 │   ├── Russian
 │   └── Spanish
 │
+├── css/
+│   ├── common-questions.css
+│   ├── definitions.css
+│   ├── footer.css
+│   ├── main.css
+│   ├── navbar.css
+│   └── table-of-contents.css
+│
+├── js/
+│   └── common-questions.js
+│
 ├── resources/
 │   ├── heart-solid.svg
 │   ├── list-ul.svg
-│   ├── list.svg
-│   └── styles.css
+│   └── list.svg
+│
 │
 ├── .gitattributes
 ├── .gitignore
@@ -56,6 +67,7 @@ andro/
 ├── LICENSE
 ├── README.md
 ├── about.html
+├── categories.html
 ├── code-of-conduct.html
 ├── contributing.html
 ├── help.html
