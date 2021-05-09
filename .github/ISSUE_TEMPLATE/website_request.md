@@ -1,7 +1,7 @@
 ---
 name: Website request
 about: Suggest a new website added to the website list for this project
-title: ''
+title: '[Website]'
 labels: 'website'
 assignees: ''
 
