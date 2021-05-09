@@ -39,6 +39,110 @@
     <link rel="icon" href="resources/icon.svg">
     <title>Andro: Find new websites quickly and easily - Help</title>
 
+    <script>
+      // Common questions answer dropdown
+      var ButtonExpand = function (domNode) {
+
+      this.domNode = domNode;
+
+      this.keyCode = Object.freeze({
+        'RETURN': 13
+      });
+      };
+
+      ButtonExpand.prototype.init = function () {
+
+      this.controlledNode = false;
+
+      var id = this.domNode.getAttribute('aria-controls');
+
+      if (id) {
+        this.controlledNode = document.getElementById(id);
+      }
+
+      this.domNode.setAttribute('aria-expanded', 'false');
+      this.hideContent();
+
+      this.domNode.addEventListener('keydown',    this.handiveKeydown.bind(this));
+      this.domNode.addEventListener('click',      this.handiveClick.bind(this));
+      this.domNode.addEventListener('focus',      this.handiveFocus.bind(this));
+      this.domNode.addEventListener('blur',       this.handiveBlur.bind(this));
+
+      };
+
+      ButtonExpand.prototype.showContent = function () {
+
+      if (this.controlledNode) {
+        this.controlledNode.style.display = 'block';
+      }
+
+      };
+
+      ButtonExpand.prototype.hideContent = function () {
+
+      if (this.controlledNode) {
+        this.controlledNode.style.display = 'none';
+      }
+
+      };
+
+      ButtonExpand.prototype.toggleExpand = function () {
+
+      if (this.domNode.getAttribute('aria-expanded') === 'true') {
+        this.domNode.setAttribute('aria-expanded', 'false');
+        this.hideContent();
+      }
+      else {
+        this.domNode.setAttribute('aria-expanded', 'true');
+        this.showContent();
+      }
+
+      };
+
+      ButtonExpand.prototype.handiveKeydown = function (event) {
+
+      console.log('[keydown]');
+
+      switch (event.keyCode) {
+
+        case this.keyCode.RETURN:
+
+          this.toggleExpand();
+
+          event.stopPropagation();
+          event.preventDefault();
+          break;
+
+        default:
+          break;
+      }
+
+      };
+
+      ButtonExpand.prototype.handiveClick = function (event) {
+      this.toggleExpand();
+      };
+
+      ButtonExpand.prototype.handiveFocus = function (event) {
+      this.domNode.classList.add('focus');
+      };
+
+      ButtonExpand.prototype.handiveBlur = function (event) {
+      this.domNode.classList.remove('focus');
+      };
+
+      window.addEventListener('load', function (event) {
+
+      var buttons =  document.querySelectorAll('button[aria-expanded][aria-controls]');
+
+      for (var i = 0; i < buttons.length; i++) {
+        var be = new ButtonExpand(buttons[i]);
+        be.init();
+      }
+
+      }, false);
+    </script>
+
   </head>
 
 
@@ -89,7 +193,7 @@
               <li class="divider"></li>
 
               <li><a href="categories.html"   id="menu-text" title="Explore categories">Explore</a><li>
-              <li><a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+              <li><a href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
                 target="_blank" id="menu-text" title="Contact us for any queries">Contact Us</a></li>
               <li><a href="about.html"        id="menu-text" title="Learn more about Andro">About Us</a></li>
               <li><a href="contributing.html" id="menu-text" title="Learn how you can contribute">Contribute</a></li>
@@ -114,20 +218,79 @@
           <li class="dropdown" style="list-style-type: none"><a class="dropdown-toggle" style="margin-left: 2.5px" data-toggle="dropdown" href="#"><img src="resources/list-ul.svg" id="tableofcontents-icon"></a>
             <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 4.5px; margin-left: 2.5px; width: 232.5px" id="tableofcontents-menu">
               <li><a href="#common-questions" id="tableofcontents-text">Common Questions</a></li>
+              <li><a href="#" id="tableofcontents-text-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a></li>
+              <li><a href="#" id="tableofcontents-text-child">Lorem ipsum?</a></li>
             </ul>
           </li>
 
           <h2 style="margin-top: -34px; margin-left: 44px">Help</h2>
-          
+
           <hr>
         </div>
 
         <!-- Webpage content -->
         <h3></h3>
-        <p>Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please <a href="about.html#contact" id="links">contact us</a>.</p>
+        <p>Need help? Common questions we encounter are below to help solve your encountered problem.
+          For more information, <a href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+          target="_blank" id="links">contact us</a>.</p>
 
         <h3 id="common-questions">Common Questions</h3>
+        <h3></h3>
         
+        <!-- Question 1 -->
+        <div>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+
+          <button aria-expanded="false" aria-controls="answer-1" class="question" style="margin-left: 447.5px">
+            <div class="menu-icons">
+              <span class="caret"></span>
+            </div>
+          </button>
+        </div>
+
+        <!-- Answer 1 -->
+        <dd>
+          <p id="answer-1" class="answer">
+            Lorem ipsum dolor sit amet.
+          </p>
+        </dd>
+
+        <!-- Question 2 -->
+        <div>
+          <h4>Lorem ipsum?</h4>
+
+          <button aria-expanded="false" aria-controls="answer-2" class="question" style="margin-left: 117.5px">
+            <div class="menu-icons">
+              <span class="caret"></span>
+            </div>
+          </button>
+        </div>
+
+        <!-- Answer 2 -->
+        <dd>
+          <p id="answer-2" class="answer">
+            Lorem ipsum.
+          </p>
+        </dd>
+
+        <!-- Question 3 -->
+        <div>
+          <h4>Lorem ipsum dolor sit amet?</h4>
+
+          <button aria-expanded="false" aria-controls="answer-3" class="question" style="margin-left: 232.5px">
+            <div class="menu-icons">
+              <span class="caret"></span>
+            </div>
+          </button>
+        </div>
+
+        <!-- Answer 3 -->
+        <dd>
+          <p id="answer-3" class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </dd>
+
       </div>
     </div>
 
@@ -138,7 +301,7 @@
       <!-- Menu -->
       <div class="footer-menu-wrapper">
         <div class="menu-container">
-    
+
           <div class="col-xs-12 col-sm-4 col-md-4" >
             <h2>Support</h2>
             <ul class="list-unstyled quick-links">
@@ -148,7 +311,7 @@
               <li><a href="https://opencollective.com/andro-team"   target="_blank" title="Donate on OpenCollective">Open Collective</a></li>
             </ul>
           </div>
-    
+
           <div class="col-xs-12 col-sm-4 col-md-4" style="margin-left: -2.5%">
             <h2>Andro</h2>
             <ul class="list-unstyled quick-links">
@@ -172,8 +335,8 @@
 
         </div>
       </div>
-    
-      <hr id="desc-divider">
+      
+      <hr id="desc-divider" style="height: 0.5px">
 
       <!-- Description -->
       <div class="footer-desc-wrapper">
