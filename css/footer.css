@@ -79,7 +79,7 @@ footer ul.quick-links li a:hover {
 /* footer menu/description divider */
 #desc-divider {
   width: 100%;
-  height: 0.5px;
+  height: 1px;
   margin-top: -5px;
   border: 0;
   background-color: var(--washed-white);
