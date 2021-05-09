@@ -32,7 +32,7 @@ footer h2 {
   color: var(--gray);
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: 'Itim', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   margin: 0;
@@ -79,7 +79,7 @@ footer ul.quick-links li a:hover {
 /* footer menu/description divider */
 #desc-divider {
   width: 100%;
-  height: 1px;
+  height: 0.5px;
   margin-top: -5px;
   border: 0;
   background-color: var(--washed-white);

@@ -26,6 +26,10 @@
 
 * {
   box-sizing: border-box;
+
+    /* Firefox scrollbar */
+    scrollbar-color: auto;
+    scrollbar-width: thin;
 }
 
 body {
@@ -70,11 +74,11 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #a1a1a1;
+  background: #bdbdbd;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #949494;
+  background: #aaaaaa;
 }
 
 ::-webkit-scrollbar-thumb:active {
@@ -85,7 +89,6 @@ p {
 ::-webkit-scrollbar-track {
   background: var(--background);
 }
-
 
 /* content boxes */
 .page-border {
@@ -107,4 +110,21 @@ p {
 /* last updated text */
 #last-updated {
   text-decoration: underline;
+}
+
+
+/* title sticky navbar */
+.title-nav {
+  position: sticky;
+  top: 65px;
+  background-color: var(--white);
+  box-shadow: 0 4px 8px -8px var(--light-gray);
+}
+
+.title-nav hr {
+  height: 0.5px;
+  margin-top: 25px;
+  border-width: 0;
+  background-color: #cfcfcf;
+  margin-top: 25px;
 }
