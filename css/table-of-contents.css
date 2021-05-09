@@ -1,0 +1,91 @@
+/* RULES OF THUMB
+
+1) Always use SASS (or any CSS preprocessor)
+2) Write your HTML before your CSS
+3) Organize your components using the BEM model
+4) Don’t reference IDs in the CSS
+6) Avoid using !important at all costs
+7) Use bootstrap only when needed, (make sure you understand it before using it)
+8) Keep your HTML simple and readable
+9) Individual page css
+10) Atomic design
+
+*/
+
+
+/* color palette */
+:root {
+  --white: #fff;
+  --washed-white: #dbdbdb;
+  --dark-gray: #5c5c5c;
+  --gray: #8b8b8b;
+  --light-gray: #858585;
+  --border-radius: 7px;
+}
+
+/* table of contents and title sticky navbar */
+.title-nav {
+  position: sticky;
+  top: 65px;
+  background-color: var(--white);
+  box-shadow: 0 4px 8px -8px var(--light-gray);
+}
+
+.title-nav hr {
+  height: 1px;
+  margin-top: 25px;
+  border-width: 0;
+  background-color: #cfcfcf;
+  margin-top: 25px;
+}
+
+/* table of contents menu */
+#tableofcontents-menu {
+  padding: 6.5px;
+  height: auto;
+  max-height: 351px;
+  min-width: 275px;
+  max-width: 275px;
+  overflow-y: scroll;
+}
+
+/* table of contents icon */
+#tableofcontents-icon {
+  height: 32px;
+  padding: 7.5px;
+  border-radius: var(--border-radius);
+}
+
+/* table of contents items */
+#tableofcontents-text {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-radius: var(--border-radius);
+  color: var(--dark-gray);
+}
+
+/* table of contents sub-items */
+#tableofcontents-text-child {
+  text-indent: 18px;
+  color: var(--dark-gray);
+}
+
+#tableofcontents-text:focus {
+  background-color: var(--white);
+}
+
+#tableofcontents-icon:hover,
+#tableofcontents-icon:focus,
+#tableofcontents-text:hover,
+#tableofcontents-text:active {
+  background-color: #ececec;
+}
+
+#tableofcontents-icon:active {
+  background-color: var(--washed-white);
+}

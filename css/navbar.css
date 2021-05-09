@@ -1,0 +1,123 @@
+/* RULES OF THUMB
+
+1) Always use SASS (or any CSS preprocessor)
+2) Write your HTML before your CSS
+3) Organize your components using the BEM model
+4) Don’t reference IDs in the CSS
+6) Avoid using !important at all costs
+7) Use bootstrap only when needed, (make sure you understand it before using it)
+8) Keep your HTML simple and readable
+9) Individual page css
+10) Atomic design
+
+*/
+
+
+/* color palette */
+:root {
+  --white: #fff;
+  --black: #000;
+  --dark-gray: #5c5c5c;
+  --background: #eee;
+  --border-radius: 7px;
+  --links: #337ff0;
+}
+
+/* Andro icon */
+#nav-icon {
+  width: 36px;
+  height: 36px;
+  margin-left: 17.5px;
+  margin-top: 14.5px;
+}
+
+
+/* search bar */
+.search input {
+  height: 30px;
+  text-indent: 25px;
+  border: 1.5px solid #b5b5b5;
+  margin-top: -33px;
+  margin-left: 61px;
+  padding-left: 0;
+  border-radius: var(--border-radius);
+  width: 123px;
+}
+
+/* searchbar background */
+.search {
+  width: 0;
+  height: 0;
+}
+
+.search input:focus,
+.search input:active {
+  border: 1px solid var(--links);
+  box-shadow: none;
+}
+
+
+/* navbar */
+.navbar {
+  background-color: var(--white);
+  height: 65px;
+}
+
+
+/* dropdown menu */
+.dropdown-menu {
+  margin-right: 30px;
+  display: none;
+  background-color: var(--white);
+  box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
+  animation: dropdownFadeIn 0.3s ease-in-out;
+}
+
+.dropdown-menu li:hover,
+#menu-text:hover {
+  background-color: var(--background);
+}
+
+.dropdown-menu li:focus,
+.active, .active:hover,
+.active:focus {
+  background-color: #e0e0e0;
+}
+
+/* dropdown menu fade animation */
+@keyframes dropdownFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* dropdown menu icons */
+#dropdown-icons {
+  margin-top: 23px;
+  margin-right: 33px;
+  background-color: var(--white);
+  padding: 0;
+}
+
+/* menu icons */
+.menu-icons {
+  color: var(--black) !important;
+  transition: 0.3s filter;
+  font-size: 5px;
+}
+
+.menu-icons:hover, .menu-icons:hover::after {
+  filter: invert(55%) sepia(0%) saturate(765%) hue-rotate(222deg) brightness(96%) contrast(81%) !important;
+}
+
+/* dropdown menu links */
+#menu-text:focus {
+  background-color: #e5e5e5;
+}
+
+#menu-text {
+  color: var(--dark-gray);
+}

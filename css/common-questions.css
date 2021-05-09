@@ -1,0 +1,35 @@
+/* RULES OF THUMB
+
+1) Always use SASS (or any CSS preprocessor)
+2) Write your HTML before your CSS
+3) Organize your components using the BEM model
+4) Don’t reference IDs in the CSS
+6) Avoid using !important at all costs
+7) Use bootstrap only when needed, (make sure you understand it before using it)
+8) Keep your HTML simple and readable
+9) Individual page css
+10) Atomic design
+
+*/
+
+
+/* common questions */
+.question {
+  border: none;
+  background-color: transparent;
+  font-size: 5px;
+  max-width: 5px;
+  height: 5px;
+  padding: 0;
+  display: block;
+}
+
+.answer {
+  padding-left: 20px;
+  padding-top: -10px;
+  padding-bottom: 15px;
+}
+
+.question .caret {
+  color: #5c5c5c !important;
+}

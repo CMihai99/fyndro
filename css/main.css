@@ -1,0 +1,110 @@
+/* RULES OF THUMB
+
+1) Always use SASS (or any CSS preprocessor)
+2) Write your HTML before your CSS
+3) Organize your components using the BEM model
+4) Don’t reference IDs in the CSS
+6) Avoid using !important at all costs
+7) Use bootstrap only when needed, (make sure you understand it before using it)
+8) Keep your HTML simple and readable
+9) Individual page css
+10) Atomic design
+
+*/
+
+
+/* color palette */
+:root {
+  --white: #fff;
+  --washed-white: #dbdbdb;
+  --dark-gray: #5c5c5c;
+  --light-gray: #858585;
+  --background: #eee;
+  --border-radius: 7px;
+  --links: #337ff0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+}
+
+
+/* text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  color: var(--dark-gray);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* anchor tags */
+#links,
+#links:hover {
+  color: var(--links);
+}
+
+#links:active,
+#links:focus {
+  text-decoration: none;
+}
+
+#links:visited {
+  color: #145dca;
+}
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a1a1a1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #949494;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--light-gray);
+}
+
+/* scrollbar background */
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+
+/* content boxes */
+.page-border {
+  margin-left: 50px;
+  margin-right: 389px;
+  margin-top: 109px;
+  border-radius: var(--border-radius);
+  border: 1.5px solid var(--white);
+  background-color: var(--white);
+}
+
+.content-border {
+  padding: 55px;
+  margin-top: -25px;
+  margin-bottom: -10px;
+}
+
+
+/* last updated text */
+#last-updated {
+  text-decoration: underline;
+}
