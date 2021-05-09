@@ -22,14 +22,19 @@
     <meta property="twitter:description" content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
     <meta property="twitter:image" content="">
 
-    <!-- Javascript -->
+    <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/common-questions.js"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="resources/styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/table-of-contents.css">
+    <link rel="stylesheet" href="css/common-questions.css">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -38,110 +43,6 @@
     <!-- Tab -->
     <link rel="icon" href="resources/icon.svg">
     <title>Andro: Find new websites quickly and easily - Help</title>
-
-    <script>
-      // Common questions answer dropdown
-      var ButtonExpand = function (domNode) {
-
-      this.domNode = domNode;
-
-      this.keyCode = Object.freeze({
-        'RETURN': 13
-      });
-      };
-
-      ButtonExpand.prototype.init = function () {
-
-      this.controlledNode = false;
-
-      var id = this.domNode.getAttribute('aria-controls');
-
-      if (id) {
-        this.controlledNode = document.getElementById(id);
-      }
-
-      this.domNode.setAttribute('aria-expanded', 'false');
-      this.hideContent();
-
-      this.domNode.addEventListener('keydown',    this.handiveKeydown.bind(this));
-      this.domNode.addEventListener('click',      this.handiveClick.bind(this));
-      this.domNode.addEventListener('focus',      this.handiveFocus.bind(this));
-      this.domNode.addEventListener('blur',       this.handiveBlur.bind(this));
-
-      };
-
-      ButtonExpand.prototype.showContent = function () {
-
-      if (this.controlledNode) {
-        this.controlledNode.style.display = 'block';
-      }
-
-      };
-
-      ButtonExpand.prototype.hideContent = function () {
-
-      if (this.controlledNode) {
-        this.controlledNode.style.display = 'none';
-      }
-
-      };
-
-      ButtonExpand.prototype.toggleExpand = function () {
-
-      if (this.domNode.getAttribute('aria-expanded') === 'true') {
-        this.domNode.setAttribute('aria-expanded', 'false');
-        this.hideContent();
-      }
-      else {
-        this.domNode.setAttribute('aria-expanded', 'true');
-        this.showContent();
-      }
-
-      };
-
-      ButtonExpand.prototype.handiveKeydown = function (event) {
-
-      console.log('[keydown]');
-
-      switch (event.keyCode) {
-
-        case this.keyCode.RETURN:
-
-          this.toggleExpand();
-
-          event.stopPropagation();
-          event.preventDefault();
-          break;
-
-        default:
-          break;
-      }
-
-      };
-
-      ButtonExpand.prototype.handiveClick = function (event) {
-      this.toggleExpand();
-      };
-
-      ButtonExpand.prototype.handiveFocus = function (event) {
-      this.domNode.classList.add('focus');
-      };
-
-      ButtonExpand.prototype.handiveBlur = function (event) {
-      this.domNode.classList.remove('focus');
-      };
-
-      window.addEventListener('load', function (event) {
-
-      var buttons =  document.querySelectorAll('button[aria-expanded][aria-controls]');
-
-      for (var i = 0; i < buttons.length; i++) {
-        var be = new ButtonExpand(buttons[i]);
-        be.init();
-      }
-
-      }, false);
-    </script>
 
   </head>
 
