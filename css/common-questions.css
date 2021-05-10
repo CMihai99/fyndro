@@ -15,22 +15,20 @@
 
 /* common questions */
 .question {
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  max-height: 10px;
-  max-width: 10px;
-  display: block;
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	max-height: 10px;
+	max-width: 10px;
+	display: block;
 }
 
 .answer {
-  padding-left: 20px;
-  padding-top: -10px;
-  padding-bottom: 15px;
+	padding-left: 20px;
 }
 
 .question .caret {
-  color: #5c5c5c !important;
-  position: absolute;
-  margin-top: -23px;
+	color: #5c5c5c !important;
+	position: absolute;
+	margin-top: -23px;
 }

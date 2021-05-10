@@ -23,22 +23,6 @@
   --border-radius: 7px;
 }
 
-/* table of contents and title sticky navbar */
-.title-nav {
-  position: sticky;
-  top: 65px;
-  background-color: var(--white);
-  box-shadow: 0 4px 8px -8px var(--light-gray);
-}
-
-.title-nav hr {
-  height: 1px;
-  margin-top: 25px;
-  border-width: 0;
-  background-color: #cfcfcf;
-  margin-top: 25px;
-}
-
 /* table of contents menu */
 #tableofcontents-menu {
   padding: 6.5px;

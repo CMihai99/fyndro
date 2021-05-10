@@ -1,325 +1,361 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
 
-    <!-- Search Engines -->
-    <meta charset="UTF-8">
-    <meta name="title" content="Andro: Find new websites quickly and easily - Help">
-    <meta name="description" content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
+  <!-- Search Engines -->
+  <meta charset="UTF-8">
+  <meta name="title" content="Andro: Find new websites quickly and easily - Help">
+  <meta name="description"
+    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
 
-    <!-- Open Graph/Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://cmihai99.github.io/andro/help.html">
-    <meta property="og:title" content="Andro: Find new websites quickly and easily - Help">
-    <meta property="og:description" content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
-    <meta property="og:image" content="">
+  <!-- Open Graph/Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://cmihai99.github.io/andro/help.html">
+  <meta property="og:title" content="Andro: Find new websites quickly and easily - Help">
+  <meta property="og:description"
+    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
+  <meta property="og:image" content="">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="">
-    <meta property="twitter:url" content="http://cmihai99.github.io/andro/help.html">
-    <meta property="twitter:title" content="Andro: Find new websites quickly and easily - Help">
-    <meta property="twitter:description" content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
-    <meta property="twitter:image" content="">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="">
+  <meta property="twitter:url" content="http://cmihai99.github.io/andro/help.html">
+  <meta property="twitter:title" content="Andro: Find new websites quickly and easily - Help">
+  <meta property="twitter:description"
+    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
+  <meta property="twitter:image" content="">
 
-    <!-- Dependencies -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- Dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <!-- JS -->
-    <script src="js/main.js"></script>
-    <script src="js/common-questions.js"></script>
+  <!-- JS -->
+  <script src="js/main.js"></script>
+  <script src="js/common-questions.js"></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/table-of-contents.css">
-    <link rel="stylesheet" href="css/common-questions.css">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/table-of-contents.css">
+  <link rel="stylesheet" href="css/common-questions.css">
 
-    <!-- Tab Info -->
-    <link rel="icon" href="resources/icon.svg">
-    <title>Andro: Find new websites quickly and easily - Help</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 
-  </head>
+  <!-- Tab Info -->
+  <link rel="icon" href="resources/icon.svg">
+  <title>Andro: Find new websites quickly and easily - Help</title>
+
+</head>
 
 
-  <body>
+<body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-fixed-top">
+  <!-- Navbar -->
+  <nav class="navbar navbar-fixed-top">
 
-      <div class="container-fluid">
+    <div class="container-fluid">
 
-        <div class="navbar-header">
+      <div class="navbar-header">
 
-          <!-- Navbar icon -->
-          <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="nav-icon"></a>
-        
-          <!-- Search bar -->
+        <!-- Navbar icon -->
+        <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="nav-icon"></a>
+
+        <!-- Search bar -->
+        <div>
           <div>
-            <div>
 
-              <div class="col-md-8">
-                <div class="search">
-                  <input type="text" class="form-control" placeholder="Search">
-                </div>
+            <div class="col-md-8">
+              <div class="search">
+                <input type="text" class="form-control" placeholder="Search">
               </div>
-
             </div>
+
           </div>
-
         </div>
-        
-        <ul class="nav navbar-nav navbar-right">
-
-          <!-- Menu icons -->
-          <li class="dropdown">
-            <a class="dropdown-toggle" id="dropdown-icons" data-toggle="dropdown" href="#">
-              <div class="menu-icons">
-                <img src="resources/list.svg" id="list-icon">
-                <span class="caret"></span>
-              </div>
-            </a>
-            
-            <!-- Dropdown-menu -->
-            <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 10px">
-              
-              <li><a id="menu-text" title="Request a website for us to add"     target="_blank" href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title=">Request a Website</a></li>
-              <li><a id="menu-text" title="Report a bug for us to fix"          target="_blank" href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D">Report a Bug</a></li>
-              <li><a id="menu-text" title="Request a feature for us to improve" target="_blank" href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=feature_request.md&title=">Request a Feature</a></li>
-              <li><a href="help.html"   id="menu-text" title="Need help?">Get Help</a></li>
-
-              <li class="divider"></li>
-
-              <li><a href="categories.html"   id="menu-text" title="Explore categories">Explore</a><li>
-              <li><a href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
-                target="_blank" id="menu-text" title="Contact us for any queries">Contact Us</a></li>
-              <li><a href="about.html"        id="menu-text" title="Learn more about Andro">About Us</a></li>
-              <li><a href="contributing.html" id="menu-text" title="Learn how you can contribute">Contribute</a></li>
-
-            </ul>
-          </li>
-
-        </ul>
 
       </div>
-    </nav>
+
+      <ul class="nav navbar-nav navbar-right">
+
+        <!-- Menu icons -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" id="dropdown-icons" data-toggle="dropdown" href="#">
+            <div class="menu-icons">
+              <img src="resources/list.svg" id="list-icon">
+              <span class="caret"></span>
+            </div>
+          </a>
+
+          <!-- Dropdown-menu -->
+          <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 10px">
+
+            <li><a id="menu-text" title="Request a website for us to add" target="_blank"
+                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title=">Request
+                a Website</a></li>
+            <li><a id="menu-text" title="Report a bug for us to fix" target="_blank"
+                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D">Report
+                a Bug</a></li>
+            <li><a id="menu-text" title="Request a feature for us to improve" target="_blank"
+                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=feature_request.md&title=">Request
+                a Feature</a></li>
+            <li><a href="help.html" id="menu-text" title="Need help?">Get Help</a></li>
+
+            <li class="divider"></li>
+
+            <li><a href="categories.html" id="menu-text" title="Explore categories">Explore</a>
+            <li>
+            <li><a
+                href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+                target="_blank" id="menu-text" title="Contact us for any queries">Contact Us</a></li>
+            <li><a href="about.html" id="menu-text" title="Learn more about Andro">About Us</a></li>
+            <li><a href="contributing.html" id="menu-text" title="Learn how you can contribute">Contribute</a></li>
+
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
 
 
-    <!-- Borders -->
-    <div class="page-border" style="margin-right: 50px">
-      <div class="content-border">
+  <!-- Borders -->
+  <div class="page-border" style="margin-right: 50px">
+    <div class="content-border">
 
-        <div class="title-nav">
-          <hr>
+      <div class="title-nav">
+        <hr>
 
-          <!-- Table of contents -->
-          <li class="dropdown" style="list-style-type: none"><a class="dropdown-toggle" style="margin-left: 2.5px" data-toggle="dropdown" href="#"><img src="resources/list-ul.svg" id="tableofcontents-icon"></a>
-            <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 4.5px; margin-left: 2.5px; width: 232.5px" id="tableofcontents-menu">
-              <li><a href="#common-questions" id="tableofcontents-text">Common Questions</a></li>
-              <li><a href="#" id="tableofcontents-text-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a></li>
-              <li><a href="#" id="tableofcontents-text-child">Lorem ipsum?</a></li>
-            </ul>
-          </li>
+        <!-- Table of contents -->
+        <li class="dropdown" style="list-style-type: none">
+          <a class="dropdown-toggle" style="margin-left: 2.5px" data-toggle="dropdown" href="#"><img
+              src="resources/list-ul.svg" id="tableofcontents-icon"></a>
+          <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 4.5px; margin-left: 2.5px; width: 232.5px"
+            id="tableofcontents-menu">
+            <li><a href="#common-questions" id="tableofcontents-text">Common Questions</a></li>
+            <li><a href="#" id="tableofcontents-text-child">How does it work?</a></li>
+            <li><a href="#" id="tableofcontents-text-child">Which browsers do you support?</a></li>
+            <li><a href="#" id="tableofcontents-text-child">What license do you use?</a></li>
+            <li><a href="#" id="tableofcontents-text-child">Is this open-source software?</a></li>
+            <li><a href="#" id="tableofcontents-text-child">What's next?</a></li>
+          </ul>
+        </li>
 
-          <h2 style="margin-top: -34px; margin-left: 44px">Help</h2>
+        <h2 style="margin-top: -34px; margin-left: 44px">Help</h2>
 
-          <hr>
-        </div>
+        <hr>
+      </div>
 
-        <!-- Webpage content -->
-        <h3></h3>
-        <p>Need help? Common questions we encounter are below to help solve your encountered problem.
-          For more information, <a href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+      <!-- Webpage content -->
+      <h3></h3>
+      <p>Need help? Common questions we encounter are below to help solve your encountered
+        problem. For more information, <a
+          href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
           target="_blank" id="links">contact us</a>.</p>
 
-        <h3 id="common-questions">Common Questions</h3>
-        <h3></h3>
-        
-        <!-- Question 1 -->
-        <div>
-          <h4>How does it work?</h4>
+      <h3 id="common-questions">Common Questions</h3>
+      <h3></h3>
 
-          <button aria-expanded="false" aria-controls="answer-1" class="question" style="margin-left: 152.5px">
-            <div class="menu-icons">
-              <span class="caret"></span>
-            </div>
-          </button>
+      <!-- Question 1 -->
+      <div>
+        <h4>How does it work?</h4>
+
+        <button aria-expanded="false" aria-controls="answer-1" class="question" style="margin-left: 152.5px">
+          <div class="menu-icons">
+            <span class="caret"></span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Answer 1 -->
+      <dd>
+        <p id="answer-1" class="answer">
+          Lorem ipsum.
+        </p>
+      </dd>
+
+
+      <!-- Question 2 -->
+      <div>
+        <h4>Which browsers do you support?</h4>
+
+        <button aria-expanded="false" aria-controls="answer-2" class="question" style="margin-left: 267.5px">
+          <div class="menu-icons">
+            <span class="caret"></span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Answer 2 -->
+      <dd>
+        <p id="answer-2" class="answer">
+          At the moment, we aim to support all major web browsers. Any issue in the browsers
+          listed below <a
+            href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title="
+            target="_blank" id="links">should be reported as a bug</a>.
+          <br>
+
+          <br>    -  Microsoft Edge 14+
+          <br>    -  Firefox (Current - 1) and Current versions
+          <br>    -  Chrome (Current - 1) and Current versions
+          <br>    -  Opera (Current - 1) and Current versions
+          <br>
+          <br> (Current - 1) and Current means that we support the current stable version
+          of the browser and the version that precedes it.
+        </p>
+      </dd>
+
+
+      <!-- Question 3 -->
+      <div>
+        <h4>Is this proprietary software?</h4>
+
+        <button aria-expanded="false" aria-controls="answer-3" class="question" style="margin-left: 227.5px">
+          <div class="menu-icons">
+            <span class="caret"></span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Answer 3 -->
+      <dd>
+        <p id="answer-3" class="answer">
+          Andro is and will be open-source forever. Open source licensing encourages innovation
+          through collaboration. Without it, many of the technologies we take for
+          granted today would never have developed, or would been locked away behind
+          patent law.
+        </p>
+      </dd>
+
+
+      <!-- Question 4 -->
+      <div>
+        <h4>What license do you use?</h4>
+
+        <button aria-expanded="false" aria-controls="answer-4" class="question" style="margin-left: 212.5px">
+          <div class="menu-icons">
+            <span class="caret"></span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Answer 4 -->
+      <dd>
+        <p id="answer-4" class="answer">
+          Andro is released under the MIT License. You can learn more about it
+          <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank" id="links">here</a>.
+        </p>
+      </dd>
+
+
+      <!-- Question 5 -->
+      <div>
+        <h4>What's next?</h4>
+
+        <button aria-expanded="false" aria-controls="answer-5" class="question" style="margin-left: 110px">
+          <div class="menu-icons">
+            <span class="caret"></span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Answer 5 -->
+      <dd>
+        <p id="answer-5" class="answer">
+          We plan on adding more features along the way, as well as new websites and continue
+          evolving Andro through with the help of your contributions. To learn more
+          about how you can contribute, <a href="contributing.html" id="links">visit this page</a>.
+        </p>
+      </dd>
+
+    </div>
+  </div>
+
+
+  <footer>
+
+    <!-- Menu -->
+    <div class="footer-menu-wrapper">
+      <div class="menu-container">
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h2>Support</h2>
+          <ul class="list-unstyled quick-links">
+            <li><a href="https://twitter.com/androteamfaq" target="_blank" title="Follow us on Twitter">Twitter</a></li>
+            <li><a href="https://www.instagram.com/androteamfaq/" target="_blank"
+                title="Follow us on Instagram">Instagram</a></li>
+            <li><a href="https://github.com/CMihai99/andro" target="_blank"
+                title="Give the project a star on GitHub">Star on GitHub</a></li>
+            <li><a href="https://opencollective.com/andro-team" target="_blank" title="Donate on OpenCollective">Open
+                Collective</a></li>
+          </ul>
         </div>
 
-        <!-- Answer 1 -->
-        <dd>
-          <p id="answer-1" class="answer">
-            Lorem ipsum.
-          </p>
-        </dd>
-
-
-        <!-- Question 2 -->
-        <div>
-          <h4>Which browsers do you support?</h4>
-
-          <button aria-expanded="false" aria-controls="answer-2" class="question" style="margin-left: 267.5px">
-            <div class="menu-icons">
-              <span class="caret"></span>
-            </div>
-          </button>
+        <div class="col-xs-12 col-sm-4 col-md-4" style="margin-left: -2.5%">
+          <h2>Andro</h2>
+          <ul class="list-unstyled quick-links">
+            <li><a
+                href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+                target="_blank" title="Contact us for any queries">Contact Us</a></li>
+            <li><a href="about.html" title="Learn more about Andro">About Us</a></li>
+            <li><a href="contributing.html" title="Learn how you can contribute">Contribute</a></li>
+            <li><a href="categories.html" title="Explore categories">Explore</a></li>
+          </ul>
         </div>
 
-        <!-- Answer 2 -->
-        <dd>
-          <p id="answer-2" class="answer">
-            At the moment, we aim to support all major web browsers. Any issue in the browsers listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=" target="_blank" id="links">should be reported as a bug</a>.
-            <br>
-
-            <br>
-               -  Microsoft Edge 14+
-            <br>
-               -  Firefox (Current - 1) and Current versions
-            <br>
-               -  Chrome (Current - 1) and Current versions
-            <br>
-               -  Opera (Current - 1) and Current versions
-            <br>
-            <br>
-            (Current - 1) and Current means that we support the current stable version of the browser and the version that precedes it.
-          </p>
-        </dd>
-
-
-        <!-- Question 3 -->
-        <div>
-          <h4>What license do you use?</h4>
-
-          <button aria-expanded="false" aria-controls="answer-3" class="question" style="margin-left: 212.5px">
-            <div class="menu-icons">
-              <span class="caret"></span>
-            </div>
-          </button>
+        <div class="col-xs-12 col-sm-4 col-md-4" style="margin-left: -2.5%">
+          <h2>Feedback</h2>
+          <ul class="list-unstyled quick-links">
+            <li><a
+                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title="
+                title="Request a website for us to add" target="_blank">Request a Website</a></li>
+            <li><a
+                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D"
+                title="Report a bug for us to fix" target="_blank">Report a Bug</a></li>
+            <li><a
+                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=feature_request.md&title="
+                title="Request a feature for us to improve" target="_blank">Request a Feature</a></li>
+            <li><a href="help.html" title="Need help?">Get Help</a></li>
+          </ul>
         </div>
-
-        <!-- Answer 3 -->
-        <dd>
-          <p id="answer-3" class="answer">
-            Andro is released under the MIT License. You can learn more about it <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank" id="links">here</a>.
-          </p>
-        </dd>
-
-
-        <!-- Question 4 -->
-        <div>
-          <h4>Is this proprietary software?</h4>
-
-          <button aria-expanded="false" aria-controls="answer-4" class="question" style="margin-left: 227.5px">
-            <div class="menu-icons">
-              <span class="caret"></span>
-            </div>
-          </button>
-        </div>
-
-        <!-- Answer 4 -->
-        <dd>
-          <p id="answer-4" class="answer">
-            No. Andro is and will be open-source forever. Open source licensing encourages innovation through collaboration. Without it, many of the technologies we take for granted today would never have developed, or would been locked away behind patent law.
-          </p>
-        </dd>
-
-
-        <!-- Question 5 -->
-        <div>
-          <h4>What's coming in the future?</h4>
-
-          <button aria-expanded="false" aria-controls="answer-5" class="question" style="margin-left: 232.5px">
-            <div class="menu-icons">
-              <span class="caret"></span>
-            </div>
-          </button>
-        </div>
-
-        <!-- Answer 5 -->
-        <dd>
-          <p id="answer-5" class="answer">
-            We plan in adding more and more features, as well as new websites and to continue evolving Andro through your help.
-            To learn more about how you can contribute, visit <a href="contributing.html" id="links">this page</a>. 
-          </p>
-        </dd>
 
       </div>
     </div>
 
+    <hr id="desc-divider">
 
-    <footer>
+    <!-- Description -->
+    <div class="footer-desc-wrapper">
+      <div class="desc-container">
 
-      <!-- Menu -->
-      <div class="footer-menu-wrapper">
-        <div class="menu-container">
-
-          <div class="col-xs-12 col-sm-4 col-md-4" >
-            <h2>Support</h2>
-            <ul class="list-unstyled quick-links">
-              <li><a href="https://twitter.com/androteamfaq"    target="_blank" title="Follow us on Twitter">Twitter</a></li>
-              <li><a href="https://www.instagram.com/androteamfaq/" target="_blank" title="Follow us on Instagram">Instagram</a></li>
-              <li><a href="https://github.com/CMihai99/andro"   target="_blank" title="Give the project a star on GitHub">Star on GitHub</a></li>
-              <li><a href="https://opencollective.com/andro-team"   target="_blank" title="Donate on OpenCollective">Open Collective</a></li>
-            </ul>
-          </div>
-
-          <div class="col-xs-12 col-sm-4 col-md-4" style="margin-left: -2.5%">
-            <h2>Andro</h2>
-            <ul class="list-unstyled quick-links">
-              <li><a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
-                target="_blank" title="Contact us for any queries">Contact Us</a></li>
-              <li><a href="about.html" title="Learn more about Andro">About Us</a></li>
-              <li><a href="contributing.html"  title="Learn how you can contribute">Contribute</a></li>
-              <li><a href="categories.html" title="Explore categories">Explore</a></li>
-            </ul>
-          </div>
-
-          <div class="col-xs-12 col-sm-4 col-md-4" style="margin-left: -2.5%">
-            <h2>Feedback</h2>
-            <ul class="list-unstyled quick-links">
-              <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title="      title="Request a website for us to add" target="_blank">Request a Website</a></li>
-              <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D"  title="Report a bug for us to fix" target="_blank">Report a Bug</a></li>
-              <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=feature_request.md&title="      title="Request a feature for us to improve" target="_blank">Request a Feature</a></li>
-              <li><a href="help.html" title="Need help?">Get Help</a></li>
-            </ul>
-          </div>
-
+        <div class="footer-left-desc">
+          <p>
+            Made with <img src="resources/heart-solid.svg" title="love"
+              style="height: 14px; margin-top: -2px; filter: invert(63%) sepia(0%) saturate(1006%) hue-rotate(251deg) brightness(88%) contrast(80%)">
+            in <a id="description-location" target="_blank" title="our location"
+              href="https://www.google.com/maps/place/Dragomire%C8%99ti-Vale/@44.4754276,25.9174561,14z/data=!3m1!4b1!4m5!3m4!1s0x40b206edc6b95395:0x705882d43cbacae3!8m2!3d44.4764792!4d25.9345222">Dragomiresti-Vale,
+              RO</a>.
+          </p>
         </div>
-      </div>
-      
-      <hr id="desc-divider">
 
-      <!-- Description -->
-      <div class="footer-desc-wrapper">
-        <div class="desc-container">
-
-          <div class="footer-left-desc">
-            <p>
-              Made with <img src="resources/heart-solid.svg"  title="love" style="height: 14px; margin-top: -2px; filter: invert(63%) sepia(0%) saturate(1006%) hue-rotate(251deg) brightness(88%) contrast(80%)">
-              in <a id="description-location" target="_blank" title="our location" href="https://www.google.com/maps/place/Dragomire%C8%99ti-Vale/@44.4754276,25.9174561,14z/data=!3m1!4b1!4m5!3m4!1s0x40b206edc6b95395:0x705882d43cbacae3!8m2!3d44.4764792!4d25.9345222">Dragomiresti-Vale, RO</a>.
-            </p>
-          </div>
-
-          <div class="footer-right-desc">
-            <ul>
-              <li id="trademark">© Andro, Inc.</li>
-              <li><a href="terms.html"   title="Our terms and regulations" id="terms" style="padding-left: 25px; padding-right: 15px;">Terms</a></li>
-              <li><a href="privacy.html" title="Learn more about your privacy" id="privacy">Privacy</a></li>
-            </ul>
-          </div>
-
+        <div class="footer-right-desc">
+          <ul>
+            <li id="trademark">© Andro, Inc.</li>
+            <li><a href="terms.html" title="Our terms and regulations" id="terms"
+                style="padding-left: 25px; padding-right: 15px;">Terms</a></li>
+            <li><a href="privacy.html" title="Learn more about your privacy" id="privacy">Privacy</a></li>
+          </ul>
         </div>
+
       </div>
+    </div>
 
-    </footer>
+  </footer>
 
-  </body>
+</body>
 
 </html>

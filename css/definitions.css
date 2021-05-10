@@ -15,47 +15,47 @@
 
 /* color palette */
 :root {
-  --white: #fff;
-  --washed-white: #dbdbdb;
-  --border-radius: 7px;
+	--white: #fff;
+	--washed-white: #dbdbdb;
+	--border-radius: 7px;
 }
 
 /* definition text */
 #definition-links {
-  position: absolute;
-  text-decoration: none;
-  font-size: 11px;
-  margin-left: -0.5px;
-  z-index: 0;
+	position: absolute;
+	text-decoration: none;
+	font-size: 11px;
+	margin-left: -0.5px;
+	z-index: 0;
 }
 
 #definition-title {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 #definition-description {
-  margin-top: -10px;
-  font-size: 14px;
+	margin-top: -10px;
+	font-size: 14px;
 }
 
 /* definition divider */
 #definition-content-divider {
-  margin-top: -5px;
-  border-color: var(--washed-white);
+	margin-top: -5px;
+	border-color: var(--washed-white);
 }
 
 /* definition dropdown */
 .definition-dropdown {
-  position: absolute;
-  display: none;
-  background-color: var(--white);
-  box-shadow: 0 4px 21px var(--washed-white);
-  width: 225px;
-  padding: 16px;
-  border-radius: var(--border-radius);
-  margin-top: 3.5px;
+	position: absolute;
+	display: none;
+	background-color: var(--white);
+	box-shadow: 0 4px 21px var(--washed-white);
+	width: 225px;
+	padding: 16px;
+	border-radius: var(--border-radius);
+	margin-top: 3.5px;
 }
 
 #definition-links:hover + .definition-dropdown {
-  display: block;
+	display: block;
 }
