@@ -1,6 +1,6 @@
 # <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
-We try and make it fast and intuitive when you are in a rush or in need of a tool/service. Just visit our website, search for your needs, and get prompted with a list of websites, along with a bunch of other features. Simple as that.
+We try and make it fast and intuitive when you are in need of a tool or service. All you have to do is visit our website and search for what you need. Simple as that.
 
 ## Table of contents
 
@@ -8,6 +8,7 @@ We try and make it fast and intuitive when you are in a rush or in need of a too
 - [What's included?](#whats-included)
 - [Dependencies](#dependencies)
 - [Browser support](#browser-support)
+- [Device support](#device-support)
 - [Bugs and feature/website requests](#bugs-and-requests)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
@@ -45,7 +46,6 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
-│   ├── definitions.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
@@ -60,7 +60,6 @@ andro/
 │   └── list.svg
 │
 │
-├── .gitattributes
 ├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
@@ -82,11 +81,11 @@ In the `Documentation` folder there is the documentation available in 12 languag
 
 - **Bootstrap**. Andro is built on the Bootstrap 5 library and fully supports it.
 
-- **Google Fonts**. By default, Andro is mostly built using the Arial font, however there are multiple other fonts used.
+- **Google Fonts**. By default, Andro is mostly built using the Arial font, however, there are multiple others used.
 
 <a id="browser-support"><h2>Browser support</h2></a>
 
-At the moment, we aim to support all major web browsers. Any issue in the browsers listed below should be reported as a bug:
+At the moment, we aim to support all major web browsers. Any issue in any of the browsers listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D">should be reported as a bug</a>:
 
 - Microsoft Edge 14+
 - Chrome (Current - 1) and Current versions
@@ -94,6 +93,16 @@ At the moment, we aim to support all major web browsers. Any issue in the browse
 - Opera (Current - 1) and Current versions
 
 (Current - 1) and Current means that we support the current stable version of the browser and the version that precedes it.
+
+<a id="device-support"><h2>Device support</h2></a>
+
+At the moment, we aim to support all major brands. Any issue in any of the devices listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D">should be reported as a bug</a>:
+
+- High Resolution Desktops
+- Regular Desktops and Laptops
+- Low Resolution Tablets and Smartphones
+- Majority of Smartphones
+- Modern Tablets and iPads
 
 <a id="bugs-and-requests"><h2>Bugs, feature requests and website ideas</h2></a>
 
