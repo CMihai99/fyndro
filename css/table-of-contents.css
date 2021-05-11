@@ -1,17 +1,12 @@
 /* RULES OF THUMB
 
-1) Always use SASS (or any CSS preprocessor)
-2) Write your HTML before your CSS
-3) Organize your components using the BEM model
-4) Don’t reference IDs in the CSS
-6) Avoid using !important at all costs
-7) Use bootstrap only when needed, (make sure you understand it before using it)
-8) Keep your HTML simple and readable
-9) Individual page css
-10) Atomic design
+1) Organize your components using the BEM model
+2) Avoid using !important at all costs
+3) Keep your HTML simple and readable
+4) Individual page css
+5) Atomic design
 
 */
-
 
 
 /* color palette */
@@ -23,7 +18,6 @@
   --light-gray: #858585;
   --border-radius: 7px;
 }
-
 
 
 /* table of contents menu */
@@ -50,10 +44,7 @@
 }
 
 #tableofcontents-text {
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px 20px; /* leftr, right: 12 & top, bottom: 4 */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -84,20 +75,20 @@
 }
 
 
-
 @media (min-width: 1281px) /* desktops (high-res) */ {
+  
 }
-
 
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-}
 
+}
 
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+
 }

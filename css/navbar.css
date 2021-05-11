@@ -1,17 +1,12 @@
 /* RULES OF THUMB
 
-1) Always use SASS (or any CSS preprocessor)
-2) Write your HTML before your CSS
-3) Organize your components using the BEM model
-4) Don’t reference IDs in the CSS
-6) Avoid using !important at all costs
-7) Use bootstrap only when needed, (make sure you understand it before using it)
-8) Keep your HTML simple and readable
-9) Individual page css
-10) Atomic design
+1) Organize your components using the BEM model
+2) Avoid using !important at all costs
+3) Keep your HTML simple and readable
+4) Individual page css
+5) Atomic design
 
 */
-
 
 
 /* color palette */
@@ -25,7 +20,6 @@
 }
 
 
-
 /* Andro icon */
 #nav-icon {
   width: 36px;
@@ -33,7 +27,6 @@
   margin-left: 17.5px;
   margin-top: 14.5px;
 }
-
 
 /* search bar */
 .search input {
@@ -72,7 +65,6 @@
   height: 65px;
 }
 
-
 /* dropdown menu */
 .dropdown-menu {
   margin-right: 30px;
@@ -95,6 +87,7 @@
 
 /* dropdown menu fade animation */
 @keyframes dropdownFadeIn {
+
   from {
     opacity: 0;
   }
@@ -102,6 +95,7 @@
   to {
     opacity: 1;
   }
+  
 }
 
 /* dropdown menu icons */
@@ -133,10 +127,9 @@
 }
 
 
-
 @media (min-width: 1281px) /* desktops (high-res) */ {
-}
 
+}
 
 
 @media
@@ -158,7 +151,6 @@
   }
 
 }
-
 
 
 @media

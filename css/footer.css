@@ -1,17 +1,12 @@
 /* RULES OF THUMB
 
-1) Always use SASS (or any CSS preprocessor)
-2) Write your HTML before your CSS
-3) Organize your components using the BEM model
-4) Don’t reference IDs in the CSS
-6) Avoid using !important at all costs
-7) Use bootstrap only when needed, (make sure you understand it before using it)
-8) Keep your HTML simple and readable
-9) Individual page css
-10) Atomic design
+1) Organize your components using the BEM model
+2) Avoid using !important at all costs
+3) Keep your HTML simple and readable
+4) Individual page css
+5) Atomic design
 
 */
-
 
 
 /* color palette */
@@ -21,7 +16,6 @@
 	--dark-gray: #5c5c5c;
 	--gray: #8b8b8b;
 }
-
 
 
 /* footer */
@@ -56,7 +50,6 @@ footer ul.quick-links li a:hover {
 	color: #555;
 }
 
-
 /* footer menu */
 .footer-menu-wrapper {
 	width: 100%;
@@ -77,7 +70,6 @@ footer ul.quick-links li a:hover {
 .menu-container .col-xs-12 .list-unstyled {
 	margin: 0;
 }
-
 
 /* footer menu/description divider */
 #desc-divider {
@@ -102,7 +94,6 @@ footer ul.quick-links li a:hover {
 	width: 75%;
 }
 
-
 /* footer left description */
 .footer-left-desc {
 	position: absolute;
@@ -122,7 +113,6 @@ footer ul.quick-links li a:hover {
 .footer-left-desc a:hover {
 	color: var(--dark-gray);
 }
-
 
 /* footer right description */
 .footer-right-desc {
@@ -158,20 +148,20 @@ footer ul.quick-links li a:hover {
 }
 
 
-
 @media (min-width: 1281px) /* desktops (high-res) */ {
+	
 }
-
 
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-}
 
+}
 
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+
 }

@@ -1,17 +1,36 @@
 /* RULES OF THUMB
 
-1) Always use SASS (or any CSS preprocessor)
-2) Write your HTML before your CSS
-3) Organize your components using the BEM model
-4) Don’t reference IDs in the CSS
-6) Avoid using !important at all costs
-7) Use bootstrap only when needed, (make sure you understand it before using it)
-8) Keep your HTML simple and readable
-9) Individual page css
-10) Atomic design
+1) Organize your components using the BEM model
+2) Avoid using !important at all costs
+3) Keep your HTML simple and readable
+4) Individual page css
+5) Atomic design
 
 */
 
+
+/* scrollbar */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #bdbdbd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #aaaaaa;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background: var(--light-gray);
+}
+
+/* scrollbar background */
+::-webkit-scrollbar-track {
+	background: var(--background);
+}
 
 
 /* color palette */
@@ -23,20 +42,13 @@
 	--background: #eee;
 	--border-radius: 7px;
 	--links: #337ff0;
-}
-
-
-* {
-	box-sizing: border-box;
-  	/* Firefox scrollbar */
-	scrollbar-color: auto;
 	scrollbar-width: thin;
 }
+
 
 body {
 	background-color: var(--background);
 }
-
 
 /* text */
 h1,
@@ -67,31 +79,6 @@ p {
 	color: #145dca;
 }
 
-
-
-
-/* scrollbar */
-::-webkit-scrollbar {
-	width: 10px;
-	height: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #bdbdbd;
-}
-
-::-webkit-scrollbar-thumb:hover {
-	background: #aaaaaa;
-}
-
-::-webkit-scrollbar-thumb:active {
-	background: var(--light-gray);
-}
-
-/* scrollbar background */
-::-webkit-scrollbar-track {
-	background: var(--background);
-}
 
 /* content boxes */
 .page-border {
@@ -129,24 +116,23 @@ p {
 	margin-top: 25px;
 	border-width: 0;
 	background-color: #cfcfcf;
-	margin-top: 25px;
 }
-
 
 
 @media (min-width: 1281px) /* desktops (high-res) */ {
-}
 
+}
 
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-}
 
+}
 
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+
 }
