@@ -38,19 +38,16 @@
   padding-left: 0;
   border-radius: var(--border-radius);
   width: 123px;
+  text-indent: 10px;
+  color: var(--dark-gray);
+  border: 0;
+  box-shadow: 0 0 4px #cfcfcf;
 }
 
 /* searchbar background */
 .search {
   width: 0;
   height: 0;
-}
-
-.search input {
-  text-indent: 10px;
-  color: var(--dark-gray);
-  border: 0;
-  box-shadow: 0 0 4px #cfcfcf;
 }
 
 .search input:focus,
@@ -80,22 +77,20 @@
 }
 
 .dropdown-menu li:focus,
-.active, .active:hover,
+.active,
+.active:hover,
 .active:focus {
   background-color: #e0e0e0;
 }
 
 /* dropdown menu fade animation */
 @keyframes dropdownFadeIn {
-
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
-  
 }
 
 /* dropdown menu icons */
@@ -113,7 +108,8 @@
   font-size: 5px;
 }
 
-.menu-icons:hover, .menu-icons:hover::after {
+.menu-icons:hover,
+.menu-icons:hover::after {
   filter: invert(55%) sepia(0%) saturate(765%) hue-rotate(222deg) brightness(96%) contrast(81%) !important;
 }
 
@@ -128,14 +124,12 @@
 
 
 @media (min-width: 1281px) /* desktops (high-res) */ {
-
 }
 
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-
   /* search bar */
   .search input {
     width: 98px;
@@ -149,17 +143,14 @@
     margin-right: 33px;
     padding: 0;
   }
-
 }
 
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
-
   /* dropdown menu icons */
   #dropdown-icons {
     margin-top: 22.5px;
   }
-
 }

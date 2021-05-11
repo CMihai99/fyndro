@@ -36,6 +36,59 @@ footer h2 {
 	margin-bottom: 14px;
 }
 
+/* footer left description */
+.footer-left-desc {
+	position: absolute;
+	left: 15.4%;
+}
+
+.footer-left-desc p {
+	color: var(--gray);
+	font-size: 1.25rem;
+}
+
+.footer-left-desc a {
+	text-decoration: none;
+	color: var(--gray);
+}
+
+.footer-left-desc a:hover {
+	color: var(--dark-gray);
+}
+
+/* footer right description */
+.footer-right-desc {
+	position: absolute;
+	right: 0;
+	margin-right: 109px;
+	font-size: 1.25rem;
+}
+
+.footer-right-desc ul li {
+	list-style: none;
+	float: left;
+}
+
+.footer-right-desc a {
+	text-decoration: none;
+	color: var(--gray);
+}
+
+.footer-left-desc,
+.footer-right-desc {
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#privacy:hover,
+#terms:hover {
+	color: var(--dark-gray);
+	cursor: pointer;
+	text-decoration: none;
+}
+
 footer ul.quick-links li {
 	padding: 4px 0;
 }
@@ -94,74 +147,18 @@ footer ul.quick-links li a:hover {
 	width: 75%;
 }
 
-/* footer left description */
-.footer-left-desc {
-	position: absolute;
-	left: 15.4%;
-}
-
-.footer-left-desc p {
-	color: var(--gray);
-	font-size: 1.25rem;
-}
-
-.footer-left-desc a {
-	text-decoration: none;
-	color: var(--gray);
-}
-
-.footer-left-desc a:hover {
-	color: var(--dark-gray);
-}
-
-/* footer right description */
-.footer-right-desc {
-	position: absolute;
-	right: 0;
-	margin-right: 109px;
-	font-size: 1.25rem;
-}
-
-.footer-right-desc ul li {
-	list-style: none;
-	float: left;
-}
-
-.footer-right-desc a {
-	text-decoration: none;
-	color: var(--gray);
-}
-
-.footer-left-desc,
-.footer-right-desc {
-	height: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#privacy:hover,
-#terms:hover {
-	color: var(--dark-gray);
-	cursor: pointer;
-	text-decoration: none;
-}
-
 
 @media (min-width: 1281px) /* desktops (high-res) */ {
-	
 }
 
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-
 }
 
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
-
 }

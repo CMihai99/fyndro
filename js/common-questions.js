@@ -3,7 +3,7 @@ var ButtonExpand = function(domNode) {
   this.domNode = domNode;
 
   this.keyCode = Object.freeze({
-      'RETURN': 13
+      "RETURN": 13
   });
 };
 
@@ -11,26 +11,26 @@ ButtonExpand.prototype.init = function() {
 
   this.controlledNode = false;
 
-  var id = this.domNode.getAttribute('aria-controls');
+  var id = this.domNode.getAttribute("aria-controls");
 
   if (id) {
       this.controlledNode = document.getElementById(id);
   }
 
-  this.domNode.setAttribute('aria-expanded', 'false');
+  this.domNode.setAttribute("aria-expanded", "false");
   this.hideContent();
 
-  this.domNode.addEventListener('keydown', this.handiveKeydown.bind(this));
-  this.domNode.addEventListener('click', this.handiveClick.bind(this));
-  this.domNode.addEventListener('focus', this.handiveFocus.bind(this));
-  this.domNode.addEventListener('blur', this.handiveBlur.bind(this));
+  this.domNode.addEventListener("keydown", this.handiveKeydown.bind(this));
+  this.domNode.addEventListener("click", this.handiveClick.bind(this));
+  this.domNode.addEventListener("focus", this.handiveFocus.bind(this));
+  this.domNode.addEventListener("blur", this.handiveBlur.bind(this));
 
 };
 
 ButtonExpand.prototype.showContent = function() {
 
   if (this.controlledNode) {
-      this.controlledNode.style.display = 'block';
+      this.controlledNode.style.display = "block";
   }
 
 };
@@ -38,26 +38,24 @@ ButtonExpand.prototype.showContent = function() {
 ButtonExpand.prototype.hideContent = function() {
 
   if (this.controlledNode) {
-      this.controlledNode.style.display = 'none';
+      this.controlledNode.style.display = "none";
   }
 
 };
 
 ButtonExpand.prototype.toggleExpand = function() {
 
-  if (this.domNode.getAttribute('aria-expanded') === 'true') {
-      this.domNode.setAttribute('aria-expanded', 'false');
+  if (this.domNode.getAttribute("aria-expanded") === "true") {
+      this.domNode.setAttribute("aria-expanded", "false");
       this.hideContent();
   } else {
-      this.domNode.setAttribute('aria-expanded', 'true');
+      this.domNode.setAttribute("aria-expanded", "true");
       this.showContent();
   }
 
 };
 
 ButtonExpand.prototype.handiveKeydown = function(event) {
-
-  console.log('[keydown]');
 
   switch (event.keyCode) {
 
@@ -80,17 +78,17 @@ ButtonExpand.prototype.handiveClick = function(event) {
 };
 
 ButtonExpand.prototype.handiveFocus = function(event) {
-  this.domNode.classList.add('focus');
+  this.domNode.classList.add("focus");
 };
 
 ButtonExpand.prototype.handiveBlur = function(event) {
-  this.domNode.classList.remove('focus');
+  this.domNode.classList.remove("focus");
 };
 
-window.addEventListener('load', function(event) {
+window.addEventListener("load", function(event) {
 
   var buttons = document.querySelectorAll(
-      'button[aria-expanded][aria-controls]');
+      "button[aria-expanded][aria-controls]");
 
   for (var i = 0; i < buttons.length; i++) {
       var be = new ButtonExpand(buttons[i]);

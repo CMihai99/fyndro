@@ -76,19 +76,16 @@
 
 
 @media (min-width: 1281px) /* desktops (high-res) */ {
-  
 }
 
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-
 }
 
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
-
 }
