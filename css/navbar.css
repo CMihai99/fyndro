@@ -26,323 +26,148 @@
 
 
 
-/* Phones and handhelds */
-
-/* Google Pixel XL (and up) and Galaxy S6 (and up) */
-
-/* Portrait */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 4)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 4)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* iPhone 6, 6S, 7 and 8 */
-
-/* Portrait */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* iPhone 6+, 7+ and 8+ */
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* iPhone X (and up) */
-
-/* Portrait */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* Tablets */
-
-/* Galaxy Tab S */
-
-/* Portrait */
-@media
-  (max-device-width: 800px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media
-  (max-device-width: 1280px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* iPad Pro 10.5" */
-
-/* Portrait */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 834px)
-  and (max-device-width: 834px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 1112px)
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-
-
-}
-
-/* iPad Pro 12.9" */
-
-/* Portrait */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 1366px)
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* Laptops */
-
-/* Non-Retina Screens */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-
-
-}
-
-/* Retina Screens */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-
-
-
-}
-
-
-
 /* Andro icon */
 #nav-icon {
-	width: 36px;
-	height: 36px;
-	margin-left: 17.5px;
-	margin-top: 14.5px;
+  width: 36px;
+  height: 36px;
+  margin-left: 17.5px;
+  margin-top: 14.5px;
 }
 
 
 /* search bar */
 .search input {
-	height: 30px;
-	text-indent: 25px;
-	border: 1.5px solid #b5b5b5;
-	margin-top: -33px;
-	margin-left: 61px;
-	padding-left: 0;
-	border-radius: var(--border-radius);
-	width: 123px;
+  height: 30px;
+  text-indent: 25px;
+  border: 1.5px solid #b5b5b5;
+  margin-top: -33px;
+  margin-left: 61px;
+  padding-left: 0;
+  border-radius: var(--border-radius);
+  width: 123px;
 }
 
 /* searchbar background */
 .search {
-	width: 0;
-	height: 0;
+  width: 0;
+  height: 0;
 }
 
 .search input {
-	text-indent: 10px;
-	color: var(--dark-gray);
-	border: 0;
-	box-shadow: 0 0 4px #cfcfcf;
+  text-indent: 10px;
+  color: var(--dark-gray);
+  border: 0;
+  box-shadow: 0 0 4px #cfcfcf;
 }
 
 .search input:focus,
 .search input:active {
-	border: 0;
-	box-shadow: 0 0 4px var(--links);
+  border: 0;
+  box-shadow: 0 0 4px var(--links);
 }
 
 /* navbar */
 .navbar {
-	background-color: var(--white);
-	height: 65px;
+  background-color: var(--white);
+  height: 65px;
 }
 
 
 /* dropdown menu */
 .dropdown-menu {
-	margin-right: 30px;
-	display: none;
-	background-color: var(--white);
-	box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
-	animation: dropdownFadeIn 0.3s ease-in-out;
+  margin-right: 30px;
+  display: none;
+  background-color: var(--white);
+  box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
+  animation: dropdownFadeIn 0.3s ease-in-out;
 }
 
 .dropdown-menu li:hover,
 #menu-text:hover {
-	background-color: var(--background);
+  background-color: var(--background);
 }
 
 .dropdown-menu li:focus,
 .active, .active:hover,
 .active:focus {
-	background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
 
 /* dropdown menu fade animation */
 @keyframes dropdownFadeIn {
-	from {
-		opacity: 0;
-	}
+  from {
+    opacity: 0;
+  }
 
-	to {
-		opacity: 1;
-	}
+  to {
+    opacity: 1;
+  }
 }
 
 /* dropdown menu icons */
 #dropdown-icons {
-	margin-top: 23px;
-	margin-right: 33px;
-	background-color: var(--white);
-	padding: 0;
+  margin-top: 23px;
+  margin-right: 33px;
+  background-color: var(--white);
+  padding: 0;
 }
 
 /* menu icons */
 .menu-icons {
-	color: var(--black) !important;
-	transition: 0.3s filter;
-	font-size: 5px;
+  color: var(--black) !important;
+  transition: 0.3s filter;
+  font-size: 5px;
 }
 
 .menu-icons:hover, .menu-icons:hover::after {
-	filter: invert(55%) sepia(0%) saturate(765%) hue-rotate(222deg) brightness(96%) contrast(81%) !important;
+  filter: invert(55%) sepia(0%) saturate(765%) hue-rotate(222deg) brightness(96%) contrast(81%) !important;
 }
 
 /* dropdown menu links */
 #menu-text:focus {
-	background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 #menu-text {
-	color: var(--dark-gray);
+  color: var(--dark-gray);
+}
+
+
+
+@media (min-width: 1281px) /* desktops (high-res) */ {
+}
+
+
+
+@media
+(min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
+(min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
+
+  /* search bar */
+  .search input {
+    width: 98px;
+  }
+  
+  /* dropdown menu icons */
+  #dropdown-icons {
+    width: 30px;
+    float: right;
+    margin-top: -3px;
+    margin-right: 33px;
+    padding: 0;
+  }
+
+}
+
+
+
+@media
+(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+
+  /* dropdown menu icons */
+  #dropdown-icons {
+    margin-top: 22.5px;
+  }
+
 }

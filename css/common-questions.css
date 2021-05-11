@@ -21,221 +21,6 @@
 
 
 
-/* Phones and handhelds */
-
-/* Google Pixel XL (and up) and Galaxy S6 (and up) */
-
-/* Portrait */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 4)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 4)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* iPhone 6, 6S, 7 and 8 */
-
-/* Portrait */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* iPhone 6+, 7+ and 8+ */
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* iPhone X (and up) */
-
-/* Portrait */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* Tablets */
-
-/* Galaxy Tab S */
-
-/* Portrait */
-@media
-  (max-device-width: 800px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-@media
-  (max-device-width: 1280px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* iPad Pro 10.5" */
-
-/* Portrait */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 834px)
-  and (max-device-width: 834px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 1112px)
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-
-
-}
-
-/* iPad Pro 12.9" */
-
-/* Portrait */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-
-}
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 1366px)
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-
-
-}
-
-
-
-/* Laptops */
-
-/* Non-Retina Screens */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-
-
-}
-
-/* Retina Screens */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-
-
-
-}
-
-
-
 /* common questions */
 .question {
 	border: none;
@@ -255,4 +40,23 @@
 	position: absolute;
 	z-index: 0;
 	margin-top: -23px;
+}
+
+
+
+@media (min-width: 1281px) /* desktops (high-res) */ {
+}
+
+
+
+@media
+(min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
+(min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
+}
+
+
+
+@media
+(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
 }
