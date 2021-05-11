@@ -2,6 +2,8 @@
 
 We try and make it fast and intuitive when you are in need of a tool or service. All you have to do is visit our website and search for what you need. Simple as that.
 
+For more information, <a href="" target="_blank">visit our FAQ page</a>.
+
 ## Table of contents
 
 - [Andro](#andro)
@@ -18,7 +20,7 @@ We try and make it fast and intuitive when you are in need of a tool or service.
 
 <a id="whats-included"><h2>What's included?</h2></a>
 
-Within the download archive you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+Within the download archive you'll find the following directories and files, logically grouping common assets:
 
 ```
 andro/
@@ -59,7 +61,6 @@ andro/
 │   ├── list-ul.svg
 │   └── list.svg
 │
-│
 ├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
@@ -75,17 +76,17 @@ andro/
 └── terms.html
 ```
 
-In the `Documentation` folder there is the documentation available in 12 languages.
-
 <a id="dependencies"><h2>Dependencies</h2></a>
 
 - **Bootstrap**. Andro is built on the Bootstrap 5 library and fully supports it.
 
-- **Google Fonts**. By default, Andro is mostly built using the Arial font, however, there are multiple others used.
+- **JQuery 3.5.1**. Andro uses JQuery for additional Bootstrap 5 functionality.
+
+- **Google Fonts**. Andro is mostly built using the Arial font, however, there are a handful of others used in the process.
 
 <a id="browser-support"><h2>Browser support</h2></a>
 
-At the moment, we aim to support all major web browsers. Any issue in any of the browsers listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D">should be reported as a bug</a>:
+At the moment, we aim to support all major web browsers. Any issue in any of the browsers listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">should be reported as a bug</a>:
 
 - Microsoft Edge 14+
 - Chrome (Current - 1) and Current versions
@@ -96,7 +97,7 @@ At the moment, we aim to support all major web browsers. Any issue in any of the
 
 <a id="device-support"><h2>Device support</h2></a>
 
-At the moment, we aim to support all major brands. Any issue in any of the devices listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D">should be reported as a bug</a>:
+At the moment, we aim to support all major devices. Any issue in any of the device types listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">should be reported as a bug</a>:
 
 - High Resolution Desktops
 - Regular Desktops and Laptops
@@ -106,7 +107,7 @@ At the moment, we aim to support all major brands. Any issue in any of the devic
 
 <a id="bugs-and-requests"><h2>Bugs, feature requests and website ideas</h2></a>
 
-Found a bug you want to report? Have a feature you want to request? Got a website idea for us to publish? First, search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/CMihai99/andro/issues/new/choose).
+Found a bug you want to report? Have a feature you want to request? Got a website idea for us to publish? First, search for existing and closed issues. If your problem or idea is not addressed yet, [open a new issue](https://github.com/CMihai99/andro/issues/new/choose).
 
 <a id="contributing"><h2>Contributing</h2></a>
 
