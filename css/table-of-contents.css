@@ -2,80 +2,78 @@
 
 1) Organize your components using the BEM model
 2) Avoid using !important at all costs
-3) Keep your HTML simple and readable
-4) Individual page css
-5) Atomic design
+3) Atomic design
 
 */
 
 
-/* color palette */
+/* quick access */
 :root {
-  --white: #fff;
-  --washed-white: #dbdbdb;
-  --dark-gray: #5c5c5c;
-  --gray: #8b8b8b;
-  --light-gray: #858585;
+  --divider: #dbdbdb;
+  --text: #5c5c5c;
   --border-radius: 7px;
 }
 
-
-/* table of contents menu */
-#tableofcontents-menu {
-  padding: 6.5px;
-  height: auto;
-  width: auto;
-  max-height: 351px;
-  max-width: 275px;
-  z-index: 1;
-  overflow-y: scroll;
+#toc {
+  list-style-type: none;
 }
 
-/* table of contents icon */
-#tableofcontents-icon {
+#toc-toggle {
+  margin-left: 2.5px;
+  cursor: pointer;
+}
+
+#toc-icon {
   height: 32px;
   padding: 7.5px;
-  border-radius: var(--border-radius);
 }
 
-/* table of contents items */
-#tableofcontents-menu li {
-  border-radius: var(--border-radius);
+#toc-icon:active {
+  background-color: var(--divider);
 }
 
-#tableofcontents-text {
-  padding: 4px 20px; /* leftr, right: 12 & top, bottom: 4 */
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  border-radius: var(--border-radius);
-  color: var(--dark-gray);
-}
-
-/* table of contents sub-items */
-#tableofcontents-text-child {
-  text-indent: 18px;
-  border-radius: var(--border-radius);
-  color: var(--dark-gray);
-}
-
-#tableofcontents-text:active {
-  background-color: var(--washed-white);
-}
-
-#tableofcontents-icon:hover,
-#tableofcontents-icon:focus,
-#tableofcontents-text:focus,
-#tableofcontents-text-child:focus {
+#toc-icon:hover,
+#toc-icon:focus,
+#toc-text:focus,
+#toc-text-child:focus {
   background-color: #ececec;
 }
 
-#tableofcontents-icon:active {
-  background-color: var(--washed-white);
+#toc-menu {
+  padding: 5px;
+  height: auto;
+  width: auto;
+  max-height: 350px;
+  border-radius: 7px;
+  margin-top: -15px;
+  margin-left: 3px;
+  overflow-y: scroll;
 }
 
+#toc-text {
+  padding: 4px 20px; /* top and bottom, left and right */
+  color: var(--text);
+}
 
-@media (min-width: 1281px) /* desktops (high-res) */ {
+#toc-text:active {
+  background-color: var(--divider);
+}
+
+#toc-text-child {
+  text-indent: 18px;
+  color: var(--text);
+}
+
+#toc-icon,
+#toc-menu li,
+#toc-text,
+#toc-text-child {
+  border-radius: var(--border-radius);
+}
+
+#toc-title {
+	margin-top: -34px;
+	margin-left: 44px;
 }
 
 

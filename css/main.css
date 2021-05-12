@@ -2,55 +2,49 @@
 
 1) Organize your components using the BEM model
 2) Avoid using !important at all costs
-3) Keep your HTML simple and readable
-4) Individual page css
-5) Atomic design
+3) Atomic design
 
 */
 
 
-/* scrollbar */
 ::-webkit-scrollbar {
-	width: 10px;
-	height: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #bdbdbd;
+  background: #bdbdbd;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #aaa;
+  background: #aaa;
 }
 
 ::-webkit-scrollbar-thumb:active {
-	background: var(--light-gray);
+  background: var(--light-gray);
 }
 
 /* scrollbar background */
 ::-webkit-scrollbar-track {
-	background: var(--background);
+  background: var(--body-background);
 }
 
-
-/* color palette */
+/* quick access */
 :root {
-	--white: #fff;
-	--washed-white: #dbdbdb;
-	--dark-gray: #5c5c5c;
-	--light-gray: #858585;
-	--background: #eee;
-	--border-radius: 7px;
-	--links: #337ff0;
-	scrollbar-width: thin;
+  --background: #fff;
+  --divider: #dbdbdb;
+  --text: #5c5c5c;
+  --light-gray: #858585;
+  --body-background: #eee;
+  --border-radius: 7px;
+  --links: #337ff0;
+  scrollbar-width: thin;
 }
-
 
 body {
-	background-color: var(--background);
+  background-color: var(--body-background);
 }
 
-/* text */
 h1,
 h2,
 h3,
@@ -59,67 +53,52 @@ h5,
 h6,
 li,
 p {
-	color: var(--dark-gray);
-	font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* anchor tags */
-#links,
-#links:hover {
-	color: var(--links);
+#links {
+  color: var(--links);
+  text-decoration: none;
 }
 
+#links:hover,
 #links:active,
 #links:focus {
-	text-decoration: none;
+  color: #3277df;
 }
 
 #links:visited {
-	color: #145dca;
+  color: #145dca;
 }
 
-
-/* content boxes */
 .page-border {
-	margin-left: 50px;
-	margin-right: 389px;
-	margin-top: 109px;
-	border-radius: var(--border-radius);
-	border: 1.5px solid var(--white);
-	background-color: var(--white);
+  margin: 115px 50px 50px; /* top, right and left, bottom */
+  background-color: var(--background);
+  border-radius: var(--border-radius);
+  border: none;
 }
 
 .content-border {
-	padding: 55px;
-	margin-top: -25px;
-	margin-bottom: -10px;
+  padding: 40px;
 }
 
-
-/* last updated text */
 #last-updated {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-
-/* title sticky navbar */
 .title-nav {
-	position: sticky;
-	top: 65px;
-	background-color: var(--white);
-	box-shadow: 0 8px 6px -8px var(--washed-white);
+  position: sticky;
+  top: 65px;
+  background-color: var(--background);
+  box-shadow: 0 8px 6px -8px var(--divider);
 }
 
 .title-nav hr {
-	height: 0.75px;
-	margin-top: 25px;
-	border-width: 0;
-	background-color: #cfcfcf;
-}
-
-
-@media (min-width: 1281px) /* desktops (high-res) */ {
+  height: 0.75px;
+  margin-top: 25px;
+  border: 0;
+  background-color: var(--divider);
 }
 
 

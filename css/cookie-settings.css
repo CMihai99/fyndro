@@ -9,26 +9,14 @@
 
 /* quick access */
 :root {
+  --background: #fff;
+  --divider: #dbdbdb;
   --text: #5c5c5c;
+  --gray: #8b8b8b;
 }
 
-/* common questions */
-.question {
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  display: block;
-}
-
-.answer {
-  padding-left: 20px;
-}
-
-.question .caret {
-  color: var(--text) !important;
-  position: absolute;
-  z-index: 0;
-  margin-top: -22.5px;
+#cookie-settings {
+  cursor: pointer;
 }
 
 

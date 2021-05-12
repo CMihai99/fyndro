@@ -3,18 +3,17 @@
 
 <head>
 
-  <!-- Search Engines -->
   <meta charset="UTF-8">
   <meta name="title" content="Andro: Find new websites quickly and easily - Help">
   <meta name="description"
-    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
+    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please Contact Us.">
 
   <!-- Open Graph/Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://cmihai99.github.io/andro/help.html">
   <meta property="og:title" content="Andro: Find new websites quickly and easily - Help">
   <meta property="og:description"
-    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
+    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please Contact Us.">
   <meta property="og:image" content="">
 
   <!-- Twitter -->
@@ -22,7 +21,7 @@
   <meta property="twitter:url" content="http://cmihai99.github.io/andro/help.html">
   <meta property="twitter:title" content="Andro: Find new websites quickly and easily - Help">
   <meta property="twitter:description"
-    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please contact us.">
+    content="Need help? Common questions we encounter are below to help solve your encountered problem. For more information, please Contact Us.">
   <meta property="twitter:image" content="">
 
   <!-- Dependencies -->
@@ -32,9 +31,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 
-  <!-- JS -->
-  <script src="js/main.js"></script>
-  <script src="js/common-questions.js"></script>
+  <!-- TS -->
+  <script src="ts/commonQuestions.ts"></script>
+  <script src="ts/cookieSettings.ts"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
@@ -42,11 +41,11 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/table-of-contents.css">
   <link rel="stylesheet" href="css/common-questions.css">
+  <link rel="stylesheet" href="css/cookie-settings.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 
-  <!-- Tab Info -->
   <link rel="icon" href="resources/icon.svg">
   <title>Andro: Find new websites quickly and easily - Help</title>
 
@@ -55,110 +54,93 @@
 
 <body>
 
-  <!-- Navbar -->
   <nav class="navbar navbar-fixed-top">
 
     <div class="container-fluid">
 
       <div class="navbar-header">
-
-        <!-- Navbar icon -->
         <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="nav-icon"></a>
 
-        <!-- Search bar -->
-        <div>
-          <div>
-
-            <div class="col-md-8">
-              <div class="search">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-            </div>
-
-          </div>
-        </div>
-
+        <input class="form-control" type="text" placeholder="Search">
       </div>
 
       <ul class="nav navbar-nav navbar-right">
+        <li>
 
-        <!-- Menu icons -->
-        <li class="dropdown">
-          <a class="dropdown-toggle" id="dropdown-icons" data-toggle="dropdown" href="#">
-            <div class="menu-icons">
-              <img src="resources/list.svg" id="list-icon">
+          <a id="dropdown-toggle" data-toggle="dropdown">
+            <div class="dropdown-toggle-icons">
+              <img src="resources/dropdown-icon.svg">
               <span class="caret"></span>
             </div>
           </a>
 
-          <!-- Dropdown-menu -->
-          <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 10px">
+          <ul class="dropdown-menu" id="dropdown-menu-bg">
 
-            <li><a id="menu-text" title="Request a website for us to add" target="_blank"
-                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title=">Request
-                a Website</a></li>
-            <li><a id="menu-text" title="Report a bug for us to fix" target="_blank"
-                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D">Report
-                a Bug</a></li>
-            <li><a id="menu-text" title="Request a feature for us to improve" target="_blank"
-                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=feature_request.md&title=">Request
-                a Feature</a></li>
-            <li><a href="help.html" id="menu-text" title="Need help?">Get Help</a></li>
+            <li><a href="about.html" id="menu-text-bg">About</a><li>
+            <li><a href="legal.html" id="menu-text-bg">Legal</a><li>
+            <li><a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20Contact Using%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+              id="menu-text-bg">Contact Us</a></li>
 
             <li class="divider"></li>
 
-            <li><a href="categories.html" id="menu-text" title="Explore categories">Explore</a>
-            <li>
-            <li><a
-                href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
-                target="_blank" id="menu-text" title="Contact us for any queries">Contact Us</a></li>
-            <li><a href="about.html" id="menu-text" title="Learn more about Andro">About Us</a></li>
-            <li><a href="contributing.html" id="menu-text" title="Learn how you can contribute">Contribute</a></li>
+            <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=website&template=website_request.md&title=%5BWebsite%5D"
+              id="menu-text-bg" target="_blank" title="Request a website for us to add">Request a Website</a></li>
+            <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
+              id="menu-text-bg" target="_blank" title="Report a bug for us to fix">Report a Bug</a></li>
+            <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D"
+              id="menu-text-bg" target="_blank" title="Request a feature for us to improve">Request a Feature</a></li>
+
+            <li class="divider"></li>
+
+            <li><a href="index.html" id="menu-text-bg">Explore</a><li>
+            <li><a href="categories.html" id="menu-text-bg">Categories</a><li>
+            <li><a href="contributing.html" id="menu-text-bg">Contributing</a></li>
+            <li><a href="help.html" id="menu-text-bg">Help</a></li>
 
           </ul>
-        </li>
 
+        </li>
       </ul>
 
     </div>
   </nav>
 
-
-  <!-- Borders -->
-  <div class="page-border" style="margin-right: 50px">
+  <div class="page-border">
     <div class="content-border">
 
       <div class="title-nav">
-        <hr>
+      <hr>
 
-        <!-- Table of contents -->
-        <li class="dropdown" style="list-style-type: none">
-          <a class="dropdown-toggle" style="margin-left: 2.5px" data-toggle="dropdown" href="#"><img
-              src="resources/list-ul.svg" id="tableofcontents-icon"></a>
-          <ul class="dropdown-menu" style="border-radius: 7px; margin-top: 4.5px; margin-left: 2.5px; width: 232.5px"
-            id="tableofcontents-menu">
-            <li><a href="#common-questions" id="tableofcontents-text">Common Questions</a></li>
-            <li><a href="#introduction" id="tableofcontents-text-child">What is Andro?</a></li>
-            <li><a href="#supported-browsers" id="tableofcontents-text-child">Which browsers do you support?</a></li>
-            <li><a href="#compatible-devices" id="tableofcontents-text-child">What are the compatible devices?</a></li>
-            <li><a href="#software-type" id="tableofcontents-text-child">Is this software open-source?</a></li>
-            <li><a href="#license" id="tableofcontents-text-child">What license do you use?</a></li>
-            <li><a href="#whats-next" id="tableofcontents-text-child">What's next?</a></li>
-            <li><a href="#contributing" id="tableofcontents-text-child">How can I contribute?</a></li>
+        <li id="toc">
+          
+          <a id="toc-toggle" data-toggle="dropdown">
+            <img src="resources/toc-icon.svg" id="toc-icon">
+          </a>
+
+          <ul class="dropdown-menu" id="toc-menu">
+            <li><a href="#common-questions" id="toc-text">Common Questions</a></li>
+            <li><a href="#introduction" id="toc-text-child">What is Andro?</a></li>
+            <li><a href="#supported-browsers" id="toc-text-child">Which browsers do you support?</a></li>
+            <li><a href="#compatible-devices" id="toc-text-child">What are the compatible devices?</a></li>
+            <li><a href="#software-type" id="toc-text-child">Is this software open-source?</a></li>
+            <li><a href="#license" id="toc-text-child">What license do you use?</a></li>
+            <li><a href="#whats-next" id="toc-text-child">What's next?</a></li>
+            <li><a href="#contributing" id="toc-text-child">How can I contribute?</a></li>
           </ul>
+
         </li>
 
-        <h2 style="margin-top: -34px; margin-left: 44px">Help</h2>
+        <h2 id="toc-title">Help</h2>
 
-        <hr>
+      <hr>
       </div>
 
-      <!-- Webpage content -->
+
       <h3></h3>
       <p>Need help? We've got you covered.</p>
       <p>For more information, <a
-          href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
-          target="_blank" id="links">contact us</a>.</p>
+          href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20Contact Using%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+          target="_blank" id="links">Contact Us</a>.</p>
 
       <h3 id="common-questions">Common Questions</h3>
       <h3></h3>
@@ -293,7 +275,7 @@
       <!-- Answer 5 -->
       <dd>
         <p id="answer-5" class="answer">
-          Andro is released under the MIT License. You can learn more about it
+          Andro is released under the MIT License. You can learn more About it
           <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank" id="links">here</a>.
         </p>
       </dd>
@@ -315,7 +297,7 @@
         <p id="answer-6" class="answer">
           We plan on adding more features along the way, as well as new websites and continue
           evolving Andro through with the help of your contributions. To learn more
-          about how you can contribute, <a href="contributing.html" id="links">visit this page</a>.
+          About how you can contribute, <a href="contributing.html" id="links">visit this page</a>.
         </p>
       </dd>
 
@@ -345,8 +327,8 @@
             target="_blank" id="links">improving the codebase</a>,
           <a href="" target="_blank" id="links">adding new website entries</a>,
           and so on. To learn more, please <a
-            href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
-            target="_blank" id="links" title="Contact us for any queries">contact us</a>,
+            href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20Contact Using%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+            target="_blank" id="links" title="Contact Us for any queries">Contact Us</a>,
           or <a href="contributing.html" id="links">visit our Contributing page</a> for more in-depth information.
         </p>
       </dd>
@@ -354,87 +336,70 @@
     </div>
   </div>
 
-
-  <footer>
-
-    <!-- Menu -->
-    <div class="footer-menu-wrapper">
-      <div class="menu-container">
-
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <h2>Support</h2>
-          <ul class="list-unstyled quick-links">
-            <li><a href="https://twitter.com/androteamfaq" target="_blank" title="Follow us on Twitter">Twitter</a></li>
-            <li><a href="https://www.instagram.com/androteamfaq/" target="_blank"
-                title="Follow us on Instagram">Instagram</a></li>
-            <li><a href="https://github.com/CMihai99/andro" target="_blank"
-                title="Give the project a star on GitHub">Star on GitHub</a></li>
-            <li><a href="https://opencollective.com/andro-team" target="_blank" title="Donate on OpenCollective">Open
-                Collective</a></li>
-          </ul>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 col-md-4" style="margin-left: -2.5%">
-          <h2>Andro</h2>
-          <ul class="list-unstyled quick-links">
-            <li><a
-                href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
-                target="_blank" title="Contact us for any queries">Contact Us</a></li>
-            <li><a href="about.html" title="Learn more about Andro">About Us</a></li>
-            <li><a href="contributing.html" title="Learn how you can contribute">Contribute</a></li>
-            <li><a href="categories.html" title="Explore categories">Explore</a></li>
-          </ul>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 col-md-4" style="margin-left: -2.5%">
-          <h2>Feedback</h2>
-          <ul class="list-unstyled quick-links">
-            <li><a
-                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=website_request.md&title="
-                title="Request a website for us to add" target="_blank">Request a Website</a></li>
-            <li><a
-                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D"
-                title="Report a bug for us to fix" target="_blank">Report a Bug</a></li>
-            <li><a
-                href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=&template=feature_request.md&title="
-                title="Request a feature for us to improve" target="_blank">Request a Feature</a></li>
-            <li><a href="help.html" title="Need help?">Get Help</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-    <hr id="desc-divider">
-
-    <!-- Description -->
-    <div class="footer-desc-wrapper">
-      <div class="desc-container">
-
-        <div class="footer-left-desc">
-          <p>
-            Made with <img src="resources/heart-solid.svg" title="love"
-              style="height: 14px; margin-top: -2px; filter: invert(63%) sepia(0%) saturate(1006%) hue-rotate(251deg) brightness(88%) contrast(80%)">
-            in <a id="description-location" target="_blank" title="our location"
-              href="https://www.google.com/maps/place/Dragomire%C8%99ti-Vale/@44.4754276,25.9174561,14z/data=!3m1!4b1!4m5!3m4!1s0x40b206edc6b95395:0x705882d43cbacae3!8m2!3d44.4764792!4d25.9345222">Dragomiresti-Vale,
-              RO</a>.
-          </p>
-        </div>
-
-        <div class="footer-right-desc">
-          <ul>
-            <li id="trademark">© Andro, Inc.</li>
-            <li><a href="terms.html" title="Our terms and regulations" id="terms"
-                style="padding-left: 25px; padding-right: 15px;">Terms</a></li>
-            <li><a href="privacy.html" title="Learn more about your privacy" id="privacy">Privacy</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-  </footer>
-
 </body>
+
+<footer>
+
+  <div class="footer-menu-container">
+
+    <div class="footer-menu-category" style="margin-left: 135px">
+      <h2 id="menu-category-title">andro</h2>
+      
+      <ul class="list-unstyled quick-links">
+        <li><a href="index.html">Explore</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="contributing.html">Contributing</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-menu-category">
+      <h2 id="menu-category-title">company</h2>
+
+      <ul class="list-unstyled quick-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-use.html">Terms of Use</a></li>
+        <li><a href="code-of-conduct.html">Code of Conduct</a></li>
+        <li><a id="cookie-settings" onclick="cookieSettings()">Cookie Settings</a></li>
+        <li><a href="cookie.policy.html">Cookie Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-menu-category">
+      <h2 id="menu-category-title">feedback</h2>
+
+      <ul class="list-unstyled quick-links">
+        <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=website&template=website_request.md&title=%5BWebsite%5D"
+          target="_blank">Request a Website</a></li>
+        <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D"
+          target="_blank">Request a Feature</a></li>
+        <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
+        target="_blank">Report a Bug</a></li>
+        <li><a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20Contact Using%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D">
+          Contact Us</a></li>
+        <li><a href="help.html">Help</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-menu-category" style="margin-top: -36.5px">
+      <h2 id="menu-category-title" style="opacity: 0"> </h2> <!-- ! Whitespaces are necesarry ! -->
+
+      <ul class="list-unstyled quick-links">
+        <li id="socials">
+          <a href="https://twitter.com/androteamfaq" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com/androteamfaq/" target="_blank">Instagram</a>
+          <a href="https://github.com/CMihai99/andro" target="_blank">GitHub</a>
+          <a href="https://opencollective.com/andro-team" target="_blank">OpenCollective</a>
+        </li>
+
+        <li><a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="footer-icon"></a></li>
+
+        <li style="padding-top: 6px">© 2021 Andro, Inc.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</footer>
 
 </html>

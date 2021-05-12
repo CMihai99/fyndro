@@ -2,90 +2,84 @@
 
 1) Organize your components using the BEM model
 2) Avoid using !important at all costs
-3) Keep your HTML simple and readable
-4) Individual page css
-5) Atomic design
+3) Atomic design
 
 */
 
 
-/* color palette */
+/* quick access */
 :root {
-	--white: #fff;
+	--background: #fff;
 	--black: #000;
-	--dark-gray: #5c5c5c;
-	--background: #eee;
+	--text: #5c5c5c;
 	--border-radius: 7px;
 	--links: #337ff0;
 }
 
-
-/* Andro icon */
-#nav-icon {
-  width: 36px;
-  height: 36px;
-  margin-left: 17.5px;
-  margin-top: 14.5px;
+.container-fluid {
+  padding: 0;
 }
 
-/* search bar */
-.search input {
-  height: 30px;
-  text-indent: 25px;
-  border: 1.5px solid #b5b5b5;
-  margin-top: -33px;
-  margin-left: 61px;
-  padding-left: 0;
-  border-radius: var(--border-radius);
-  width: 123px;
-  text-indent: 10px;
-  color: var(--dark-gray);
-  border: 0;
-  box-shadow: 0 0 4px #cfcfcf;
-}
-
-/* searchbar background */
-.search {
-  width: 0;
-  height: 0;
-}
-
-.search input:focus,
-.search input:active {
-  border: 0;
-  box-shadow: 0 0 4px var(--links);
-}
-
-/* navbar */
 .navbar {
-  background-color: var(--white);
+  background-color: var(--background);
   height: 65px;
 }
 
-/* dropdown menu */
+#nav-icon {
+  width: 36px;
+  height: 36px;
+  margin: 14.5px 0 0 50px; /* top, right, bottom, left */
+}
+
+.form-control {
+  width: 123px;
+  height: 30px;
+  margin: -33px 0 0 120px; /* top, right, bottom, left */
+  color: var(--text);
+  border-radius: var(--border-radius);
+  border: 1px #858585;
+  box-shadow: 0 0 2.5px #cfcfcf;
+  transition: 0.2s width;
+}
+
+.form-control:focus {
+  width: 246px;
+  box-shadow: 0 0 2px var(--links);
+}
+
+#dropdown-toggle {
+  margin: 23.75px 65px 0 0; /* top, right, bottom, left */
+  padding: 0;
+  background-color: transparent;
+}
+
+.dropdown-toggle-icons {
+  color: var(--black);
+  transition: 0.3s filter;
+  cursor: pointer;
+}
+
+.dropdown-toggle-icons:hover {
+  filter: invert(55%) sepia(0%) saturate(765%) hue-rotate(222deg) brightness(96%) contrast(81%);
+}
+
+#dropdown-menu-bg {
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
 .dropdown-menu {
-  margin-right: 30px;
-  display: none;
-  background-color: var(--white);
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-right: 60px;
   box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
-  animation: dropdownFadeIn 0.3s ease-in-out;
+  animation: dropdownFadeIn 0.2s ease-in-out;
 }
 
-.dropdown-menu li:hover,
-#menu-text:hover {
-  background-color: var(--background);
-}
-
-.dropdown-menu li:focus,
-.active,
-.active:hover,
-.active:focus {
-  background-color: #e0e0e0;
-}
-
-/* dropdown menu fade animation */
+/* dropdown menu fade-in */
 @keyframes dropdownFadeIn {
   from {
+    margin-top: -15px;
     opacity: 0;
   }
   to {
@@ -93,55 +87,35 @@
   }
 }
 
-/* dropdown menu icons */
-#dropdown-icons {
-  margin-top: 23px;
-  margin-right: 33px;
-  background-color: var(--white);
-  padding: 0;
+#menu-text-bg {
+  color: var(--text);
 }
 
-/* menu icons */
-.menu-icons {
-  color: var(--black) !important;
-  transition: 0.3s filter;
-  font-size: 5px;
+#menu-text-bg:hover {
+  background-color: #f5f5f5;
 }
 
-.menu-icons:hover,
-.menu-icons:hover::after {
-  filter: invert(55%) sepia(0%) saturate(765%) hue-rotate(222deg) brightness(96%) contrast(81%) !important;
+#menu-text-bg:focus {
+  background-color: #e0e0e0;
 }
 
-/* dropdown menu links */
-#menu-text:focus {
-  background-color: #e5e5e5;
-}
-
-#menu-text {
-  color: var(--dark-gray);
-}
-
-
-@media (min-width: 1281px) /* desktops (high-res) */ {
+.dropdown-menu .divider {
+  height: 0.75px;
 }
 
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-  /* search bar */
-  .search input {
+  .form-control {
+    margin-left: 88px;
     width: 98px;
   }
-  
-  /* dropdown menu icons */
-  #dropdown-icons {
-    width: 30px;
+
+  #dropdown-toggle {
     float: right;
-    margin-top: -3px;
-    margin-right: 33px;
     padding: 0;
+    margin-top: -31px;
   }
 }
 
@@ -149,8 +123,4 @@
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
-  /* dropdown menu icons */
-  #dropdown-icons {
-    margin-top: 22.5px;
-  }
 }
