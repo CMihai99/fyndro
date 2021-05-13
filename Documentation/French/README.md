@@ -1,4 +1,4 @@
-# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=est%3Aissue+is%3Aclosed)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
 Nous essayons de le rendre rapide et intuitif lorsque vous avez besoin d'un outil ou d'un service. Tout ce que vous avez à faire est de visiter notre site Web et de chercher ce dont vous avez besoin. Aussi simple que cela.
 
@@ -20,7 +20,7 @@ Nous essayons de le rendre rapide et intuitif lorsque vous avez besoin d'un outi
 
 Dans l'archive de téléchargement, vous trouverez les répertoires et fichiers suivants, regroupant logiquement les actifs communs:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -81,9 +81,6 @@ andro/
 <a id="dependencies"><h2>Dépendances</h2></a>
 
 - **Bootstrap**. Andro est construit sur la bibliothèque Bootstrap 5 et le supporte pleinement.
-
-- **JQuery 3.5.1**. Andro utilise JQuery pour des fonctionnalités supplémentaires de Bootstrap 5.
-
 - **Google Fonts**. Andro est principalement construit en utilisant la police Arial, cependant, il ya une poignée d'autres utilisés dans le processus.
 
 <a id="browser-support"><h2>Support du navigateur</h2></a>

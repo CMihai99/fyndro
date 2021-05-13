@@ -1,6 +1,4 @@
-# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a>
- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social
-)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
 जब आपको किसी टूल या सेवा की आवश्यकता होती है तो हम इसे तेज़ और सहज बनाने का प्रयास करते हैं। आपको बस इतना करना है कि हमारी वेबसाइट पर जाएं और अपनी जरूरत की चीजें खोजें। इतना ही आसान।
 
@@ -22,7 +20,7 @@
 
 डाउनलोड संग्रह में आपको निम्नलिखित निर्देशिकाएँ और फ़ाइलें मिलेंगी, जो तार्किक रूप से सामान्य संपत्तियों को समूहीकृत करती हैं:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -82,10 +80,7 @@ andro/
 
 <a id="dependencies"><h2>निर्भरता</h2></a>
 
-- **बूटस्ट्रैप**. Andro बूटस्ट्रैप 5 लाइब्रेरी पर बनाया गया है और यह पूरी तरह से इसका समर्थन करता है।
-
-- **JQuery 3.5.1**. Andro अतिरिक्त बूटस्ट्रैप 5 कार्यक्षमता के लिए JQuery का उपयोग करता है।
-
+- **Bootstrap**. Andro Bootstrap 5 लाइब्रेरी पर बनाया गया है और यह पूरी तरह से इसका समर्थन करता है।
 - **Google Fonts**. एंड्रो ज्यादातर एरियल फ़ॉन्ट का उपयोग करके बनाया गया है, हालांकि, इस प्रक्रिया में उपयोग किए जाने वाले कुछ मुट्ठी भर हैं।
 
 <a id="browser-support"><h2>ब्राउज़र समर्थन</h2></a>

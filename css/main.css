@@ -3,6 +3,10 @@
   height: 10px;
 }
 
+::-webkit-scrollbar-track {
+  background: var(#eee);
+}
+
 ::-webkit-scrollbar-thumb {
   background: #bdbdbd;
 }
@@ -15,21 +19,20 @@
   background: var(--light-gray);
 }
 
-/* scrollbar background */
-::-webkit-scrollbar-track {
-  background: var(--body-background);
-}
-
-/* variables */
+/* quick access */
 :root {
   --background: #fff;
   --divider: #dbdbdb;
   --text: #5c5c5c;
   --light-gray: #858585;
   --body-background: #eee;
-  --border-radius: 7px;
   --links: #337ff0;
+
+  --border-radius: 7px;
+
   scrollbar-width: thin;
+
+  box-sizing: border-box;
 }
 
 body {

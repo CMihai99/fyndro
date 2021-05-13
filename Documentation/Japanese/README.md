@@ -1,4 +1,4 @@
-# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![Github issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
 私たちは、ツールやサービスを必要としているときにそれを迅速かつ直感的にしようとしています。 あなたがしなければならないのは、私たちのウェブサイトにアクセスし、必要なものを検索することだけです。 簡単なことです
 
@@ -20,7 +20,7 @@
 
 ダウンロードアーカイブには、以下のディレクトリとファイルがあります。一般的なアセットを論理的にグループ化します。
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -81,9 +81,6 @@ andro/
 <a id="dependencies"><h2>依存関係</h2></a>
 
 - **Bootstrap**. AndrooはBootstrap5ライブラリ上に構築されており、完全にサポートされています。
-
-- **JQuery 3.5.1**. AndrooはJQueryを追加のBootstrap5機能に使用しています。
-
 - **Google Fonts**. Androは、ほとんどがArialフォントを使用して構築されていますが、プロセスで使用されている他のいくつかがあります。
 
 <a id="browser-support"><h2>ブラウザーサポート</h2></a>

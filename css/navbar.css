@@ -1,10 +1,11 @@
-/* variables */
+/* quick access */
 :root {
-	--background: #fff;
-	--black: #000;
-	--text: #5c5c5c;
-	--border-radius: 7px;
-	--links: #337ff0;
+  --background: #fff;
+  --black: #000;
+  --text: #5c5c5c;
+  --links: #337ff0;
+  
+  --border-radius: 7px;
 }
 
 .container-fluid {
@@ -102,17 +103,14 @@
   #nav-icon {
     margin-left: 66px;
   }
-  
   .form-control {
     margin-left: 138px;
     width: 98px;
   }
-
   .form-control:focus,
   .form-control:active {
     width: 148px;
   }
-
   #dropdown-toggle {
     float: right;
     padding: 0;

@@ -1,4 +1,4 @@
-# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![Github issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
 Încercăm să-l facem rapid și intuitiv atunci când vă aflați în grabă sau când aveți nevoie de un instrument/serviciu. Tot ce trebuie să faceți este să vizitați site-ul nostru web și să căutați ce aveți nevoie. Atât de simplu.
 
@@ -20,7 +20,7 @@
 
 În arhiva descărcată veți găsi următoarele directoare și fișiere, grupând în mod logic activele comune:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -81,9 +81,6 @@ andro/
 <a id="dependencies"><h2>Dependențe</h2></a>
 
 - **Bootstrap**. Andro este construit în Bootstrap 5 şi o susţine în totalitate.
-
-- **JQuery 3.5.1**. Andro folosește JQuery pentru funcționalitate suplimentară Bootstrap 5.
-
 - **Google Fonts**. Andro este construit în cea mai mare parte folosind fontul Arial, însă există şi o mână de alţii folosiţi în acest proces.
 
 <a id="browser-support"><h2>Suport browser</h2></a>

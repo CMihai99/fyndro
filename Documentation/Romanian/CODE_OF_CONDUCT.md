@@ -8,19 +8,19 @@
 
 Exemple de comportament care contribuiesc la crearea unui mediu pozitiv includ:
 
-  - Folosirea limbajului primitor și incluziv
-  - Respectând punctele de vedere și experiențele diferite
-  - Acceptarea fără ezitare a criticilor constructive
-  - Concentrarea asupra a ceea ce este mai bine pentru comunitate
-  - Afișarea empatiei față de alți membri ai comunității
+- Folosirea limbajului primitor și incluziv
+- Respectând punctele de vedere și experiențele diferite
+- Acceptarea fără ezitare a criticilor constructive
+- Concentrarea asupra a ceea ce este mai bine pentru comunitate
+- Afișarea empatiei față de alți membri ai comunității
 
 Exemple de comportament inacceptabil al participanților includ:
 
-  - Utilizarea unui limbaj sau a unei imagini cu caracter sexual, care nu este binevenită atenţie sau progrese sexuale
-  - Comentarii insultătoare/derogatorii și atacuri personale sau politice
-  - Hărțuirea publică sau privată
-  - Publicarea informațiilor private ale altora, cum ar fi o adresă fizică sau electronică, fără permisiune explicită
-  - Alte comportamente care, în mod rezonabil, pot fi considerate inadecvate într-un cadru profesional
+- Utilizarea unui limbaj sau a unei imagini cu caracter sexual, care nu este binevenită atenţie sau progrese sexuale
+- Comentarii insultătoare/derogatorii și atacuri personale sau politice
+- Hărțuirea publică sau privată
+- Publicarea informațiilor private ale altora, cum ar fi o adresă fizică sau electronică, fără permisiune explicită
+- Alte comportamente care, în mod rezonabil, pot fi considerate inadecvate într-un cadru profesional
 
 ## Responsabilităţile noastre
 

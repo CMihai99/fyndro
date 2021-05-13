@@ -1,4 +1,4 @@
-# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![推特](https://img.shiods.io/twitter/url/http/盾牌ds.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![Github issues](https://img.shids.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shids.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3A关闭)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shiods.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
 当你匆忙或需要工具/服务时，我们会尝试让它快速直觉。 您需要做的只是访问我们的网站并搜索您需要的东西。 简单。
 
@@ -20,7 +20,7 @@
 
 在下载归档中，您会找到以下目录和文件，逻辑上可以将共同资产分组：
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -81,9 +81,6 @@ andro/
 <a id="dependencies"><h2>依赖于</h2></a>
 
 - **Bootstrap**. Andro 建立在 Bootstrap 5 库上，并完全支持它。
-
-- **JQuery 3.5.1**. Andro 使用 JQuery 获取额外的 Bootstrap 5 功能。
-
 - **Google Fonts**. Andro大多使用阿丽亚娜字体构建，但在这一过程中使用了少数其他字体。
 
 <a id="browser-support"><h2>浏览器支持</h2></a>

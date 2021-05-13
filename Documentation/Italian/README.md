@@ -20,7 +20,7 @@ Cerchiamo di renderlo veloce e intuitivo quando hai bisogno di uno strumento o d
 
 All'interno dell'archivio di download troverai le seguenti directory e file, raggruppando logicamente le risorse comuni:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -81,9 +81,6 @@ andro/
 <a id="dependencies"><h2>Dipendenze</h2></a>
 
 - **Bootstrap**. Andro è costruito sulla libreria Bootstrap 5 e lo supporta completamente.
-
-- **JQuery 3.5.1**. Andro utilizza JQuery per ulteriori funzionalità Bootstrap 5.
-
 - **Google Fonts**. Andro è per lo più costruito utilizzando il font Arial, tuttavia, ci sono una manciata di altri utilizzati nel processo.
 
 <a id="browser-support"><h2>Supporto browser</h2></a>

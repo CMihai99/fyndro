@@ -8,19 +8,19 @@ Dans l'intérêt de favoriser un environnement ouvert et accueillant, nous nous 
 
 Des exemples de comportement qui contribuent à la création d'un environnement positif sont:
 
-  - Utiliser un langage accueillant et inclusif
-  - Être respectueux des différents points de vue et expériences
-  - Accepter gracieusement les critiques constructives
-  - Concentrez-vous sur ce qui est le mieux pour la communauté
-  - Faire preuve d'empathie envers les autres membres de la communauté
+- Utiliser un langage accueillant et inclusif
+- Être respectueux des différents points de vue et expériences
+- Accepter gracieusement les critiques constructives
+- Concentrez-vous sur ce qui est le mieux pour la communauté
+- Faire preuve d'empathie envers les autres membres de la communauté
 
 Parmi les exemples de comportement inacceptable de la part des participants, citons :
 
-  - L'utilisation d'un langage sexualisé ou d'une imagerie et d'une attention sexuelle indésirable ou des progrès
-  - Commentaires insultants ou désobligeants et attaques personnelles ou politiques
-  - Le harcèlement public ou privé
-  - Publier les informations personnelles des autres, telles qu'une adresse physique ou électronique, sans autorisation explicite
-  - Autres comportements qui pourraient raisonnablement être considérés comme inappropriés dans un environnement professionnel
+- L'utilisation d'un langage sexualisé ou d'une imagerie et d'une attention sexuelle indésirable ou des progrès
+- Commentaires insultants ou désobligeants et attaques personnelles ou politiques
+- Le harcèlement public ou privé
+- Publier les informations personnelles des autres, telles qu'une adresse physique ou électronique, sans autorisation explicite
+- Autres comportements qui pourraient raisonnablement être considérés comme inappropriés dans un environnement professionnel
 
 ## Nos Responsabilités
 

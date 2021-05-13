@@ -8,19 +8,19 @@ Im Interesse einer offenen und einladenden Umgebung wir als Mitwirkende und Betr
 
 Beispiele für das Verhalten, das zur Schaffung einer positiven Umgebung beiträgt, sind:
 
-  - Mit einladender und inklusiver Sprache
-  - Respekt vor unterschiedlichen Standpunkten und Erfahrungen
-  - Die konstruktive Kritik wird aufrichtig akzeptiert
-  - Konzentration auf das Beste für die Community
-  - Empathie gegenüber anderen Community-Mitgliedern anzeigen
+- Mit einladender und inklusiver Sprache
+- Respekt vor unterschiedlichen Standpunkten und Erfahrungen
+- Die konstruktive Kritik wird aufrichtig akzeptiert
+- Konzentration auf das Beste für die Community
+- Empathie gegenüber anderen Community-Mitgliedern anzeigen
 
 Beispiele für unannehmbares Verhalten der Teilnehmer sind:
 
-  - Die Verwendung sexualisierter Sprache oder Bilder und unwillkommene sexuelle Aufmerksamkeit oder Fortschritte
-  - Trolling, beleidigen/abfällige Kommentare und persönliche oder politische Angriffe
-  - Öffentliche oder private Belästigung
-  - Veröffentlichen von privaten Informationen anderer Personen, wie z. B. eine physische oder elektronische Adresse ohne ausdrückliche Genehmigung
-  - Anderes Verhalten, das in einem beruflichen Umfeld vernünftigerweise als unangemessen angesehen werden könnte
+- Die Verwendung sexualisierter Sprache oder Bilder und unwillkommene sexuelle Aufmerksamkeit oder Fortschritte
+- Trolling, beleidigen/abfällige Kommentare und persönliche oder politische Angriffe
+- Öffentliche oder private Belästigung
+- Veröffentlichen von privaten Informationen anderer Personen, wie z. B. eine physische oder elektronische Adresse ohne ausdrückliche Genehmigung
+- Anderes Verhalten, das in einem beruflichen Umfeld vernünftigerweise als unangemessen angesehen werden könnte
 
 ## Unsere Aufgaben
 

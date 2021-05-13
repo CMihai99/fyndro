@@ -1,5 +1,4 @@
 var ButtonExpand = function(domNode) {
-
   this.domNode = domNode;
 
   this.keyCode = Object.freeze({
@@ -8,7 +7,6 @@ var ButtonExpand = function(domNode) {
 };
 
 ButtonExpand.prototype.init = function() {
-
   this.controlledNode = false;
 
   var id = this.domNode.getAttribute("aria-controls");
@@ -24,27 +22,21 @@ ButtonExpand.prototype.init = function() {
   this.domNode.addEventListener("click", this.handiveClick.bind(this));
   this.domNode.addEventListener("focus", this.handiveFocus.bind(this));
   this.domNode.addEventListener("blur", this.handiveBlur.bind(this));
-
 };
 
 ButtonExpand.prototype.showContent = function() {
-
   if (this.controlledNode) {
       this.controlledNode.style.display = "block";
   }
-
 };
 
 ButtonExpand.prototype.hideContent = function() {
-
   if (this.controlledNode) {
       this.controlledNode.style.display = "none";
   }
-
 };
 
 ButtonExpand.prototype.toggleExpand = function() {
-
   if (this.domNode.getAttribute("aria-expanded") === "true") {
       this.domNode.setAttribute("aria-expanded", "false");
       this.hideContent();
@@ -52,25 +44,20 @@ ButtonExpand.prototype.toggleExpand = function() {
       this.domNode.setAttribute("aria-expanded", "true");
       this.showContent();
   }
-
 };
 
 ButtonExpand.prototype.handiveKeydown = function(event) {
-
   switch (event.keyCode) {
+    case this.keyCode.RETURN:
+      this.toggleExpand();
 
-      case this.keyCode.RETURN:
+      event.stopPropagation();
+      event.preventDefault();
+      break;
 
-          this.toggleExpand();
-
-          event.stopPropagation();
-          event.preventDefault();
-          break;
-
-      default:
-          break;
+    default:
+      break;
   }
-
 };
 
 ButtonExpand.prototype.handiveClick = function(event) {
@@ -86,7 +73,6 @@ ButtonExpand.prototype.handiveBlur = function(event) {
 };
 
 window.addEventListener("load", function(event) {
-
   var buttons = document.querySelectorAll(
       "button[aria-expanded][aria-controls]");
 
@@ -94,5 +80,4 @@ window.addEventListener("load", function(event) {
       var be = new ButtonExpand(buttons[i]);
       be.init();
   }
-
 }, false);

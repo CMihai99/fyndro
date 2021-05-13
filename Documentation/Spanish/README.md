@@ -1,4 +1,4 @@
-# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![Github issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
 Intentamos hacerlo rápido e intuitivo cuando usted necesita una herramienta o servicio. Todo lo que tienes que hacer es visitar nuestro sitio web y buscar lo que necesitas. Así de simple.
 
@@ -20,7 +20,7 @@ Intentamos hacerlo rápido e intuitivo cuando usted necesita una herramienta o s
 
 Dentro del archivo de descarga encontrarás los siguientes directorios y archivos, agrupando lógicamente los activos comunes:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -81,9 +81,6 @@ andro/
 <a id="dependencies"><h2>Dependencias</h2></a>
 
 - **Bootstrap**. Andro está construido en la biblioteca Bootstrap 5 y es totalmente compatible.
-
-- **JQuery 3.5.1**. Andro usa JQuery para una funcionalidad adicional de Bootstrap 5.
-
 - **Google Fonts**. Andro se construye principalmente utilizando la fuente Arial, sin embargo, hay un puñado de otros utilizados en el proceso.
 
 <a id="browser-support"><h2>Soporte del navegador</h2></a>

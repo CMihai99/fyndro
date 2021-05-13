@@ -1,4 +1,4 @@
-# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![Github issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
 Tentamos torná-lo rápido e intuitivo quando você precisa de uma ferramenta ou serviço. Tudo o que você tem que fazer é visitar nosso site e procurar o que você precisa. Simples assim.
 
@@ -20,7 +20,7 @@ Tentamos torná-lo rápido e intuitivo quando você precisa de uma ferramenta ou
 
 No arquivo de download você encontrará os seguintes diretórios e arquivos, agrupando logicamente recursos comuns:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -81,9 +81,6 @@ andro/
 <a id="dependencies"><h2>Dependências</h2></a>
 
 - **Bootstrap**. Andro é construído na biblioteca Bootstrap 5 e tem total suporte.
-
-- **JQuery 3.5.1**. Andro usa JQuery para funcionalidades adicionais do Bootstrap 5.
-
 - **Google Fonts**. A Andro foi construída principalmente usando a fonte Arial, no entanto, há um punhado de outros usados no processo.
 
 <a id="browser-support"><h2>Suporte ao navegador</h2></a>

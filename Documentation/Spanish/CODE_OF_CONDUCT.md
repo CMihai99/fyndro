@@ -8,19 +8,19 @@ En interés de fomentar un entorno abierto y acogedor. como colaboradores y mant
 
 Ejemplos de comportamiento que contribuyen a la creación de un entorno positivo incluyen:
 
-  - Utilizando un lenguaje acogedor e inclusivo
-  - Ser respetuoso con los diferentes puntos de vista y experiencias
-  - Aceptar con gracia críticas constructivas
-  - Centrándose en lo que es mejor para la comunidad
-  - Mostrar empatía hacia otros miembros de la comunidad
+- Utilizando un lenguaje acogedor e inclusivo
+- Ser respetuoso con los diferentes puntos de vista y experiencias
+- Aceptar con gracia críticas constructivas
+- Centrándose en lo que es mejor para la comunidad
+- Mostrar empatía hacia otros miembros de la comunidad
 
 Ejemplos de comportamiento inaceptable por parte de los participantes incluyen:
 
-  - Uso de lenguaje sexualizado o imágenes y atención sexual o avances no deseados
-  - Insultación/desorbitación, y ataques personales o políticos
-  - Acoso público o privado
-  - Publicar información privada de otros, como una dirección física o electrónica, sin permiso explícito
-  - Otras conductas que razonablemente podrían considerarse inapropiadas en un entorno profesional
+- Uso de lenguaje sexualizado o imágenes y atención sexual o avances no deseados
+- Insultación/desorbitación, y ataques personales o políticos
+- Acoso público o privado
+- Publicar información privada de otros, como una dirección física o electrónica, sin permiso explícito
+- Otras conductas que razonablemente podrían considerarse inapropiadas en un entorno profesional
 
 ## Nuestras respuestas
 

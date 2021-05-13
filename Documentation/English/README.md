@@ -20,7 +20,7 @@ We try and make it fast and intuitive when you are in need of a tool or service.
 
 Within the download archive you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -83,7 +83,6 @@ In the `Documentation` folder there is the documentation available in 12 languag
 <a id="dependencies"><h2>Dependencies</h2></a>
 
 - **Bootstrap**. Andro is built on the Bootstrap 5 library and fully supports it.
-
 - **Google Fonts**. By default, Andro is mostly built using the Arial font, however, there are multiple others used.
 
 <a id="browser-support"><h2>Browser support</h2></a>

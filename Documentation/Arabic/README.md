@@ -1,4 +1,4 @@
-# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andr</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![Github issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![Github issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
 نحن نحاول أن نجعلها سريعة وبديهية عندما تكون في عجلة أو في حاجة إلى أداة/خدمات. كل ما عليك فعله هو زيارة موقعنا على شبكة الإنترنت والبحث عن ما تحتاجه. هذا بسيط.
 
@@ -20,7 +20,7 @@
 
 في أرشيف التحميل ستجد الأدلة والملفات التالية، تجميع الأصول المشتركة منطقياً:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -81,9 +81,6 @@ andro/
 <a id="dependencies"><h2>التبعيات</h2></a>
 
 - **Bootstrap**. أندرو مبني على مكتبة Bootstrap 5 ويدعمها بالكامل.
-
-- **JQuery 3.5.1**. يستخدم أندرو JQuery لوظائف Bootstrap 5 الإضافية.
-
 - **Bootstrap**. وتبنى أندرو في الغالب باستخدام خط أريال، غير أن هناك حفنة أخرى تستخدم في العملية.
 
 <a id="browser-support"><h2>دعم المتصفح</h2></a>
