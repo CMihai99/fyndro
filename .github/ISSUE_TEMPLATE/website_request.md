@@ -1,6 +1,6 @@
 ---
 name: Website request
-About: Suggest a website to help improve Andro's contents
+about: Suggest a website to help improve Andro's contents
 title: '(Website)'
 labels: 'website'
 assignees: ''

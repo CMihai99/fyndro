@@ -1,6 +1,6 @@
 ---
 name: Bug report
-About: Report a bug to help improve Andro
+about: Report a bug to help improve Andro
 title: "(Bug)"
 labels: 'bug'
 assignees: ''
