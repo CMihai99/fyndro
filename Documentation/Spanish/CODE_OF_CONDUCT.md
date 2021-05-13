@@ -36,7 +36,7 @@ Este Código de Conducta también se aplica fuera de los espacios del proyecto c
 
 ## Aplicación
 
-Las instancias de comportamiento abusivo, acoso o de cualquier otra forma inaceptable pueden ser reportadas contactando al equipo del proyecto en androteamfaq@gmail.com. Todas las reclamaciones serán revisadas e investigadas y darán lugar a una respuesta que se considere necesaria y adecuada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al reportero de un incidente. Más detalles de las políticas específicas de aplicación pueden ser publicados por separado.
+Las instancias de comportamiento abusivo, acoso o de cualquier otra forma inaceptable pueden ser reportadas Contact Usando al equipo del proyecto en androteamfaq@gmail.com. Todas las reclamaciones serán revisadas e investigadas y darán lugar a una respuesta que se considere necesaria y adecuada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al reportero de un incidente. Más detalles de las políticas específicas de aplicación pueden ser publicados por separado.
 
 Los mantenedores de proyectos que no sigan o no apliquen de buena fe el Código de Conducta pueden enfrentarse a repercusiones temporales o permanentes como lo determinen otros miembros del liderazgo del proyecto.
 

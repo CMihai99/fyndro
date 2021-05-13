@@ -36,7 +36,7 @@ Acest Cod de Conduită se aplică, de asemenea, în afara spațiilor de proiect 
 
 ## Executare
 
-Instanțele de comportament abuziv, hărțuire sau alt comportament inacceptabil pot fi raportate prin contactarea echipei de proiect la androteamfaq@gmail.com. Toate plângerile vor fi examinate și investigate și vor avea ca rezultat un răspuns considerat necesar și adecvat circumstanțelor. Echipa de proiect are obligația de a păstra confidențialitatea cu privire la reportorul unui incident. Detalii suplimentare privind politicile specifice de punere în aplicare pot fi publicate separat.
+Instanțele de comportament abuziv, hărțuire sau alt comportament inacceptabil pot fi raportate prin Contact Usarea echipei de proiect la androteamfaq@gmail.com. Toate plângerile vor fi examinate și investigate și vor avea ca rezultat un răspuns considerat necesar și adecvat circumstanțelor. Echipa de proiect are obligația de a păstra confidențialitatea cu privire la reportorul unui incident. Detalii suplimentare privind politicile specifice de punere în aplicare pot fi publicate separat.
 
 Responsabilii de proiect care nu respectă sau nu pun în aplicare Codul de Conduită de bună credință pot avea repercusiuni temporare sau permanente, stabilite de alți membri ai conducerii proiectului.
 

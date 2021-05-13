@@ -52,13 +52,15 @@ andro/
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── common-questions.js
+│   └── commonQuestions.js
 │
 ├── resources/
 │   ├── heart-solid.svg
 │   ├── list-ul.svg
 │   └── list.svg
 │
+├── ts/
+│   └── coookieSettings.ts
 │
 ├── .gitignore
 ├── CODE_OF_CONDUCT.md
@@ -69,10 +71,11 @@ andro/
 ├── categories.html
 ├── code-of-conduct.html
 ├── contributing.html
+├── cookie-policy.html
 ├── help.html
 ├── index.html
-├── privacy.html
-└── terms.html
+├── privacy-policy.html
+└── terms-of-use.html
 ```
 
 In the `Documentation` folder there is the documentation available in 12 languages.

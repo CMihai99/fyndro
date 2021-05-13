@@ -1,42 +1,140 @@
-# ⚡ Andro [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers)
+# <a href="https://cmihai99.github.io/andro" target="_blank" id="andro">Andro</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=est%3Aissue+is%3Aclosed)
 
-[![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues)
-[![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro?style=flat-square)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub license](https://img.shields.io/github/license/CMihai99/andro?color=g&style=flat-square)](https://github.com/CMihai99/andro/blob/master/LICENSE)
-![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
-![Commit activity](https://img.shields.io/github/license/CMihai99/andro?color=g&style=flat-square)
+Nous essayons de le rendre rapide et intuitif lorsque vous avez besoin d'un outil ou d'un service. Tout ce que vous avez à faire est de visiter notre site Web et de chercher ce dont vous avez besoin. Aussi simple que cela.
 
-Avec Andro, vous pouvez trouver de nouveaux sites Web rapidement et facilement en parcourant des listes mises à jour mensuellement remplies de sites Web nouveaux et utiles classés par secteur, codés par couleur, classés de F à A + par notre équipe de personnel et fournis avec le trafic du site Web pour le passé. 7 jours.
+## Table des matières
 
-## 📃 Documentation
+- [Andro](#andro)
+- [Qu'est-ce qui comprend ?](#whats-included)
+- [Dépendances](#dependencies)
+- [Support du navigateur](#browser-support)
+- [Support de l'appareil](#device-support)
+- [Bugs et demandes de fonctionnalité/site web](#bugs-and-requests)
+- [Contribuer](#contributing)
+- [Code de conduite](#code-of-conduct)
+- [Contributeurs](#contributors)
+- [Supporters](#supporters)
+- [Copyright et licence](#copyright-and-license)
 
-  - [Techniques d'information](https://github.com/CMihai99/andro/blob/main/README.md)
-  - [Contribuer à Andro](https://github.com/CMihai99/andro/blob/main/CONTRIBUTING.md)
-  - [Licence de projet](https://github.com/CMihai99/andro/blob/main/LICENSE)
+<a id="whats-included"><h2>Qu'est-ce qui est inclus ?</h2></a>
 
-## ✊ Contribuant
+Dans l'archive de téléchargement, vous trouverez les répertoires et fichiers suivants, regroupant logiquement les actifs communs:
 
-Le but principal de ce référentiel est de continuer à faire évoluer Andro, le rendant plus rapide et plus facile à utiliser. Lisez ci-dessous pour savoir comment vous pouvez participer à l'amélioration de Andro. Lisez ci-dessous pour savoir comment vous pouvez participer à l'amélioration de Andro.
+```
+andro/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   │   └── website_request.md
+│   ├── FUNDING.yml
+│   └── pull_request_template.md
+│
+├── Documentation/
+│   ├── Arabic
+│   ├── Chinese Simplified
+│   ├── English
+│   ├── French
+│   ├── German
+│   ├── Hindi
+│   ├── Italian
+│   ├── Japanese
+│   ├── Portuguese
+│   ├── Romanian
+│   ├── Russian
+│   └── Spanish
+│
+├── css/
+│   ├── common-questions.css
+│   ├── footer.css
+│   ├── main.css
+│   ├── navbar.css
+│   └── table-of-contents.css
+│
+├── js/
+│   └── commonQuestions.js
+│
+├── resources/
+│   ├── heart-solid.svg
+│   ├── list-ul.svg
+│   └── list.svg
+│
+├── ts/
+│   └── coookieSettings.ts
+│
+├── .gitignore
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── about.html
+├── categories.html
+├── code-of-conduct.html
+├── contributing.html
+├── cookie-policy.html
+├── help.html
+├── index.html
+├── privacy-policy.html
+└── terms-of-use.html
+```
 
-Vous pouvez participer au projet de plusieurs manières, par exemple:
+<a id="dependencies"><h2>Dépendances</h2></a>
 
-  - [Soumettre des bugs et des demandes de fonctionnalités](https://github.com/CMihai99/andro/issues), et nous aider à améliorer notre produit
-  - [Financez ce projet](https://www.paypal.com/paypalme/Impulse884?locale.x=en_US)et aidez-nous à poursuivre le développement
+- **Bootstrap**. Andro est construit sur la bibliothèque Bootstrap 5 et le supporte pleinement.
 
-## 🙌 Code de conduite
+- **JQuery 3.5.1**. Andro utilise JQuery pour des fonctionnalités supplémentaires de Bootstrap 5.
 
-Andro a adopté un code de conduite que nous attendons des participants au projet qu'ils adhèrent. Veuillez lire
+- **Google Fonts**. Andro est principalement construit en utilisant la police Arial, cependant, il ya une poignée d'autres utilisés dans le processus.
 
-le texte intégral<0> afin de comprendre quelles actions seront et ne seront pas tolérées.</p> 
+<a id="browser-support"><h2>Support du navigateur</h2></a>
 
+Pour le moment, nous nous efforçons de supporter tous les principaux navigateurs Web. Tout problème dans l'un des navigateurs listés ci-dessous <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">devrait être signalé comme un bogue</a>:
 
+- Microsoft Edge 14+
+- Chrome (Current - 1) et les versions actuelles
+- Firefox (Curent - 1) et les versions actuelles
+- Opera (actuel - 1) et les versions actuelles
 
-## 👏 Supporters
+(Current - 1) et Current signifie que nous supportons la version stable actuelle du navigateur et la version qui le précède.
 
-[![Stargazers repo roster for @CMihai99/andro](https://reporoster.com/stars/CMihai99/andro)](https://github.com/CMihai99/andro/stargazers)
+<a id="device-support"><h2>Prise en charge de l'appareil</h2></a>
 
+Pour le moment, nous visons à soutenir tous les dispositifs majeurs. Tout problème dans l'un des types de périphériques listés ci-dessous <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">doit être signalé comme un bogue</a>:
 
+- Bureaux haute résolution
+- Ordinateurs de bureau et ordinateurs portables
+- Tablettes et Smartphones basse résolution
+- La majorité des Smartphones
+- Tableaux et iPads modernes
 
-## 🏷 Licence
+<a id="bugs-and-requests"><h2>Bugs, demandes de fonctionnalités et idées de site web</h2></a>
 
-Andro est [licencié MIT](LICENSE).
+Vous avez trouvé un bug que vous voulez rapporter ? Vous avez une fonctionnalité que vous souhaitez demander ? Vous avez une idée de site web à publier ? Premièrement, la recherche de tickets existants et fermés. Si votre problème ou idée n'est pas encore résolu, [ouvrez un nouveau ticket](https://github.com/CMihai99/andro/issues/new/choose).
+
+<a id="contributing"><h2>Contribuer</h2></a>
+
+Le but principal de ce dépôt est de continuer à faire évoluer Andro, ce qui le rend plus rapide et plus facile à utiliser. Vous pouvez contribuer en fermant un problème, en corrigeant un bogue (signalé ou non signalé), ajout de nouvelles fonctionnalités, amélioration de la base de code existante, ajout de nouvelles entrées de site Web, etc.
+
+<a id="code-of-conduct"><h2>Code de conduite</h2></a>
+
+Andro a adopté un Code de Conduite que nous attendons des participants au projet. Veuillez [lire le texte complet](https://cmihai99.github.io/andro/code-of-conduct.html) afin que vous puissiez comprendre quelles actions seront et ne seront pas tolérées.
+
+<a id="contributors"><h2>Contributeurs</h2></a>
+
+Un grand merci à tous ceux qui ont contribué à obtenir Andro à son état actuel. 👏
+
+- [Trello](https://www.trello.com/) - Gestion des tâches
+- [Pages GitHub](https://pages.github.com/) - Hébergement de développement
+- [FontAwesome](https://www.fontawesome.com/) - Icônes de la page
+- [Codacy](https://www.codacy.com/) - Analyse de code
+- La Communauté - Enfin, et ce n'est pas le moins important, je remercie massivement notre communauté pour avoir rendu tout cela possible. ♥
+
+<a id="supporters"><h2>Supporters</h2></a>
+
+[![Stargazers repo roster for @CMihai99/andro](https://reporoster.com/stars/CMihai99/andro)](https://github.com/CMihai99/andro/stargazers) [![Forkers repo roster for @CMihai99/andro](https://reporoster.com/forks/CMihai99/andro)](https://github.com/CMihai99/andro/network/members)
+
+<a id="copyright-and-license"><h2>Copyright et Licence</h2></a>
+
+© Andro, Inc. 2021
+
+Publié sous la [Licence MIT](LICENSE).

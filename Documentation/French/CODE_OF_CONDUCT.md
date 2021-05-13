@@ -36,7 +36,7 @@ Ce Code de Conduite s'applique également en dehors des espaces de projet lorsqu
 
 ## Application
 
-Des cas de comportement abusif, de harcèlement ou tout autre comportement inacceptable peuvent être signalés en contactant l'équipe du projet à androteamfaq@gmail.com. Toutes les plaintes seront examinées et examinées et aboutiront à une réponse jugée nécessaire et appropriée aux circonstances. L’équipe de projet est tenue de maintenir la confidentialité à l’égard du déclarant d’un incident. De plus amples renseignements sur les politiques de mise en application spécifiques peuvent être affichés séparément.
+Des cas de comportement abusif, de harcèlement ou tout autre comportement inacceptable peuvent être signalés en Contact Usant l'équipe du projet à androteamfaq@gmail.com. Toutes les plaintes seront examinées et examinées et Aboutiront à une réponse jugée nécessaire et appropriée aux circonstances. L’équipe de projet est tenue de maintenir la confidentialité à l’égard du déclarant d’un incident. De plus amples renseignements sur les politiques de mise en application spécifiques peuvent être affichés séparément.
 
 Les responsables du projet qui ne respectent pas ou n'appliquent pas le Code de conduite de bonne foi peuvent être confrontés à des répercussions temporaires ou permanentes telles que déterminées par les autres membres de la direction du projet.
 
