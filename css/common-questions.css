@@ -7,17 +7,24 @@
   border: none;
   background-color: transparent;
   padding: 0;
+  margin-top: 15px;
   display: block;
-}
-
-.answer {
-  padding-left: 20px;
 }
 
 .question .caret {
   color: var(--text);
   position: absolute;
-  margin-top: -22.5px;
+  margin-top: -27.5px;
+}
+
+.answer {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.last-answer {
+  padding-left: 20px;
+  margin: 0;
 }
 
 @media
