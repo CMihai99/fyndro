@@ -1,13 +1,4 @@
-/* RULES OF THUMB
-
-1) Organize your components using the BEM model
-2) Avoid using !important at all costs
-3) Atomic design
-
-*/
-
-
-/* quick access */
+/* variables */
 :root {
 	--background: #fff;
 	--black: #000;
@@ -55,12 +46,12 @@
 
 .dropdown-toggle-icons {
   color: var(--black);
-  transition: 0.3s filter;
+  transition: 0.3s opacity;
   cursor: pointer;
 }
 
 .dropdown-toggle-icons:hover {
-  filter: invert(55%) sepia(0%) saturate(765%) hue-rotate(222deg) brightness(96%) contrast(81%);
+  opacity: 0.6;
 }
 
 #dropdown-menu-bg {
@@ -82,6 +73,7 @@
     margin-top: -15px;
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -103,7 +95,6 @@
   height: 0.75px;
 }
 
-
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
@@ -119,8 +110,8 @@
   }
 }
 
-
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+  /* empty for now */
 }

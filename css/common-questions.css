@@ -1,18 +1,8 @@
-/* RULES OF THUMB
-
-1) Organize your components using the BEM model
-2) Avoid using !important at all costs
-3) Atomic design
-
-*/
-
-
-/* quick access */
+/* variables */
 :root {
   --text: #5c5c5c;
 }
 
-/* common questions */
 .question {
   border: none;
   background-color: transparent;
@@ -25,20 +15,19 @@
 }
 
 .question .caret {
-  color: var(--text) !important;
+  color: var(--text);
   position: absolute;
-  z-index: 0;
   margin-top: -22.5px;
 }
-
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
+  /* empty for now */
 }
-
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+  /* empty for now */
 }

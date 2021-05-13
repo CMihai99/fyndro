@@ -1,13 +1,4 @@
-/* RULES OF THUMB
-
-1) Organize your components using the BEM model
-2) Avoid using !important at all costs
-3) Atomic design
-
-*/
-
-
-/* quick access */
+/* variables */
 :root {
   --divider: #dbdbdb;
   --text: #5c5c5c;
@@ -26,16 +17,12 @@
 #toc-icon {
   height: 32px;
   padding: 7.5px;
-}
-
-#toc-icon:active {
-  background-color: var(--divider);
+  border-radius: var(--border-radius);
 }
 
 #toc-icon:hover,
 #toc-icon:focus,
-#toc-text:focus,
-#toc-text-child:focus {
+#toc-text:focus {
   background-color: #ececec;
 }
 
@@ -50,11 +37,17 @@
   overflow-y: scroll;
 }
 
+#toc-menu li {
+  border-radius: var(--border-radius);
+}
+
 #toc-text {
   padding: 4px 20px; /* top and bottom, left and right */
   color: var(--text);
+  border-radius: var(--border-radius);
 }
 
+#toc-text:focus,
 #toc-text:active {
   background-color: var(--divider);
 }
@@ -62,28 +55,27 @@
 #toc-text-child {
   text-indent: 18px;
   color: var(--text);
-}
-
-#toc-icon,
-#toc-menu li,
-#toc-text,
-#toc-text-child {
   border-radius: var(--border-radius);
 }
 
-#toc-title {
-	margin-top: -34px;
-	margin-left: 44px;
+#toc-text-child:focus,
+#toc-text-child:active {
+  background-color: #ececec;
 }
 
+#toc-title {
+  margin-top: -34px;
+  margin-left: 44px;
+}
 
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
+  /* empty for now */
 }
-
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+  /* empty for now */
 }
