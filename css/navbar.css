@@ -33,7 +33,8 @@
   transition: 0.2s width;
 }
 
-.form-control:focus {
+.form-control:focus,
+.form-control:active {
   width: 246px;
   box-shadow: 0 0 2px var(--links);
 }
@@ -98,9 +99,18 @@
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
+  #nav-icon {
+    margin-left: 66px;
+  }
+  
   .form-control {
-    margin-left: 88px;
+    margin-left: 138px;
     width: 98px;
+  }
+
+  .form-control:focus,
+  .form-control:active {
+    width: 148px;
   }
 
   #dropdown-toggle {
