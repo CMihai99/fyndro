@@ -49,48 +49,65 @@
 
 <body>
 
-  <nav class="navbar navbar-fixed-top">
-    <div class="container-fluid">
+  <nav class="navbar">
+    <div class="navbar-header">
+      <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="nav-icon"></a>
 
-      <div class="navbar-header">
-        <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="nav-icon"></a>
-        <input class="form-control" type="text" placeholder="Search">
-      </div>
+      <a id="search-toggle" data-toggle="dropdown">
+        <div class="search-toggle-bar">
+          <input class="form-control" type="text" placeholder="Search...">
+        </div>
+      </a>
 
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="dropdown-menu" id="search-menu-bg">
+        <li><a href="index.html" id="menu-text-bg">Explore</a><li>
+
+        <li class="divider"></li>
+
+        <li><a href="categories.html" id="menu-text-bg">Categories</a><li>
+
+        <li class="divider"></li>
+
         <li>
-          <a id="dropdown-toggle" data-toggle="dropdown">
-            <div class="dropdown-toggle-icons">
-              <img src="resources/dropdown-icon.svg">
-              <span class="caret"></span>
-            </div>
-          </a>
-
-          <ul class="dropdown-menu" id="dropdown-menu-bg">
-            <li><a href="about.html" id="menu-text-bg">About</a><li>
-            <li><a href="legal.html" id="menu-text-bg">Legal</a><li>
-            <li><a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20Contact Using%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
-              target="_blank" id="menu-text-bg">Contact Us</a></li>
-
-            <li class="divider"></li>
-
-            <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=website&template=website_request.md&title=%5BWebsite%5D"
-              id="menu-text-bg" target="_blank" title="Request a website for us to add">Request a Website</a></li>
-            <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D"
-              id="menu-text-bg" target="_blank" title="Request a feature for us to improve">Request a Feature</a></li>
-            <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
-              id="menu-text-bg" target="_blank" title="Report a bug for us to fix">Report a Bug</a></li>
-
-            <li class="divider"></li>
-
-            <li><a href="index.html" id="menu-text-bg">Explore</a><li>
-            <li><a href="categories.html" id="menu-text-bg">Categories</a><li>
-            <li><a href="contributing.html" id="menu-text-bg">Contributing</a></li>
-            <li><a href="help.html" id="menu-text-bg">Help</a></li>
-          </ul>
+          <a href="top-50.html" id="menu-text-bg"
+          style="border-radius: 0 0 var(--border-radius) var(--border-radius)">Top 50</a>
         </li>
       </ul>
+    </div>
 
+    <div class="nav navbar-nav navbar-right">
+      <li>
+        <a id="options-toggle" data-toggle="dropdown">
+          <div class="options-toggle-icons">
+            <img src="resources/dropdown-icon.svg">
+            <span class="caret"></span>
+          </div>
+        </a>
+
+        <ul class="dropdown-menu" id="options-menu-bg">
+          <li><a href="about.html" id="menu-text-bg">About</a><li>
+          <li><a href="legal.html" id="menu-text-bg">Legal</a><li>
+          <li><a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20Contact Using%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
+            target="_blank" id="menu-text-bg">Contact Us</a></li>
+
+          <li class="divider"></li>
+
+          <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=website&template=website_request.md&title=%5BWebsite%5D"
+            id="menu-text-bg" target="_blank" title="Request a website for us to add">Request a Website</a></li>
+          <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D"
+            id="menu-text-bg" target="_blank" title="Request a feature for us to improve">Request a Feature</a></li>
+          <li><a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
+            id="menu-text-bg" target="_blank" title="Report a bug for us to fix">Report a Bug</a></li>
+
+          <li class="divider"></li>
+
+          <li><a href="index.html" id="menu-text-bg">Explore</a><li>
+          <li><a href="categories.html" id="menu-text-bg">Categories</a><li>
+          <li><a href="contributing.html" id="menu-text-bg">Contributing</a></li>
+          <li><a href="help.html" id="menu-text-bg">Help</a></li>
+        </ul>
+      </li>
+      
     </div>
   </nav>
 

@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: var(--light-gray);
+  background: var(--borders);
 }
 
 /* quick access */
@@ -24,9 +24,9 @@
   --background: #fff;
   --divider: #dbdbdb;
   --text: #5c5c5c;
-  --light-gray: #858585;
   --body-background: #eee;
   --links: #337ff0;
+  --borders: #858585;
 
   --border-radius: 7px;
 
@@ -67,14 +67,15 @@ p {
 }
 
 .page-border {
-  margin: 115px 50px 50px; /* top, right and left, bottom */
+  margin: 40px 115px; /* top and bottom, right and left */
+  padding: 0;
   background-color: var(--background);
   border-radius: var(--border-radius);
   border: none;
 }
 
 .content-border {
-  padding: 40px;
+  padding: 35px;
 }
 
 #last-updated {
@@ -83,7 +84,7 @@ p {
 
 .title-nav {
   position: sticky;
-  top: 65px;
+  top: 0;
   background-color: var(--background);
   box-shadow: 0 8px 6px -8px var(--divider);
 }
