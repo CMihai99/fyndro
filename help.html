@@ -58,7 +58,28 @@
 
       <div class="navbar-header">
         <a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="nav-icon"></a>
-        <input class="form-control" type="text" placeholder="Search">
+
+        <div class="search">
+          <a id="search-toggle" data-toggle="dropdown">
+            <input class="form-control" type="text" placeholder="Search or jump to...">
+          </a>
+  
+          <ul class="dropdown-menu" id="search-menu">
+            <li><a href="about.html" id="menu-text-bg">About</a><li>
+  
+  
+            <li><a href="legal.html" id="menu-text-bg">Legal</a><li>
+  
+  
+            <li><a href="index.html" id="menu-text-bg">Explore</a><li>
+  
+  
+            <li><a href="categories.html" id="menu-text-bg">Categories</a><li>
+  
+  
+            <li><a href="contributing.html" id="menu-text-bg">Contributing</a></li>
+          </ul>
+        </div>
       </div>
 
       <ul class="nav navbar-nav navbar-right">
@@ -131,7 +152,7 @@
       <p>Need help? We've got you covered.</p>
       <p>For more information, <a
           href="mailto:androteamquestions@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20Contact Using%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
-          target="_blank" id="links">Contact Us</a>.</p>
+          target="_blank" id="links">contact us</a>.</p>
 
       <h3 id="common-questions">Common Questions</h3>
       <h3></h3>
@@ -158,7 +179,7 @@
 
       <!-- Question 2 -->
       <div>
-        <h4 id="supported-browsers">Which browsers do you support?</h4>
+        <h4 id="whats-next">What is the point of this website?</h4>
 
         <button aria-expanded="false" aria-controls="answer-2" class="question" style="margin-left: 267.5px">
           <div class="menu-icons">
@@ -170,6 +191,25 @@
       <!-- Answer 2 -->
       <dd>
         <p id="answer-2" class="answer">
+          Lorem ipsum.
+        </p>
+      </dd>
+
+
+      <!-- Question 3 -->
+      <div>
+        <h4 id="supported-browsers">Which browsers do you support?</h4>
+
+        <button aria-expanded="false" aria-controls="answer-3" class="question" style="margin-left: 267.5px">
+          <div class="menu-icons">
+            <span class="caret"></span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Answer 3 -->
+      <dd>
+        <p id="answer-3" class="answer">
           At the moment, we aim to support all major web browsers. Any issue in the browsers listed below 
           <a
             href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
@@ -194,20 +234,20 @@
       </dd>
 
 
-      <!-- Question 3 -->
+      <!-- Question 4 -->
       <div>
         <h4 id="compatible-devices">What are the compatible devices?</h4>
 
-        <button aria-expanded="false" aria-controls="answer-3" class="question" style="margin-left: 276px">
+        <button aria-expanded="false" aria-controls="answer-4" class="question" style="margin-left: 276px">
           <div class="menu-icons">
             <span class="caret"></span>
           </div>
         </button>
       </div>
 
-      <!-- Answer 3 -->
+      <!-- Answer 4 -->
       <dd>
-        <p id="answer-3" class="answer">
+        <p id="answer-4" class="answer">
           At the moment, we aim to support all major devices. Any issue in the device-types listed below 
           <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
             target="_blank" id="links">should be reported as a bug</a>.
@@ -228,32 +268,11 @@
       </dd>
 
 
-      <!-- Question 4 -->
+      <!-- Question 5 -->
       <div>
         <h4 id="software-type">Is this software open-source?</h4>
 
-        <button aria-expanded="false" aria-controls="answer-4" class="question" style="margin-left: 241px">
-          <div class="menu-icons">
-            <span class="caret"></span>
-          </div>
-        </button>
-      </div>
-
-      <!-- Answer 4 -->
-      <dd>
-        <p id="answer-4" class="answer">
-          Andro is and will be open-source forever. Open source licensing encourages innovation through collaboration.
-          Without it, many of the technologies we take for granted today would never have developed,
-          or would been locked away behind patent law.
-        </p>
-      </dd>
-
-
-      <!-- Question 5 -->
-      <div>
-        <h4 id="license">What license do you use?</h4>
-
-        <button aria-expanded="false" aria-controls="answer-5" class="question" style="margin-left: 212.5px">
+        <button aria-expanded="false" aria-controls="answer-5" class="question" style="margin-left: 241px">
           <div class="menu-icons">
             <span class="caret"></span>
           </div>
@@ -263,18 +282,18 @@
       <!-- Answer 5 -->
       <dd>
         <p id="answer-5" class="answer">
-          Andro is released under the MIT License.
-          You can learn more about it
-          <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank" id="links">here</a>.
+          Andro is and will be open-source forever. Open source licensing encourages innovation through collaboration.
+          Without it, many of the technologies we take for granted today would never have developed,
+          or would been locked away behind patent law.
         </p>
       </dd>
 
 
       <!-- Question 6 -->
       <div>
-        <h4 id="whats-next">What's next?</h4>
+        <h4 id="license">What license do you use?</h4>
 
-        <button aria-expanded="false" aria-controls="answer-6" class="question" style="margin-left: 110px">
+        <button aria-expanded="false" aria-controls="answer-6" class="question" style="margin-left: 210px">
           <div class="menu-icons">
             <span class="caret"></span>
           </div>
@@ -284,19 +303,18 @@
       <!-- Answer 6 -->
       <dd>
         <p id="answer-6" class="answer">
-          We plan on adding more features along the way, as well as new websites
-          and continue evolving Andro through with the help of your contributions.
-          To learn more about contributing,
-          <a href="contributing.html" id="links">visit our Contributing page</a>.
+          Andro is released under the MIT License.
+          You can learn more about it
+          <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank" id="links">here</a>.
         </p>
       </dd>
 
 
       <!-- Question 7 -->
       <div>
-        <h4 id="contributing">How can I contribute?</h4>
+        <h4 id="whats-next">What is coming next?</h4>
 
-        <button aria-expanded="false" aria-controls="answer-7" class="question" style="margin-left: 180px">
+        <button aria-expanded="false" aria-controls="answer-7" class="question" style="margin-left: 177.5px">
           <div class="menu-icons">
             <span class="caret"></span>
           </div>
@@ -306,6 +324,28 @@
       <!-- Answer 7 -->
       <dd>
         <p id="answer-7" class="answer">
+          We plan on adding more features along the way, as well as new websites
+          and continue evolving Andro through with the help of your contributions.
+          To learn more about contributing,
+          <a href="contributing.html" id="links">visit our Contributing page</a>.
+        </p>
+      </dd>
+
+
+      <!-- Question 8 -->
+      <div>
+        <h4 id="contributing">How can I contribute?</h4>
+
+        <button aria-expanded="false" aria-controls="answer-8" class="question" style="margin-left: 180px">
+          <div class="menu-icons">
+            <span class="caret"></span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Answer 8 -->
+      <dd>
+        <p id="answer-8" class="last-answer">
           The main purpose of making Andro open-source is to continue evolving it, making it faster
           and easier to use. You can contribute by
           <a href="https://github.com/CMihai99/andro/issues" target="_blank" id="links">closing an issue</a>,
