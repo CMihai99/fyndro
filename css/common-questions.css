@@ -24,7 +24,7 @@
   will-change: transform; /* hint to the browser that it's going to animate the selected element */
 }
 
-/* search menu width increase */
+/* answer fade-in */
 @keyframes answerFadeIn {
   from {
     opacity: 0;
