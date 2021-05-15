@@ -8,7 +8,7 @@
 - [什么包含？](#whats-included)
 - [依赖关系](#dependencies)
 - [浏览器支持](#browser-support)
-- [设备支持](#device-support)
+- [设备兼容性](#device-compatibility)
 - [错误和功能/网站请求](#bugs-and-requests)
 - [贡献中](#contributing)
 - [行为守则](#code-of-conduct)
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>依赖于</h2></a>
@@ -94,7 +97,7 @@ andro/
 
 (Current - 1) 和 Current 意味着我们支持当前稳定版本的浏览器和之前的版本。
 
-<a id="device-support"><h2>设备支持</h2></a>
+<a id="device-compatibility"><h2>设备兼容性</h2></a>
 
 目前，我们的目标是支持所有主要装置。 下面列出的任何设备类型 <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">中的任何问题都应该报告为 bug</a>：
 
@@ -133,6 +136,6 @@ andro/
 
 <a id="copyright-and-license"><h2>版权和许可证</h2></a>
 
-© Andro, Inc. 2021
+© 2021 Andro Inc.
 
 在 [MIT 许可证](LICENSE) 下发布。

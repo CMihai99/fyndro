@@ -8,7 +8,7 @@
 - [Что включает?](#whats-included)
 - [Зависимости](#dependencies)
 - [Поддержка браузера](#browser-support)
-- [Поддержка устройства](#device-support)
+- [Совместимость устройства](#device-compatibility)
 - [Ошибки и функции/запросы сайта](#bugs-and-requests)
 - [Вклад](#contributing)
 - [Кодекс поведения](#code-of-conduct)
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>Dependencies</h2></a>
@@ -94,7 +97,7 @@ andro/
 
 (Текущее - 1) и текущее означает, что мы поддерживаем текущую стабильную версию браузера и предшествующую ей версию.
 
-<a id="device-support"><h2>Поддержка устройства</h2></a>
+<a id="device-compatibility"><h2>Совместимость устройства</h2></a>
 
 На данный момент мы стремимся поддерживать все основные устройства. Любая проблема в любом из типов устройств, перечисленных ниже <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">должна быть отмечена как ошибка</a>:
 
@@ -132,6 +135,6 @@ andro/
 
 <a id="copyright-and-license"><h2>Авторское право и лицензия</h2></a>
 
-© Andro, Inc. 2021
+© 2021 Andro Inc.
 
 Выпущено под [MIT лицензией](LICENSE).

@@ -8,7 +8,7 @@
 - [ما المشمول؟](#whats-included)
 - [التبعيات](#dependencies)
 - [دعم المتصفح](#browser-support)
-- [دعم الجهاز](#device-support)
+- [توافق الجهاز](#device-compatibility)
 - [الأخطاء و طلبات الميزة/الموقع](#bugs-and-requests)
 - [المساهمة](#contributing)
 - [مدونة قواعد السلوك](#code-of-conduct)
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>التبعيات</h2></a>
@@ -94,7 +97,7 @@ andro/
 
 (الحالي - 1) و الحالي يعني أننا ندعم الإصدار المستقر الحالي من المتصفح و الإصدار الذي يسبقه.
 
-<a id="device-support"><h2>دعم المتصفح</h2></a>
+<a id="device-compatibility"><h2>توافق الجهاز</h2></a>
 
 في الوقت الحالي ، نهدف إلى دعمو جميع الأجهزة الرئيسية. يجب الإبلاغ عن أي مشكلة في أي نوع من أنواع الأجهزة المدرجة أدناه <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">كخطأ</a>:
 
@@ -132,6 +135,6 @@ andro/
 
 <a id="copyright-and-license"><h2>حقوق الطبع والنشر والرخصة</h2></a>
 
-© أندرو، شركة 2021
+© 2021 Andro Inc.
 
 تم إصداره بموجب رخصة [MIT](LICENSE).

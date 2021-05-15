@@ -2,15 +2,13 @@
 
 We try and make it fast and intuitive when you are in need of a tool or service. All you have to do is visit our website and search for what you need. Simple as that.
 
-For more information, <a href="" target="_blank">visit our FAQ page</a>.
-
 ## Table of contents
 
 - [Andro](#andro)
 - [What's included?](#whats-included)
 - [Dependencies](#dependencies)
 - [Browser support](#browser-support)
-- [Device support](#device-support)
+- [Device compatibility](#device-compatibility)
 - [Bugs and feature/website requests](#bugs-and-requests)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
@@ -20,9 +18,9 @@ For more information, <a href="" target="_blank">visit our FAQ page</a>.
 
 <a id="whats-included"><h2>What's included?</h2></a>
 
-Within the download archive you'll find the following directories and files, logically grouping common assets:
+Within the download archive you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
-```
+```sh
 andro/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
@@ -48,20 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── common-questions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
-├── .gitignore
+├── ts/
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
+│
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -70,23 +72,26 @@ andro/
 ├── categories.html
 ├── code-of-conduct.html
 ├── contributing.html
+├── cookie-policy.html
 ├── help.html
 ├── index.html
-├── privacy.html
-└── terms.html
+├── privacy-policy.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
+
+In the `Documentation` folder there is the documentation available in 12 languages.
 
 <a id="dependencies"><h2>Dependencies</h2></a>
 
 - **Bootstrap**. Andro is built on the Bootstrap 5 library and fully supports it.
 
-- **JQuery 3.5.1**. Andro uses JQuery for additional Bootstrap 5 functionality.
-
-- **Google Fonts**. Andro is mostly built using the Arial font, however, there are a handful of others used in the process.
+- **Google Fonts**. By default, Andro is mostly built using the Arial font, however, there are multiple others used.
 
 <a id="browser-support"><h2>Browser support</h2></a>
 
-At the moment, we aim to support all major web browsers. Any issue in any of the browsers listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">should be reported as a bug</a>:
+At the moment, we aim to support all major web browsers. Any issue in any of the browsers listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D">should be reported as a bug</a>:
 
 - Microsoft Edge 14+
 - Chrome (Current - 1) and Current versions
@@ -95,9 +100,9 @@ At the moment, we aim to support all major web browsers. Any issue in any of the
 
 (Current - 1) and Current means that we support the current stable version of the browser and the version that precedes it.
 
-<a id="device-support"><h2>Device support</h2></a>
+<a id="device-compatibility"><h2>Device compatibility</h2></a>
 
-At the moment, we aim to support all major devices. Any issue in any of the device types listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">should be reported as a bug</a>:
+At the moment, we aim to support all major brands. Any issue in any of the devices listed below <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D">should be reported as a bug</a>:
 
 - High Resolution Desktops
 - Regular Desktops and Laptops
@@ -107,7 +112,7 @@ At the moment, we aim to support all major devices. Any issue in any of the devi
 
 <a id="bugs-and-requests"><h2>Bugs, feature requests and website ideas</h2></a>
 
-Found a bug you want to report? Have a feature you want to request? Got a website idea for us to publish? First, search for existing and closed issues. If your problem or idea is not addressed yet, [open a new issue](https://github.com/CMihai99/andro/issues/new/choose).
+Found a bug you want to report? Have a feature you want to request? Got a website idea for us to publish? First, search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/CMihai99/andro/issues/new/choose).
 
 <a id="contributing"><h2>Contributing</h2></a>
 
@@ -134,6 +139,6 @@ Special thanks to everyone who contributed in getting Andro to its current state
 
 <a id="copyright-and-license"><h2>Copyright and License</h2></a>
 
-© Andro, Inc. 2021
+© 2021 Andro Inc.
 
 Released under the [MIT License](LICENSE).

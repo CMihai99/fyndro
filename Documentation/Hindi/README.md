@@ -8,7 +8,7 @@
 - [क्या शामिल है?](#whats-included)
 - [निर्भरता](#dependencies)
 - [ब्राउज़र समर्थन](#browser-support)
-- [डिवाइस का समर्थन](#device-support)
+- [डिवाइस संगतता](#device-compatibility)
 - [कीड़े और सुविधा / वेबसाइट अनुरोध](#bugs-and-requests)
 - [Contributing](#contributing)
 - [आचार संहिता](#code-of-conduct)
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>निर्भरता</h2></a>
@@ -94,7 +97,7 @@ andro/
 
 (वर्तमान -1) और वर्तमान का अर्थ है कि हम ब्राउज़र के वर्तमान स्थिर संस्करण और उसके पहले के संस्करण का समर्थन करते हैं।
 
-<a id="device-support"><h2> डिवाइस का समर्थन </h2></a>
+<a id="device-compatibility"><h2>डिवाइस संगतता</h2></a>
 
 फिलहाल, हम सभी प्रमुख उपकरणों का समर्थन करना चाहते हैं। नीचे सूचीबद्ध किसी भी प्रकार के डिवाइस में कोई समस्या <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">बग के रूप में रिपोर्ट की जानी चाहिए</a>:
 
@@ -133,6 +136,6 @@ Andro ने एक आचार संहिता अपनाई है ज�
 
 <a id="copyright-and-license"><h2>Copyright and License</h2></a>
 
-© Andro, Inc. 2021
+© 2021 Andro Inc.
 
 Released under the [MIT License](LICENSE).

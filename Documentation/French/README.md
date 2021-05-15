@@ -8,7 +8,7 @@ Nous essayons de le rendre rapide et intuitif lorsque vous avez besoin d'un outi
 - [Qu'est-ce qui comprend ?](#whats-included)
 - [Dépendances](#dependencies)
 - [Support du navigateur](#browser-support)
-- [Support de l'appareil](#device-support)
+- [Compatibilité des appareils](#device-compatibility)
 - [Bugs et demandes de fonctionnalité/site web](#bugs-and-requests)
 - [Contribuer](#contributing)
 - [Code de conduite](#code-of-conduct)
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>Dépendances</h2></a>
@@ -94,7 +97,7 @@ Pour le moment, nous nous efforçons de supporter tous les principaux navigateur
 
 (Current - 1) et Current signifie que nous supportons la version stable actuelle du navigateur et la version qui le précède.
 
-<a id="device-support"><h2>Prise en charge de l'appareil</h2></a>
+<a id="device-compatibility"><h2>Compatibilité des appareils</h2></a>
 
 Pour le moment, nous visons à soutenir tous les dispositifs majeurs. Tout problème dans l'un des types de périphériques listés ci-dessous <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">doit être signalé comme un bogue</a>:
 
@@ -126,12 +129,12 @@ Un grand merci à tous ceux qui ont contribué à obtenir Andro à son état act
 - [Codacy](https://www.codacy.com/) - Analyse de code
 - La Communauté - Enfin, et ce n'est pas le moins important, je remercie massivement notre communauté pour avoir rendu tout cela possible. ♥
 
-<a id="supporters"><h2>Supporters</h2></a>
+<a id="supporters"><h2>Partisans</h2></a>
 
 [![Stargazers repo roster for @CMihai99/andro](https://reporoster.com/stars/CMihai99/andro)](https://github.com/CMihai99/andro/stargazers) [![Forkers repo roster for @CMihai99/andro](https://reporoster.com/forks/CMihai99/andro)](https://github.com/CMihai99/andro/network/members)
 
 <a id="copyright-and-license"><h2>Copyright et Licence</h2></a>
 
-© Andro, Inc. 2021
+© 2021 Andro Inc.
 
 Publié sous la [Licence MIT](LICENSE).

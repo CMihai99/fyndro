@@ -8,7 +8,7 @@
 - [何が含まれていますか?](#whats-included)
 - [依存関係](#dependencies)
 - [ブラウザのサポート](#browser-support)
-- [デバイスのサポート](#device-support)
+- [デバイスの互換性](#device-compatibility)
 - [バグと機能/ウェブサイトのリクエスト](#bugs-and-requests)
 - [コントリビューション](#contributing)
 - [行動基準](#code-of-conduct)
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>依存関係</h2></a>
@@ -94,7 +97,7 @@ andro/
 
 (Current - 1) とCurrentは、ブラウザの現在の安定版とそれ以前のバージョンをサポートすることを意味します。
 
-<a id="device-support"><h2>デバイスサポート</h2></a>
+<a id="device-compatibility"><h2>デバイスの互換性</h2></a>
 
 現時点では、すべての主要デバイスをサポートすることを目指しています。 以下にリストされているデバイスタイプのいずれかの問題は、<a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">バグとして報告する必要があります</a>
 
@@ -132,6 +135,6 @@ Androを現在の状態にすることに貢献したすべての人に特別な
 
 <a id="copyright-and-license"><h2>著作権とライセンス</h2></a>
 
-© Andro, Inc. 2021
+© 2021 Andro Inc.
 
 [MIT ライセンス](LICENSE) でリリースされました。

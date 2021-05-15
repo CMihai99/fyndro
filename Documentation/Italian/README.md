@@ -8,7 +8,7 @@ Cerchiamo di renderlo veloce e intuitivo quando hai bisogno di uno strumento o d
 - [Cosa è incluso?](#whats-included)
 - [Dipendenze](#dependencies)
 - [Supporto browser](#browser-support)
-- [Supporto dispositivo](#device-support)
+- [Compatibilità del dispositivo](#device-compatibility)
 - [Bugs e richieste di funzionalità/sito](#bugs-and-requests)
 - [Contribuire](#contributing)
 - [Codice di condotta](#code-of-conduct)
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>Dipendenze</h2></a>
@@ -94,7 +97,7 @@ Al momento, miriamo a supportare tutti i principali browser web. Qualsiasi probl
 
 (Current - 1) e Corrente significa che supportiamo l'attuale versione stabile del browser e la versione che lo precede.
 
-<a id="device-support"><h2>Supporto dispositivo</h2></a>
+<a id="device-compatibility"><h2>Compatibilità del dispositivo</h2></a>
 
 Al momento intendiamo supportare tutti i principali dispositivi. Qualsiasi problema in uno dei tipi di dispositivi elencati di seguito <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">dovrebbe essere segnalato come un bug</a>:
 
@@ -132,6 +135,6 @@ Un ringraziamento speciale a tutti coloro che hanno contribuito ad ottenere Andr
 
 <a id="copyright-and-license"><h2>Copyright and License</h2></a>
 
-© Andro, Inc. 2021
+© 2021 Andro Inc.
 
 Rilasciato sotto la licenza [MIT](LICENSE).

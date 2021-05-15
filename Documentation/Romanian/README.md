@@ -8,7 +8,7 @@
 - [Ce este inclus?](#whats-included)
 - [Dependențe](#dependencies)
 - [Suport browser](#browser-support)
-- [Suport dispozitive](#device-support)
+- [Compatibilitate dispozitive](#device-compatibility)
 - [Erori, idei de funcții și cereri de website](#bugs-and-requests)
 - [Contribuire](#contributing)
 - [Cod de conduită](#code-of-conduct)
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>Dependențe</h2></a>
@@ -94,7 +97,7 @@ andro/
 
 Versiunile actuale înseamnă că suportăm actuala versiune stabilă a browserului și a versiunii care o precedă.
 
-<a id="device-support"><h2>Suport dispozitive</h2></a>
+<a id="device-compatibility"><h2>Compatibilitate dispozitive</h2></a>
 
 În acest moment, dorim să sprijinim toate dispozitivele majore. Orice problemă în oricare dintre dispozitivele listate mai jos <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">trebuie raportată ca o eroare</a>:
 
@@ -132,6 +135,6 @@ Mulţumiri speciale tuturor celor care au contribuit în obţinerea lui Andro la
 
 <a id="copyright-and-license"><h2>Drepturi de autor și licență</h2></a>
 
-© 2021 Andro, Inc.
+© 2021 Andro Inc.
 
 Publicat sub [licența MIT](LICENSE).

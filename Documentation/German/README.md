@@ -5,14 +5,14 @@ Wir versuchen es schnell und intuitiv zu machen, wenn Sie ein Werkzeug oder Serv
 ## Inhaltsverzeichnis
 
 - [Andro](#andro)
-- [Was ist enthalten?](#whats-Inclusive)
-- [Abhängigkeiten](#Abhängigkeiten)
-- [Browser-Unterstützung](#browser-Unterstützung)
-- [Geräteunterstützung](#geräteunterstützung)
-- [Bugs und Feature/Website-Anfragen](#Fehler und Anfragen)
-- [Mitwirken](#mitwirken)
-- [Verhaltenskodex](#verhaltenskodex)
-- [Mitwirkende](#mitwirkende)
+- [Was ist enthalten?](#whats-included)
+- [Abhängigkeiten](#dependencies)
+- [Browser-Unterstützung](#browser-support)
+- [Gerätekompatibilität](#device-compatibility)
+- [Bugs, Feature-Requests und Website-Ideen](#bugs-and-requests)
+- [Mitwirkend](#contributing)
+- [Verhaltenskodex](#code-of-conduct)
+- [Mitwirkende](#contributors)
 - [Unterstützer](#supporters)
 - [Copyright und Lizenz](#copyright-and-license)
 
@@ -46,23 +46,24 @@ andro/
 │
 ├── css/
 │   ├── common-questions.css
+│   ├── cookie-settings.css
 │   ├── footer.css
 │   ├── main.css
 │   ├── navbar.css
 │   └── table-of-contents.css
 │
 ├── js/
-│   └── commonQuestions.js
+│   ├── commonQuestions.js
+│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── heart-solid.svg
-│   ├── list-ul.svg
-│   └── list.svg
+│   ├── dropdown-icon.svg
+│   └── toc-icon.svg
 │
 ├── ts/
-│   └── coookieSettings.ts
+│   ├── commonQuestions.ts
+│   └── cookieSettings.ts
 │
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -75,7 +76,9 @@ andro/
 ├── help.html
 ├── index.html
 ├── privacy-policy.html
-└── terms-of-use.html
+├── terms-of-use.html
+├── top-50.html
+└── tsconfig.json
 ```
 
 <a id="dependencies"><h2>Abhängigkeiten</h2></a>
@@ -94,7 +97,7 @@ Im Moment möchten wir alle wichtigen Web-Browser unterstützen. Jedes Problem i
 
 (Aktuell - 1) und Aktuell bedeutet, dass wir die aktuelle stabile Version des Browsers und die Version, die ihm vorausgegangen ist, unterstützen.
 
-<a id="device-support"><h2>Device-Unterstützung</h2></a>
+<a id="device-compatibility"><h2>Gerätekompatibilität</h2></a>
 
 Im Moment möchten wir alle wichtigen Web-Browser unterstützen. Jedes Problem in einem der unten aufgeführten Browser <a href="https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D" target="_blank">sollte als Fehler gemeldet werden</a>:
 
@@ -132,6 +135,6 @@ Besonderer Dank gilt allen, die dazu beigetragen haben, Andro in seinen aktuelle
 
 <a id="copyright-and-license"><h2>Copyright und Lizenz</h2></a>
 
-© Andro, Inc. 2021
+© 2021 Andro Inc.
 
 Veröffentlicht unter der [MIT Lizenz](LICENSE).
