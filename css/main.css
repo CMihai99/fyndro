@@ -37,6 +37,7 @@
 
 body {
   background-color: var(--body-background);
+  overflow-x: hidden;
 }
 
 h1,
@@ -82,28 +83,12 @@ p {
   text-decoration: underline;
 }
 
-.title-nav {
-  position: sticky;
-  top: 0;
-  background-color: var(--background);
-  box-shadow: 0 8px 6px -8px var(--divider);
-}
-
-.title-nav hr {
-  height: 0.75px;
-  margin-top: 25px;
-  border: 0;
-  background-color: var(--divider);
-}
-
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-  /* empty for now */
 }
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
-  /* empty for now */
 }
