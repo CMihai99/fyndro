@@ -7,19 +7,32 @@
   border: none;
   background-color: transparent;
   padding: 0;
-  margin-top: 15px;
+  margin-top: 25px;
   display: block;
 }
 
 .question .caret {
   color: var(--text);
   position: absolute;
-  margin-top: -27.5px;
+  margin-top: -37.5px;
 }
 
 .answer {
   padding-left: 20px;
-  margin-bottom: 30px;
+  margin: -10px 0 30px; /* top, right and left, bottom */
+  animation: answerFadeIn 0.4s ease;
+  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+}
+
+/* search menu width increase */
+@keyframes answerFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .last-answer {
@@ -30,11 +43,9 @@
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-  /* empty for now */
 }
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
-  /* empty for now */
 }
