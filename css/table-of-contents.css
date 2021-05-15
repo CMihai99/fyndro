@@ -15,6 +15,19 @@
   cursor: pointer;
 }
 
+.title-nav {
+  position: sticky;
+  top: 0;
+  background-color: var(--background);
+  box-shadow: 0 8px 6px -8px var(--divider);
+}
+
+.title-nav hr {
+  height: 0.5px;
+  border: none;
+  background-color: var(--divider);
+}
+
 #toc-icon {
   height: 32px;
   padding: 7.5px;
@@ -27,13 +40,32 @@
   background-color: #ececec;
 }
 
+#toc-title {
+  margin: -32px 0 0 10px; /* top, right, bottom, left */
+  padding: 0 0 0 34px; /* top, right, bottom, left */
+}
+
 #toc-menu {
-  padding: 5px;
+  position: absolute;
   height: auto;
   width: auto;
-  border-radius: 7px;
-  margin-top: -15px;
-  margin-left: 3px;
+  padding: 4px;
+  border-radius: var(--border-radius);
+  margin: -15px 0 0 3px; /* top, right, bottom, left */
+  animation: tocFadeIn 0.2s ease-in-out;
+  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+}
+
+/* toc menu fade-in */
+@keyframes tocFadeIn {
+  from {
+    margin-top: -30px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 #toc-menu li {
@@ -46,35 +78,25 @@
   border-radius: var(--border-radius);
 }
 
-#toc-text:focus,
-#toc-text:active {
-  background-color: var(--divider);
-}
-
 #toc-text-child {
   text-indent: 18px;
   color: var(--text);
   border-radius: var(--border-radius);
 }
 
+#toc-text:focus,
+#toc-text:active,
 #toc-text-child:focus,
 #toc-text-child:active {
   background-color: #ececec;
 }
 
-#toc-title {
-  margin-top: -34px;
-  margin-left: 44px;
-}
-
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
-  /* empty for now */
 }
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
-  /* empty for now */
 }

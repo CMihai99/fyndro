@@ -9,10 +9,6 @@
   --border-radius: 7px;
 }
 
-.container-fluid {
-  padding: 0;
-}
-
 .navbar {
   background-color: var(--background);
   height: 65px;
@@ -32,12 +28,12 @@
 
 .search-toggle-bar input,
 .search-toggle-bar input::placeholder {
-  color: var(--text);
+  color: var(--borders);
 }
 
 .search-toggle-bar input:focus,
 .search-toggle-bar input:focus::placeholder {
-  opacity: 0.75;
+  opacity: 0.9;
 }
 
 .form-control {
@@ -48,7 +44,7 @@
   border-radius: var(--border-radius);
   border: 1px var(--borders);
   box-shadow: 0 0 1.75px var(--borders);
-  transition: width 0.4s, border-radius 0.3s, box-shadow 0.3s;
+  transition: width 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
 .form-control:focus {
@@ -58,16 +54,27 @@
 }
 
 #search-menu-bg {
-  width: 397px;
-  margin: -17.5px 0 0 121.5px; /* top, right, bottom, left */
+  width: 400px;
   height: auto;
   color: var(--text);
   border-radius: 0 0 var(--border-radius) var(--border-radius); /* top-left, top-right, bottom-right, bottom-left */
   border: 1px var(--borders);
   box-shadow: 0 0 1.75px var(--borders);
-  animation: none;
+  margin: -17.5px 0 0 120px; /* top, right, bottom, left */
   padding: 0;
-  transition: width 0.4s;
+  animation: searchMenuWidth 0.2s ease;
+  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+}
+
+/* search menu width increase */
+@keyframes searchMenuWidth {
+  from {
+    width: 199px;
+  }
+
+  to {
+    width: 400px;
+  }
 }
 
 #search-menu-bg a {
@@ -88,7 +95,7 @@
 .options-toggle-icons {
   color: var(--black);
   cursor: pointer;
-  transition: 0.25s opacity;
+  transition: opacity 0.25s;
 }
 
 .options-toggle-icons:hover {
@@ -97,15 +104,10 @@
 
 #options-menu-bg {
   border-radius: 7px;
-  margin-top: 10px;
-}
-
-.dropdown-menu {
-  border-radius: 7px;
-  margin-top: 10px;
-  margin-right: 60px;
+  margin: 10px 60px 0 0; /* top, right, bottom, left */
   box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
   animation: dropdownFadeIn 0.2s ease-in-out;
+  will-change: transform; /* hint to the browser that it's going to animate the selected element */
 }
 
 /* dropdown menu fade-in */
@@ -161,5 +163,4 @@
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
-  /* empty for now */
 }
