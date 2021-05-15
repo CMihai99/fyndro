@@ -1,3 +1,3 @@
 function cookieSettings() {
-  alert("test 2");
+    alert("test 2");
 }
