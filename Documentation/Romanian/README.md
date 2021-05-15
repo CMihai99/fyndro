@@ -23,12 +23,6 @@
 ```sh
 andro/
 ├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   ├── feature_request.md
-│   │   └── website_request.md
-│   ├── FUNDING.yml
-│   └── pull_request_template.md
 │
 ├── Documentation/
 │   ├── Arabic
@@ -45,24 +39,10 @@ andro/
 │   └── Spanish
 │
 ├── css/
-│   ├── common-questions.css
-│   ├── cookie-settings.css
-│   ├── footer.css
-│   ├── main.css
-│   ├── navbar.css
-│   └── table-of-contents.css
-│
-├── js/
-│   ├── commonQuestions.js
-│   └── cookieSettings.js
 │
 ├── resources/
-│   ├── dropdown-icon.svg
-│   └── toc-icon.svg
 │
 ├── ts/
-│   ├── commonQuestions.ts
-│   └── cookieSettings.ts
 │
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
