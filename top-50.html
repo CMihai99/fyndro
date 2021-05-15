@@ -22,14 +22,11 @@
   <meta property="twitter:image" content="https://cmihai99.github.io/andro/resources/social-card.png">
 
   <!-- Dependencies -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-
-  <!-- TS -->
-  <script src="ts/cookieSettings.ts"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
@@ -37,9 +34,6 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/table-of-contents.css">
   <link rel="stylesheet" href="css/cookie-settings.css">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 
   <link rel="icon" href="resources/icon.svg">
   <title>Andro: Find new websites quickly and easily - Explore</title>
@@ -77,7 +71,7 @@
 
     <div class="nav navbar-nav navbar-right">
       <li>
-        <a id="options-toggle" data-toggle="dropdown">
+        <a href="#" id="options-toggle" data-toggle="dropdown">
           <div class="options-toggle-icons">
             <img src="resources/dropdown-icon.svg">
             <span class="caret"></span>
@@ -107,7 +101,6 @@
           <li><a href="help.html" id="menu-text-bg">Help</a></li>
         </ul>
       </li>
-      
     </div>
   </nav>
 
@@ -144,12 +137,25 @@
   <div class="footer-menu-container">
 
     <div class="footer-menu-category" style="margin-left: 135px">
+      <h2 id="menu-category-title">support</h2>
+
+      <ul class="list-unstyled quick-links">
+        <li><a href="https://github.com/CMihai99/andro" target="_blank">Star on GitHub</a></li>
+        <li><a href="" target="_blank">Upvote on Reddit</a></li>
+        <li><a href="" target="_blank">Upvote on Hackernews</a></li>
+        <li><a href="" target="_blank">React on Dev.to</a></li>
+        <li><a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US" target="_blank">Donate using PayPal</a></li>
+        <li><a href="" target="_blank">Donate using OpenCollective</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-menu-category">
       <h2 id="menu-category-title">andro</h2>
       
       <ul class="list-unstyled quick-links">
         <li><a href="index.html">Explore</a></li>
         <li><a href="categories.html">Categories</a></li>
-        <li><a href="contributing.html">Contributing</a></li>
+        <li><a href="top-50.html">Top 50</a></li>
       </ul>
     </div>
 
@@ -160,8 +166,8 @@
         <li><a href="about.html">About</a></li>
         <li><a href="privacy-policy.html">Privacy Policy</a></li>
         <li><a href="terms-of-use.html">Terms of Use</a></li>
+        <li><a href="contributing.html">Contributing</a></li>
         <li><a href="code-of-conduct.html">Code of Conduct</a></li>
-        <li><a id="cookie-settings" onclick="cookieSettings()">Cookie Settings</a></li>
         <li><a href="cookie-policy.html">Cookie Policy</a></li>
       </ul>
     </div>
@@ -178,24 +184,18 @@
         target="_blank">Report a Bug</a></li>
         <li><a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20Contact Using%20you%20in%20regard%20with%20%7BREASON%7D.%0D%0A%0D%0ABest%20wishes%2C%0D%0A%7BYOUR%20NAME%7D"
           target="_blank">Contact Us</a></li>
+        <li><a href="https://discord.gg/hrSu7CHb" target="_blank">Chat on Discord</a></li>
         <li><a href="help.html">Help</a></li>
       </ul>
     </div>
 
-    <div class="footer-menu-category" style="margin-top: -36.5px">
-      <h2 id="menu-category-title" style="opacity: 0"> </h2> <!-- ! Whitespaces are necesarry ! -->
+    <div class="footer-menu-category">
+      <h2 id="menu-category-title">follow</h2>
 
       <ul class="list-unstyled quick-links">
-        <li id="socials">
-          <a href="https://twitter.com/androteamfaq" target="_blank">Twitter</a>
-          <a href="https://www.instagram.com/androteamfaq/" target="_blank">Instagram</a>
-          <a href="https://github.com/CMihai99/andro" target="_blank">GitHub</a>
-          <a href="https://opencollective.com/andro-team" target="_blank">OpenCollective</a>
-        </li>
-
-        <li><a href="https://cmihai99.github.io/andro"><img src="resources/icon.svg" id="footer-icon"></a></li>
-
-        <li style="padding-top: 6px">© 2021 Andro, Inc.</li>
+        <li><a href="https://twitter.com/androteamfaq" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/androteamfaq/" target="_blank">Instagram</a></li>
+        <!-- <li style="margin-top: 85px">© 2021 {companyName}</li> -->
       </ul>
     </div>
 
