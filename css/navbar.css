@@ -106,7 +106,7 @@
   border-radius: 7px;
   margin: 10px 60px 0 0; /* top, right, bottom, left */
   box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
-  animation: dropdownFadeIn 0.2s ease-in-out;
+  animation: dropdownFadeIn 0.15s ease-in-out;
   will-change: transform; /* hint to the browser that it's going to animate the selected element */
 }
 
