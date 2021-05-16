@@ -58,8 +58,8 @@ footer ul.quick-links li a:hover {
 }
 
 @media
-(min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
-(min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
+(min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
+(min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
 }
 
 @media
