@@ -12,6 +12,7 @@ footer {
 
 .footer-menu-container {
   display: flex;
+  justify-content: center;
 }
 
 .footer-menu-category {
@@ -24,37 +25,33 @@ footer {
 
 #menu-category-title {
   color: var(--gray);
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: 0.5px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 14px;
+  font-size: 13.5px;
+  margin-bottom: 10.5px;
 }
 
 footer ul.quick-links li {
-  padding: 2.5px 0;
+  padding: 3.5px 0;
 }
 
-footer ul.quick-links li a {
+footer ul.quick-links li a,
+footer ul.quick-links li p {
   color: var(--gray);
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14.5px;
+  margin: 0;
 }
 
 footer ul.quick-links li a:hover {
   color: var(--text);
 }
 
-#socials a {
-  padding-right: 10px;
-}
-
-#footer-icon {
-  width: 317.5px;
-  height: 153.5px;
-  margin-top: 13.5px;
-  margin-left: 0.5px;
+#trademark {
+  padding-top: 261.5px;
+  font-size: 13.5px;
 }
 
 @media
