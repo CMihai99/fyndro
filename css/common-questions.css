@@ -3,7 +3,7 @@
   --text: #5c5c5c;
 }
 
-.question {
+.answer-dropdown {
   border: none;
   background-color: transparent;
   padding: 0;
@@ -11,7 +11,7 @@
   display: block;
 }
 
-.question .caret {
+.answer-dropdown .caret {
   color: var(--text);
   position: absolute;
   margin-top: -37.5px;
@@ -20,6 +20,13 @@
 .answer {
   padding-left: 20px;
   margin: -10px 0 30px; /* top, right and left, bottom */
+  animation: answerFadeIn 0.4s ease;
+  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+}
+
+.last-answer {
+  padding-left: 20px;
+  margin: -10px 0 0 0;
   animation: answerFadeIn 0.4s ease;
   will-change: transform; /* hint to the browser that it's going to animate the selected element */
 }
@@ -35,11 +42,6 @@
   }
 }
 
-.last-answer {
-  padding-left: 20px;
-  margin: 0;
-}
-
 @media
 (min-width: 481px) and (max-width: 767px), /* (low-res) tablets and smartphones (landscape) */
 (min-width: 320px) and (max-width: 480px) /* majority of smartphones (portrait) */ {
@@ -47,5 +49,5 @@
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
-(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
 }

@@ -162,5 +162,5 @@
 
 @media
 (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
-(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* Tablets, Ipads (landscape) */ {
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
 }
