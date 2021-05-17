@@ -24,26 +24,21 @@ Within the download archive you'll find the following directories and files, log
 andro/
 ├── .github/
 │
-├── Documentation/
-│   ├── Arabic
-│   ├── Chinese Simplified
-│   ├── English
-│   ├── French
-│   ├── German
-│   ├── Hindi
-│   ├── Italian
-│   ├── Japanese
-│   ├── Portuguese
-│   ├── Romanian
-│   ├── Russian
-│   └── Spanish
+├── docs/
 │
 ├── css/
 │
+├── js/
+│
+├── legal/
+│
 ├── resources/
+│
+├── scss/
 │
 ├── ts/
 │
+├── 404-error.html
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -52,12 +47,11 @@ andro/
 ├── categories.html
 ├── code-of-conduct.html
 ├── contributing.html
-├── cookie-policy.html
-├── help.html
+├── faq.html
 ├── index.html
-├── privacy-policy.html
-├── terms-of-use.html
-├── top-50.html
+├── legal.html
+├── search.html
+├── services.html
 └── tsconfig.json
 ```
 
