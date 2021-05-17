@@ -16,7 +16,7 @@
   border: none;
 }
 
-#nav-icon {
+.nav-icon {
   width: 36px;
   height: 36px;
   margin: 14.5px 0 0 50px; /* top, right, bottom, left */
@@ -86,16 +86,13 @@
   margin: 0;
 }
 
-#options-toggle {
-  margin: 23.75px 65px 0 0; /* top, right, bottom, left */
-  padding: 0;
-  background-color: transparent;
-}
-
 .options-toggle-icons {
   color: var(--black);
   cursor: pointer;
   transition: opacity 0.25s;
+  margin: 23.75px 65px 0 0; /* top, right, bottom, left */
+  padding: 0;
+  background-color: transparent;
 }
 
 .options-toggle-icons:hover {
@@ -152,7 +149,7 @@
   .form-control:active {
     width: 148px;
   }
-  #options-toggle {
+  .options-toggle {
     float: right;
     padding: 0;
     margin-right: 65px;

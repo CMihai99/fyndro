@@ -2,15 +2,16 @@
 :root {
   --divider: #dbdbdb;
   --text: #5c5c5c;
+  --borders: #858585;
   
   --border-radius: 7px;
 }
 
-#toc {
+.toc {
   list-style-type: none;
 }
 
-#toc-toggle {
+.toc-toggle {
   margin-left: 2.5px;
   cursor: pointer;
 }
@@ -28,19 +29,18 @@
   background-color: var(--divider);
 }
 
-#toc-icon {
+.toc-icon {
   height: 32px;
   padding: 7.5px;
   border-radius: var(--border-radius);
 }
 
-#toc-icon:hover,
-#toc-icon:focus,
-#toc-text:focus {
+.toc-icon:hover,
+.toc-text:focus {
   background-color: #ececec;
 }
 
-#toc-title {
+.toc-title {
   margin: -32px 0 0 10px; /* top, right, bottom, left */
   padding: 0 0 0 34px; /* top, right, bottom, left */
 }
@@ -80,7 +80,7 @@
 
 #toc-text-child {
   text-indent: 18px;
-  color: var(--text);
+  color: var(--borders);
   border-radius: var(--border-radius);
 }
 

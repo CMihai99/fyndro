@@ -31,8 +31,6 @@
   --border-radius: 7px;
 
   scrollbar-width: thin;
-
-  box-sizing: border-box;
 }
 
 body {

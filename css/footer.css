@@ -23,7 +23,7 @@ footer {
   color: var(--text);
 }
 
-#menu-category-title {
+.menu-category-title {
   color: var(--gray);
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -33,25 +33,30 @@ footer {
   margin-bottom: 10.5px;
 }
 
-footer ul.quick-links li {
-  padding: 3.5px 0;
+.links {
+  padding: 0;
 }
 
-footer ul.quick-links li a,
-footer ul.quick-links li p {
+.links li {
+  padding: 3.5px 0;
+  list-style-type: none;
+}
+
+.links li a {
   color: var(--gray);
   text-decoration: none;
   font-size: 14.5px;
   margin: 0;
 }
 
-footer ul.quick-links li a:hover {
+.links li a:hover {
   color: var(--text);
 }
 
 #trademark {
   padding-top: 261.5px;
   font-size: 13.5px;
+  color: var(--gray)
 }
 
 @media
