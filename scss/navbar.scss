@@ -1,0 +1,163 @@
+/* quick access */
+:root {
+  --background: #fff;
+  --black: #000;
+  --text: #5c5c5c;
+  --links: #337ff0;
+  --borders: #858585;
+  
+  --border-radius: 7px;
+}
+
+.navbar {
+  background-color: var(--background);
+  height: 65px;
+  margin: 0;
+  border: none;
+}
+
+.nav-icon {
+  width: 36px;
+  height: 36px;
+  margin: 14.5px 0 0 50px; /* top, right, bottom, left */
+}
+
+#search-toggle {
+  text-decoration: none;
+}
+
+.search-toggle-bar input,
+.search-toggle-bar input::placeholder {
+  color: var(--borders);
+}
+
+.search-toggle-bar input:focus,
+.search-toggle-bar input:focus::placeholder {
+  opacity: 0.9;
+}
+
+.form-control {
+  width: 199px;
+  height: 30px;
+  margin: -33px 0 0 120px; /* top, right, bottom, left */
+  color: var(--text);
+  border-radius: var(--border-radius);
+  border: 1px var(--borders);
+  box-shadow: 0 0 1.75px var(--borders);
+  transition: width 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+  width: 400px;
+  border-radius: var(--border-radius) var(--border-radius) 0 0; /* top-left, top-right, bottom-right, bottom-left */
+  box-shadow: 0 0 2px var(--links);
+}
+
+#search-menu-bg {
+  width: 400px;
+  height: auto;
+  color: var(--text);
+  border-radius: 0 0 var(--border-radius) var(--border-radius); /* top-left, top-right, bottom-right, bottom-left */
+  border: 1px var(--borders);
+  box-shadow: 0 0 1.75px var(--borders);
+  margin: -17.5px 0 0 120px; /* top, right, bottom, left */
+  padding: 0;
+  animation: searchMenuWidth 0.2s ease;
+  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+}
+
+/* search menu width increase */
+@keyframes searchMenuWidth {
+  from {
+    width: 199px;
+  }
+
+  to {
+    width: 400px;
+  }
+}
+
+#search-menu-bg a {
+  height: 40px;
+  padding: 10px 20px; /* top and bottom, right and left */
+}
+
+#search-menu-bg .divider {
+  margin: 0;
+}
+
+.options-toggle-icons {
+  color: var(--black);
+  cursor: pointer;
+  transition: opacity 0.25s;
+  margin: 23.75px 65px 0 0; /* top, right, bottom, left */
+  padding: 0;
+  background-color: transparent;
+}
+
+.options-toggle-icons:hover {
+  opacity: 0.5;
+}
+
+#options-menu-bg {
+  border-radius: 7px;
+  margin: 10px 60px 0 0; /* top, right, bottom, left */
+  box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
+  animation: dropdownFadeIn 0.15s ease-in-out;
+  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+}
+
+/* dropdown menu fade-in */
+@keyframes dropdownFadeIn {
+  from {
+    margin-top: -15px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.dropdown-menu .divider {
+  height: 0.75px;
+}
+
+#menu-text-bg {
+  color: var(--text);
+}
+
+#menu-text-bg:hover {
+  background-color: #f5f5f5;
+}
+
+#menu-text-bg:focus {
+  background-color: #e0e0e0;
+}
+
+@media
+(min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
+(min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
+  #nav-icon {
+    margin-left: 66px;
+  }
+  .form-control {
+    margin-left: 138px;
+    width: 98px;
+  }
+  .form-control:focus,
+  .form-control:active {
+    width: 148px;
+  }
+  .options-toggle {
+    float: right;
+    padding: 0;
+    margin-right: 65px;
+    margin-top: -31px;
+  }
+}
+
+@media
+(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
+}

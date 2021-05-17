@@ -1,0 +1,92 @@
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(#eee);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--borders);
+}
+
+/* quick access */
+:root {
+  --background: #fff;
+  --divider: #dbdbdb;
+  --text: #5c5c5c;
+  --body-background: #eee;
+  --links: #337ff0;
+  --borders: #858585;
+
+  --border-radius: 7px;
+
+  scrollbar-width: thin;
+}
+
+body {
+  background-color: var(--body-background);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#links {
+  color: var(--links);
+  text-decoration: none;
+}
+
+#links:hover,
+#links:active,
+#links:focus {
+  color: #3277df;
+}
+
+#links:visited {
+  color: #145dca;
+}
+
+.page-border {
+  margin: 40px 115px; /* top and bottom, right and left */
+  padding: 0;
+  background-color: var(--background);
+  border-radius: var(--border-radius);
+  border: none;
+}
+
+.content-border {
+  padding: 35px;
+}
+
+#last-updated {
+  text-decoration: underline;
+}
+
+@media
+(min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
+(min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
+}
+
+@media
+(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
+}

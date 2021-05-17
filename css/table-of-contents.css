@@ -3,7 +3,6 @@
   --divider: #dbdbdb;
   --text: #5c5c5c;
   --borders: #858585;
-  
   --border-radius: 7px;
 }
 
@@ -41,8 +40,10 @@
 }
 
 .toc-title {
-  margin: -32px 0 0 10px; /* top, right, bottom, left */
-  padding: 0 0 0 34px; /* top, right, bottom, left */
+  margin: -32px 0 0 10px;
+  /* top, right, bottom, left */
+  padding: 0 0 0 34px;
+  /* top, right, bottom, left */
 }
 
 #toc-menu {
@@ -51,9 +52,11 @@
   width: auto;
   padding: 4px;
   border-radius: var(--border-radius);
-  margin: -15px 0 0 3px; /* top, right, bottom, left */
+  margin: -15px 0 0 3px;
+  /* top, right, bottom, left */
   animation: tocFadeIn 0.15s ease-in-out;
-  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+  will-change: transform;
+  /* hint to the browser that it's going to animate the selected element */
 }
 
 /* toc menu fade-in */
@@ -62,18 +65,17 @@
     margin-top: -30px;
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
 }
-
 #toc-menu li {
   border-radius: var(--border-radius);
 }
 
 #toc-text {
-  padding: 4px 20px; /* top and bottom, left and right */
+  padding: 4px 20px;
+  /* top and bottom, left and right */
   color: var(--text);
   border-radius: var(--border-radius);
 }
@@ -91,12 +93,4 @@
   background-color: #ececec;
 }
 
-@media
-(min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
-(min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
-}
-
-@media
-(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
-(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
-}
+/*# sourceMappingURL=table-of-contents.css.map */

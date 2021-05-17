@@ -1,0 +1,50 @@
+/* quick access */
+:root {
+  --text: #5c5c5c;
+}
+
+.question {
+  padding-left: 20px;
+}
+
+.answer-dropdown-bg {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 25px;
+  display: block;
+}
+
+.answer-dropdown-bg .caret {
+  color: var(--text);
+  position: absolute;
+  margin-top: 17.5px;
+}
+
+.answer {
+  padding-left: 20px;
+  margin-top: 15px; /* top, right and left, bottom */
+  animation: answerFadeIn 0.4s ease;
+  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+}
+
+/* answer fade-in */
+@keyframes answerFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media
+(min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
+(min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
+}
+
+@media
+(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
+}

@@ -16,7 +16,8 @@ footer {
 }
 
 .footer-menu-category {
-  padding: 15px 50px 25px; /* top, left and right, bottom */
+  padding: 15px 50px 25px;
+  /* top, left and right, bottom */
 }
 
 .footer-menu-category ul li {
@@ -27,7 +28,7 @@ footer {
   color: var(--gray);
   font-weight: bold;
   letter-spacing: 0.5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 13.5px;
   margin-bottom: 10.5px;
@@ -56,15 +57,7 @@ footer {
 #trademark {
   padding-top: 261.5px;
   font-size: 13.5px;
-  color: var(--gray)
+  color: var(--gray);
 }
 
-@media
-(min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
-(min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
-}
-
-@media
-(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
-(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
-}
+/*# sourceMappingURL=footer.css.map */
