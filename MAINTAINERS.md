@@ -9,7 +9,7 @@ Tips for patch submitters:
 1. Always test your changes, however small, on at least 2 or 3 people, preferably many more.
 
 2. Try to release a few alpha test versions first.
-  Announce them onto the <a href="" target="_blank">#alpha-tests</a> channel and await results.
+  Announce them onto the <a href="https://discord.gg/XMG9wxg5" target="_blank">#alpha-tests</a> channel and await results.
 
 3. Make sure your changes compile correctly in multiple configurations.
   In particular, check that changes are both responsive and functional.
@@ -26,15 +26,11 @@ Try to include any credit lines you want added with the patch.
 It avoids people being missed off by mistake.
 
 Document known bugs. If it doesn't work for everything
-or it does something very odd once a month, document it by leaving a comment under the pull request.
-
-Remember that submissions must be made under our
-<a href="https://cmihai99.github.io/andro/legal/terms-of-use.html" target="_blank">terms and regulations</a>
-and should include a ``Signed-off-by:`` line.
+or it does something very odd once a month, document it by leaving a comment under the specific commit or pull request.
 
 <br>
 
-# Descriptions of section entries and preferred order
+# Section entry descriptions
 
 - M: Mail: FullName <address@domain>
 
@@ -71,61 +67,56 @@ BROWSER SUPPORT
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-compatibility@gmail.com  
-S: Supported  
+S: Maintained  
 
 BUG FIXING  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-git@gmail.com  
-S: Supported  
+S: Maintained  
 W: https://github.com/CMihai99/andro/issues?q=label%3Afeature  
 
 CODE ANALYTICS  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-code@gmail.com  
-S: Supported  
+S: Maintained  
 
 CODE REFACTORING  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-code@gmail.com  
-S: Supported  
+S: Maintained  
 
 CONTACT MANAGEMENT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-M: Bencu Bogdan <bogybusiness@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Bencu Bogdan <bogybusiness@gmail.com>  
 L: andro-contact@gmail.com  
-S: Supported  
+S: Maintained  
+C: Bencu Bogdan <bogybusiness@gmail.com>  
 
 CONTRIBUTION MANAGEMENT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-contributions@gmail.com  
-S: Supported  
+S: Maintained  
 
 COPYRIGHTING LAWS  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-M: Bencu Bogdan <bogybusiness@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
-R: Bencu Bogdan <bogybusiness@gmail.com>  
 L: andro-legal@gmail.com  
-S: Supported  
-W: https://cmihai99.github.io/andro/legal/copyright.html
+S: Maintained  
+W: https://cmihai99.github.io/andro/legal/copyright.html  
+C: Bencu Bogdan <bogybusiness@gmail.com>  
 
 CSS CODE REVIEW  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-code@gmail.com  
-S: Supported  
+S: Maintained  
 
-DEVICE COMPATIBILITY 
+DEVICE COMPATIBILITY  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-compatibility@gmail.com  
-S: Supported  
+S: Maintained  
 
 DISCORD SERVER  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
@@ -133,15 +124,14 @@ M: Bencu Bogdan <bogybusiness@gmail.com>
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Bencu Bogdan <bogybusiness@gmail.com>  
 L: andro-contact@gmail.com  
-S: Supported  
+S: Maintained  
 W: https://discord.gg/uWfWDkcF  
 
 DOCUMENTATION  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 M: Bencu Bogdan <bogybusiness@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-docs@gmail.com  
-S: Supported  
+S: Maintained  
 W: https://cmihai99.github.io/andro/docs  
 F: docs/  
 
@@ -149,27 +139,24 @@ FEATURE IMPLEMENTATION
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-git@gmail.com  
-S: Supported  
-W: https://github.com/CMihai99/andro/issues?q=label%3Afeature  
+S: Maintained  
 
 GIT COMMITS  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-git@gmail.com  
-S: Supported  
+S: Maintained  
 
 HTML CODE REVIEW  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-code@gmail.com  
-S: Supported  
+S: Maintained  
 
 INSTAGRAM ACCOUNT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-M: Bencu Bogdan <bogybusiness@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-contact@gmail.com  
-S: Supported  
+S: Maintained  
+C: Bencu Bogdan <bogybusiness@gmail.com>  
 
 JAVASCRIPT CODE REVIEW  
 L: andro-code@gmail.com  
@@ -179,7 +166,7 @@ LEGAL INFORMATION
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-legal@gmail.com  
-S: Supported  
+S: Maintained  
 W: https://cmihai99.github.io/andro/legal  
 F: legal/  
 
@@ -187,34 +174,24 @@ LICENSING
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-legal@gmail.com  
-S: Supported  
-
-PROFIT MANAGEMENT  
-M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-M: Bencu Bogdan <bogybusiness@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
-L: andro-contact@gmail.com  
-S: Supported  
+S: Maintained  
 
 PULL REQUEST REVIEW  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-M: Bencu Bogdan <bogybusiness@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-git@gmail.com  
-S: Supported  
+S: Maintained  
 
 SCSS CODE REVIEW  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-code@gmail.com  
-S: Supported  
+S: Maintained  
 
 TWITTER ACCOUNT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-M: Bencu Bogdan <bogybusiness@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-contact@gmail.com  
-S: Supported  
+S: Maintained  
+C: Bencu Bogdan <bogybusiness@gmail.com>  
 
 TYPESCRIPT CODE REVIEW  
 L: andro-code@gmail.com  
