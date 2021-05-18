@@ -100,10 +100,10 @@
   margin: 23.75px 65px 0 0; /* top, right, bottom, left */
   padding: 0;
   background-color: transparent;
+}
 
-  :hover {
-    opacity: 0.5;
-  }
+.options-toggle-icons:hover {
+  opacity: 0.5;
 }
 
 #options-menu-bg {

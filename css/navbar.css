@@ -100,7 +100,8 @@
   padding: 0;
   background-color: transparent;
 }
-.options-toggle-icons :hover {
+
+.options-toggle-icons:hover {
   opacity: 0.5;
 }
 
