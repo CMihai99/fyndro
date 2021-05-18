@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: MIT-only
+#
+# NOTE: Don't add files that are generated in specific subdirectories here.
+# Add them in the ".gitignore" file in that subdirectory instead.
+#
+# NOTE: Please use 'git ls-files -i --exclude-standard' command after changing this file,
+# to see if there are any tracked files which get ignored after the change.
+#
+# NOTE: Please sort alphabetically.
+
+
+# VS Code
+.vscode/*
+*.code-workspace
+
+# Windows
+[Ss]tyle[Cc]op.*
+~$*
+
+# Windows cache
+*.[Cc]ache
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
