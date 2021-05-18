@@ -17,10 +17,10 @@ footer {
 
 .footer-menu-category {
   padding: 15px 50px 25px; /* top, left and right, bottom */
-}
 
-.footer-menu-category ul li {
-  color: var(--text);
+  ul li {
+    color: var(--text);
+  }
 }
 
 .menu-category-title {
@@ -35,22 +35,22 @@ footer {
 
 .links {
   padding: 0;
-}
 
-.links li {
-  padding: 3.5px 0;
-  list-style-type: none;
-}
+  li {
+    padding: 3.5px 0;
+    list-style-type: none;
+  }
 
-.links li a {
-  color: var(--gray);
-  text-decoration: none;
-  font-size: 14.5px;
-  margin: 0;
-}
+  li a {
+    color: var(--gray);
+    text-decoration: none;
+    font-size: 14.5px;
+    margin: 0;
+  }
 
-.links li a:hover {
-  color: var(--text);
+  li a:hover {
+    color: var(--text);
+  }
 }
 
 #trademark {

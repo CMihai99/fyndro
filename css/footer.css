@@ -19,7 +19,6 @@ footer {
   padding: 15px 50px 25px;
   /* top, left and right, bottom */
 }
-
 .footer-menu-category ul li {
   color: var(--text);
 }
@@ -37,19 +36,16 @@ footer {
 .links {
   padding: 0;
 }
-
 .links li {
   padding: 3.5px 0;
   list-style-type: none;
 }
-
 .links li a {
   color: var(--gray);
   text-decoration: none;
   font-size: 14.5px;
   margin: 0;
 }
-
 .links li a:hover {
   color: var(--text);
 }

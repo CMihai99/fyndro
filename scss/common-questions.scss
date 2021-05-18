@@ -13,12 +13,12 @@
   padding: 0;
   margin-top: 25px;
   display: block;
-}
-
-.answer-dropdown-bg .caret {
-  color: var(--text);
-  position: absolute;
-  margin-top: 17.5px;
+  
+  .caret {
+    color: var(--text);
+    position: absolute;
+    margin-top: 17.5px;
+  }
 }
 
 .answer {

@@ -21,12 +21,12 @@
   top: 0;
   background-color: var(--background);
   box-shadow: 0 8px 6px -8px var(--divider);
-}
 
-.title-nav hr {
-  height: 0.5px;
-  border: none;
-  background-color: var(--divider);
+  hr {
+    height: 0.5px;
+    border: none;
+    background-color: var(--divider);
+  }
 }
 
 .toc-icon {
@@ -35,8 +35,7 @@
   border-radius: var(--border-radius);
 }
 
-.toc-icon:hover,
-.toc-text:focus {
+.toc-icon:hover {
   background-color: #ececec;
 }
 
@@ -54,6 +53,10 @@
   margin: -15px 0 0 3px; /* top, right, bottom, left */
   animation: tocFadeIn 0.15s ease-in-out;
   will-change: transform; /* hint to the browser that it's going to animate the selected element */
+
+  li {
+    border-radius: var(--border-radius);
+  }
 }
 
 /* toc menu fade-in */
@@ -66,10 +69,6 @@
   to {
     opacity: 1;
   }
-}
-
-#toc-menu li {
-  border-radius: var(--border-radius);
 }
 
 #toc-text {

@@ -10,12 +10,10 @@
 ::-webkit-scrollbar-thumb {
   background: #bdbdbd;
 }
-
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb :hover {
   background: #aaa;
 }
-
-::-webkit-scrollbar-thumb:active {
+::-webkit-scrollbar-thumb :active {
   background: var(--borders);
 }
 
@@ -52,14 +50,12 @@ p {
   color: var(--links);
   text-decoration: none;
 }
-
-#links:hover,
-#links:active,
-#links:focus {
+#links :hover,
+#links :active,
+#links :focus {
   color: #3277df;
 }
-
-#links:visited {
+#links :visited {
   color: #145dca;
 }
 
