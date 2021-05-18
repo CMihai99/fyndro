@@ -24,9 +24,9 @@ Within the download archive you'll find the following directories and files, log
 andro/
 ├── .github/
 │
-├── docs/
-│
 ├── css/
+│
+├── docs/
 │
 ├── js/
 │
@@ -46,7 +46,9 @@ andro/
 ├── about.html
 ├── categories.html
 ├── code-of-conduct.html
+├── code-of-ethics.html
 ├── contributing.html
+├── docs.html
 ├── faq.html
 ├── index.html
 ├── legal.html
@@ -54,8 +56,6 @@ andro/
 ├── services.html
 └── tsconfig.json
 ```
-
-In the `Documentation` folder there is the documentation available in 12 languages.
 
 <a id="dependencies"><h2>Dependencies</h2></a>
 
