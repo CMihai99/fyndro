@@ -9,19 +9,32 @@
 # NOTE: Please sort alphabetically.
 
 
+# git
+\#*\#
+.\#*
+
+# Packaging
+package-lock.json
+yarn.lock
+yarn-error.log
+
 # VS Code
-.vscode/*
-*.code-workspace
+**/.vs
+**/.vscode/*
+!**/.vscode/tasks.json
+!**/.vscode/settings.template.json
+!**/.vscode/launch.template.json
+!**/.vscode/extensions.json
 
 # Windows
-[Ss]tyle[Cc]op.*
 ~$*
+[Ss]tyle[Cc]op.*
 
 # Windows cache
 *.[Cc]ache
 
+# Windows recycle bin used on file shares
+$RECYCLE.BIN/
+
 # Windows thumbnail cache
 Thumbs.db
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
