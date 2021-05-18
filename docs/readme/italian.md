@@ -24,9 +24,9 @@ All'interno dell'archivio di download troverai le seguenti directory e file, rag
 andro/
 ├── .github/
 │
-├── docs/
-│
 ├── css/
+│
+├── docs/
 │
 ├── js/
 │
@@ -46,7 +46,9 @@ andro/
 ├── about.html
 ├── categories.html
 ├── code-of-conduct.html
+├── code-of-ethics.html
 ├── contributing.html
+├── docs.html
 ├── faq.html
 ├── index.html
 ├── legal.html
