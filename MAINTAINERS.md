@@ -21,12 +21,12 @@ Tips for patch submitters:
   These aren't as silly as they seem. One job the maintainers (and especially Michael) do is to keep things looking the same. Sometimes this means that the clever hack in your code to get around a problem
   actually needs to become a generalized feature ready for next time.
 
-NOTE:
+NOTES:  
 Try to include any credit lines you want added with the patch.
-It avoids people being missed off by mistake.
-
-Document known bugs. If it doesn't work for everything
-or it does something very odd once a month, document it by leaving a comment under the specific commit or pull request.
+It avoids people being missed off by mistake.  
+Document known bugs.
+If it doesn't work for everything or it does something very odd once a month,
+document it by leaving a comment under the specific commit or pull request.
 
 <br>
 
@@ -59,27 +59,21 @@ or it does something very odd once a month, document it by leaving a comment und
 
 # Project maintainers
 
-NOTE: When reading this list, please look for the most precise areas first. When adding to this list, please keep the entries in alphabetical order.
+NOTE: When adding to this list, please keep the entries in alphabetical order.
 
 <br>
 
-BROWSER SUPPORT
+BROWSER SUPPORT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-compatibility@gmail.com  
 S: Maintained  
 
-BUG FIXING  
+BUG FIXES  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-git@gmail.com  
-S: Maintained  
+S: Odd Fixes  
 W: https://github.com/CMihai99/andro/issues?q=label%3Afeature  
-
-CODE ANALYTICS  
-M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-R: Calinescu Mihai <mihaimihaia431@gmail.com>  
-L: andro-code@gmail.com  
-S: Maintained  
 
 CODE REFACTORING  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
@@ -100,13 +94,6 @@ R: Calinescu Mihai <mihaimihaia431@gmail.com>
 L: andro-contributions@gmail.com  
 S: Maintained  
 
-COPYRIGHTING LAWS  
-M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-L: andro-legal@gmail.com  
-S: Maintained  
-W: https://cmihai99.github.io/andro/legal/copyright.html  
-C: Bencu Bogdan <bogybusiness@gmail.com>  
-
 CSS CODE REVIEW  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
@@ -116,7 +103,7 @@ S: Maintained
 DEVICE COMPATIBILITY  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-compatibility@gmail.com  
-S: Maintained  
+S: Orphan  
 
 DISCORD SERVER  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
@@ -141,7 +128,7 @@ R: Calinescu Mihai <mihaimihaia431@gmail.com>
 L: andro-git@gmail.com  
 S: Maintained  
 
-GIT COMMITS  
+GIT MANAGEMENT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-git@gmail.com  
 S: Maintained  
@@ -174,11 +161,6 @@ LICENSING
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 R: Calinescu Mihai <mihaimihaia431@gmail.com>  
 L: andro-legal@gmail.com  
-S: Maintained  
-
-PULL REQUEST REVIEW  
-M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-L: andro-git@gmail.com  
 S: Maintained  
 
 SCSS CODE REVIEW  
