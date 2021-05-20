@@ -1,4 +1,6 @@
-# Submitting changes
+# Andro maintainers
+
+## Submitting changes
 
 Please try to follow the guidelines below. This will make things easier on the maintainers.
 Not all of these guidelines matter for every trivial patch so apply some common sense.
@@ -26,7 +28,7 @@ NOTE:
   document it by leaving a comment under the specific commit or pull request.
 - When adding to the maintainers list, please keep the entries in alphabetical order.
 
-# Entry descriptions
+## Entry descriptions
 
 - M: Mail: FullName <address@domain>
 
@@ -51,7 +53,7 @@ NOTE:
 - X: Excluded: Excluded files and directories that are not maintained, same rules as Files:.  
   Files exclusions are tested before file matches. Can be useful for excluding a specific subdirectory.
 
-# Maintainers list
+## Maintainers list
 
 BROWSER SUPPORT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  

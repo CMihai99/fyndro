@@ -1,12 +1,15 @@
-# Submitting changes
+# Andro contribution credits
+
+## Submitting changes
 
 This is at least a partial credits-file of people that have contributed to Andro.
 
 Please try to follow the entry descriptions below. This will make things easier on the maintainers.
 
-<br>
+NOTE:
+- When adding to this list, please keep the entries in alphabetical order.
 
-# Entry descriptions
+## Entry descriptions
 
 - N: Name: FullName
 
@@ -16,13 +19,7 @@ Please try to follow the entry descriptions below. This will make things easier 
 
 - S: Snail-mail address: Postal address
 
-<br>
-
-# Credits list
-
-NOTE: When adding to this list, please keep the entries in alphabetical order.
-
-<br>
+## Credits list
 
 N: Bogdan Bencu  
 E: <bogybusiness@gmail.com>  
@@ -40,8 +37,6 @@ S: Str. Micsunelelor 171
 S: Dragomiresti-Vale, IF 077095  
 S: Romania
 
-<br>
-
 NOTE:
-Don't add your name here, unless you really  _are_ after Mihai alphabetically
-(this file is _supposed_ to be in alphabetic order).
+- Don't add your name here, unless you really  _are_ after Mihai alphabetically
+  (this file is _supposed_ to be in alphabetic order).
