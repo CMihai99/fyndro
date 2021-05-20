@@ -1,4 +1,4 @@
-# Andro maintainers
+# Maintainers
 
 ## Submitting changes
 
@@ -43,14 +43,15 @@ NOTE:
   Orphan:	    No current maintainer [but maybe you could take the role as you write your new code].  
   Obsolete:	  Old code. Something tagged obsolete generally means it has been replaced by a better version.
 
-- W: Web-page: Website URL with the page changes
+- W: Web-page: Website URL with the page changes.
 
-- C: Credit: Anyone wanted to be credited with the patch
+- C: Credit: Anyone wanted to be credited with the patch.
+  Visit <a href="https://github.com/CMihai99/andro/blob/main/CREDITS.md" target="_blank">CREDITS.md</a> for more information.
 
 - F: Files: Files and directories wildcard patterns.
-  A trailing slash includes all files and subdirectory files
+  A trailing slash includes all files and subdirectory files.
 
-- X: Excluded: Excluded files and directories that are not maintained, same rules as Files:.  
+- X: Excluded: Excluded files and directories that are not maintained, same rules as F.  
   Files exclusions are tested before file matches. Can be useful for excluding a specific subdirectory.
 
 ## Maintainers list
@@ -75,16 +76,17 @@ F: docs/
 F: legal/
 
 MONGODB SERVER  
+M: Calinescu Mihai <mihaimihaia431@gmail.com> 
 M: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
 R: Tomek Pulkiewicz <tomek@pulkiewicz.com>    
 L: andro-compatibility@gmail.com  
-S: Maintained  
-C: Calinescu Mihai <mihaimihaia431@gmail.com>  
+S: Maintained   
 F: mongodb/
 
 VUE.JS  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 M: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
+R: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
 L: andro-code@gmail.com  
 S: Maintained  
 F: js/
