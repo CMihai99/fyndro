@@ -22,7 +22,6 @@ Thank you for submitting a Pull Request. Please:
   If not checked, I'm ready to accept this work might be rejected in favor of a different approach.
   Issue number where discussion took place: #xxx
 
-
 ## Pull Request Info
 
 *What does this include?*
