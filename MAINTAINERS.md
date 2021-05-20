@@ -26,8 +26,6 @@ NOTE:
   document it by leaving a comment under the specific commit or pull request.
 - When adding to the maintainers list, please keep the entries in alphabetical order.
 
-<br>
-
 # Entry descriptions
 
 - M: Mail: FullName <address@domain>
@@ -53,11 +51,7 @@ NOTE:
 - X: Excluded: Excluded files and directories that are not maintained, same rules as Files:.  
   Files exclusions are tested before file matches. Can be useful for excluding a specific subdirectory.
 
-<br>
-
 # Maintainers list
-
-<br>
 
 BROWSER SUPPORT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
