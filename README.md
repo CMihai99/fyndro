@@ -68,8 +68,7 @@ We also aim to support all major device-types. Any issue in any of the devices l
 
 ## Bugs, feature requests and website ideas
 
-Note:
-- Implementation of requests may take up to 3 days.
+Note: Implementation of requests may take up to 3 days.
 
 Found a bug you want to report? Have a feature you want to request?
 Got a website idea for us to publish? First,
@@ -90,7 +89,8 @@ You can contribute by:
 - fixing a bug (reported or not reported)
 - adding new features
 - improving the codebase
-- improving the documentation, and so on.
+- improving the documentation
+  - LOREM IPSUM, and so on.
 
 ## Code of Conduct
 

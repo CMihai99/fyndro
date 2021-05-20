@@ -6,8 +6,7 @@ This is at least a partial credits-file of people that have contributed to Andro
 
 Please try to follow the entry descriptions below. This will make things easier on the maintainers.
 
-NOTE:
-- When adding to this list, please keep the entries in alphabetical order.
+NOTE: When adding to this list, please keep the entries in alphabetical order.
 
 ## Entry descriptions
 
@@ -37,6 +36,5 @@ S: Str. Micsunelelor 171
 S: Dragomiresti-Vale, IF 077095  
 S: Romania
 
-NOTE:
-- Don't add your name here, unless you really  _are_ after Mihai alphabetically
-  (this file is _supposed_ to be in alphabetic order).
+NOTE: Don't add your name here, unless you really  _are_ after Mihai alphabetically
+(this file is _supposed_ to be in alphabetic order).
