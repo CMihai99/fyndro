@@ -24,7 +24,7 @@ N: Bogdan Bencu
 E: <bogybusiness@gmail.com>  
 D: README.md, CODE-OF-CONDUCT.md, CONTRIBUTING.md, COPYRIGHT.md, LICENSE translations  
 D: Twitter, Instagram, Discord, marketing  
-S: Str. Micsunelelor 171  
+S: Str. Micsunelelor 172  
 S: Dragomiresti-Vale, IF 077095  
 S: Romania
 
