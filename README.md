@@ -80,12 +80,11 @@ If your problem or idea is not addressed yet,
 
 The main purpose of this repository is to continue evolving Andro, making it faster and easier to use.
 You can contribute by:
-- closing an issue
+- [closing an issue](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aopen+)
 - fixing a bug (reported or not reported)
 - adding new features
 - improving the codebase
-- improving the documentation
-  - LOREM IPSUM, and so on.
+- [improving the documentation](https://github.com/CMihai99/andro/tree/main/Documentation), and so on.
 
 ## Code of Conduct
 
