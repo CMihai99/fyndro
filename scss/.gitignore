@@ -13,6 +13,11 @@
 \#*\#
 .\#*
 
+# Packaging
+package-lock.json
+yarn.lock
+yarn-error.log
+
 # VS Code
 **/.vs
 **/.vscode/*
