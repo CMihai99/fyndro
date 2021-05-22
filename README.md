@@ -76,11 +76,6 @@ search for existing and closed issues.
 If your problem or idea is not addressed yet,
 [open a new issue](https://github.com/CMihai99/andro/issues/new/choose).
 
-## Documentation
-
-We have a separate repository which contains the documentation for Andro,
-you can visit it [here](https://github.com/CMihai99/andro-docs).
-
 ## Contributing
 
 The main purpose of this repository is to continue evolving Andro, making it faster and easier to use.
