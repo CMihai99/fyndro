@@ -58,27 +58,33 @@ NOTE:
 
 BROWSER SUPPORT  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-L: andro-compatibility@gmail.com  
+L: andro.compatibility@gmail.com  
 S: Maintained
 
 DEVICE COMPATIBILITY  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-L: andro-compatibility@gmail.com  
+M: Tomek Pulkiewicz <tomek@pulkiewicz.com>   
+L: andro.compatibility@gmail.com  
 S: Orphan
+
+DOCUMENTATION  
+M: Calinescu Mihai <mihaimihaia431@gmail.com>  
+L: andro.documentation@gmail.com  
+S: Maintained  
+F: Documentation/  
+C: Gonzyyp
 
 MONGODB SERVER  
 M: Calinescu Mihai <mihaimihaia431@gmail.com> 
 M: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
 R: Tomek Pulkiewicz <tomek@pulkiewicz.com>    
-L: andro-compatibility@gmail.com  
+L: andro.compatibility@gmail.com  
 S: Maintained   
 F: mongodb/
 
 VUE.JS  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
 M: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
-R: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
-L: andro-code@gmail.com  
+L: andro.codereview@gmail.com  
 S: Maintained  
-F: js/
-F: ts/
+F: vue/
