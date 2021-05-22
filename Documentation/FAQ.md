@@ -47,9 +47,14 @@ The main purpose of making Andro open-source is to continue evolving it,
 making it faster and easier to use.
 You can contribute by:
 
-- [closing an issue](https://github.com/CMihai99/andro/issues)
-- [fixing a bug (reported or not reported)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+- [closing an issue](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aopen+)
+- fixing a bug (reported or not reported)
+- adding new features
+- improving the codebase
+- [improving the documentation](https://github.com/CMihai99/andro/tree/main/Documentation), and so on.
 - [submitting new feature ideas](https://github.com/CMihai99/andro/issues/new?assignees=&labels=feature&template=feature_request.md&title=(Feature))
 - [requesting website entries](https://github.com/CMihai99/andro/issues/new?assignees=&labels=website&template=website_request.md&title=(Website))
-- [improving the codebase](https://github.com/CMihai99/andro)
-- [improving the documentation](https://github.com/CMihai99/andro-docs), and so on.
+- [improving the documentation](https://github.com/CMihai99/andro/tree/main/Documentation), and so on.
+
+Note: First, search for existing and closed issues.
+If your problem or idea is not addressed yet, *then* open a new issue.

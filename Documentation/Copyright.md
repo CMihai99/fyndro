@@ -6,8 +6,8 @@
 
 Copyright statements must be included in the:
 
-1. [LICENSE](https://github.com/CMihai99/andro-docs/blob/main/LICENSE) file.
-1. [MAINTAINERS](https://github.com/CMihai99/andro-docs/blob/main/MAINTAINERS.md) file.
+1. [LICENSE](https://github.com/CMihai99/andro/blob/main/LICENSE) file.
+1. [MAINTAINERS](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md) file.
 
 Each copyright holder must:
 
@@ -31,4 +31,4 @@ Maintainers are responsible for asking each contributor who is the copyright hol
 ## Attribution
 
 Attribution is not tracked via copyright,
-but must be included in the [CREDITS](https://github.com/CMihai99/andro-docs/blob/main/CREDITS.md) file.
+but must be included in the [CREDITS](https://github.com/CMihai99/andro/blob/main/CREDITS.md) file.
