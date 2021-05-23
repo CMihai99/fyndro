@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: MIT-only -->
+
 # Maintainers
 
 ## Submitting changes
@@ -8,7 +10,7 @@ Not all of these guidelines matter for every trivial patch so apply some common 
 1. Always test your changes, however small, on at least 2 people, preferably more.
 
 1. Try to release a few alpha test versions first.
-  Announce them onto the <a href="https://discord.gg/XMG9wxg5" target="_blank">#alpha-tests</a> channel and await results.
+  Announce them onto the [#alpha-tests](https://discord.gg/XMG9wxg5) channel and await results.
 
 1. Make sure your changes compile correctly in multiple configurations.
   In particular, check that changes are both responsive and functional.
@@ -72,15 +74,7 @@ M: Calinescu Mihai <mihaimihaia431@gmail.com>
 L: andro.documentation@gmail.com  
 S: Maintained  
 F: Documentation/  
-C: Gonzyyp
-
-MONGODB SERVER  
-M: Calinescu Mihai <mihaimihaia431@gmail.com> 
-M: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
-R: Tomek Pulkiewicz <tomek@pulkiewicz.com>    
-L: andro.compatibility@gmail.com  
-S: Maintained   
-F: mongodb/
+F: docs/
 
 VUE.JS  
 M: Calinescu Mihai <mihaimihaia431@gmail.com>  
