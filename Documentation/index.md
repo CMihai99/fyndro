@@ -6,9 +6,8 @@ This is the top level of andro's documentation tree.
 The documentation, like the website itself, is very much a work in progress;
 that is especially true as we work to integrate our many scattered documents into a coherent whole.
 
-Note:
-
-If you want to help out, please [join our discord server](https://discord.gg/4Z22w6tA), or [contact the documentation team](mailto:andro.documentation@gmail.com).
+Note: If you want to help out, please [join our discord server](https://discord.gg/4Z22w6tA),
+or [contact the documentation team](mailto:andro.documentation@gmail.com).
 
 ## Introduction to development
 
@@ -16,10 +15,8 @@ These manuals contain overall information about how to develop Andro.
 Knowing how things are done will make the process of getting your changes merged much easier.
 
 ```sh
-.. toctree::
-
-   process/index
-   maintainer/index
+process/index.md
+maintainer/index.md
 ```
 
 ## API documentation
@@ -31,9 +28,7 @@ Much of the information here is taken directly from the source,
 with supplemental material added as needed.
 
 ```sh
-.. toctree::
-
-   api/
+api/
 ```
 
 ## Bot documentation
@@ -45,10 +40,8 @@ from the API and paste it in required fields.
 Much of the information here is taken directly from the source,
 with supplemental material added as needed.
 
-```sh
-.. toctree::
-   
-   bot/
+```sh   
+bot/
 ```
 
 
@@ -57,10 +50,5 @@ with supplemental material added as needed.
 These manuals contain translations for the overall information about how to develop Andro.
 
 ```sh
-.. toctree::
-
-   translations/es_ES
-   translations/it_IT
-   translations/ja_JP
-   translations/zh_CN
+translations/
 ```
