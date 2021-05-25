@@ -29,11 +29,13 @@ andro/
 │
 ├── scss/
 │
+├── src/
+│
 ├── ts/
 │
 ├── .gitattributes
 ├── .gitignore
-├── 404-error.html
+├── COPYING
 ├── CREDITS.md
 ├── LICENSE
 ├── MAINTAINERS.md
@@ -59,7 +61,7 @@ We aim to support all major web browsers. Any issue in any of the browsers liste
 ``(Current - 1) and Current`` means that we support the current stable version
 of the browser and the version that precedes it.
 
-## Device support
+<!-- ## Device support
 
 We also aim to support all major devices. Any issue in any of the devices listed below
 [should be reported as a bug](https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
@@ -67,7 +69,7 @@ We also aim to support all major devices. Any issue in any of the devices listed
 - High resolution desktops
 - Low resolution desktops
 - High resolution tablets and smartphones
-- Low resolution tablets and smartphones
+- Low resolution tablets and smartphones -->
 
 ## Bugs, feature requests and website ideas
 
