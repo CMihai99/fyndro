@@ -14,7 +14,7 @@ or [contact the documentation team](mailto:andro.documentation@gmail.com).
 These manuals contain overall information about how to develop Andro.
 Knowing how things are done will make the process of getting your changes merged much easier.
 
-```sh
+```
 process/index.md
 maintainer/index.md
 ```
@@ -27,7 +27,7 @@ which operates the APIs to automatically webscrape content.
 Much of the information here is taken directly from the source,
 with supplemental material added as needed.
 
-```sh
+```
 api/
 ```
 
@@ -40,7 +40,7 @@ from the API and paste it in required fields.
 Much of the information here is taken directly from the source,
 with supplemental material added as needed.
 
-```sh   
+```   
 bot/
 ```
 
@@ -49,6 +49,6 @@ bot/
 
 These manuals contain translations for the overall information about how to develop Andro.
 
-```sh
+```
 translations/
 ```

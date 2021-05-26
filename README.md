@@ -11,7 +11,7 @@ industry, and more, so you can find the perfect tool you need.
 Within the download archive you'll find the following directories and files,
 logically grouping common assets and providing both compiled and minified variations:
 
-```sh
+```
 andro/
 ├── .github/
 │
