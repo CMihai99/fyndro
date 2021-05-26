@@ -1,4 +1,4 @@
-<!-- SPDX-License-Identifier: MIT-only -->
+<!-- SPDX-License-Identifier: MIT -->
 
 # Frequently Asked Questions
 

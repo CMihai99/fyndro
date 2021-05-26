@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: MIT -->
+
 # Modifying Patches
 
 If you are a subsystem or branch maintainer, sometimes you need to slightly

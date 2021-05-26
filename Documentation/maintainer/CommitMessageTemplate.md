@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: MIT -->
+
 # Commit Message Template
 
 Quality commit messages help maintainers understand the patch you fixed or feature you added. 
