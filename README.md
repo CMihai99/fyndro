@@ -2,48 +2,32 @@
 
 # [Andro](https://cmihai99.github.io/andro) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
 
-We categorize different websites based on traffic, grade,
-industry, and more, so you can find the perfect tool you need.
-[Try it today](https://cmihai99.github.io/andro/categories.html).
-
 ## Archive
 
-Within the download archive you'll find the following directories
-and files, logically grouping common assets:
+Within the download archive you will find the following directories and files:
 
 ```
 andro/
 ├── .github/
-│
-├── Documentation/
-│
 ├── css/
-│
-├── docs/
-│
+├── Documentation/
 ├── js/
-│
 ├── legal/
-│
 ├── resources/
-│
 ├── scss/
-│
 ├── src/
-│
 ├── ts/
-│
 ├── .gitattributes
 ├── .gitignore
 ├── .htaccess
+├── about.html
 ├── COPYING
 ├── CREDITS.md
+├── faq.html
+├── index.html
 ├── LICENSE
 ├── MAINTAINERS.md
 ├── README.md
-├── about.html
-├── faq.html
-├── index.html
 └── tsconfig.json
 ```
 
@@ -55,22 +39,10 @@ We aim to support all major web browsers. Any issue in any of the browsers liste
 - Microsoft Edge 14+
 - Google Chrome 56.0.2924+
 - Mozilla Firefox 64+
-- Opera 45+
+- Opera 38+
 <!--
-- Samsung Internet 6.2+
-- Huawei Browser 9.1+
--->
-
-<!--
-## Device support
-
-We also aim to support all major devices. Any issue in any of the devices listed below
-[should be reported as a bug](https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
-
-- High resolution desktops
-- Low resolution desktops
-- High resolution tablets and smartphones
-- Low resolution tablets and smartphones
+- Samsung Internet 6.2.01.12+
+- Huawei Browser 9.1.0.103+
 -->
 
 ## Bugs, feature requests and website ideas
@@ -83,13 +55,12 @@ Note: Implementation of requests may take up to 7 days.
 
 ## Contributing
 
-The main purpose of this repository is to continue evolving Andro, making it faster and easier to use.
-You can contribute by:
+The main purpose of this repository is to continue evolving Andro,
+making it faster and easier to use. You can contribute by:
 
-- closing an issue
-- fixing a bug
-- adding new features
-- improving the documentation, and so on.
+- fixing an issue
+- adding a feature
+- improving the documentation, and more
 
 ## Copyright and License
 
