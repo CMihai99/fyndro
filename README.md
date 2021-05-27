@@ -4,12 +4,12 @@
 
 We categorize different websites based on traffic, grade,
 industry, and more, so you can find the perfect tool you need.
-[Give it a try today](https://cmihai99.github.io/andro/categories.html).
+[Try it today](https://cmihai99.github.io/andro/categories.html).
 
 ## Archive
 
-Within the download archive you'll find the following directories and files,
-logically grouping common assets and providing both compiled and minified variations:
+Within the download archive you'll find the following directories
+and files, logically grouping common assets:
 
 ```
 andro/
@@ -35,6 +35,7 @@ andro/
 │
 ├── .gitattributes
 ├── .gitignore
+├── .htaccess
 ├── COPYING
 ├── CREDITS.md
 ├── LICENSE
@@ -52,16 +53,16 @@ We aim to support all major web browsers. Any issue in any of the browsers liste
 [should be reported as a bug](https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
 
 - Microsoft Edge 14+
-- Google Chrome ``(Current - 1) and Current`` versions
+- Google Chrome 56.0.2924+
 - Mozilla Firefox 64+
-- Opera ``(Current - 1) and Current`` versions
+- Opera 45+
+<!--
 - Samsung Internet 6.2+
-- Huawei Browser
+- Huawei Browser 9.1+
+-->
 
-``(Current - 1) and Current`` means that we support the current stable version
-of the browser and the version that precedes it.
-
-<!-- ## Device support
+<!--
+## Device support
 
 We also aim to support all major devices. Any issue in any of the devices listed below
 [should be reported as a bug](https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
@@ -69,39 +70,29 @@ We also aim to support all major devices. Any issue in any of the devices listed
 - High resolution desktops
 - Low resolution desktops
 - High resolution tablets and smartphones
-- Low resolution tablets and smartphones -->
+- Low resolution tablets and smartphones
+-->
 
 ## Bugs, feature requests and website ideas
 
-Found a bug you want to report? Have a feature you want to request?
-Got a website idea for us to publish? First,
-search for existing and closed issues.
+First, search for existing and closed issues.
 If your problem or idea is not addressed yet,
 [open a new issue](https://github.com/CMihai99/andro/issues/new/choose).
 
-Note: Implementation of requests may take up to 3 days.
+Note: Implementation of requests may take up to 7 days.
 
 ## Contributing
 
 The main purpose of this repository is to continue evolving Andro, making it faster and easier to use.
 You can contribute by:
+
 - closing an issue
-- fixing a bug (reported or not reported)
+- fixing a bug
 - adding new features
-- improving the codebase
 - improving the documentation, and so on.
-
-## Documentation
-
-For more information, visit our in-depth documentation [here](https://github.com/CMihai99/andro/tree/main/Documentation).
-
-## Supporters
-
-[![Stargazers repo roster for @CMihai99/andro](https://reporoster.com/stars/CMihai99/andro)](https://github.com/CMihai99/andro/stargazers)
-[![Forkers repo roster for @CMihai99/andro](https://reporoster.com/forks/CMihai99/andro)](https://github.com/CMihai99/andro/network/members)
 
 ## Copyright and License
 
-© 2021 Andro
+(c) 2021 Andro
 
-Released under the [MIT License](LICENSE).
+Released under the [MIT License](https://github.com/CMihai99/andro/blob/main/LICENSE).
