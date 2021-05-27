@@ -57,28 +57,3 @@ NOTE:
   Files exclusions are tested before file matches. Can be useful for excluding a specific subdirectory.
 
 ## Maintainers list
-
-BROWSER SUPPORT  
-M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-L: andro.compatibility@gmail.com  
-S: Maintained
-
-DEVICE COMPATIBILITY  
-M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-M: Tomek Pulkiewicz <tomek@pulkiewicz.com>   
-L: andro.compatibility@gmail.com  
-S: Orphan
-
-DOCUMENTATION  
-M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-L: andro.documentation@gmail.com  
-S: Maintained  
-F: Documentation/  
-F: docs/
-
-VUE.JS  
-M: Calinescu Mihai <mihaimihaia431@gmail.com>  
-M: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
-L: andro.codereview@gmail.com  
-S: Maintained  
-F: vue/

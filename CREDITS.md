@@ -20,6 +20,3 @@ NOTE: When adding to this list, please keep the entries in alphabetical order.
 - S: Snail-mail address: Postal address
 
 ## Credits list
-
-N: Gonzyyp  
-D: COPYRIGHT.md Spanish translation
