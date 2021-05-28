@@ -1,10 +1,9 @@
 ---
-name: Bug report
-about: Report a bug to help improve Andro
-title: "(Bug)"
+name: Bug
+about: Report a bug to help improve Andro.
+title: "[Bug]"
 labels: 'bug'
 assignees: ''
-
 ---
 
 **Describe the bug**

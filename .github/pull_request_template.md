@@ -1,14 +1,15 @@
 <!--
-Thank you for submitting a Pull Request. Please:
+Thank you for submitting a Pull Request.
 
-- Read our Pull Request guidelines:
-  https://github.com/CMihai99/andro/blob/main/docs/Pull-Request-Guidelines.md
+Note:
+  - Read our Pull Request guidelines:
+    https://github.com/CMihai99/andro/blob/main/Documentation/maintainer/PRGuidelines.md
 
-- Associate an issue with the Pull Request.
+  - Associate an issue with the Pull Request.
 
-- Ensure that the code is up-to-date with the `main` branch.
+  - Ensure that the code is up-to-date with the main branch.
 
-- Include the following information in your PR description.
+  - Include the following information in your PR description.
 -->
 
 ## Pull Request Summary

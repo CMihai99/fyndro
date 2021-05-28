@@ -1,10 +1,9 @@
 ---
-name: Feature request
-about: Suggest a feature to help improve Andro's functionality.
-title: '(Feature)'
+name: Feature
+about: Request a feature to help improve Andro.
+title: '[Feature]'
 labels: 'feature'
 assignees: ''
-
 ---
 
 **Is your feature request related to a problem? Please describe.**
