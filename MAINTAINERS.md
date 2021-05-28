@@ -22,7 +22,7 @@ Not all of these guidelines matter for every trivial patch so apply some common 
   These aren't as silly as they seem. One job the maintainers (and especially Michael) do is keep things looking the same. Sometimes this means that the clever hack in your code to get around a problem
   actually needs to become a generalized feature ready for next time.
 
-NOTE:  
+Note:
 - Try to include any credit lines you want added with the patch.
   It avoids people being missed off by mistake.  
 - Document known bugs.
@@ -38,12 +38,12 @@ NOTE:
 
 - L: List: Mailing list that is relevant to this area
 
-- S: Status: One of the following:  
-  Supported:	Someone is actually paid to look after this.  
-  Maintained:	Someone actually looks after it.  
-  Odd Fixes:	It has a maintainer but they don't have time to do much other than throw the odd patch in.  
-  Orphan:	    No current maintainer [but maybe you could take the role as you write your new code].  
-  Obsolete:	  Old code. Something tagged obsolete generally means it has been replaced by a better version.
+- S: Status:      One of the following:  
+  Supported:   Someone is actually paid to look after this.  
+  Maintained:  Someone actually looks after it.  
+  Odd Fixes:    It has a maintainer but they don't have time to do much other than throw the odd patch in.  
+  Orphan:       No current maintainer [but maybe you could take the role as you write your new code].  
+  Obsolete:     Old code. Something tagged obsolete generally means it has been replaced by a better version.
 
 - W: Web-page: Website URL with the page changes.
 

@@ -4,7 +4,7 @@
 
 ## Archive
 
-Within the download archive you will find the following directories and files:
+Within the download archive you'll find the following directories and files:
 
 ```
 andro/
@@ -58,9 +58,12 @@ Note: Implementation of requests may take up to 7 days.
 The main purpose of this repository is to continue evolving Andro,
 making it faster and easier to use. You can contribute by:
 
-- fixing an issue
-- adding a feature
-- improving the documentation, and more
+- Reporting a bug
+- Requesting a feature
+- Fixing an issue
+- Adding a feature
+- Improving the documentation
+- Translating the documentation
 
 ## Copyright and License
 
