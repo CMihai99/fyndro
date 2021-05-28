@@ -1,15 +1,15 @@
-# SPDX-License-Identifier: MIT-only
+# SPDX-License-Identifier: MIT
 #
-# NOTE: Don't add files that are generated in specific subdirectories here.
-# Add them in the ".gitignore" file in that subdirectory instead.
+# Note:
+#  - Don't add files that are generated in specific subdirectories here.
+#    Add them in the ".gitignore" file in that subdirectory instead.
 #
-# NOTE: Please use 'git ls-files -i --exclude-standard' command after changing this file,
-# to see if there are any tracked files which get ignored after the change.
+#  - Please use 'git ls-files -i --exclude-standard' command after changing this file,
+#    to see if there are any tracked files which get ignored after the change.
 #
-# NOTE: Please sort alphabetically.
+#  - When adding to this list, please keep the entries in alphabetical order.
 
-
-# git
+# Git
 \#*\#
 .\#*
 
@@ -21,10 +21,6 @@ yarn-error.log
 # VS Code
 **/.vs
 **/.vscode/*
-!**/.vscode/tasks.json
-!**/.vscode/settings.template.json
-!**/.vscode/launch.template.json
-!**/.vscode/extensions.json
 
 # Windows
 ~$*
