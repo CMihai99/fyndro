@@ -7,7 +7,7 @@ The documentation, like the website itself, is very much a work in progress;
 that is especially true as we work to integrate our many scattered documents into a coherent whole.
 
 Note: If you want to help out, please [join our discord server](https://discord.gg/4Z22w6tA),
-or [contact the documentation team](mailto:andro.documentation@gmail.com).
+or [contact the documentation team](mailto:androteamfaq@gmail.com).
 
 ## Introduction to development
 
@@ -19,31 +19,23 @@ process/index.md
 maintainer/index.md
 ```
 
-## API documentation
+## APIs
 
-These articles get into the details of how our web APIs work
-from the point of view of an Andro developer working with the back-end
-which operates the APIs to automatically webscrape content.
-Much of the information here is taken directly from the source,
-with supplemental material added as needed.
+These articles get into the details of how our APIs work
+from the point of view of an Andro developer.
 
 ```
 api/
 ```
 
-## Bot documentation
+## Bots
 
 These articles get into the details of how our bots work
-from the point of view of an Andro developer working with the back-end
-which operates the bots to collect the information
-from the API and paste it in required fields.
-Much of the information here is taken directly from the source,
-with supplemental material added as needed.
+from the point of view of an Andro developer.
 
 ```   
 bot/
 ```
-
 
 ## Translations
 
