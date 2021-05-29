@@ -13,12 +13,6 @@
 \#*\#
 .\#*
 
-# Packaging
-package-lock.json
-yarn.lock
-yarn-error.log
-node_modules
-
 # Local envs
 .env.local
 .env.*.local
@@ -27,6 +21,12 @@ node_modules
 yarn-debug.log*
 yarn-error.log*
 /dist
+
+# Packaging
+package-lock.json
+yarn.lock
+yarn-error.log
+node_modules
 
 # VS Code
 **/.vscode/*
