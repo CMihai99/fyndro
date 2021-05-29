@@ -7,7 +7,7 @@
 This is at least a partial credits-file of people that have contributed to Andro.
 Please try to follow the entry descriptions below. This will make things easier on the maintainers.
 
-NOTE: When adding to this list, please keep the entries in alphabetical order.
+Note: When adding to this list, please keep the entries in alphabetical order.
 
 ## Entry descriptions
 
@@ -22,4 +22,9 @@ NOTE: When adding to this list, please keep the entries in alphabetical order.
 ## Credits list
 
 N: Gonzyyp  
-D: COPYRIGHT.md Translation in Spanish
+D: COPYRIGHT.md translation in Spanish
+
+N: Nedelea Szabo David  
+D: Marketing platforms suggestions (e.g. Reddit, YouTube Ads, etc.)  
+S: Joita, Giurgiu  
+S: Romania
