@@ -2,7 +2,7 @@
 
 # Typography
 
-Typography is a major part of Andro's brand. We've taken care to select a family
+Typography is a major part of Fyndro's brand. We've taken care to select a family
 of fonts that promote legibility and accessibility.
 
 ## Roboto

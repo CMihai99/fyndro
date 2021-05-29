@@ -4,7 +4,7 @@
 
 We aim to review pull requests within three business days.
 If it has been over three business days and you have not received any feedback, feel free to
-[contact us](mailto:androteamfaq@gmail.com?subject=In%20regard%20with%20pull%20requests&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20pull%20requests.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME).
+[contact us](mailto:androteamfaq@gmail.com?subject=In%20regard%20with%20pull%20requests&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20pull%20requests.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME).
 
 Not all of these guidelines matter for every pull-request so apply some common sense.
 
@@ -43,7 +43,7 @@ Tag the actual issue number by using #issue_number (e.g. #42).
 Once your PR is ready, remove "[WIP]" from the title and/or change it from a draft PR to a regular PR.
 
 If a specific reviewer is not assigned automatically, please request a review from
-[here](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md).
+[here](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
 
 ## Incorporating feedback
 

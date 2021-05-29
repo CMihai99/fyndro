@@ -56,7 +56,7 @@ may have a negative impact on the project or its community.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by
-[contacting us](mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Andro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME). All complaints will be reviewed and investigated and will result
+[contacting us](mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME). All complaints will be reviewed and investigated and will result
 in a response that is deemed necessary and appropriate to the circumstances.
 The project team is obligated to maintain confidentiality with regard
 to the reporter of an incident. Further details of specific enforcement policies may be posted separately.

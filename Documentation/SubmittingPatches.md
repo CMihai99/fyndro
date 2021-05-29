@@ -2,15 +2,15 @@
 
 # Submitting Patches: the essential guide to getting your code submitted
 
-For a person or company who wishes to submit a change to Andro,
+For a person or company who wishes to submit a change to Fyndro,
 the process can sometimes be daunting if you're not familiar with "the system."
 This text is a collection of suggestions which can greatly
 increase the chances of your change being accepted.
 
 This document contains a large number of suggestions in a relatively terse format.
 For detailed information on how the development process works,
-see the [DevelopmentProcess.md](https://github.com/CMihai99/andro/blob/main/Documentation/process/DevelopmentProcess.md).
-Also, read [SubmitChecklist.md](https://github.com/CMihai99/andro/blob/main/Documentation/process/SubmitChecklist.md)
+see the [DevelopmentProcess.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/DevelopmentProcess.md).
+Also, read [SubmitChecklist.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmitChecklist.md)
 for a list of items to check before submitting code.
 
 This documentation assumes that you're using git to prepare your patches.
@@ -24,7 +24,7 @@ use git to obtain one. You'll want to start with the mainline repository,
 which can be grabbed with:
 
 ```
-git clone https://github.com/CMihai99/andro.git
+git clone https://github.com/CMihai99/fyndro.git
 ```
 
 Note, however, that you may not want to develop against the mainline tree directly.

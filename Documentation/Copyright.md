@@ -6,12 +6,12 @@
 
 Copyright statements must be included in the:
 
-1. [LICENSE](https://github.com/CMihai99/andro/blob/main/LICENSE) file.
-1. [MAINTAINERS](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md) file.
+1. [LICENSE](https://github.com/CMihai99/fyndro/blob/main/LICENSE) file.
+1. [MAINTAINERS](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md) file.
 
 Each copyright holder must:
 
-1. Have their own copyright statement: ``Copyright (c) 2021 Andro``.
+1. Have their own copyright statement: ``Copyright (c) 2021 Fyndro``.
 1. Be a legal entity.
 
 Copyright is tracked for non-trivial contributions (i.e. creative work).
@@ -31,4 +31,4 @@ of a given contribution (often, it's the employer who holds the copyright).
 ## Attribution
 
 Attribution is not tracked via copyright,
-but must be included in the [CREDITS](https://github.com/CMihai99/andro/blob/main/CREDITS.md) file.
+but must be included in the [CREDITS](https://github.com/CMihai99/fyndro/blob/main/CREDITS.md) file.

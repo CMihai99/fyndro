@@ -1,13 +1,13 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-# [Andro](https://cmihai99.github.io/andro) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Find%20over%20100%20new%20and%20exciting%20websites%20at&url=http://cmihai99.github.io/andro&via=androteamfaq&hashtags=andro,webdevelopment,website,websitefinder,developers) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/andro)](https://github.com/CMihai99/andro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/andro)](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aclosed)
+# [Fyndro](https://cmihai99.github.io/fyndro) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/fyndro)](https://github.com/CMihai99/fyndro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/fyndro)](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue+is%3Aclosed) [![Crowdin](https://badges.crowdin.net/andro-project/localized.svg)](https://crowdin.com/project/andro-project)
 
-## Archive
+## Download Archive
 
 Within the download archive you'll find the following directories and files:
 
 ```
-andro/
+fyndro/
 ├── .github/
 ├── css/
 ├── Documentation/
@@ -31,10 +31,10 @@ andro/
 └── tsconfig.json
 ```
 
-## Browser support
+## Browser Support
 
 We aim to support all major web browsers. Any issue in any of the browsers listed below
-[should be reported as a bug](https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
+[should be reported as a bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
 
 - Microsoft Edge 14+
 - Google Chrome 56.0.2924+
@@ -45,28 +45,25 @@ We aim to support all major web browsers. Any issue in any of the browsers liste
 - Huawei Browser 9.1.0.103+
 -->
 
-## Bugs, feature requests and website ideas
+## Bugs and Features
 
 First, search for existing and closed issues.
 If your problem or idea is not addressed yet,
-[open a new issue](https://github.com/CMihai99/andro/issues/new/choose).
+[open a new issue and choose a template](https://github.com/CMihai99/fyndro/issues/new/choose).
 
 Note: Implementation of requests may take up to 7 days.
 
 ## Contributing
 
-The main purpose of this repository is to continue evolving Andro,
-making it faster and easier to use. You can contribute by:
+We all strive to improve Fyndro every day (excluding holidays :P). You can give a helping hand by:
 
-- Reporting a bug
-- Requesting a feature
-- Fixing an issue
-- Adding a feature
-- Improving the documentation
-- Translating the documentation
+- [Reporting a bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%28Bug%29)
+- [Requesting a feature](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%28Feature%29)
+- [Closing an issue](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue+is%3Aopen)
+- [Translating the documentation](https://crowdin.com/project/andro-project)
 
 ## Copyright and License
 
-(c) 2021 Andro
+(c) 2021 Fyndro
 
-Released under the [MIT License](https://github.com/CMihai99/andro/blob/main/LICENSE).
+Released under the [MIT License](https://github.com/CMihai99/fyndro/blob/main/LICENSE).

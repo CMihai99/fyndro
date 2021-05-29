@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-    <HelloWorld msg="Andro"/>
+    <HelloWorld msg="Fyndro"/>
   </div>
 </template>
 

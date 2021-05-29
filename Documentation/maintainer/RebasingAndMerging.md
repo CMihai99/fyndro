@@ -11,7 +11,7 @@ Maintainers often get in trouble when they use those tools incorrectly,
 but avoiding problems is not actually all that hard.
 
 One thing to be aware of in general is that, unlike many other projects,
-Andro is not scared of seeing merge commits in its development history.
+Fyndro is not scared of seeing merge commits in its development history.
 Indeed, given the future-scaling of the project, avoiding merges would be nearly impossible.
 Some problems encountered by maintainers result from a desire to avoid merges,
 while others come from merging a little too often.

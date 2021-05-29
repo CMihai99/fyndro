@@ -4,7 +4,7 @@
 
 ## Submitting changes
 
-This is at least a partial credits-file of people that have contributed to Andro.
+This is at least a partial credits-file of people that have contributed to Fyndro.
 Please try to follow the entry descriptions below. This will make things easier on the maintainers.
 
 Note: When adding to this list, please keep the entries in alphabetical order.

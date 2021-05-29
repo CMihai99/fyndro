@@ -20,7 +20,7 @@ When an employee behaves, or intents to behave, in a way that’s against our pr
 or applicable laws, we will have clear guidelines on what disciplinary actions we will consider.
 
 For these reasons, we advise you to read this document carefully and consult with the
-[project maintainers](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md), if you have any doubts or questions.
+[project maintainers](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md), if you have any doubts or questions.
 
 ## The Code of Ethics components
 
@@ -39,9 +39,9 @@ You must respect others’ personal space, opinions and privacy.
 Any kind of violence is strictly prohibited and will result in immediate termination.
 You’re also not allowed to harass or victimize others.
 What constitutes harassment or victimization?
-To answer this, we have a [policy on harassment](https://github.com/CMihai99/andro/blob/main/legal/harassment.html)
+To answer this, we have a [policy on harassment](https://github.com/CMihai99/fyndro/blob/main/legal/harassment.html)
 and a more specific
-[section on sexual harassment](https://github.com/CMihai99/andro/blob/main/legal/harassment.html#sexual-harassment)
+[section on sexual harassment](https://github.com/CMihai99/fyndro/blob/main/legal/harassment.html#sexual-harassment)
 you can take a look at.
 
 As a general rule, try to put yourself in someone else’s place.
@@ -67,7 +67,7 @@ Stealing from the company or other people is illegal.
 If you’re caught, you will face repercussions depending on the severity of your actions.
 For example, if you steal personal data (e.g. engaging in fraud or embezzlement),
 you will get fired and face legal consequences. The decision is at the
-[project maintainers](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md)' discretion on a case-by-case basis.
+[project maintainers](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md)' discretion on a case-by-case basis.
 
 ## Conflict of interest
 
@@ -97,24 +97,24 @@ for example, when interviewing candidates, ask the same interview questions
 to all of them and avoid judging non-job-related criteria, like dress, appearance, etc.
 
 Also, don’t discriminate against people with protected characteristics,
-as this is forbidden by our [terms and regulations](https://github.com/CMihai99/andro/blob/main/legal/terms-of-use.html).
+as this is forbidden by our [terms and regulations](https://github.com/CMihai99/fyndro/blob/main/legal/terms-of-use.html).
 If you suspect you may have an unconscious bias that influences your decisions
 (taking [Harvard’s Implicit Association Test](https://implicit.harvard.edu/implicit/takeatest.html)
 could help you determine this),
-ask for help from a [project maintainer](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md).
+ask for help from a [project maintainer](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
 
 When exercising authority, be fair. Don’t show favoritism toward
 specific employees and be transparent when you decide to praise or reward an employee.
 You’re also forbidded from having a reporting relationship with a relative.
 If you need to discipline an employee, be sure to have prepared a case that you can present to
-[a project maintainer](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md).
+[a project maintainer](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
 You must not retaliate against employees or applicants
 (such as in cases when they’ve filed complaints) as this is forbidden by law.
 
 Be just toward customers or vendors, too.
 If you think our company was in the wrong in a specific instance,
 don’t try to cover it up or accuse the other side.
-Discuss with [a project maintainer](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md)
+Discuss with [a project maintainer](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md)
 to find solutions that can benefit both sides.
 
 ## Lawfulness
@@ -125,20 +125,20 @@ For example, accountants and medical professionals have their own
 legal restrictions and they must be fully aware of them.
 When you’re preparing contracts, clauses, disclaimers
 or online copy that may be governed by law (such as consent forms), please ask verification from
-[project maintainers](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md) before finalizing anything.
+[project maintainers](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md) before finalizing anything.
 
 You must not expose, disclose or endanger information of customers, employees, stakeholders or our business.
-Always follow our [cybersecurity policy](https://github.com/CMihai99/andro/blob/main/legal/cybersecurity.html), too.
+Always follow our [cybersecurity policy](https://github.com/CMihai99/fyndro/blob/main/legal/cybersecurity.html), too.
 Following laws regarding fraud, bribery, corruption and any kind of assault is a given.
 You are also obliged to follow laws on child labor and avoid doing business with unlawful organizations.
 
 If you’re not sure what the law is in a specific instance,
-don’t hesitate to ask a [project maintainer](https://github.com/CMihai99/andro/blob/main/MAINTAINERS.md).
+don’t hesitate to ask a [project maintainer](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
 
 ## Competence and accountability
 
 We all need to put a healthy amount of effort in our work.
-Not just because we’re all responsible for the Andro’s success, but also because slacking off affects our colleagues.
+Not just because we’re all responsible for the Fyndro’s success, but also because slacking off affects our colleagues.
 Incomplete or slow working might hinder other people’s work
 or cause them to shoulder the burden themselves.
 This comes in direct conflict with our respect and integrity principles.
