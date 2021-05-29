@@ -71,7 +71,7 @@
   padding: 0;
   animation: searchMenuWidth 0.2s ease;
   will-change: transform;
-  /* hint to the browser that it's going to animate the selected element */
+  /* hint to the browser that it"s going to animate the selected element */
 }
 #search-menu-bg a {
   height: 40px;
@@ -112,7 +112,7 @@
   box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
   animation: dropdownFadeIn 0.15s ease-in-out;
   will-change: transform;
-  /* hint to the browser that it's going to animate the selected element */
+  /* hint to the browser that it"s going to animate the selected element */
 }
 
 /* dropdown menu fade-in */
@@ -127,6 +127,8 @@
 }
 .dropdown-menu .divider {
   height: 0.75px;
+  margin: 6px 0px;
+  /* top and bottom, right and left */
 }
 
 #menu-text-bg {
