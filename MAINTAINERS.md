@@ -10,7 +10,7 @@ Not all of these guidelines matter for every trivial patch so apply some common 
 1. Always test your changes, however small, on at least 2 people, preferably more.
 
 1. Try to release a few alpha test versions first.
-  Announce them onto the [#alpha-tests](https://discord.gg/XMG9wxg5) channel and await results.
+  Announce them onto the [#alpha-testing](https://discord.gg/Hr36hVVV) channel and await results.
 
 1. Make sure your changes compile correctly in multiple configurations.
   In particular, check that changes are both responsive and functional.
@@ -19,8 +19,9 @@ Not all of these guidelines matter for every trivial patch so apply some common 
 
 1. Make a patch available to the relevant maintainer in the list.
   Be prepared to get your changes sent back with seemingly silly requests about formatting and naming.
-  These aren't as silly as they seem. One job the maintainers (and especially Michael) do is keep things looking the same. Sometimes this means that the clever hack in your code to get around a problem
-  actually needs to become a generalized feature ready for next time.
+  These aren't as silly as they seem. One job the maintainers (and especially Michael)
+  do is keep things looking the same. Sometimes this means that the clever hack in your code
+  to get around a problem actually needs to become a generalized feature ready for next time.
 
 Note:
 - Try to include any credit lines you want added with the patch.
@@ -38,6 +39,7 @@ Note:
 
 - L: List: Mailing list that is relevant to this area
 
+<!--! The whitespaces below are necesarry !-->
 - S: Status:      One of the following:  
   Supported:   Someone is actually paid to look after this.  
   Maintained:  Someone actually looks after it.  
