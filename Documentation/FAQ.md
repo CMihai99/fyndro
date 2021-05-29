@@ -43,18 +43,12 @@ but depending on the launch, we will also create our own services.
 
 ## How can I contribute?
 
-The main purpose of making Andro open-source is to continue evolving it,
-making it faster and easier to use.
-You can contribute by:
+We all strive to improve Andro every day (excluding holidays :P). You can give a helping hand by:
 
-- [closing an issue](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aopen+)
-- fixing a bug (reported or not reported)
-- adding new features
-- improving the codebase
-- [improving the documentation](https://github.com/CMihai99/andro/tree/main/Documentation), and so on.
-- [submitting new feature ideas](https://github.com/CMihai99/andro/issues/new?assignees=&labels=feature&template=feature_request.md&title=(Feature))
-- [requesting website entries](https://github.com/CMihai99/andro/issues/new?assignees=&labels=website&template=website_request.md&title=(Website))
-- [improving the documentation](https://github.com/CMihai99/andro/tree/main/Documentation), and so on.
+- [Reporting a bug](https://github.com/CMihai99/andro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%28Bug%29)
+- [Requesting a feature](https://github.com/CMihai99/andro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%28Feature%29)
+- [Closing an issue](https://github.com/CMihai99/andro/issues?q=is%3Aissue+is%3Aopen)
+- [Translating the documentation](https://crowdin.com/project/andro-project)
 
 Note: First, search for existing and closed issues.
 If your problem or idea is not addressed yet, *then* open a new issue.

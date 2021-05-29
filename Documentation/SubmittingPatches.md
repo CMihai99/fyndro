@@ -9,8 +9,8 @@ increase the chances of your change being accepted.
 
 This document contains a large number of suggestions in a relatively terse format.
 For detailed information on how the development process works,
-see the [DevelopmentProcess.md]().
-Also, read [SubmitChecklist.md]()
+see the [DevelopmentProcess.md](https://github.com/CMihai99/andro/blob/main/Documentation/process/DevelopmentProcess.md).
+Also, read [SubmitChecklist.md](https://github.com/CMihai99/andro/blob/main/Documentation/process/SubmitChecklist.md)
 for a list of items to check before submitting code.
 
 This documentation assumes that you're using git to prepare your patches.
@@ -20,7 +20,8 @@ it will make your life as a developer much easier.
 ## Obtain a current source tree
 
 If you do not have a repository with the current source handy,
-use git to obtain one. You'll want to start with the mainline repository, which can be grabbed with:
+use git to obtain one. You'll want to start with the mainline repository,
+which can be grabbed with:
 
 ```
 git clone https://github.com/CMihai99/andro.git

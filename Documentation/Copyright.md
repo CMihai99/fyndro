@@ -25,8 +25,8 @@ or non-human (juridical person, e.g. corporation).
 A legal entity has privileges and obligations such
 as being able to enter into contracts, to sue or be sued.
 
-Maintainers are responsible for asking each contributor who is the copyright holder of a given contribution
-(often, it's the employer who holds the copyright).
+Maintainers are responsible for asking each contributor who is the copyright holder
+of a given contribution (often, it's the employer who holds the copyright).
 
 ## Attribution
 

@@ -52,7 +52,7 @@
   border-radius: var(--border-radius);
   margin: -15px 0 0 3px; /* top, right, bottom, left */
   animation: tocFadeIn 0.15s ease-in-out;
-  will-change: transform; /* hint to the browser that it's going to animate the selected element */
+  will-change: transform; /* hint to the browser that it"s going to animate the selected element */
 
   li {
     border-radius: var(--border-radius);
