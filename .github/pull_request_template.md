@@ -3,7 +3,7 @@ Thank you for submitting a Pull Request.
 
 Note:
   - Read our Pull Request guidelines:
-    https://github.com/CMihai99/andro/blob/main/Documentation/maintainer/PRGuidelines.md
+    https://github.com/CMihai99/fyndro/blob/main/Documentation/maintainer/PRGuidelines.md
 
   - Associate an issue with the Pull Request.
 

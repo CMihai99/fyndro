@@ -1,6 +1,6 @@
 ---
 name: Bug
-about: Report a bug to help improve Andro.
+about: Report a bug to help improve Fyndro.
 title: "[Bug]"
 labels: 'bug'
 assignees: ''
