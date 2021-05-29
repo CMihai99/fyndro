@@ -29,9 +29,7 @@
 *.ts               text
 
 # Configurations
-.gitattributes     text
-.gitignore         text
-.gitconfig         text
+.git*              text
 tsconfig.json      text -diff
 package.json       text eol=lf
 package-lock.json  text -diff
@@ -42,14 +40,11 @@ package-lock.json  text -diff
 *.txt              text
 
 # Graphics
-*.gif              binary
 *.ico              binary
 *.jpg              binary
-*.jpeg             binary
 *.png              binary
 *.svg              binary
-*.wbmp             binary
-*.webp             binary
 
 # Video
 *.mp4              binary
+*.gif              binary
