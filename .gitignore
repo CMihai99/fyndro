@@ -17,17 +17,23 @@
 package-lock.json
 yarn.lock
 yarn-error.log
+node_modules
+
+# Local envs
+.env.local
+.env.*.local
+
+# Logs
+yarn-debug.log*
+yarn-error.log*
+/dist
 
 # VS Code
-**/.vs
 **/.vscode/*
 
 # Windows
 ~$*
 [Ss]tyle[Cc]op.*
-
-# Windows cache
-*.[Cc]ache
 
 # Windows recycle bin used on file shares
 $RECYCLE.BIN/
