@@ -8,8 +8,8 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-RewriteCond %{HTTP_HOST} ^(www\.cmihai99\.github\.io/andro)(:80)? [NC]
-RewriteRule ^(.*) http://cmihai99.github.io/andro/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^(www\.cmihai99\.github\.io/fyndro)(:80)? [NC]
+RewriteRule ^(.*) http://cmihai99.github.io/fyndro/$1 [R=301,L]
 
 DirectoryIndex index.html       
 order deny,allow
