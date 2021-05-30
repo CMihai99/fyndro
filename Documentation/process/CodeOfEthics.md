@@ -2,7 +2,7 @@
 
 # Code of Ethics
 
-## What is the purpose of a Code of Ethics?
+## Purpose
 
 Having our company ethics in writing doesn't mean that we don't trust our employees and contributors.
 We strive to hire ethical people who have their own personal standards,

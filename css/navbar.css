@@ -29,10 +29,6 @@
 .search-toggle-bar input::placeholder {
   color: var(--borders);
 }
-.search-toggle-bar input,
-.search-toggle-bar input::placeholder {
-  color: var(--borders);
-}
 .search-toggle-bar input:focus,
 .search-toggle-bar input:focus::placeholder {
   opacity: 0.9;
@@ -124,7 +120,7 @@
 }
 .dropdown-menu .divider {
   height: 0.75px;
-  margin: 6px 0px;
+  margin: 6px 0;
   /* top and bottom, right and left */
 }
 

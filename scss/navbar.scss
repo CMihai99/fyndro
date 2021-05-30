@@ -31,11 +31,6 @@
     color: var(--borders);
   }
 
-  input,
-  input::placeholder {
-    color: var(--borders);
-  }
-
   input:focus,
   input:focus::placeholder {
     opacity: 0.9;
@@ -127,7 +122,7 @@
 
 .dropdown-menu .divider {
   height: 0.75px;
-  margin: 6px 0px; /* top and bottom, right and left */
+  margin: 6px 0; /* top and bottom, right and left */
 }
 
 #menu-text-bg {
