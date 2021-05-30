@@ -6,7 +6,7 @@
 
 Within the download archive you'll find the following directories and files:
 
-```
+```console
 fyndro/
 ├── .github/
 ├── css/
@@ -45,11 +45,11 @@ We aim to support all major web browsers. Any issue encountered in the browsers 
 
 ## Bugs and Features
 
-First, search for existing and closed issues.
+First, [search for existing and closed issues](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue).
 If your problem or idea is not addressed yet,
-[open a new issue and choose a template](https://github.com/CMihai99/fyndro/issues/new/choose).
+[open a new issue](https://github.com/CMihai99/fyndro/issues/new/choose).
 
-Note: Implementation of requests may take up to 7 days.
+Note: Implementations may take up to 7 days.
 
 ## Contributing
 
@@ -60,8 +60,6 @@ We all strive to improve Fyndro every day. You can give a helping hand by:
 - [Closing an issue](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue+is%3Aopen)
 - [Translating the documentation](https://crowdin.com/project/andro-project)
 
-## Copyright and License
+## Copyright
 
 © 2021 Fyndro, All Rights Reserved.
-
-Released under the [MIT License](https://github.com/CMihai99/fyndro/blob/main/LICENSE).

@@ -32,7 +32,7 @@ Tag the actual issue number by using #issue_number (e.g. #42).
 - This closes the issue when your PR is merged.
   Tag the actual issue author by using @author (e.g. @CMihai99).
 - This brings the reporter of the issue into the conversation.
-  Mark the tasks off your checklist by adding an x in the [ ] (e.g. [x]).
+  Mark the tasks off your checklist by adding an x in the [] (e.g. [x]).
   - This checks off the boxes in your to-do list. The more boxes you check, the better.
 - Describe your change in detail. Too much detail is better than too little.
 - Describe how you tested your change.

@@ -66,6 +66,7 @@ may face temporary or permanent repercussions as determined by other members of 
 
 ## Attribution
 
-This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+This Code of Conduct is adapted from the Contributor Covenant, version 1.4,
+available [here](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
 
-For answers to common questions About this code of conduct, see https://www.contributor-covenant.org/faq
+For answers to common questions about this code of conduct, [see the FAQ](https://www.contributor-covenant.org/faq)

@@ -24,6 +24,7 @@ Not all of these guidelines matter for every trivial patch so apply some common 
   to get around a problem actually needs to become a generalized feature ready for next time.
 
 Note:
+
 - Try to include any credit lines you want added with the patch.
   It avoids people being missed off by mistake.  
 - Document known bugs.
@@ -50,7 +51,7 @@ Note:
 - W: Web-page: Website URL with the page changes.
 
 - C: Credit: Anyone wanted to be credited with the patch.
-  Visit [CREDITS.md](https://github.com/CMihai99/andro/blob/main/CREDITS.md) for more information.
+  Visit [CREDITS.md](https://github.com/CMihai99/fyndro/blob/main/CREDITS.md) for more information.
 
 - F: Files: Files and directories wildcard patterns.
   A trailing slash includes all files and subdirectory files.

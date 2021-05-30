@@ -9,7 +9,7 @@ industry, and more, so you can find the perfect tool you need.
 
 ## Which browsers do you support?
 
-We aim to support all major web browsers. Any issue in any of the browsers listed below
+We aim to support all major web browsers. Any issue encountered in the browsers below
 [should be reported as a bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
 
 - Microsoft Edge 14+
