@@ -1,4 +1,6 @@
 <!--
+SPDX-License-Identifier: MIT
+
 Thank you for submitting a Pull Request.
 
 Note:

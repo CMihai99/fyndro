@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: MIT -->
+
 ---
 name: Bug
 about: Report a bug to help improve Fyndro.
