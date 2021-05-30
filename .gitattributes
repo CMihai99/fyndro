@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+#
 # File settings:
 #   text     These files should be normalized (i.e. convert CRLF to LF).
 #   binary   These files are binary and should be left untouched.
@@ -6,7 +8,7 @@
 #  - binary is a macro for -text -diff.
 #  - When reading this list, please look for the most precise areas first.
 #  - When adding to this list, please keep the entries in alphabetical order.
-
+#
 # Auto detection:
 #   Handle line endings automatically for files detected as text
 #   and leave all files detected as binary untouched.
