@@ -11,7 +11,7 @@ Copyright statements must be included in the:
 
 Each copyright holder must:
 
-1. Have their own copyright statement: ``Copyright (c) 2021 Fyndro``.
+1. Have their own copyright statement: ``© 2021 Fyndro, All Rights Reserved.``.
 1. Be a legal entity.
 
 Copyright is tracked for non-trivial contributions (i.e. creative work).

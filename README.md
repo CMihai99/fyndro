@@ -62,6 +62,6 @@ We all strive to improve Fyndro every day. You can give a helping hand by:
 
 ## Copyright and License
 
-(c) 2021 Fyndro
+© 2021 Fyndro, All Rights Reserved.
 
 Released under the [MIT License](https://github.com/CMihai99/fyndro/blob/main/LICENSE).
