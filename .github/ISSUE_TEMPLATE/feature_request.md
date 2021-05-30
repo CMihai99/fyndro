@@ -1,5 +1,3 @@
-<!-- SPDX-License-Identifier: MIT -->
-
 ---
 name: Feature
 about: Request a feature to help improve Fyndro.
