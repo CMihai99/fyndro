@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-# Submitting Patches: the essential guide to getting your code submitted
+# Submitting Patches: Getting your code submitted
 
 For a person or company who wishes to submit a change to Fyndro,
 the process can sometimes be daunting if you're not familiar with "the system."
@@ -23,7 +23,7 @@ If you do not have a repository with the current source handy,
 use git to obtain one. You'll want to start with the mainline repository,
 which can be grabbed with:
 
-```
+```console
 git clone https://github.com/CMihai99/fyndro.git
 ```
 

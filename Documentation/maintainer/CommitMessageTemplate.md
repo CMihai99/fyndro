@@ -2,11 +2,12 @@
 
 # Commit Message Template
 
-Quality commit messages help maintainers understand the patch you fixed or feature you added. 
+Quality commit messages help maintainers understand
+the patch you fixed or feature you added. 
 
 A good commit message looks like this:
 
-```
+```console
 Header line: explain the commit in one line (use the imperative form)
 
 Body of commit message is a few lines of text, explaining things

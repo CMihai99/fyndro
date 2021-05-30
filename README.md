@@ -11,12 +11,11 @@ fyndro/
 ├── .github/
 ├── css/
 ├── Documentation/
-├── js/
 ├── legal/
+├── LICENSES/
 ├── resources/
 ├── scss/
 ├── src/
-├── ts/
 ├── .gitattributes
 ├── .gitignore
 ├── .htaccess
@@ -25,7 +24,6 @@ fyndro/
 ├── CREDITS.md
 ├── faq.html
 ├── index.html
-├── LICENSE
 ├── MAINTAINERS.md
 ├── README.md
 └── tsconfig.json
@@ -33,7 +31,7 @@ fyndro/
 
 ## Browser Support
 
-We aim to support all major web browsers. Any issue in any of the browsers listed below
+We aim to support all major web browsers. Any issue encountered in the browsers below
 [should be reported as a bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
 
 - Microsoft Edge 14+
@@ -55,7 +53,7 @@ Note: Implementation of requests may take up to 7 days.
 
 ## Contributing
 
-We all strive to improve Fyndro every day (excluding holidays :P). You can give a helping hand by:
+We all strive to improve Fyndro every day. You can give a helping hand by:
 
 - [Reporting a bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%28Bug%29)
 - [Requesting a feature](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%28Feature%29)

@@ -14,7 +14,7 @@ or [contact the documentation team](mailto:androteamfaq@gmail.com).
 These manuals contain overall information about how to develop Fyndro.
 Knowing how things are done will make the process of getting your changes merged much easier.
 
-```
+```console
 process/index.md
 maintainer/index.md
 ```
@@ -24,7 +24,7 @@ maintainer/index.md
 These articles get into the details of how our APIs work
 from the point of view of a Fyndro developer.
 
-```
+```console
 api/
 ```
 
@@ -33,7 +33,7 @@ api/
 These articles get into the details of how our bots work
 from the point of view of a Fyndro developer.
 
-```   
+```console
 bot/
 ```
 
@@ -41,6 +41,6 @@ bot/
 
 These manuals contain translations for the overall information about how to develop Fyndro.
 
-```
+```console
 translations/
 ```

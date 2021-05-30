@@ -6,7 +6,7 @@
 
 Copyright statements must be included in the:
 
-1. [LICENSE](https://github.com/CMihai99/fyndro/blob/main/LICENSE) file.
+1. [COPYING](https://github.com/CMihai99/fyndro/blob/main/COPYING) file.
 1. [MAINTAINERS](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md) file.
 
 Each copyright holder must:
@@ -22,8 +22,8 @@ By default we consider anything above 25 lines a non-trivial contribution.
 A legal entity can be human (physical person)
 or non-human (juridical person, e.g. corporation).
 
-A legal entity has privileges and obligations such
-as being able to enter into contracts, to sue or be sued.
+A legal entity has privileges and obligations such as
+being able to enter into contracts, to sue or be sued.
 
 Maintainers are responsible for asking each contributor who is the copyright holder
 of a given contribution (often, it's the employer who holds the copyright).

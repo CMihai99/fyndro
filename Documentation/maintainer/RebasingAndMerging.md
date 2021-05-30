@@ -27,9 +27,10 @@ and be prepared to explain why something abnormal needs to be done.
 
 ## Rebasing
 
-``Rebasing`` is the process of changing the history of a series of commits within a repository.
-There are two different types of operations that are referred to as rebasing
-since both are done with the ``git rebase`` command,
+``Rebasing`` is the process of changing the history
+of a series of commits within a repository.
+There are two different types of operations that are referred to as
+rebasing since both are done with the ``git rebase`` command,
 but there are significant differences between them:
 
 - Changing the parent (starting) commit upon which a series of patches is built.
@@ -75,10 +76,11 @@ be sure that prospective users know not to base work on it.
   A reparented patch series should, as a general rule,
   be treated like new code and retested from the beginning.
 
-A frequent cause of merge-window trouble is when Michael is presented with a patch series
-that has clearly been reparented, often to a random commit, shortly before the pull request was sent.
-The chances of such a series having been adequately tested are relatively low,
-as are the chances of the pull request being acted upon.
+A frequent cause of merge-window trouble is when Michael
+is presented with a patch series that has clearly been reparented,
+often to a random commit, shortly before the pull request was sent.
+The chances of such a series having been adequately tested
+are relatively low, as are the chances of the pull request being acted upon.
 
 ## Merging
 
@@ -105,5 +107,5 @@ Maintainers at all levels should be using signed tags on their pull requests
 and upstream maintainers should verify the tags when pulling branches.
 Failure to do so threatens the security of the development process as a whole.
 
-As per the rules outlined above, once you have merged somebody else's history into your tree,
-you cannot rebase that branch, even if you otherwise would be able to.
+As per the rules outlined above, once you have merged somebody else's history
+into your tree, you cannot rebase that branch, even if you otherwise would be able to.
