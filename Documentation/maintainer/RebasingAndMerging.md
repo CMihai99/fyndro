@@ -33,15 +33,15 @@ There are two different types of operations that are referred to as
 rebasing since both are done with the ``git rebase`` command,
 but there are significant differences between them:
 
-- Changing the parent (starting) commit upon which a series of patches is built.
-  *For example: A rebase operation could take a patch set built on the previous release
-  and base it, instead, on the current release.*
-  We'll call this operation "reparenting" below.
+-   Changing the parent (starting) commit upon which a series of patches is built.
+    *For example: A rebase operation could take a patch set built on the previous release
+    and base it, instead, on the current release.*
+    We'll call this operation "reparenting" below.
 
-- Changing the history of a set of patches by fixing (or deleting)
-  broken commits, adding patches, adding tags to commit changelogs, or changing
-  the order in which commits are applied.
-  In the following text, this type of operation will be referred to as "history modification".
+-   Changing the history of a set of patches by fixing (or deleting)
+    broken commits, adding patches, adding tags to commit changelogs, or changing
+    the order in which commits are applied.
+    In the following text, this type of operation will be referred to as "history modification".
 
 The term ``rebasing`` will be used to refer to both of the above operations.
 Used properly, rebasing can yield a cleaner and clearer development history;
@@ -49,9 +49,9 @@ used improperly, it can obscure that history and introduce bugs.
 
 There are a few rules of thumb that can help developers to avoid the worst of rebasing:
 
-- History that has been exposed to the world beyond your private system should usually not be changed.
-  Others may have pulled a copy of your tree and built on it;
-  modifying your tree will create pain for them.
+-   History that has been exposed to the world beyond your private system should usually not be changed.
+    Others may have pulled a copy of your tree and built on it;
+    modifying your tree will create pain for them.
 
 That said, there are always exceptions.
 Developers will sometimes expose an unstable branch for others to test
@@ -59,22 +59,22 @@ with or for automated testing services.
 If you do expose a branch that may be unstable in this way,
 be sure that prospective users know not to base work on it.
 
-- Do not rebase a branch that contains history created by others.
-  If you have pulled changes from another developer's repository,
-  you are now a custodian of their history. You should not change it.
-  With few exceptions, for example, a broken commit in a tree like this
-  should be explicitly reverted rather than disappeared via history modification.
+-   Do not rebase a branch that contains history created by others.
+    If you have pulled changes from another developer's repository,
+    you are now a custodian of their history. You should not change it.
+    With few exceptions, for example, a broken commit in a tree like this
+    should be explicitly reverted rather than disappeared via history modification.
 
-- Do not reparent a tree without a good reason to do so.
-  Just being on a newer base or avoiding a merge with an upstream repository
-  is not generally a good reason.
+-   Do not reparent a tree without a good reason to do so.
+    Just being on a newer base or avoiding a merge with an upstream repository
+    is not generally a good reason.
 
-- Realize that reparenting a patch series
-  (or making significant history modifications) 
-  changes the environment in which it was developed and, likely,
-  invalidates much of the testing that was done.
-  A reparented patch series should, as a general rule,
-  be treated like new code and retested from the beginning.
+-   Realize that reparenting a patch series
+    (or making significant history modifications) 
+    changes the environment in which it was developed and, likely,
+    invalidates much of the testing that was done.
+    A reparented patch series should, as a general rule,
+    be treated like new code and retested from the beginning.
 
 A frequent cause of merge-window trouble is when Michael
 is presented with a patch series that has clearly been reparented,

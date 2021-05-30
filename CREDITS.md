@@ -11,13 +11,13 @@ Note: When adding to this list, please keep the entries in alphabetical order.
 
 ## Entry descriptions
 
-- N: Name: FullName
+-   N: Name: FullName
 
-- E: Email: <address@domain>
+-   E: Email: <address@domain>
 
-- D: Description: Description with the reason the person is credited
+-   D: Description: Description with the reason the person is credited
 
-- S: Snail-mail address: Postal address
+-   S: Snail-mail address: Postal address
 
 ## Credits list
 
