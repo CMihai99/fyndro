@@ -40,23 +40,35 @@ Note:
 ## Entry descriptions
 
 -   M: Mail: Full Name <youremail@yourhost.com>
+
 -   R: Reviewer: Full Name <youremail@yourhost.com>
+
 -   L: List: Mailing list that is relevant to this area
+
 -   S: Status: One of the following:
+
     -   Supported: Someone is actually paid to look after this.
+
     -   Maintained: Someone actually looks after it.
+
     -   Odd Fixes: It has a maintainer but they don't have time
         to do much other than throw the odd patch in.
+
     -   Orphan: No current maintainer (but maybe you could take the role
         as you write your new code).
+
     -   Obsolete: Old code. Something tagged obsolete generally means
         it has been replaced by a better version.
+
 -   W: Web-page: Website URL with the page changes.
+
 -   C: Credit: Anyone wanted to be credited with the patch.
     Read the [CREDITS](https://github.com/CMihai99/fyndro/blob/main/CREDITS.md)
     file for more information.
+
 -   F: Files: Files and directories wildcard patterns.
     A trailing slash includes all files and subdirectory files.
+
 -   X: Excluded: Excluded files and directories
     that are not maintained, same rules as F.  
     Files exclusions are tested before file matches.
