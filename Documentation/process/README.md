@@ -10,13 +10,12 @@ Below are the essential guides that every developer should read.
 
 ```console
 LicenseRules
-Howto
+HowTo
 CodeOfConduct
 DevelopmentProcess
 SubmittingPatches
 ProgrammingLanguage
 CodingStyle
-EmailClients
 EnforcementStatement
 ```
 
