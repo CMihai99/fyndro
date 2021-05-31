@@ -17,6 +17,7 @@ Knowing how things are done will make the process of getting your changes merged
 ```console
 process/README
 maintainer/README
+admin-guide/README
 ```
 
 ## APIs
