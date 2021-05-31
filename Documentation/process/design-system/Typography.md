@@ -7,7 +7,7 @@ a family of fonts that promote legibility and accessibility.
 
 ## Roboto
 
-<img width="708" alt="Roboto Font" src="https://user-images.githubusercontent.com/69072635/120021212-6fe26c00-bff3-11eb-8006-43abb9cfb86f.png">
+![Roboto Font](https://user-images.githubusercontent.com/69072635/120021212-6fe26c00-bff3-11eb-8006-43abb9cfb86f.png)
 
 To embed, copy this code into the `<head>` of your HTML document:
 
@@ -17,7 +17,7 @@ To embed, copy this code into the `<head>` of your HTML document:
 
 ## Roboto Mono
 
-<img width="708" alt="Roboto Mono Font" src="https://user-images.githubusercontent.com/69072635/120021262-7e308800-bff3-11eb-81fb-f5c5251326ae.png">
+![Roboto Mono Font](https://user-images.githubusercontent.com/69072635/120021262-7e308800-bff3-11eb-81fb-f5c5251326ae.png)
 
 To embed, copy this code into the `<head>` of your HTML document:
 
