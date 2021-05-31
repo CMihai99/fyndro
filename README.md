@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-# [Fyndro](https://cmihai99.github.io/fyndro) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/fyndro)](https://github.com/CMihai99/fyndro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/fyndro)](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue+is%3Aclosed) [![Crowdin](https://badges.crowdin.net/andro-project/localized.svg)](https://crowdin.com/project/andro-project)
+# [Fyndro](https://cmihai99.github.io/fyndro) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/fyndro)](https://github.com/CMihai99/fyndro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/fyndro)](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue+is%3Aclosed) [![Crowdin](https://badges.crowdin.net/andro-project/localized.svg)](https://crowdin.com/project/andro-project) ![Codacy](https://img.shields.io/codacy/grade/23f542e075834f949e2871a52692a5da)
 
 ## Download Archive
 
