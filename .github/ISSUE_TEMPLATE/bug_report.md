@@ -17,6 +17,9 @@ Steps to reproduce the behavior:
 3.  Scroll down to '...'
 4.  See error
 
+**Error message**
+If you got any, please paste the error message related to the problem.
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
@@ -32,3 +35,6 @@ If applicable, add screenshots to help explain your problem.
 -   OS: (e.g. iOS14.1)
 -   Browser (e.g. firefox, safari)
 -   Browser Version (e.g. 22)
+
+**Additional context**
+Provide any additional context about the problem.
