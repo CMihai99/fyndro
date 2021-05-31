@@ -12,18 +12,14 @@ Not all of these guidelines matter for every pull-request so apply some common s
 
 Please create a separate branch for each issue that you're working on.
 
-When pushing, commit to the ``experimental`` branch.
-Do not make changes to the ``main`` branch.
+When pushing, commit to the ``experimental`` branch. Do not make changes to the ``main`` branch.
 
-The ``experimental`` branch is only used for experimental
-changes which will be reviewed for approval.
-The ``main`` branch is only used for approved changes
-which will make it into the next version.
+The ``experimental`` branch is only used for experimental changes which will be reviewed for approval.
+The ``main`` branch is only used for approved changes which will make it into the next version.
 
 ## Pushing your code
 
-Push your code and make a pull request as soon as you can.
-Mark the title with "[WIP]" if its still being edited.
+Push your code and make a pull request as soon as you can. 1Mark the title with "[WIP]" if its still being edited.
 
 ## Describing your pull request
 
@@ -48,17 +44,15 @@ Tag the actual issue number by using #issue_number (e.g. #42).
 
 ## Requesting review
 
-Once your PR is ready, remove "[WIP]" from the title
-and/or change it from a draft PR to a regular PR.
+Once your PR is ready, remove "[WIP]" from the title and/or change it from a draft PR to a regular PR.
 
 If a specific reviewer is not assigned automatically, please request a review
 from one of the [maintainers](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
 
 ## Incorporating feedback
 
-If your PR gets a 'Changes requested' review, you will need
-to address the feedback and update your PR by pushing to the same branch.
-You don't need to close the PR and open a new one.
+If your PR gets a 'Changes requested' review, you will need to address the feedback
+and update your PR by pushing to the same branch. You don't need to close the PR and open a new one.
 
 Be sure to re-request review once you have made changes after a code review.
 

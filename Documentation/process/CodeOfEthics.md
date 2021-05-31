@@ -8,8 +8,7 @@ Having our company ethics in writing doesn't mean that we don't trust our employ
 We strive to hire ethical people who have their own personal standards,
 so we expect that a written code won't be necessary most of the time.
 
-But, it can still be helpful. You may find yourself in a situation
-where you're not sure how you should act.
+But, it can still be helpful. You may find yourself in a situation where you're not sure how you should act.
 Life is full of grey areas where right and wrong aren't so apparent.
 Some ethics also correspond to laws that you absolutely must know to do your job properly,
 so we will mention them in this Code of Ethics.
@@ -25,9 +24,13 @@ For these reasons, we advise you to read this document carefully and consult wit
 ## The Code of Ethics components
 
 We base our Code of Ethics on common principles of ethics:
-Respect for others. Treat people as you want to be treated. Integrity and honesty.
-Tell the truth and avoid any wrongdoing to the best of your ability.
-Justice. Make sure you're objective and fair and don't disadvantage others. Lawfulness. Know and follow the law – always. Competence and accountability. Work hard and be responsible for your work. Teamwork. Collaborate and ask for help.
+
+-   Respect for others. Treat people as you want to be treated.
+-   Integrity and honesty. Tell the truth and avoid any wrongdoing to the best of your ability.
+-   Justice. Make sure you're objective and fair and don't disadvantage others.
+-   Lawfulness. Know and follow the law – always.
+-   Competence and accountability. Work hard and be responsible for your work.
+-   Teamwork. Collaborate and ask for help.
 
 Here's a more detailed overview of our Code of Ethics:
 
@@ -37,9 +40,8 @@ It's mandatory to respect everyone you interact with. Be kind, polite and unders
 You must respect others' personal space, opinions and privacy.
 
 Any kind of violence is strictly prohibited and will result in immediate termination.
-You're also not allowed to harass or victimize others.
-What constitutes harassment or victimization?
-To answer this, we have a [policy on harassment](https://cmihai99.github.io/fyndro/legal/harassment)
+You're also not allowed to harass or victimize others. What constitutes harassment or victimization?
+To answer this, we have a policy on [harassment](https://cmihai99.github.io/fyndro/legal/harassment)
 and [sexual harassment](https://cmihai99.github.io/fyndro/legal/sexual-harassment).
 
 As a general rule, try to put yourself in someone else's place.
@@ -109,8 +111,7 @@ If you need to discipline an employee, be sure to have prepared a case that you 
 You must not retaliate against employees or applicants
 (such as in cases when they've filed complaints) as this is forbidden by law.
 
-Be just toward customers or vendors, too.
-If you think our company was in the wrong in a specific instance,
+Be just toward customers or vendors, too. If you think our company was in the wrong in a specific instance,
 don't try to cover it up or accuse the other side.
 Discuss with [a project maintainer](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md)
 to find solutions that can benefit both sides.

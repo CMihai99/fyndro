@@ -14,24 +14,6 @@ footer {
   justify-content: center;
 }
 
-.footer-menu-category {
-  padding: 15px 50px 25px; /* top, left and right, bottom */
-
-  ul li {
-    color: var(--text);
-  }
-}
-
-.menu-category-title {
-  color: var(--gray);
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-size: 13.5px;
-  margin-bottom: 10.5px;
-}
-
 .links {
   padding: 0;
 
@@ -52,6 +34,24 @@ footer {
   }
 }
 
+.footer-menu-category {
+  padding: 15px 50px 25px; /* top, left and right, bottom */
+
+  ul li {
+    color: var(--text);
+  }
+}
+
+.menu-category-title {
+  color: var(--gray);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 13.5px;
+  margin-bottom: 10.5px;
+}
+
 #trademark {
   padding-top: 238.5px;
   font-size: 13.5px;
@@ -59,11 +59,13 @@ footer {
 }
 
 @media
-(min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
-(min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
+  (min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
+  (min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
+    /* foo */
 }
 
 @media
-(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
-(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
+  (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
+  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
+    /* foo */
 }

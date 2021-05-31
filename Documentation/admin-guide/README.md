@@ -14,9 +14,8 @@ as they tell you what this is all about, and what to do if something goes wrong.
 
 ## Installing sources
 
-When installing full sources, put the archive in a directory
-where you have permissions (e.g. your home directory)
-and unpack it manually, or by using Windows Powershell v5.0+:
+When installing full sources, put the archive in a directory where you have permissions
+(e.g. your home directory) and unpack it manually, or by using Windows Powershell v5.0+:
 
 ```powershell
 Expand-Archive -Force v1.x.zip; cd v1.x/v1.x
@@ -41,11 +40,11 @@ just update packages when obvious problems arise during build or operation.
 ## If something goes wrong
 
 -   If you have problems that seem to be due to bugs, please check the
-    [MAINTAINERS](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md)
-    file to see if there is a particular person associated
-    with the part that you are having trouble with.
-    If there isn't anyone listed there, the second best thing to do
-    is to report them on [GitHub Issues](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D).
+    [MAINTAINERS](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md) file
+    to see if there is a particular person associated with the part that you are having trouble with.
+    If there isn't anyone listed there, the second best thing to do is to report the problem on
+    [GitHub issues](https://github.com/CMihai99/fyndro/issues), by choosing the
+    [appropriate template](https://github.com/CMihai99/fyndro/issues/new/choose).
     -   In all bug-reports, please:
         -   tell which version you are talking about
         -   provide steps on how to reproduce the behavior
@@ -53,5 +52,4 @@ just update packages when obvious problems arise during build or operation.
         -   specify your setup (use common sense)
 
         In the `Additional context` section, specify if your problem is new or old.
-        If you got any error messages related to your problem,
-        paste them into the `Error message` section.
+        If you got any error messages related to your problem, paste them into the `Error message` section.

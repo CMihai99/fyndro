@@ -88,4 +88,11 @@
   background-color: #ececec;
 }
 
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
+}
+
 /*# sourceMappingURL=table-of-contents.css.map */

@@ -76,7 +76,12 @@
   margin: 0;
 }
 
-/* search menu width increase */
+.dropdown-menu .divider {
+  height: 0.75px;
+  margin: 6px 0;
+  /* top and bottom, right and left */
+}
+
 @keyframes searchMenuWidth {
   from {
     width: 199px;
@@ -108,7 +113,6 @@
   will-change: transform;
 }
 
-/* dropdown menu fade-in */
 @keyframes dropdownFadeIn {
   from {
     margin-top: -15px;
@@ -118,12 +122,6 @@
     opacity: 1;
   }
 }
-.dropdown-menu .divider {
-  height: 0.75px;
-  margin: 6px 0;
-  /* top and bottom, right and left */
-}
-
 #menu-text-bg {
   color: var(--text);
 }
@@ -154,6 +152,9 @@
     margin-right: 65px;
     margin-top: -31px;
   }
+}
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
 }
 
 /*# sourceMappingURL=navbar.css.map */

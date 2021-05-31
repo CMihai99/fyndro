@@ -2,10 +2,8 @@
 
 # Pull Requests: The guide to submitting your pull requests
 
-This chapter describes how maintainers can create
-and submit pull requests to other maintainers.
-This is useful for transferring changes from
-one maintainers tree to another maintainers tree.
+This chapter describes how maintainers can create and submit pull requests to other maintainers.
+This is useful for transferring changes from one maintainers tree to another maintainers tree.
 
 ## Creating a branch
 
@@ -32,11 +30,9 @@ Otherwise, if it would be produced from the `main` branch, you would be using th
 git tag -s comp-misc-1.9.2 main
 ```
 
-That will create a signed tag called `comp-misc-1.9.2` based on
-the last commit in the `comp-misc-next` branch.
+That will create a signed tag called `comp-misc-1.9.2` based on the last commit in the `comp-misc-next` branch.
 
-Michael will only accept pull requests based on a signed tag. Other
-maintainers may differ.
+Michael will only accept pull requests based on a signed tag. Other maintainers may differ.
 
 When you run the command above, git will drop you into an editor and ask
 you to describe the tag. In this case, you are describing a pull request,
@@ -57,9 +53,8 @@ Note: If there is something odd about the pull request,
 that should very much be in the explanation. If you're touching files
 that you don't maintain, explain why. I will see it in the diffstat anyway,
 and if you didn't mention it, I'll just be extra suspicious.
-And when you send me new stuff after the merge window
-(or even bug-fixes, but ones that look scary), explain not just what they do
-and why they do it, but explain the timing.
+And when you send me new stuff after the merge window (or even bug-fixes, but ones that look scary),
+explain not just what they do and why they do it, but explain the timing.
 
 I will take both what you write in the pull request and in the signed tag,
 so depending on your workflow, you can either describe your work in the signed tag
@@ -72,7 +67,7 @@ And yes, I will edit the message. Partly because I tend to do just trivial forma
 may make sense for me at pull time (describing the conflicts and your personal issues
 for sending it right now), but may not make sense in the context of a merge commit message,
 so I will try to make it all make sense. I will also fix any spelling mistakes
-and bad grammar I notice, particularly for non-native speakers (but also for native ones :P).
+and bad grammar I notice, particularly for non-native speakers (but also for native ones).
 
 
 - Michael
@@ -88,8 +83,8 @@ Contained in here is the normal set of new functions added:
 
 - lorem_ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut placerat orci nulla pellentesque. Iaculis eu non diam
-  phasellus vestibulum. Quis lectus nulla at volutpat diam ut.
+  Ut placerat orci nulla pellentesque. Iaculis eu non diam phasellus vestibulum.
+  Quis lectus nulla at volutpat diam ut.
   Nulla aliquet enim tortor at auctor urna nunc id cursus.
   Diam phasellus vestibulum lorem sed.
 
@@ -106,8 +101,7 @@ Signed-off-by: Your Name <youremail@yourhost.com>
 The tag message format is just like a git commit id. One line at the top
 for a "summary subject" and one sign-off line at the bottom.
 
-Now that you have a local signed tag, you need to push it up to where it
-can be retrieved:
+Now that you have a local signed tag, you need to push it up to where it can be retrieved:
 
 ```console
 git push origin comp-misc-1.9.2
@@ -124,13 +118,11 @@ The following command(s) will generate a pull request:
 git request-pull main https://github.com/CMihai99/fyndro.git comp-misc-1.9.2
 ```
 
-This is asking git to compare the difference from the 'comp-misc-1.9.2' tag location,
-to the head of the `main` branch (which in my case points to the last location
-in Michael's tree that I diverged from).
+This is asking git to compare the difference from the 'comp-misc-1.9.2' tag location, to the head
+of the `main` branch (which in my case points to the last location in Michael's tree that I diverged from).
 
-If the comp-misc-1.9.2 tag is not present in the repository that I am
-asking to be pulled from, git will complain saying it is not there,
-a handy way to remember to actually push it to a public location.
+If the comp-misc-1.9.2 tag is not present in the repository that I am asking to be pulled from,
+git will complain saying it is not there, a handy way to remember to actually push it to a public location.
 
 The output of `git request-pull` will contain the location of the git tree
 and specific tag to pull from, and the full text description of that tag

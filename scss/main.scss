@@ -26,9 +26,7 @@
   --body-background: #eee;
   --links: #337ff0;
   --borders: #858585;
-
   --border-radius: 7px;
-
   scrollbar-width: thin;
 }
 
@@ -87,11 +85,13 @@ strong {
 }
 
 @media
-(min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
-(min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
+  (min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
+  (min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
+    /* foo */
 }
 
 @media
-(min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
-(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
+  (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
+  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
+    /* foo */
 }

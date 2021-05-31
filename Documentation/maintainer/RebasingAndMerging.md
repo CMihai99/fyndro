@@ -3,8 +3,7 @@
 # Rebasing and merging
 
 Maintaining a branch, as a general rule, requires a familiarity
-with the Git source-code management system.
-Git is a powerful tool with a lot of features;
+with the Git source-code management system. Git is a powerful tool with a lot of features;
 as is often the case with such tools, there are right and wrong ways to use those features.
 This document looks in particular at the use of rebasing and merging.
 Maintainers often get in trouble when they use those tools incorrectly,
@@ -27,8 +26,7 @@ and be prepared to explain why something abnormal needs to be done.
 
 ## Rebasing
 
-``Rebasing`` is the process of changing the history
-of a series of commits within a repository.
+``Rebasing`` is the process of changing the history of a series of commits within a repository.
 There are two different types of operations that are referred to as
 rebasing since both are done with the ``git rebase`` command,
 but there are significant differences between them:
@@ -53,10 +51,8 @@ There are a few rules of thumb that can help developers to avoid the worst of re
     Others may have pulled a copy of your tree and built on it;
     modifying your tree will create pain for them.
 
-That said, there are always exceptions.
-Developers will sometimes expose an unstable branch for others to test
-with or for automated testing services.
-If you do expose a branch that may be unstable in this way,
+That said, there are always exceptions. Developers will sometimes expose an unstable branch for others to test
+with or for automated testing services. If you do expose a branch that may be unstable in this way,
 be sure that prospective users know not to base work on it.
 
 -   Do not rebase a branch that contains history created by others.
@@ -89,9 +85,6 @@ Work is accumulated in 2 different trees, which may contain multiple topics;
 each topic is usually developed independently of the others.
 So naturally, at least one merge will be required before any given branch
 finds its way into an upstream repository.
-
-Branch maintainers find themselves having to do two types of merges:
-from lower-level branch trees and from others, either sibling trees or the mainline.
 
 ### Merging from lower-level trees
 

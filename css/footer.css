@@ -14,6 +14,23 @@ footer {
   justify-content: center;
 }
 
+.links {
+  padding: 0;
+}
+.links li {
+  padding: 3.5px 0;
+  list-style-type: none;
+}
+.links li a {
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 14.5px;
+  margin: 0;
+}
+.links li a:hover {
+  color: var(--text);
+}
+
 .footer-menu-category {
   padding: 15px 50px 25px;
   /* top, left and right, bottom */
@@ -32,27 +49,17 @@ footer {
   margin-bottom: 10.5px;
 }
 
-.links {
-  padding: 0;
-}
-.links li {
-  padding: 3.5px 0;
-  list-style-type: none;
-}
-.links li a {
-  color: var(--gray);
-  text-decoration: none;
-  font-size: 14.5px;
-  margin: 0;
-}
-.links li a:hover {
-  color: var(--text);
-}
-
 #trademark {
   padding-top: 238.5px;
   font-size: 13.5px;
   color: var(--gray);
+}
+
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
 }
 
 /*# sourceMappingURL=footer.css.map */

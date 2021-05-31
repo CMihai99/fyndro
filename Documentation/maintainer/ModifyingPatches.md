@@ -25,8 +25,8 @@ This practice is particularly helpful if you maintain a stable branch
 and want at the same time to credit the author, track changes, merge the fix,
 and protect the submitter from complaints.
 
-Note: Under no circumstances can you change
-the author's identity (the From header), as it is the one which appears in the changelog.
+Note: Under no circumstances can you change the author's identity (the From header),
+as it is the one which appears in the changelog.
 
 ## Back-porters
 

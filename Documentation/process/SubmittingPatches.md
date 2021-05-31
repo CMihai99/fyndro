@@ -14,9 +14,8 @@ it will make your life as a developer much easier.
 
 ## Obtain a current source tree
 
-If you do not have a repository with the current source handy,
-use git to obtain one. You'll want to start with the mainline repository,
-which can be grabbed with:
+If you do not have a repository with the current source handy, use git to obtain one.
+You'll want to start with the mainline repository, which can be grabbed with:
 
 ```console
 git clone https://github.com/CMihai99/fyndro.git
