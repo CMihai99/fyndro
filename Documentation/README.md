@@ -15,8 +15,8 @@ These manuals contain overall information about how to develop Fyndro.
 Knowing how things are done will make the process of getting your changes merged much easier.
 
 ```console
-process/index.md
-maintainer/index.md
+process/README
+maintainer/README
 ```
 
 ## APIs
@@ -25,7 +25,7 @@ These articles get into the details of how our APIs work
 from the point of view of a Fyndro developer.
 
 ```console
-api/
+/apis
 ```
 
 ## Bots
@@ -34,7 +34,7 @@ These articles get into the details of how our bots work
 from the point of view of a Fyndro developer.
 
 ```console
-bot/
+/bots
 ```
 
 ## Translations
@@ -42,5 +42,5 @@ bot/
 These manuals contain translations for the overall information about how to develop Fyndro.
 
 ```console
-translations/
+/translations
 ```
