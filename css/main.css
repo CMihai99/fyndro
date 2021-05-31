@@ -66,7 +66,6 @@ strong {
 
 .page-border {
   margin: 40px 115px;
-  /* top and bottom, right and left */
   padding: 0;
   background-color: var(--background);
   border-radius: var(--border-radius);
@@ -79,13 +78,6 @@ strong {
 
 #last-updated {
   text-decoration: underline;
-}
-
-@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
-  /* foo */
-}
-@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* foo */
 }
 
 /*# sourceMappingURL=main.css.map */

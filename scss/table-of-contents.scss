@@ -38,8 +38,8 @@
 }
 
 .toc-title {
-  margin: -32px 0 0 10px; /* top, right, bottom, left */
-  padding: 0 0 0 34px; /* top, right, bottom, left */
+  margin: -32px 0 0 10px; // top, right, bottom, left
+  padding: 0 0 0 34px; // top, right, bottom, left
 }
 
 #toc-menu {
@@ -48,7 +48,7 @@
   width: auto;
   padding: 4px;
   border-radius: var(--border-radius);
-  margin: -15px 0 0 3px; /* top, right, bottom, left */
+  margin: -15px 0 0 3px; // top, right, bottom, left
   animation: tocFadeIn 0.15s ease-in-out;
   will-change: transform;
 
@@ -57,7 +57,7 @@
   }
 }
 
-/* toc menu fade-in */
+// toc menu fade-in
 @keyframes tocFadeIn {
   from {
     margin-top: -30px;
@@ -70,7 +70,7 @@
 }
 
 #toc-text {
-  padding: 4px 20px; /* top and bottom, left and right */
+  padding: 4px 20px; // top and bottom, left and right
   color: var(--text);
   border-radius: var(--border-radius);
 }
@@ -89,13 +89,13 @@
 }
 
 @media
-  (min-width: 320px) and (max-width: 480px), /* tablets and smartphones (portrait) */
-  (min-width: 481px) and (max-width: 767px) /* tablets and smartphones (landscape) */ {
-    /* foo */
+  (min-width: 320px) and (max-width: 480px), // tablets and smartphones (portrait)
+  (min-width: 481px) and (max-width: 767px) { // tablets and smartphones (landscape)
+  // foo
 }
 
 @media
-  (min-width: 768px) and (max-width: 1024px), /* tablets, ipads (portrait) */
-  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) /* tablets, ipads (landscape) */ {
-    /* foo */
+  (min-width: 768px) and (max-width: 1024px), // tablets, ipads (portrait)
+  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { // tablets, ipads (landscape)
+  // foo
 }

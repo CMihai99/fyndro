@@ -38,9 +38,7 @@
 
 .toc-title {
   margin: -32px 0 0 10px;
-  /* top, right, bottom, left */
   padding: 0 0 0 34px;
-  /* top, right, bottom, left */
 }
 
 #toc-menu {
@@ -50,7 +48,6 @@
   padding: 4px;
   border-radius: var(--border-radius);
   margin: -15px 0 0 3px;
-  /* top, right, bottom, left */
   animation: tocFadeIn 0.15s ease-in-out;
   will-change: transform;
 }
@@ -58,7 +55,6 @@
   border-radius: var(--border-radius);
 }
 
-/* toc menu fade-in */
 @keyframes tocFadeIn {
   from {
     margin-top: -30px;
@@ -70,7 +66,6 @@
 }
 #toc-text {
   padding: 4px 20px;
-  /* top and bottom, left and right */
   color: var(--text);
   border-radius: var(--border-radius);
 }
@@ -86,13 +81,6 @@
 #toc-text-child:focus,
 #toc-text-child:active {
   background-color: #ececec;
-}
-
-@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
-  /* foo */
-}
-@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* foo */
 }
 
 /*# sourceMappingURL=table-of-contents.css.map */

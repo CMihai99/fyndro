@@ -33,7 +33,6 @@ footer {
 
 .footer-menu-category {
   padding: 15px 50px 25px;
-  /* top, left and right, bottom */
 }
 .footer-menu-category ul li {
   color: var(--text);
@@ -53,13 +52,6 @@ footer {
   padding-top: 238.5px;
   font-size: 13.5px;
   color: var(--gray);
-}
-
-@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
-  /* foo */
-}
-@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* foo */
 }
 
 /*# sourceMappingURL=footer.css.map */

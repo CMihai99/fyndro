@@ -18,7 +18,6 @@
   width: 36px;
   height: 36px;
   margin: 14.5px 0 0 50px;
-  /* top, right, bottom, left */
 }
 
 #search-toggle {
@@ -38,7 +37,6 @@
   width: 199px;
   height: 30px;
   margin: -33px 0 0 120px;
-  /* top, right, bottom, left */
   color: var(--text);
   border-radius: var(--border-radius);
   border: 1px var(--borders);
@@ -49,8 +47,12 @@
 .form-control:focus {
   width: 400px;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
-  /* top-left, top-right, bottom-right, bottom-left */
   box-shadow: 0 0 2px var(--links);
+}
+
+.dropdown-menu .divider {
+  height: 0.75px;
+  margin: 6px 0;
 }
 
 #search-menu-bg {
@@ -58,11 +60,9 @@
   height: auto;
   color: var(--text);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
-  /* top-left, top-right, bottom-right, bottom-left */
   border: 1px var(--borders);
   box-shadow: 0 0 1.75px var(--borders);
   margin: -17.5px 0 0 120px;
-  /* top, right, bottom, left */
   padding: 0;
   animation: searchMenuWidth 0.2s ease;
   will-change: transform;
@@ -70,16 +70,9 @@
 #search-menu-bg a {
   height: 40px;
   padding: 10px 20px;
-  /* top and bottom, right and left */
 }
 #search-menu-bg .divider {
   margin: 0;
-}
-
-.dropdown-menu .divider {
-  height: 0.75px;
-  margin: 6px 0;
-  /* top and bottom, right and left */
 }
 
 @keyframes searchMenuWidth {
@@ -95,7 +88,6 @@
   cursor: pointer;
   transition: opacity 0.25s;
   margin: 23.75px 65px 0 0;
-  /* top, right, bottom, left */
   padding: 0;
   background-color: transparent;
 }
@@ -107,7 +99,6 @@
 #options-menu-bg {
   border-radius: 7px;
   margin: 10px 60px 0 0;
-  /* top, right, bottom, left */
   box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
   animation: dropdownFadeIn 0.15s ease-in-out;
   will-change: transform;
@@ -152,9 +143,6 @@
     margin-right: 65px;
     margin-top: -31px;
   }
-}
-@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* foo */
 }
 
 /*# sourceMappingURL=navbar.css.map */
