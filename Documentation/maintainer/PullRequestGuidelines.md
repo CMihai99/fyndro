@@ -31,12 +31,18 @@ Populate the stencil completely for maximum verbosity.
 Tag the actual issue number by using #issue_number (e.g. #42).
 -   This closes the issue when your PR is merged.
     Tag the actual issue author by using @author (e.g. @CMihai99).
+
 -   This brings the reporter of the issue into the conversation.
     Mark the tasks off your checklist by adding an x in the [] (e.g. [x]).
-    - This checks off the boxes in your to-do list. The more boxes you check, the better.
+
+    -   This checks off the boxes in your to-do list. The more boxes you check, the better.
+
 -   Describe your change in detail. Too much detail is better than too little.
+
 -   Describe how you tested your change.
+
 -   Describe the validation and testing steps.
+
 -   Check the Preview tab to make sure the Markdown is correctly rendered
     and that all tags and references are linked.
 
@@ -45,8 +51,8 @@ Tag the actual issue number by using #issue_number (e.g. #42).
 Once your PR is ready, remove "[WIP]" from the title
 and/or change it from a draft PR to a regular PR.
 
-If a specific reviewer is not assigned automatically, please request a review from
-[here](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
+If a specific reviewer is not assigned automatically, please request a review
+from one of the [maintainers](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
 
 ## Incorporating feedback
 

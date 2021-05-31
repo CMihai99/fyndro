@@ -3,11 +3,6 @@
 These are the release notes for Fyndro. Read them carefully,
 as they tell you what this is all about, and what to do if something goes wrong.
 
-## What is Fyndro?
-
-Fyndro is a website which categorizes other websites based on traffic, grade,
-industry etc. so you can find the perfect tool you need.
-
 ## Documentation
 
 -   We recommend looking into the documentation subdirectories for any in-depth information.
@@ -17,9 +12,9 @@ industry etc. so you can find the perfect tool you need.
 -   There are various files in the Documentation/ subdirectory:
     these typically contain important notes so please read them.
 
-## Installing the source
+## Installing sources
 
-When installing the full sources, put the archive in a directory
+When installing full sources, put the archive in a directory
 where you have permissions (e.g. your home directory)
 and unpack it manually, or by using Windows Powershell v5.0+:
 
@@ -31,8 +26,8 @@ Replace "1.x" with the [latest version](https://github.com/CMihai99/fyndro/relea
 
 ## Compiling
 
-For help on compiling, read [/process/Compiling.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/Compiling.md)
-which goes in detail about the minimum version numbers required for compiling Fyndro.
+For help on compiling, read the [compiling](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/Compiling.md)
+file which goes in detail about the minimum version numbers required for compiling Fyndro.
 
 ## Software requirements
 

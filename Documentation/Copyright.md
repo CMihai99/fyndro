@@ -7,12 +7,12 @@
 Copyright statements must be included in the:
 
 1.  [COPYING](https://github.com/CMihai99/fyndro/blob/main/COPYING) file.
-1.  [MAINTAINERS](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md) file.
+2.  [MAINTAINERS](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md) file.
 
 Each copyright holder must:
 
 1.  Have their own copyright statement: ``© 2021 Fyndro, All Rights Reserved.``.
-1.  Be a legal entity.
+2.  Be a legal entity.
 
 Copyright is tracked for non-trivial contributions (i.e. creative work).
 By default we consider anything above 25 lines a non-trivial contribution.

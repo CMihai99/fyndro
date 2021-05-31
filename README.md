@@ -45,7 +45,7 @@ We aim to support all major web browsers. Any issue encountered in the browsers 
 
 ## Bugs and Features
 
-First, [search for existing and closed issues](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue).
+First, search for [existing and closed issues](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue).
 If your problem or idea is not addressed yet,
 [open a new issue](https://github.com/CMihai99/fyndro/issues/new/choose).
 

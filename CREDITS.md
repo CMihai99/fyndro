@@ -12,11 +12,8 @@ Note: When adding to this list, please keep the entries in alphabetical order.
 ## Entry descriptions
 
 -   N: Name: FullName
-
--   E: Email: <address@domain>
-
+-   E: Email: <youremail@yourhost.com>
 -   D: Description: Description with the reason the person is credited
-
 -   S: Snail-mail address: Postal address
 
 ## Credits list
