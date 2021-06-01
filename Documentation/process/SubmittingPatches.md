@@ -4,8 +4,8 @@
 
 This document contains a large number of suggestions in a relatively terse format.
 For detailed information on how the development process works,
-see the [DevelopmentProcess.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/DevelopmentProcess.md).
-Also, read [SubmitChecklist.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmitChecklist.md)
+see the [development process](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/DevelopmentProcess.md).
+Also, read the [submit checklist](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmitChecklist.md)
 for a list of items to check before submitting code.
 
 This documentation assumes that you're using *git* to prepare your patches.
