@@ -28,10 +28,11 @@
 *.scss             text diff=css
 *.js               text diff=js
 *.json             text
-*.ts               text diff=ts
+*.ts               text diff=js
 
 # Configurations
-.git*              text
+.gitignore         text
+.gitattributes     text
 tsconfig.json      text -diff
 package.json       text eol=lf
 package-lock.json  text -diff
