@@ -7,18 +7,18 @@ This is useful for transferring changes from one maintainers tree to another mai
 
 ## Creating a branch
 
-To start with, you will need to have all the changes you wish to include
-in the pull request on a separate branch. Typically you will base this branch
-off of a branch in the developers tree whom you intend to send the pull request to.
+To start with, you will need to have all the changes you wish to include in the
+pull request on a separate branch. Typically you will base this branch off of
+a branch in the developers tree whom you intend to send the pull request to.
 
-In order to create the pull request you must first tag the branch
-that you have just created. It is recommended that you choose a meaningful tag name,
-in a way that you and others can understand, even after some time. A good practice
-is to include in the name an indicator of the subsystem of origin and the target kernel version.
+In order to create the pull request you must first tag the branch that you have
+just created. It is recommended that you choose a meaningful tag name, in a way that
+you and others can understand, even after some time. A good practice is to include
+in the name an indicator of the subsystem of origin and the target kernel version.
 
 A pull request with miscellaneous stuff for vue/components, to be applied at the version 1.9.2
-could be named as `comp-misc-1.9.2`. If such tag would be produced
-from a branch named `comp-misc-next`, you would be using the following command:
+could be named as `comp-misc-1.9.2`. If such tag would be produced from a branch
+named `comp-misc-next`, you would be using the following command:
 
 ```console
 git tag -s comp-misc-1.9.2 comp-misc-next
@@ -34,12 +34,11 @@ That will create a signed tag called `comp-misc-1.9.2` based on the last commit 
 
 Michael will only accept pull requests based on a signed tag. Other maintainers may differ.
 
-When you run the command above, git will drop you into an editor and ask
-you to describe the tag. In this case, you are describing a pull request,
-so outline what is contained here, why it should be merged,
-and what/if any testing has been done. All of this information will end up
-in the tag itself, and then in the merge commit that the maintainer makes if
-or when they merge the pull request. So write it up well, as it will be in the tree for ever.
+When you run the command above, git will drop you into an editor and ask you to describe the tag.
+In this case, you are describing a pull request, so outline what is contained here,
+why it should be merged, and what/if any testing has been done. All of this information will end up
+in the tag itself, and then in the merge commit that the maintainer makes if or when
+they merge the pull request. So write it up well, as it will be in the tree for ever.
 
 As said by Michael:
 
@@ -49,7 +48,7 @@ I want to understand what I'm pulling, and why I should pull it.
 I also want to use that message as the message for the merge,
 so it should not just make sense to me, but make sense as a historical record too.
 
-Note: If there is something odd about the pull request,
+If there is something odd about the pull request,
 that should very much be in the explanation. If you're touching files
 that you don't maintain, explain why. I will see it in the diffstat anyway,
 and if you didn't mention it, I'll just be extra suspicious.
@@ -69,7 +68,6 @@ for sending it right now), but may not make sense in the context of a merge comm
 so I will try to make it all make sense. I will also fix any spelling mistakes
 and bad grammar I notice, particularly for non-native speakers (but also for native ones).
 
-
 - Michael
 ```
 
@@ -84,9 +82,8 @@ Contained in here is the normal set of new functions added:
 - lorem_ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   Ut placerat orci nulla pellentesque. Iaculis eu non diam phasellus vestibulum.
-  Quis lectus nulla at volutpat diam ut.
-  Nulla aliquet enim tortor at auctor urna nunc id cursus.
-  Diam phasellus vestibulum lorem sed.
+  Quis lectus nulla at volutpat diam ut. Nulla aliquet enim tortor
+  at auctor urna nunc id cursus. Diam phasellus vestibulum lorem sed.
 
 - dolor_sit_amet: Dolor sit amet, consectetur adipiscing elit,
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -109,8 +106,8 @@ git push origin comp-misc-1.9.2
 
 ## Creating a pull request
 
-The last thing to do is create the pull request message. Git will do this for you
-with the `git request-pull` command, but it needs a bit of help determining what you want to pull,
+The last thing to do is create the pull request message. Git will do this for you with
+the `git request-pull` command, but it needs a bit of help determining what you want to pull,
 and on what to base the pull against (to show the correct changes to be pulled and the diffstat).
 The following command(s) will generate a pull request:
 

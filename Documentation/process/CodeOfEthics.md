@@ -19,7 +19,7 @@ When an employee behaves, or intents to behave, in a way that's against our prof
 or applicable laws, we will have clear guidelines on what disciplinary actions we will consider.
 
 For these reasons, we advise you to read this document carefully and consult with the
-[project maintainers](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md), if you have any doubts or questions.
+project maintainers, if you have any doubts or questions.
 
 ## The Code of Ethics components
 
@@ -67,7 +67,7 @@ Stealing from the company or other people is illegal.
 If you're caught, you will face repercussions depending on the severity of your actions.
 For example, if you steal personal data (e.g. engaging in fraud or embezzlement),
 you will get fired and face legal consequences. The decision is at the
-[project maintainers](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md)' discretion on a case-by-case basis.
+project maintainers' discretion on a case-by-case basis.
 
 ## Conflict of interest
 
@@ -101,7 +101,7 @@ as this is forbidden by our [terms and regulations](https://github.com/CMihai99/
 If you suspect you may have an unconscious bias that influences your decisions
 (taking [Harvard's Implicit Association Test](https://implicit.harvard.edu/implicit/takeatest.html)
 could help you determine this),
-ask for help from a [project maintainer](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
+ask for help from a project maintainer.
 
 When exercising authority, be fair. Don't show favoritism toward
 specific employees and be transparent when you decide to praise or reward an employee.
@@ -124,7 +124,7 @@ For example, accountants and medical professionals have their own
 legal restrictions and they must be fully aware of them.
 When you're preparing contracts, clauses, disclaimers
 or online copy that may be governed by law (such as consent forms), please ask verification from
-[project maintainers](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md) before finalizing anything.
+project maintainers before finalizing anything.
 
 You must not expose, disclose or endanger information of customers, employees, stakeholders or our business.
 Always follow our [cybersecurity policy](https://github.com/CMihai99/fyndro/blob/main/legal/cybersecurity.html), too.
@@ -132,7 +132,7 @@ Following laws regarding fraud, bribery, corruption and any kind of assault is a
 You are also obliged to follow laws on child labor and avoid doing business with unlawful organizations.
 
 If you're not sure what the law is in a specific instance,
-don't hesitate to ask a [project maintainer](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md).
+don't hesitate to ask a project maintainer.
 
 ## Competence and accountability
 

@@ -5,7 +5,7 @@
 Please try to follow the guidelines below. This will make things easier on the maintainers.
 Not all guidelines apply to every patch so apply common sense.
 
-Note: When adding to this list, please keep entries in alphabetical order.
+When adding to this list, please keep entries in alphabetical order.
 
 ## Tips for patch submitters
 
@@ -34,14 +34,18 @@ Note: When adding to this list, please keep entries in alphabetical order.
     and should include a `Signed-off-by:` line. The current version of the "Developer's Certificate of Origin"
     (DCO) is listed in [Documentation/process/SubmittingPatches.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmittingPatches.md).
 
-6.  Make sure you have the right to send any changes you make. If you do changes
+6.  Always add 2 trailing spaces at the end of each attribute (e.g. S: Maintained  )
+
+7.  Make sure you have the right to send any changes you make. If you do changes
     at work you may find your employer owns the patch, not you.
+
+8.  Do not add any entries after THE REST. That will be at the end of the file, no matter the circumstances.
 
 ## Section entry descriptions
 
 -   R: Reviewer: Your Name <youremail@yourhost.com>
 
--  M: Mail: Your Name <youremail@yourhost.com>
+-   M: Mail: Your Name <youremail@yourhost.com>
 
 -   S: Status: One of the following:
 
@@ -69,3 +73,9 @@ Note: When adding to this list, please keep entries in alphabetical order.
     Can be useful for excluding a specific subdirectory.
 
 ## Maintainers list
+
+THE REST  
+M:	Mihai Calinescu <mihaimihaia431@gmail.com>  
+S:	Maintained  
+F:	*  
+F:	*/

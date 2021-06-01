@@ -2,7 +2,7 @@
 
 # Pull Request Template
 
-Please include the following information in your PR description:
+Please include the following information in your pull request description:
 
 ## Pull Request Summary
 
@@ -16,7 +16,7 @@ Please include the following information in your PR description:
 
 -   [] I've discussed this with core contributors already.
     If not checked, I'm ready to accept this work might be rejected in favor of a different approach.
-    Issue number where discussion took place: #x. <!-- Where "#x" is the issue number -->
+    Issue number where discussion took place: #xx.
 
 ## Pull Request Info
 

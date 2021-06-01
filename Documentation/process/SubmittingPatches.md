@@ -8,9 +8,8 @@ see the [development process](https://github.com/CMihai99/fyndro/blob/main/Docum
 Also, read the [submit checklist](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmitChecklist.md)
 for a list of items to check before submitting code.
 
-This documentation assumes that you're using *git* to prepare your patches.
-If you're unfamiliar with git, you would be well-advised to learn how to use it,
-it will make your life as a developer much easier.
+This documentation assumes that you're using git to prepare your patches. If you're unfamiliar
+with git, you learn using it, since it will make your life as a developer much easier.
 
 ## Obtain a current source tree
 
@@ -20,7 +19,3 @@ You'll want to start with the mainline repository, which can be grabbed with:
 ```console
 git clone https://github.com/CMihai99/fyndro.git
 ```
-
-Note, however, that you may not want to develop against the mainline tree directly.
-Most maintainers run their own trees and want to see patches prepared against those trees.
-Ask the specific maintainer to find that tree.

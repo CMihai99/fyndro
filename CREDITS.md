@@ -1,17 +1,15 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-# Credits
-
-## Submitting changes
+# List of credits
 
 This is at least a partial credits-file of people that have contributed to Fyndro.
 Please try to follow the entry descriptions below. This will make things easier on the maintainers.
 
-Note: When adding to this list, please keep the entries in alphabetical order.
+When adding to this list, please keep the entries in alphabetical order.
 
-## Entry descriptions
+## Section entry descriptions
 
--   N: Name: FullName
+-   M: Mail: Your Name <youremail@yourhost.com>
 -   E: Email: <youremail@yourhost.com>
 -   D: Description: Description with the reason the person is credited
 -   S: Snail-mail address: Postal address
@@ -22,6 +20,8 @@ N: Gonzyyp
 D: COPYRIGHT.md translation in Spanish
 
 N: Nedelea Szabo David  
-D: Marketing platforms suggestions (e.g. Reddit, YouTube Ads, etc.)  
-S: Joita, Giurgiu  
-S: Romania
+D: Marketing platforms suggestions  
+S: Joita  
+S: Giurgiu, Romania
+
+Don't add your name here, unless you really are after David alphabetically.

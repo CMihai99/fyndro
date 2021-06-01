@@ -3,7 +3,7 @@
 # Color
 
 Color is a major part of Fyndro's brand. We've taken care to select
-a color pallete that promotes legibility and accessibility.
+a color pallete which promotes legibility and accessibility.
 
 ## Primary palette
 

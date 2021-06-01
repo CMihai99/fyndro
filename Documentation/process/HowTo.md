@@ -216,7 +216,9 @@ The same is true for Fyndro development. The maintainers and reviewers do not wa
 to see the thought process behind the solution to the problem one is solving.
 They want to see a simple and elegant solution.
 ```
-
+which contains instructions on how to become a Fyndro developer and how to learn to work
+with the development community. It tries to not contain anything related to the technical aspects
+of programming, but will help point you in the right direction for that.
 It may be challenging to keep the balance between presenting an elegant solution
 and working together with the community and discussing your unfinished work.
 Therefore it is good to get early in the process to get feedback to improve your work,

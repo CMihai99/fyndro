@@ -9,7 +9,7 @@ industry, and more, so you can find the perfect tool you need.
 
 ## Which browsers do you support?
 
-We aim to support all major web browsers. Any issue encountered in the browsers below
+We aim to support every major web browser. Any issue encountered in the browsers below
 [should be reported as a bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
 
 -   Microsoft Edge 14+
@@ -23,7 +23,7 @@ We aim to support all major web browsers. Any issue encountered in the browsers 
 
 ## How can I contribute?
 
-We all strive to improve Fyndro every day. You can give a helping hand by:
+We strive to improve Fyndro every day. You can give a helping hand by:
 
 -   [Reporting a bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%28Bug%29)
 -   [Requesting a feature](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%28Feature%29)

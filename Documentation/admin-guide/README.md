@@ -6,8 +6,7 @@ as they tell you what this is all about, and what to do if something goes wrong.
 ## Documentation
 
 -   We recommend looking into the documentation subdirectories for any in-depth information.
-    This README is not meant to be documentation on the system: there are much better sources available,
-    including [our own](https://github.com/CMihai99/fyndro/tree/main/Documentation).
+    This README is not meant to be documentation on the system: there are much better sources available.
 
 -   There are various files in the Documentation/ subdirectory:
     these typically contain important notes so please read them.
@@ -15,18 +14,18 @@ as they tell you what this is all about, and what to do if something goes wrong.
 ## Installing sources
 
 When installing full sources, put the archive in a directory where you have permissions
-(e.g. your home directory) and unpack it manually, or by using Windows Powershell v5.0+:
+(e.g. your home directory) and unpack it either manually, or by using Windows Powershell v5.0+:
 
 ```powershell
 Expand-Archive -Force v1.x.zip; cd v1.x/v1.x
 ```
 
-Replace "1.x" with the [latest version](https://github.com/CMihai99/fyndro/releases) number.
+Replace "1.x" with the latest version number.
 
 ## Compiling
 
-For help on compiling, read the [compiling](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/Compiling.md)
-file which goes in detail about the minimum version numbers required for compiling Fyndro.
+For help on compiling, read [Compiling.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/Compiling.md)
+which goes in detail about the minimum version numbers required for compiling Fyndro.
 
 ## Software requirements
 

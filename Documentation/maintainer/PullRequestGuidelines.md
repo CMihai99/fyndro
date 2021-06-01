@@ -25,6 +25,7 @@ Push your code and make a pull request as soon as you can. 1Mark the title with 
 
 Populate the stencil completely for maximum verbosity.
 Tag the actual issue number by using #issue_number (e.g. #42).
+
 -   This closes the issue when your PR is merged.
     Tag the actual issue author by using @author (e.g. @CMihai99).
 
