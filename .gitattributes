@@ -42,9 +42,8 @@ package-lock.json  text -diff
 *.md               text diff=markdown
 *.txt              text
 
-# GitHub language detection
-*.vue              linguist-detectable=true
-*.ts               linguist-detectable=true
+# Linguist language detection
+src/*              -linguist-vendored
 
 # Graphics
 *.ico              binary
