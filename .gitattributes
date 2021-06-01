@@ -43,7 +43,7 @@ package-lock.json  text -diff
 *.txt              text
 
 # Linguist language detection
-src/*              -linguist-vendored
+src/*              linguist-vendored=false
 
 # Graphics
 *.ico              binary
