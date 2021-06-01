@@ -12,6 +12,7 @@ Below are the essential guides that every developer should read.
 LicenseRules
 HowTo
 CodeOfConduct
+CodeOfEthics
 DevelopmentProcess
 SubmittingPatches
 ProgrammingLanguage
@@ -24,7 +25,6 @@ Other guides to the community that are of interest to most developers are:
 ```console
 Compiling
 ManagementStyle
-ApplyingPatches
 SubmitChecklist
 FyndroDocs
 Deprecated
