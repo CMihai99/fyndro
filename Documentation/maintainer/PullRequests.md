@@ -14,7 +14,7 @@ a branch in the developers tree whom you intend to send the pull request to.
 In order to create the pull request you must first tag the branch that you have
 just created. It is recommended that you choose a meaningful tag name, in a way that
 you and others can understand, even after some time. A good practice is to include
-in the name an indicator of the subsystem of origin and the target kernel version.
+in the name an indicator of the subsystem of origin and the target version.
 
 A pull request with miscellaneous stuff for vue/components, to be applied at the version 1.9.2
 could be named as `comp-misc-1.9.2`. If such tag would be produced from a branch
