@@ -17,7 +17,7 @@ Do not add any entries after Mihai Calinescu. He will be at the end of the file,
 ## Credits list
 
 M: Bogdan Andrei Bencu <bogybusiness@gmail.com>  
-D: Researched about ads
+D: Researched about ads  
 S: Dragomiresti-Vale  
 S: Ilfov, Romania
 
@@ -39,6 +39,6 @@ D: Designed landing page (Deprecated)
 S: Poland
 
 M: Mihai Calinescu <mihaimihaia431@gmail.com>  
-D: Did everything else
+D: Did everything else  
 S: Dragomiresti-Vale  
 S: Ilfov, Romania
