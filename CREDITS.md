@@ -3,25 +3,42 @@
 # List of credits
 
 This is at least a partial credits-file of people that have contributed to Fyndro.
-Please try to follow the entry descriptions below. This will make things easier on the maintainers.
+Please try to follow the entry descriptions below.
 
 When adding to this list, please keep the entries in alphabetical order.
+Do not add any entries after Mihai Calinescu. He will be at the end of the file, no matter the circumstances.
 
 ## Section entry descriptions
 
--   M: Mail: Your Name <youremail@yourhost.com>
--   E: Email: <youremail@yourhost.com>
+-   M: Mail: Your Name <yourmail@yourhost.com>
 -   D: Description: Description with the reason the person is credited
 -   S: Snail-mail address: Postal address
 
 ## Credits list
 
-N: Gonzyyp  
-D: COPYRIGHT.md translation in Spanish
+M: Bogdan Andrei Bencu <bogybusiness@gmail.com>  
+D: Researched about ads
+S: Dragomiresti-Vale  
+S: Ilfov, Romania
 
-N: Nedelea Szabo David  
-D: Marketing platforms suggestions  
+M: David Szabo Nedelea <davidnedelea86@gmail.com>  
+D: Suggested platforms for marketing  
 S: Joita  
 S: Giurgiu, Romania
 
-Don't add your name here, unless you really are after David alphabetically.
+M: Irina Nicole Andreescu <irinanicole.andreescu@gmail.com>  
+D: Spotted typos in this file  
+S: Dragomiresti-Vale  
+S: Ilfov, Romania
+
+M: Gonzyyp  
+D: Translated Copyright.md in Spanish (Deprecated)
+
+M: Tomek Pulkiewicz <tomek@pulkiewicz.com>
+D: Designed landing page (Deprecated)
+S: Poland
+
+M: Mihai Calinescu <mihaimihaia431@gmail.com>  
+D: Did everything else
+S: Dragomiresti-Vale  
+S: Ilfov, Romania

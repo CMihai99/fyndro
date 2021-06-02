@@ -2,7 +2,7 @@
 
 # List of maintainers and how to submit changes
 
-Please try to follow the guidelines below. This will make things easier on the maintainers.
+Please try to follow the guidelines and entry descriptions below. This will make things easier on the maintainers.
 Not all guidelines apply to every patch so apply common sense.
 
 When adding to this list, please keep entries in alphabetical order.
@@ -43,9 +43,9 @@ When adding to this list, please keep entries in alphabetical order.
 
 ## Section entry descriptions
 
--   R: Reviewer: Your Name <youremail@yourhost.com>
+-   R: Reviewer: Your Name <yourmail@yourhost.com>
 
--   M: Mail: Your Name <youremail@yourhost.com>
+-   M: Mail: Your Name <yourmail@yourhost.com>
 
 -   S: Status: One of the following:
 
@@ -74,8 +74,9 @@ When adding to this list, please keep entries in alphabetical order.
 
 ## Maintainers list
 
-THE REST  
-M:	Mihai Calinescu <mihaimihaia431@gmail.com>  
-S:	Maintained  
-F:	*  
-F:	*/
+EVERYTHING ELSE  
+R: Mihai Calinescu <mihaimihaia431@gmail.com>
+M: Mihai Calinescu <mihaimihaia431@gmail.com>  
+S: Maintained  
+F: *  
+F: */

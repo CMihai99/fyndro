@@ -20,8 +20,8 @@ Make sure you explain your solution and why you're doing what you're doing,
 as opposed to describing what you're doing. Reviewers and your future self can read the patch,
 but might not understand why a particular solution was implemented.
 
-Reported-by: who-ever-reported-it <email@host.com>
-Signed-off-by: Your Name <youremail@yourhost.com>
+Reported-by: who-ever-reported-it <mail@host.com>
+Signed-off-by: Your Name <yourmail@yourhost.com>
 ```
 
 The header line really should be meaningful, and really should be just one line.

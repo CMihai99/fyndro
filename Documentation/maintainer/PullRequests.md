@@ -92,7 +92,7 @@ Contained in here is the normal set of new functions added:
 All of these patches have been successfully tested in the latest releases,
 and the original problems that it found have all been resolved.
 
-Signed-off-by: Your Name <youremail@yourhost.com>
+Signed-off-by: Your Name <yourmail@yourhost.com>
 ```
 
 The tag message format is just like a git commit id. One line at the top
