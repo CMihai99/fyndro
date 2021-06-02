@@ -34,8 +34,8 @@ S: Ilfov, Romania
 M: Gonzyyp  
 D: Translated Copyright.md in Spanish (Deprecated)
 
-M: Tomek Pulkiewicz <tomek@pulkiewicz.com>
-D: Designed landing page (Deprecated)
+M: Tomek Pulkiewicz <tomek@pulkiewicz.com>  
+D: Designed landing page (Deprecated)  
 S: Poland
 
 M: Mihai Calinescu <mihaimihaia431@gmail.com>  

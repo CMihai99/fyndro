@@ -2,7 +2,8 @@
 
 # List of maintainers and how to submit changes
 
-Please try to follow the guidelines and entry descriptions below. This will make things easier on the maintainers.
+Please try to follow the guidelines and entry descriptions below.
+This will make things easier on the maintainers.
 Not all guidelines apply to every patch so apply common sense.
 
 When adding to this list, please keep entries in alphabetical order.
@@ -39,7 +40,7 @@ When adding to this list, please keep entries in alphabetical order.
 7.  Make sure you have the right to send any changes you make. If you do changes
     at work you may find your employer owns the patch, not you.
 
-8.  Do not add any entries after THE REST. That will be at the end of the file, no matter the circumstances.
+8.  Do not add any entries after EVERYTHING ELSE. That will be at the end of the file, no matter the circumstances.
 
 ## Section entry descriptions
 
@@ -75,7 +76,7 @@ When adding to this list, please keep entries in alphabetical order.
 ## Maintainers list
 
 EVERYTHING ELSE  
-R: Mihai Calinescu <mihaimihaia431@gmail.com>
+R: Mihai Calinescu <mihaimihaia431@gmail.com>  
 M: Mihai Calinescu <mihaimihaia431@gmail.com>  
 S: Maintained  
 F: *  
