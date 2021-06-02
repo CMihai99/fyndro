@@ -204,7 +204,7 @@ The reasons for breaking things up are the following:
 -   It's important not only to send small patches, but also to rewrite
     and simplify (or simply re-order) patches before submitting them.
 
-Here is an analogy from Michael:
+Here is an analogy from Mihai:
 
 ```console
 Think of a teacher grading homework from a math student. The teacher does not

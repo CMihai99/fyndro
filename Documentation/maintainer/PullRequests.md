@@ -32,7 +32,7 @@ git tag -s comp-misc-1.9.2 main
 
 That will create a signed tag called `comp-misc-1.9.2` based on the last commit in the `comp-misc-next` branch.
 
-Michael will only accept pull requests based on a signed tag. Other maintainers may differ.
+Mihai will only accept pull requests based on a signed tag. Other maintainers may differ.
 
 When you run the command above, git will drop you into an editor and ask you to describe the tag.
 In this case, you are describing a pull request, so outline what is contained here,
@@ -40,7 +40,7 @@ why it should be merged, and what/if any testing has been done. All of this info
 in the tag itself, and then in the merge commit that the maintainer makes if or when
 they merge the pull request. So write it up well, as it will be in the tree for ever.
 
-As said by Michael:
+As said by Mihai:
 
 ```console
 Anyway, at least to me, the important part is the message.
@@ -68,7 +68,7 @@ for sending it right now), but may not make sense in the context of a merge comm
 so I will try to make it all make sense. I will also fix any spelling mistakes
 and bad grammar I notice, particularly for non-native speakers (but also for native ones).
 
-- Michael
+- Mihai
 ```
 
 Also, an example pull request:
@@ -116,7 +116,7 @@ git request-pull main https://github.com/CMihai99/fyndro.git comp-misc-1.9.2
 ```
 
 This is asking git to compare the difference from the 'comp-misc-1.9.2' tag location, to the head
-of the `main` branch (which in my case points to the last location in Michael's tree that I diverged from).
+of the `main` branch (which in my case points to the last location in Mihai's tree that I diverged from).
 
 If the comp-misc-1.9.2 tag is not present in the repository that I am asking to be pulled from,
 git will complain saying it is not there, a handy way to remember to actually push it to a public location.

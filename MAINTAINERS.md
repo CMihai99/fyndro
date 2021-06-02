@@ -22,7 +22,7 @@ When adding to this list, please keep entries in alphabetical order.
 5.  Make a patch available to the relevant maintainer in the list.
     Use `diff -u` to make the patch easy to merge. Be prepared to get
     your changes sent back with seemingly silly requests about formatting and naming.
-    These aren't as silly as they seem. One job the maintainers (and especially Michael)
+    These aren't as silly as they seem. One job the maintainers (and especially Mihai)
     do is keep things looking the same. Sometimes this means that the clever hack
     in your code to get around a problem needs to become a feature ready for next time.
 

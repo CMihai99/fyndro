@@ -64,7 +64,7 @@ may be unstable in this way, be sure that prospective users know not to base wor
     much of the testing that was done. A reparented patch series should, as a general rule,
     be treated like new code and retested from the beginning.
 
-A frequent cause of merge-window trouble is when Michael is presented with a patch series
+A frequent cause of merge-window trouble is when Mihai is presented with a patch series
 that has clearly been reparented, often to a random commit, shortly before
 the pull request was sent. The chances of such a series having been adequately tested
 are relatively low, as are the chances of the pull request being acted upon.
