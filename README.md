@@ -13,6 +13,7 @@ fyndro/
 ├── Documentation/
 ├── legal/
 ├── LICENSES/
+├── public/
 ├── resources/
 ├── scss/
 ├── src/
@@ -49,7 +50,7 @@ First, search for [existing and closed issues](https://github.com/CMihai99/fyndr
 If your problem or idea is not addressed yet,
 [open a new issue](https://github.com/CMihai99/fyndro/issues/new/choose).
 
-Note: Implementations may take up to 7 days.
+Note, however, that feature implementations and bug fixes may take up to 7 days.
 
 ## Contributing
 
@@ -62,4 +63,4 @@ We strive to improve Fyndro every day. You can give a helping hand by:
 
 ## Copyright
 
-© 2021 Fyndro, All Rights Reserved.
+© 2021 Fyndro
