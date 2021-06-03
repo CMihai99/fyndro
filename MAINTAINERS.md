@@ -8,18 +8,18 @@ Not all guidelines apply to every patch so apply common sense.
 
 When adding to this list, please keep entries in alphabetical order.
 
+Do not add any entries after EVERYTHING ELSE. That will be at the end of the file, no matter the circumstances.
+
 ## Tips for patch submitters
 
 1.  Always test your changes, however small, on at least 2 people, preferably more.
 
-2.  Try to release a few alpha test versions and await results.
-
-3.  Make sure your changes compile correctly in multiple configurations.
+2.  Make sure your changes compile correctly in multiple configurations.
     In particular, check that changes are both responsive and functional.
 
-4.  When you are happy with a change, make it generally available for testing and await feedback.
+3.  When you are happy with a change, make it generally available for testing and await feedback.
 
-5.  Make a patch available to the relevant maintainer in the list.
+4.  Make a patch available to the relevant maintainer in the list.
     Use `diff -u` to make the patch easy to merge. Be prepared to get
     your changes sent back with seemingly silly requests about formatting and naming.
     These aren't as silly as they seem. One job the maintainers (and especially Mihai)
@@ -27,7 +27,7 @@ When adding to this list, please keep entries in alphabetical order.
     in your code to get around a problem needs to become a feature ready for next time.
 
     Try to include any credit lines you want added with the patch.
-    
+
     Document known bugs. If it doesn't work for everything or
     it does something very odd once a month, document it.
 
@@ -35,12 +35,7 @@ When adding to this list, please keep entries in alphabetical order.
     and should include a `Signed-off-by:` line. The current version of the "Developer's Certificate of Origin"
     (DCO) is listed in [Documentation/process/SubmittingPatches.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmittingPatches.md).
 
-6.  Always add 2 trailing spaces at the end of each attribute (e.g. S: Maintained  )
-
-7.  Make sure you have the right to send any changes you make. If you do changes
-    at work you may find your employer owns the patch, not you.
-
-8.  Do not add any entries after EVERYTHING ELSE. That will be at the end of the file, no matter the circumstances.
+5.  Always add 2 trailing spaces at the end of each attribute (e.g. S: Maintained  )
 
 ## Section entry descriptions
 
@@ -62,9 +57,6 @@ When adding to this list, please keep entries in alphabetical order.
     -   Obsolete: Old code. Something tagged obsolete generally means
         it has been replaced by a newer version.
 
--   C: Credit: Anyone wanted to be credited with the patch.
-    Read [CREDITS.md](https://github.com/CMihai99/fyndro/blob/main/CREDITS.md) for more information.
-
 -   F: Files: Files and directories wildcard patterns.
     A trailing slash includes all files and subdirectory files.
     One pattern per line. Multiple F: lines are acceptable.
@@ -80,4 +72,3 @@ R: Mihai Calinescu <mihaimihaia431@gmail.com>
 M: Mihai Calinescu <mihaimihaia431@gmail.com>  
 S: Maintained  
 F: *  
-F: */

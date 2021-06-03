@@ -6,6 +6,7 @@ This is at least a partial credits-file of people that have contributed to Fyndr
 Please try to follow the entry descriptions below.
 
 When adding to this list, please keep the entries in alphabetical order.
+
 Do not add any entries after Mihai Calinescu. He will be at the end of the file, no matter the circumstances.
 
 ## Section entry descriptions
@@ -27,7 +28,7 @@ S: Joita
 S: Giurgiu, Romania
 
 M: Irina Nicole Andreescu <irinanicole.andreescu@gmail.com>  
-D: Spotted typos in this file  
+D: Spotted typos in CREDITS.md  
 S: Dragomiresti-Vale  
 S: Ilfov, Romania
 

@@ -8,13 +8,14 @@ They are also the gatekeepers of Fyndro, with the final word on what goes in.
 Please try to follow the entry descriptions below.
 
 When adding to this list, please keep entries in alphabetical order.
+
 Do not add any entries after Mihai Calinescu. He will be at the end of the file, no matter the circumstances.
 
 ## Section entry descriptions
 
 -   M: Mail: Your Name <yourmail@yourhost.com>
--   D: Description: Description with the person's code-ownership task
--   G: GitHub account: Username of the person's GitHub account
+-   D: Description: Description with the code-ownership task
+-   G: GitHub account: Username of the GitHub account
 
 ## Code owners list
 
