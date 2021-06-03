@@ -392,11 +392,10 @@ might be necessary. It is challenging to be both succinct and descriptive,
 but that is what a well-written summary should do.
 
 The `summary phrase` may be prefixed by tags enclosed in square brackets:
-"Subject: [PATCH <tag>...] <summary phrase>". The tags are not considered
-part of the summary phrase, but describe how the patch should be treated.
-Common tags might include a version descriptor if the multiple versions
-of the patch have been sent out in response to comments (i.e., "v1, v2, v3"),
-or "RFC" to indicate a request for comments.
+The tags are not considered part of the summary phrase, but describe how
+the patch should be treated. Common tags might include a version descriptor
+if the multiple versions of the patch have been sent out in response to comments
+(i.e., "v1, v2, v3"), or "RFC" to indicate a request for comments.
 
 If there are four patches in a patch series the individual patches may be
 numbered like this: 1/4, 2/4, 3/4, 4/4. This assures that developers
