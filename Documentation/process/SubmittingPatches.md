@@ -4,8 +4,8 @@
 
 This document contains a large number of suggestions in a relatively terse format.
 For detailed information on how the development process works,
-see (DevelopmentProcess.md)(https://github.com/CMihai99/fyndro/blob/main/Documentation/process/DevelopmentProcess.md).
-Also, read (SubmitChecklist.md)(https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmitChecklist.md)
+see [DevelopmentProcess.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/DevelopmentProcess.md).
+Also, read [SubmitChecklist.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmitChecklist.md)
 for a list of items to check before submitting code.
 
 This documentation assumes that you're using git to prepare your patches. If you're unfamiliar
@@ -91,9 +91,9 @@ The following `git config` settings can be used to add a pretty format for
 outputting the above style in the `git log` or `git show` commands:
 
 ```console
-(core)
+[core]
     abbrev = 12
-(pretty)
+[pretty]
     fixes = Fixes: %h (\"%s\")
 ```
 
@@ -132,7 +132,7 @@ then only post 10 or so at a time and wait for review and integration.
 ## Style-check your changes
 
 Check your patch for basic style violations, details of which can be found in
-(/process/CodingStyle.md)(https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodingStyle.md).
+[/process/CodingStyle.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodingStyle.md).
 Failure to do so simply wastes the reviewers time and will get your patch rejected.
 
 One significant exception is when moving code from one file to another.
@@ -143,12 +143,12 @@ of the actual differences and allows tools to better track the history of the co
 ## Select the recipients for your patch
 
 You should always copy the appropriate maintainer(s) on any patch to code that they maintain;
-look through (MAINTAINERS.md)(https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md)
+look through [MAINTAINERS.md](https://github.com/CMihai99/fyndro/blob/main/MAINTAINERS.md)
 and the source code revision history to see who those maintainers are.
 
 For severe bugs, a short embargo may be considered to allow distributors to get the patch
 out to users; in such cases, obviously, the patch should not be sent to any public lists.
-See (/admin-guide/SecurityBugs.md)(https://github.com/CMihai99/fyndro/blob/main/Documentation/admin-guide/SecurityBugs.md).
+See [/admin-guide/SecurityBugs.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/admin-guide/SecurityBugs.md).
 
 ## No MIME, no links, no compression, no attachments.  Just plain text
 
@@ -342,7 +342,7 @@ This tag also assists the stable team in determining which stable versions shoul
 This is the preferred method for indicating a bug fixed by the patch.
 
 Attaching a Fixes: tag does not subvert the stable rules process. For more information, please read
-(/process/StableRules.md)(https://github.com/CMihai99/fyndro/blob/main/Documentation/process/StableRules.md).
+[/process/StableRules.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/StableRules.md).
 
 ## The canonical patch format
 
@@ -351,7 +351,7 @@ This section describes how the patch itself should be formatted.
 The canonical patch subject line is:
 
 ```console
-Subject: (PATCH 001/123) subsystem: summary phrase
+Subject: [PATCH 001/123] subsystem: summary phrase
 ```
 
 The canonical patch message body contains the following:
@@ -405,10 +405,10 @@ they have reviewed or applied all of the patches in the patch series.
 Here are some good example Subjects:
 
 ```console
-Subject: (PATCH 2/5) ext2: improve scalability of bitmap searching
-Subject: (PATCH v2 01/27) x86: fix eflags tracking
-Subject: (PATCH v2) sub/sys: Condensed patch summary
-Subject: (PATCH v2 M/N) sub/sys: Condensed patch summary
+Subject: [PATCH 2/5] ext2: improve scalability of bitmap searching
+Subject: [PATCH v2 01/27] x86: fix eflags tracking
+Subject: [PATCH v2] sub/sys: Condensed patch summary
+Subject: [PATCH v2 M/N] sub/sys: Condensed patch summary
 ```
 
 The `from` line must be the very first line in the message body, and has the form:
