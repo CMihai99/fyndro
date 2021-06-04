@@ -2,20 +2,19 @@
 
 # Pull Request Guidelines
 
-We aim to review pull requests within three business days.
-If it has been over three business days and you have not received any feedback, feel free to
-[contact us](mailto:androteamfaq@gmail.com?subject=In%20regard%20with%20pull%20requests&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20pull%20requests.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME).
+We aim to review pull requests within three days. If it has been over
+three days and you have not received any feedback, feel free to contact us.
 
-Not all of these guidelines matter for every pull-request so apply some common sense.
+Not all of these guidelines matter for every pull-request so apply common sense.
 
 ## Making a branch
 
 Please create a separate branch for each issue that you're working on.
 
-When pushing, commit to the ``experimental`` branch. Do not make changes to the ``main`` branch.
+When pushing, commit to the `experimental` branch. Do not make changes to the `main` branch.
 
-The ``experimental`` branch is only used for experimental changes which will be reviewed for approval.
-The ``main`` branch is only used for approved changes which will make it into the next version.
+The `experimental` branch is only used for experimental changes which will be reviewed for approval.
+The `main` branch is only used for approved changes which will make it into the next version.
 
 ## Pushing your code
 
@@ -30,7 +29,7 @@ Tag the actual issue number by using #issue_number (e.g. #42).
     Tag the actual issue author by using @author (e.g. @CMihai99).
 
 -   This brings the reporter of the issue into the conversation.
-    Mark the tasks off your checklist by adding an x in the [] (e.g. [x]).
+    Mark the tasks off your checklist by adding an x in [] (e.g. [x]).
 
     -   This checks off the boxes in your to-do list. The more boxes you check, the better.
 

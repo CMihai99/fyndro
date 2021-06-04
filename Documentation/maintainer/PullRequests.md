@@ -20,13 +20,13 @@ A pull request with miscellaneous stuff for vue/components, to be applied at the
 could be named as `comp-misc-1.9.2`. If such tag would be produced from a branch
 named `comp-misc-next`, you would be using the following command:
 
-```console
+```sh
 git tag -s comp-misc-1.9.2 comp-misc-next
 ```
 
 Otherwise, if it would be produced from the `main` branch, you would be using the following command:
 
-```console
+```sh
 git tag -s comp-misc-1.9.2 main
 ```
 
@@ -42,7 +42,7 @@ they merge the pull request. So write it up well, as it will be in the tree for 
 
 As said by Mihai:
 
-```console
+```
 Anyway, at least to me, the important part is the message.
 I want to understand what I'm pulling, and why I should pull it.
 I also want to use that message as the message for the merge,
@@ -73,7 +73,7 @@ and bad grammar I notice, particularly for non-native speakers (but also for nat
 
 Also, an example pull request:
 
-```console
+```
 Comp/Misc patches for 1.9.2
 
 Here is the big comp/misc patch set for the 1.9.2 merge window.
@@ -100,7 +100,7 @@ for a "summary subject" and one sign-off line at the bottom.
 
 Now that you have a local signed tag, you need to push it up to where it can be retrieved:
 
-```console
+```sh
 git push origin comp-misc-1.9.2
 ```
 
@@ -111,7 +111,7 @@ the `git request-pull` command, but it needs a bit of help determining what you 
 and on what to base the pull against (to show the correct changes to be pulled and the diffstat).
 The following command(s) will generate a pull request:
 
-```console
+```sh
 git request-pull main https://github.com/CMihai99/fyndro.git comp-misc-1.9.2
 ```
 
@@ -129,4 +129,5 @@ of the individual commits that the pull request will provide.
 
 ## Submitting a pull request
 
-A pull request is submitted in the same way as an ordinary patch.
+A pull request is submitted in the same way as an ordinary patch. See [/process/SubmittingPatches.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmittingPatches.md)
+on how to submit a patch.
