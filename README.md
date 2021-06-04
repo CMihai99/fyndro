@@ -21,11 +21,14 @@ fyndro/
 ├── .gitignore
 ├── .htaccess
 ├── about.html
+├── babel.config.js
+├── CODEOWNERS.md
 ├── COPYING
 ├── CREDITS.md
 ├── faq.html
 ├── index.html
 ├── MAINTAINERS.md
+├── package.json
 ├── README.md
 └── tsconfig.json
 ```
@@ -52,15 +55,28 @@ If your problem or idea is not addressed yet,
 
 Note, however, that feature implementations and bug fixes may take up to 7 days.
 
-## Contributing
+## Contribute
 
-We strive to improve Fyndro every day. You can give a helping hand by:
+To be a truly great community, Fyndro needs to welcome developers from all walks of life,
+with different backgrounds, and with a wide range of experience. A diverse and friendly
+community will have more great ideas, more unique perspectives, and produce more great code.
+We will work diligently to make the community welcoming to everyone.
+
+You can give a helping hand by:
 
 -   [Reporting a bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%28Bug%29)
 -   [Requesting a feature](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%28Feature%29)
 -   [Closing an issue](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue+is%3Aopen)
--   [Translating the documentation](https://crowdin.com/project/andro-project)
 
-## Copyright
+To give clarity of what is expected of our members, Fyndro has adopted a Code of Conduct
+which we think articulates our values well. You can read it [here](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodeOfConduct.md),
+and you can also check up on our code of ethics [here](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodeOfEthics.md).
 
-© 2021 Fyndro
+## Learn More
+
+Be sure to look at the documentation index for a bird's eye view of the available documentation.
+If you are interested in contributing fixes and features, see our [pull requests guide](https://github.com/CMihai99/fyndro/blob/main/Documentation/maintainer/PullRequests.md).
+
+We recommend that you first read our [getting started](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/GettingStarted.md) guide for information on everything you need to know to achieve this by
+describing the process you need to go through, and hints on how to work with the community. It will also
+try to explain some of the reasons why the community works like it does, and how to setup development.
