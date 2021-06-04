@@ -16,7 +16,7 @@ with git, you learn using it, since it will make your life as a developer much e
 If you do not have a repository with the current source handy, use git to obtain one.
 You'll want to start with the mainline repository, which can be grabbed with:
 
-```console
+```sh
 git clone https://github.com/CMihai99/fyndro.git
 ```
 
@@ -68,7 +68,7 @@ If you want to refer to a specific commit, don't just refer to the SHA-1 ID
 of the commit. Please also include the oneline summary of the commit, to make it
 easier for reviewers to know what it is about. For example:
 
-```console
+```
 Commit e21d2170f36602ae2708 ("video: remove unnecessary platform_set_drvdata()")
 removed the unnecessary platform_set_drvdata(), but left the variable "dev" unused, delete it.
 ```
@@ -83,14 +83,14 @@ If your patch fixes a bug in a specific commit, e.g. you found an issue using
 and the one line summary. Do not split the tag across multiple lines, tags are exempt
 from the "wrap at 75 columns" rule in order to simplify parsing scripts. For example:
 
-```console
+```
 Fixes: 54a4f0239f2e ("KVM: MMU: make kvm_mmu_zap_page() return the number of pages it actually freed")
 ```
 
 The following `git config` settings can be used to add a pretty format for
 outputting the above style in the `git log` or `git show` commands:
 
-```console
+```sh
 [core]
     abbrev = 12
 [pretty]
@@ -99,7 +99,7 @@ outputting the above style in the `git log` or `git show` commands:
 
 An example call:
 
-```console
+```
 $ git log -1 --pretty=fixes 54a4f0239f2e
 Fixes: 54a4f0239f2e ("KVM: MMU: make kvm_mmu_zap_page() return the number of pages it actually freed")
 ```
@@ -209,7 +209,7 @@ By making a contribution to this project, I certify that:
 
 Then you just add a line saying:
 
-```console
+```
 Signed-off-by: Author <author@mail>
 ```
 
@@ -260,7 +260,7 @@ The From: tag is optional when the From: author is also the person
 
 Example of a patch submitted by the From: author:
 
-```console
+```
 <changelog>
 
 Co-developed-by: First Co-Author <first@coauthor.example.org>
@@ -272,7 +272,7 @@ Signed-off-by: From Author <from@author.example.org>
 
 Example of a patch submitted by a Co-developed-by: author:
 
-```console
+```
 From: From Author <from@author.example.org>
 
 <changelog>
@@ -350,7 +350,7 @@ This section describes how the patch itself should be formatted.
 
 The canonical patch subject line is:
 
-```console
+```
 Subject: [PATCH 001/123] subsystem: summary phrase
 ```
 
@@ -404,7 +404,7 @@ they have reviewed or applied all of the patches in the patch series.
 
 Here are some good example Subjects:
 
-```console
+```
 Subject: [PATCH 2/5] ext2: improve scalability of bitmap searching
 Subject: [PATCH v2 01/27] x86: fix eflags tracking
 Subject: [PATCH v2] sub/sys: Condensed patch summary
@@ -413,7 +413,7 @@ Subject: [PATCH v2 M/N] sub/sys: Condensed patch summary
 
 The `from` line must be the very first line in the message body, and has the form:
 
-```console
+```
 From: Patch Author <author@example.com>
 ```
 
@@ -455,7 +455,7 @@ committed to the git tree. It is additional information for the reviewers. If it
 placed above the commit tags, it needs manual interaction to remove it. If it is
 below the separator line, it gets automatically stripped off when applying the patch:
 
-```console
+```
 <commit message>
 ...
 Signed-off-by: Author <author@mail>

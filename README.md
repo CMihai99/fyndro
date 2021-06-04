@@ -6,7 +6,7 @@
 
 Within the download archive you'll find the following directories and files:
 
-```console
+```
 fyndro/
 ├── .github/
 ├── css/
