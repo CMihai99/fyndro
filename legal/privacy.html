@@ -36,136 +36,23 @@ For a list of licenses we use, see https://github.com/CMihai99/fyndro/tree/main/
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/table-of-contents.css">
+
+    <!-- Components -->
+    <script src="/components/navbar.js"></script>
+    <script src="/components/footer.js"></script>
 
     <link rel="icon" href="/resources/icon.svg">
     <title>Privacy | Fyndro</title>
   </head>
 
   <body>
-    <nav class="navbar">
-      <div class="navbar-header">
-        <a href="https://cmihai99.github.io/fyndro">
-          <img src="/resources/icon.svg" class="nav-icon">
-        </a>
-
-        <div class="search-toggle-bar" data-toggle="dropdown">
-          <input class="form-control" type="text" placeholder="Search...">
-        </div>
-
-        <ul class="dropdown-menu" id="search-menu">
-          <li>
-            <a class="search-menu-last-text" href="https://cmihai99.github.io/fyndro">Home</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="nav navbar-nav navbar-right">
-        <li>
-          <div class="options-toggle-icons" data-toggle="dropdown">
-            <img src="/resources/dropdown-icon.svg">
-            <span class="caret"></span>
-          </div>
-
-          <ul class="dropdown-menu" id="options-menu">
-            <li>
-              <a href="https://cmihai99.github.io/fyndro">Home</a>
-            <li>
-
-            <li class="divider"></li>
-
-            <li>
-              <a href="#">Lorem ipsum</a>
-            </li>
-            <li>
-              <a href="#">Lorem ipsum</a>
-            </li>
-            <li>
-              <a href="#">Lorem ipsum</a>
-            </li>
-            <li>
-              <a href="#">Lorem ipsum</a>
-            </li>
-            <li>
-              <a href="#">Lorem ipsum</a>
-            </li>
-
-            <li class="divider"></li>
-
-            <li>
-              <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
-              target="_blank">Contact Us</a>
-            </li>
-            <li>
-              <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
-              target="_blank">Report a Bug</a>
-            </li>
-            <li>
-              <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D"
-              target="_blank">Request a Feature</a>
-            </li>
-          </ul>
-        </li>
-      </div>
-    </nav>
+    <!-- Navigation-bar found in components/ subdirectory:
+    https://github.com/CMihai99/fyndro/blob/main/components/navbar.js -->
+    <navbar-component></navbar-component>
 
     <div class="page-border">
       <div class="content-border">
-        <div class="title-nav">
-        <hr>
-          <li class="toc">
-            <a class="toc-toggle" data-toggle="dropdown">
-              <img src="/resources/toc-icon.svg" class="toc-icon">
-            </a>
-
-            <ul class="dropdown-menu" id="toc-menu">
-              <li>
-                <a href="#definitions">Definitions</a>
-              </li>
-              <li>
-                <a href="#tracking">Tracking technologies and cookies</a>
-              </li>
-              <li>
-                <a href="#data-collection">Personal data</a>
-              </li>
-              <li>
-                <a href="#data-collection" id="toc-text-child">Collection</a>
-              </li>
-              <li>
-                <a href="#data-use" id="toc-text-child">Use</a>
-              </li>
-              <li>
-                <a href="#data-retention" id="toc-text-child">Retention</a>
-              </li>
-              <li>
-                <a href="#data-transfer" id="toc-text-child">Transfer</a>
-              </li>
-              <li>
-                <a href="#data-disclosure" id="toc-text-child">Disclosure</a>
-              </li>
-              <li>
-                <a href="#data-security" id="toc-text-child">Security</a>
-              </li>
-              <li>
-                <a href="#children-privacy">Children's privacy</a>
-              </li>
-              <li>
-                <a href="#other-websites">Links to other websites</a>
-              </li>
-              <li>
-                <a href="#policy-changes">Changes to this Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#contacting">Contacting Us</a>
-              </li>
-            </ul>
-          </li>
-
-          <h2 class="toc-title">Privacy Policy</h2>
-        <hr>
-        </div>
-
-        <h3></h3>
+        <h2 class="page-title">Privacy Policy</h2>
 
         <p>This Privacy Policy describes our policies and procedures on the collection,
           use and disclosure of your information when you use the service and tells you
@@ -447,78 +334,11 @@ For a list of licenses we use, see https://github.com/CMihai99/fyndro/tree/main/
           <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
             target="_blank" class="links">contact us</a>.
         </p>
-
       </div>
     </div>
+
+    <!-- Footer component found in components/ subdirectory:
+    https://github.com/CMihai99/fyndro/blob/main/components/footer.js -->
+    <footer-component></footer-component>
   </body>
-
-  <footer>
-    <div class="footer-section">
-      <h2 class="footer-section-title">fyndro</h2>
-
-      <ul class="links">
-        <li>
-          <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
-          target="_blank">Report a Bug</a>
-        </li>
-        <li>
-          <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D"
-          target="_blank">Request a Feature</a>
-        </li>
-        <li>
-          <a href="https://cmihai99.github.io/fyndro/services">Our Services</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-section">
-      <h2 class="footer-section-title">company</h2>
-
-      <ul class="links">
-        <li>
-          <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
-          target="_blank">Contact Us</a>
-        </li>
-        <li>
-          <a href="https://cmihai99.github.io/fyndro/legal">Legal</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-section">
-      <h2 class="footer-section-title">connect</h2>
-
-      <ul class="links">
-        <li>
-          <a href="https://twitter.com/androteamfaq" target="_blank">Follow on Twitter</a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/androteamfaq" target="_blank">Follow on Instagram</a>
-        </li>
-        <li>
-          <a href="https://discord.gg/ruTBDN5rf7" target="_blank">Chat on Discord</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-section">
-      <h2 class="footer-section-title">support</h2>
-
-      <ul class="links">
-        <li>
-          <a href="https://github.com/CMihai99/fyndro" target="_blank">Star on GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US"
-          target="_blank">Contribute via PayPal</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-section">
-      <ul class="links">
-        <li id="trademark">© 2021 Fyndro</li>
-      </ul>
-    </div>
-  </footer>
 </html>
