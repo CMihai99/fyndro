@@ -20,22 +20,18 @@ fyndro/
 ├── Documentation/
 ├── legal/
 ├── LICENSES/
-├── public/
 ├── resources/
 ├── scss/
-├── src/
 ├── .gitattributes
 ├── .gitignore
 ├── .htaccess
-├── about.html
-├── babel.config.js
+├── CODEOFCONDUCT.md
+├── CODEOFETHICS.md
 ├── CODEOWNERS.md
 ├── COPYING
 ├── CREDITS.md
-├── faq.html
 ├── index.html
 ├── MAINTAINERS.md
-├── package.json
 ├── README.md
 └── tsconfig.json
 ```
