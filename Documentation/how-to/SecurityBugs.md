@@ -1,11 +1,10 @@
 <!--
-===--------------------------------------------------------------------------===
+===-----------------------------------------------------------------------------------===
 Copyright (c) 2021 Fyndro
-Licensed under MIT
 
-See https://github.com/CMihai99/fyndro/blob/main/COPYING for license information
-See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
-===--------------------------------------------------------------------------===
+For copyright information, see https://github.com/CMihai99/fyndro/blob/main/COPYING.
+For a list of licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
+===-----------------------------------------------------------------------------------===
 -->
 
 # Security bugs
