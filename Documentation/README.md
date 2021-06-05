@@ -14,8 +14,6 @@ The documentation for Fyndro is divided into the following sections:
 
 -   [How-To Guides](#how-to-guides), which help you complete specific tasks in a step-by-step fashion.
 
--   [Manifestos](#evolution-documents), which include proposals and manifestos for changes.
-
 -   [Recommended Practices](#recommended-practices), which suggest guidelines for writing code and documentation.
 
 -   [Reference Guides](#reference-guides), which contain a thorough technical reference for complex topics.
@@ -107,14 +105,6 @@ The documentation for Fyndro is divided into the following sections:
         contains a large number of suggestions in a relatively terse format about getting your code submitted.
         It also assumes that you're using git to prepare your patches. If you're unfamiliar
         with git, you learn using it, since it will make your life as a developer much easier.
-
-## Manifestos
-
--   [DifferentiableProgramming.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/manifestos/DifferentiableProgramming.md)
-    outlines a vision and design for first-class differentiable programming in Swift.
-
--   [OwnershipManifesto.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/manifestos/OwnershipManifesto.md)
-    provides a framework for understanding ownership, and highlights potential future directions for Fyndro.
 
 ## Recommended Practices
 
