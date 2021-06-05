@@ -7,11 +7,8 @@
 
 footer {
   background-color: var(--background);
-}
-
-.footer-menu-container {
   display: flex;
-  justify-content: center;
+  padding-left: 18.125rem;
 }
 
 .links {
@@ -21,7 +18,8 @@ footer {
   padding: 3.5px 0;
   list-style-type: none;
 }
-.links li a {
+.links li a,
+.links li a:visited {
   color: var(--gray);
   text-decoration: none;
   font-size: 14.5px;
@@ -31,14 +29,14 @@ footer {
   color: var(--text);
 }
 
-.footer-menu-category {
+.footer-section {
   padding: 15px 50px 25px;
 }
-.footer-menu-category ul li {
+.footer-section ul li {
   color: var(--text);
 }
 
-.menu-category-title {
+.footer-section-title {
   color: var(--gray);
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -49,7 +47,7 @@ footer {
 }
 
 #trademark {
-  padding-top: 238.5px;
+  padding: 157px 0 0 0;
   font-size: 13.5px;
   color: var(--gray);
 }

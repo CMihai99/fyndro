@@ -28,6 +28,10 @@
   scrollbar-width: thin;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--body-background);
   overflow-x: hidden;
@@ -51,16 +55,16 @@ strong {
   font-weight: 650;
 }
 
-#links {
+.links {
   color: var(--links);
   text-decoration: none;
 }
-#links :hover,
-#links :active,
-#links :focus {
+.links :hover,
+.links :active,
+.links :focus {
   color: #3277df;
 }
-#links :visited {
+.links :visited {
   color: #145dca;
 }
 

@@ -1,10 +1,9 @@
-// ===----------------------------------------------------------------------===
+// ===-----------------------------------------------------------------------------------===
 // Copyright (c) 2021 Fyndro
-// Licensed under MIT
 //
-// See https://github.com/CMihai99/fyndro/blob/main/COPYING for license information
-// See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
-// ===--------------------------------------------------------------------------===s
+// For copyright information, see https://github.com/CMihai99/fyndro/blob/main/COPYING.
+// For a list of licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
+// ===-----------------------------------------------------------------------------------===s
 
 :root {
   --divider: #dbdbdb;
@@ -45,11 +44,6 @@
   background-color: #ececec;
 }
 
-.toc-title {
-  margin: -32px 0 0 10px; // top, right, bottom, left
-  padding: 0 0 0 34px; // top, right, bottom, left
-}
-
 #toc-menu {
   position: absolute;
   height: auto;
@@ -77,22 +71,22 @@
   }
 }
 
-#toc-text {
+.toc-menu-text {
   padding: 4px 20px; // top and bottom, left and right
   color: var(--text);
   border-radius: var(--border-radius);
 }
 
-#toc-text-child {
+.toc-menu-text-child {
   text-indent: 18px;
   color: var(--borders);
   border-radius: var(--border-radius);
 }
 
-#toc-text:focus,
-#toc-text:active,
-#toc-text-child:focus,
-#toc-text-child:active {
+.toc-menu-text:focus,
+.toc-menu-text:active,
+.toc-menu-text-child:focus,
+.toc-menu-text-child:active {
   background-color: #ececec;
 }
 

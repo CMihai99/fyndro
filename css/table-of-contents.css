@@ -36,7 +36,7 @@
   background-color: #ececec;
 }
 
-.toc-title {
+.page-title {
   margin: -32px 0 0 10px;
   padding: 0 0 0 34px;
 }
@@ -64,22 +64,22 @@
     opacity: 1;
   }
 }
-#toc-text {
+.toc-menu-text {
   padding: 4px 20px;
   color: var(--text);
   border-radius: var(--border-radius);
 }
 
-#toc-text-child {
+.toc-menu-text-child {
   text-indent: 18px;
   color: var(--borders);
   border-radius: var(--border-radius);
 }
 
-#toc-text:focus,
-#toc-text:active,
-#toc-text-child:focus,
-#toc-text-child:active {
+.toc-menu-text:focus,
+.toc-menu-text:active,
+.toc-menu-text-child:focus,
+.toc-menu-text-child:active {
   background-color: #ececec;
 }
 
