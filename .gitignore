@@ -1,13 +1,19 @@
-# SPDX-License-Identifier: MIT
+# ===--------------------------------------------------------------------------===
+# Copyright (c) 2021 Fyndro
+# Licensed under MIT
 #
-# Note:
-#  - Don't add files that are generated in specific subdirectories here.
-#    Add them in the ".gitignore" file in that subdirectory instead.
+# See https://github.com/CMihai99/fyndro/blob/main/COPYING for license information
+# See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
+# ===--------------------------------------------------------------------------===
 #
-#  - Please use 'git ls-files -i --exclude-standard' command after changing this file,
-#    to see if there are any tracked files which get ignored after the change.
+# Don't add files that are generated in specific subdirectories here.
+# Add them in the ".gitignore" file in that subdirectory instead.
 #
-#  - When adding to this list, please keep the entries in alphabetical order.
+# Please use 'git ls-files -i --exclude-standard' command after changing this file,
+# to see if there are any tracked files which get ignored after the change.
+#
+# When reading this list, please look for the most precise areas first.
+# When adding to this list, please keep the entries in alphabetical order.
 
 # Git
 \#*\#
