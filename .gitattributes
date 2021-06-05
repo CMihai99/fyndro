@@ -1,18 +1,23 @@
-# SPDX-License-Identifier: MIT
+# ===--------------------------------------------------------------------------===
+# Copyright (c) 2021 Fyndro
+# Licensed under MIT
+#
+# See https://github.com/CMihai99/fyndro/blob/main/COPYING for license information
+# See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
+# ===--------------------------------------------------------------------------===
 #
 # File settings:
 #   text     These files should be normalized (i.e. convert CRLF to LF).
 #   binary   These files are binary and should be left untouched.
-#
-# Note:
-#  - binary is a macro for -text -diff.
-#  - When reading this list, please look for the most precise areas first.
-#  - When adding to this list, please keep the entries in alphabetical order.
+#     binary is just a macro for -text -diff.
 #
 # Auto detection:
 #   Handle line endings automatically for files detected as text
 #   and leave all files detected as binary untouched.
 #   This will handle all files NOT defined below.
+#
+# When reading this list, please look for the most precise areas first.
+# When adding to this list, please keep the entries in alphabetical order.
 
 *                  text=auto
 
@@ -48,6 +53,10 @@ package-lock.json  text -diff
 *.jpg              binary
 *.png              binary
 *.svg              binary
+
+# Linguist
+*.ts               linguist-language=TypeScript
+*.vue              linguist-language=Vue
 
 # Video
 *.mp4              binary
