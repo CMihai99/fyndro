@@ -1,5 +1,11 @@
 <!--
-SPDX-License-Identifier: MIT
+===--------------------------------------------------------------------------===
+Copyright (c) 2021 Fyndro
+Licensed under MIT
+
+See https://github.com/CMihai99/fyndro/blob/main/COPYING for license information
+See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
+===--------------------------------------------------------------------------===
 
 Thank you for submitting a Pull Request.
 
