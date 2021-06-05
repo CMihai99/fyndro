@@ -21,10 +21,6 @@
 
 *                  text=auto
 
-# Archives
-*.zip              binary
-*.rar              binary
-
 # Configurations
 .gitignore         text
 .gitattributes     text
@@ -38,5 +34,4 @@ package.json       text eol=lf
 *.txt              text
 
 # Graphics
-*.png              binary
 *.svg              binary
