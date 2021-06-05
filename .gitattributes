@@ -23,24 +23,13 @@
 
 # Archives
 *.zip              binary
-
-# Audio
-*.mp3              binary
-
-# Code
-*.html             text diff=html
-*.css              text diff=css
-*.scss             text diff=css
-*.js               text diff=js
-*.json             text
-*.ts               text diff=js
+*.rar              binary
 
 # Configurations
 .gitignore         text
 .gitattributes     text
 tsconfig.json      text -diff
 package.json       text eol=lf
-package-lock.json  text -diff
 *.lock             text -diff
 .htaccess          text
 
@@ -49,15 +38,5 @@ package-lock.json  text -diff
 *.txt              text
 
 # Graphics
-*.ico              binary
-*.jpg              binary
 *.png              binary
 *.svg              binary
-
-# Linguist
-*.ts               linguist-language=TypeScript
-*.vue              linguist-language=Vue
-
-# Video
-*.mp4              binary
-*.gif              binary
