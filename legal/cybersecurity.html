@@ -1,388 +1,373 @@
 <!--
-===--------------------------------------------------------------------------===
+===-----------------------------------------------------------------------------------===
 Copyright (c) 2021 Fyndro
-Licensed under MIT
 
-See https://github.com/CMihai99/fyndro/blob/main/COPYING for license information
-See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
-===--------------------------------------------------------------------------===
+For copyright information, see https://github.com/CMihai99/fyndro/blob/main/COPYING.
+For a list of licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
+===-----------------------------------------------------------------------------------===
 -->
-
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Cybersecurity | Fyndro">
+    <meta name="description" content="All maintainers and contributors are obliged to protect this data. In this policy, we will give our maintainers and contributors instructions on how to avoid security breaches.">
 
-  <meta charset="UTF-8">
-  <meta name="title" content="Cybersecurity | Fyndro">
-  <meta name="description" content="All maintainers and contributors are obliged to protect this data. In this policy, we will give our maintainers and contributors instructions on how to avoid security breaches.">
+    <!-- Open Graph/Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cmihai99.github.io/fyndro/legal/cybersecurity">
+    <meta property="og:title" content="Cybersecurity | Fyndro">
+    <meta property="og:description" content="All maintainers and contributors are obliged to protect this data. In this policy, we will give our maintainers and contributors instructions on how to avoid security breaches.">
 
-  <!-- Open Graph/Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://cmihai99.github.io/fyndro/legal/cybersecurity">
-  <meta property="og:title" content="Cybersecurity | Fyndro">
-  <meta property="og:description" content="All maintainers and contributors are obliged to protect this data. In this policy, we will give our maintainers and contributors instructions on how to avoid security breaches.">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://cmihai99.github.io/fyndro/legal/cybersecurity">
+    <meta property="twitter:title" content="Cybersecurity | Fyndro">
+    <meta property="twitter:description" content="All maintainers and contributors are obliged to protect this data. In this policy, we will give our maintainers and contributors instructions on how to avoid security breaches.">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary">
-  <meta property="twitter:url" content="https://cmihai99.github.io/fyndro/legal/cybersecurity">
-  <meta property="twitter:title" content="Cybersecurity | Fyndro">
-  <meta property="twitter:description" content="All maintainers and contributors are obliged to protect this data. In this policy, we will give our maintainers and contributors instructions on how to avoid security breaches.">
+    <!-- Dependencies -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-  <!-- Dependencies -->
-  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/table-of-contents.css">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/navbar.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/table-of-contents.css">
-  <link rel="stylesheet" href="/css/cookie-settings.css">
+    <link rel="icon" href="/resources/icon.svg">
+    <title>Cybersecurity | Fyndro</title>
+  </head>
 
-  <link rel="icon" href="/resources/icon.svg">
-  <title>Cybersecurity | Fyndro</title>
-</head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-header">
+        <a href="https://cmihai99.github.io/fyndro">
+          <img src="resources/icon.svg" class="nav-icon">
+        </a>
 
-
-<body>
-  <nav class="navbar">
-    <div class="navbar-header">
-      <a href="https://cmihai99.github.io/fyndro">
-        <img src="resources/icon.svg" class="nav-icon">
-      </a>
-
-      <a id="search-toggle" data-toggle="dropdown">
-        <div class="search-toggle-bar">
+        <div class="search-toggle-bar" data-toggle="dropdown">
           <input class="form-control" type="text" placeholder="Search...">
         </div>
-      </a>
 
-      <ul class="dropdown-menu" id="search-menu-bg">
-        <li>
-          <a href="https://cmihai99.github.io/fyndro"
-          style="border-radius: 0 0 var(--border-radius) var(--border-radius); border: none">Home</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="nav navbar-nav navbar-right">
-      <li>
-        <div class="options-toggle-icons" data-toggle="dropdown">
-          <img src="resources/dropdown-icon.svg">
-          <span class="caret"></span>
-        </div>
-
-        <ul class="dropdown-menu" id="options-menu-bg">
+        <ul class="dropdown-menu" id="search-menu">
           <li>
-            <a href="https://cmihai99.github.io/fyndro" id="menu-text-bg">Home</a>
-          <li>
-
-          <li class="divider"></li>
-
-          <li>
-            <a href="#" id="menu-text-bg">Lorem ipsum</a>
-          </li>
-          <li>
-            <a href="#" id="menu-text-bg">Lorem ipsum</a>
-          </li>
-          <li>
-            <a href="#" id="menu-text-bg">Lorem ipsum</a>
-          </li>
-          <li>
-            <a href="#" id="menu-text-bg">Lorem ipsum</a>
-          </li>
-          <li>
-            <a href="#" id="menu-text-bg">Lorem ipsum</a>
-          </li>
-
-          <li class="divider"></li>
-
-          <li>
-            <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
-            id="menu-text-bg" target="_blank">Contact Us</a>
-          </li>
-          <li>
-            <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
-            id="menu-text-bg" target="_blank">Report a Bug</a>
-          </li>
-          <li>
-            <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D"
-            id="menu-text-bg" target="_blank">Request a Feature</a>
+            <a class="search-menu-last-text" href="https://cmihai99.github.io/fyndro">Home</a>
           </li>
         </ul>
-      </li>
-    </div>
-  </nav>
+      </div>
 
-  <div class="page-border">
-    <div class="content-border">
+      <div class="nav navbar-nav navbar-right">
+        <li>
+          <div class="options-toggle-icons" data-toggle="dropdown">
+            <img src="resources/dropdown-icon.svg">
+            <span class="caret"></span>
+          </div>
 
-      <div class="title-nav">
-      <hr>
-        <li class="toc">
-          <a class="toc-toggle" data-toggle="dropdown">
-            <img src="resources/toc-icon.svg" class="toc-icon">
-          </a>
+          <ul class="dropdown-menu" id="options-menu">
+            <li>
+              <a href="https://cmihai99.github.io/fyndro">Home</a>
+            <li>
 
-          <ul class="dropdown-menu" id="toc-menu">
+            <li class="divider"></li>
+
             <li>
-              <a href="#confidential-data" id="toc-text">Confidential data</a>
+              <a href="#">Lorem ipsum</a>
             </li>
             <li>
-              <a href="#personal-and-company-devices" id="toc-text">Personal and company devices</a>
+              <a href="#">Lorem ipsum</a>
             </li>
             <li>
-              <a href="#keeping-emails-safe" id="toc-text">Keeping emails safe</a>
+              <a href="#">Lorem ipsum</a>
             </li>
             <li>
-              <a href="#managing-passwords-properly" id="toc-text">Managing passwords properly</a>
+              <a href="#">Lorem ipsum</a>
             </li>
             <li>
-              <a href="#transferring-data-securely" id="toc-text">Transferring data securely</a>
+              <a href="#">Lorem ipsum</a>
+            </li>
+
+            <li class="divider"></li>
+
+            <li>
+              <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
+              target="_blank">Contact Us</a>
             </li>
             <li>
-              <a href="#additional-measures" id="toc-text">Additional measures</a>
+              <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
+              target="_blank">Report a Bug</a>
             </li>
             <li>
-              <a href="#contact" id="toc-text">Contacting Us</a>
+              <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D"
+              target="_blank">Request a Feature</a>
             </li>
           </ul>
         </li>
-
-        <h2 class="toc-title">Cybersecurity Policy</h2>
-      <hr>
       </div>
-      
-      <h3></h3>
+    </nav>
 
-      <h3 id="confidential-data">Confidential data</h3>
-      <p>Confidential data is secret and valuable. Common examples are:</p>
-      <ul>
-        <li>
-          <p><strong>Unpublished financial information</strong></p>
-        </li>
-        <li>
-          <p><strong>Data of customers/partners/vendors</strong></p>
-        </li>
-        <li>
-          <p><strong>Patents, formulas or new technologies</strong></p>
-        </li>
-        <li>
-          <p><strong>Customer lists (existing and prospective)</strong></p>
-        </li>
-      </ul>
-      <p>
-        All maintainers and contributors are obliged to protect this data. In this policy,
-        we will give our maintainers and contributors instructions on how to avoid security breaches.
-      </p>
+    <div class="page-border">
+      <div class="content-border">
+        <div class="title-nav">
+        <hr>
+          <li class="toc">
+            <a class="toc-toggle" data-toggle="dropdown">
+              <img src="resources/toc-icon.svg" class="toc-icon">
+            </a>
 
-      <h3 id="personal-and-company-devices">Protecting personal and company devices</h3>
-      <p>
-        When maintainers and contributors use their digital devices to access company emails or accounts,
-        they introduce security risk to our data.
-        We advise our maintainers and contributors to keep both their personal and company-issued computer, tablet and cell phone secure.
-        They can do this if they:
-      </p>
+            <ul class="dropdown-menu" id="toc-menu">
+              <li>
+                <a href="#confidential-data">Confidential data</a>
+              </li>
+              <li>
+                <a href="#personal-and-company-devices">Personal and company devices</a>
+              </li>
+              <li>
+                <a href="#keeping-emails-safe">Keeping emails safe</a>
+              </li>
+              <li>
+                <a href="#managing-passwords-properly">Managing passwords properly</a>
+              </li>
+              <li>
+                <a href="#transferring-data-securely">Transferring data securely</a>
+              </li>
+              <li>
+                <a href="#additional-measures">Additional measures</a>
+              </li>
+              <li>
+                <a href="#contact">Contacting Us</a>
+              </li>
+            </ul>
+          </li>
 
-      <ul>
-        <li>
-          <p><strong>Keep all devices password protected</strong></p>
-        </li>
-        <li>
-          <p><strong>Choose and upgrade a complete antivirus software</strong></p>
-        </li>
-        <li>
-          <p><strong>Ensure they do not leave their devices exposed or unattended</strong></p>
-        </li>
-        <li>
-          <p><strong>Install security updates of browsers and systems monthly or as soon as updates are available</strong></p>
-        </li>
-        <li>
-          <p><strong>Log into company accounts and systems through secure and private networks only</strong></p>
-        </li>
-      </ul>
+          <h2 class="toc-title">Cybersecurity Policy</h2>
+        <hr>
+        </div>
+        
+        <h3></h3>
 
-      <h3 id="keeping-emails-safe">Keeping emails safe</h3>
-      <p>
-        Emails often host scams and malicious software
-        (e.g. <a href="https://encyclopedia.kaspersky.com/knowledge/email-worm"
-        target="_blank" id="links">worms</a>).
-        To avoid virus infection or data theft, we instruct maintainers and contributors to:
-      </p>
-      <ul>
-        <li>
-          <p><strong>
-              Avoid opening attachments and clicking on links when the content is not adequately explained
-              (e.g. "watch this video, it’s amazing.")
-            </strong></p>
-        </li>
-        <li>
-          <p><strong>
-              Be suspicious of clickbait titles (e.g. offering prizes, advice.)
-            </strong></p>
-        </li>
-        <li>
-          <p><strong>
-              Check email and names of people they received a message from to ensure they are legitimate.
-            </strong></p>
-        </li>
-      </ul>
-      <p>
-        If a maintainer or contributor isn’t sure that an email they received is safe, they can
-        <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
-        target="_blank" id="links">contact us</a>.
-      </p>
+        <h3 id="confidential-data">Confidential data</h3>
+        <p>Confidential data is secret and valuable. Common examples are:</p>
+        <ul>
+          <li>
+            <p><strong>Unpublished financial information</strong></p>
+          </li>
+          <li>
+            <p><strong>Data of customers/partners/vendors</strong></p>
+          </li>
+          <li>
+            <p><strong>Patents, formulas or new technologies</strong></p>
+          </li>
+          <li>
+            <p><strong>Customer lists (existing and prospective)</strong></p>
+          </li>
+        </ul>
+        <p>
+          All maintainers and contributors are obliged to protect this data. In this policy,
+          we will give our maintainers and contributors instructions on how to avoid security breaches.
+        </p>
 
-      <h3 id="managing-passwords-properly">Managing passwords properly</h3>
-      <p>
-        Password leaks are dangerous since they can compromise our entire infrastructure.
-        Not only should passwords be secure so they won’t be easily hacked,
-        but they should also remain secret. For this reason, we advice our maintainers and contributors to:
-      </p>
-      <ul>
-        <li>
-          <p><strong>
-              Choose passwords with at least eight characters
-              (including capital and lower-case letters, numbers and symbols)
-              and avoid information that can be easily guessed (e.g. birthdays)
-            </strong></p>
-        </li>
-        <li>
-          <p><strong>
-              Remember passwords instead of writing them down.
-              If maintainers and contributors need to write their passwords,
-              they are obliged to keep the paper or digital document confidential and destroy it when their work is done
-            </strong></p>
-        </li>
-        <li>
-          <p><strong>
-              Exchange credentials only when absolutely necessary.
-              When exchanging them in-person isn’t possible,
-              maintainers and contributors should prefer the phone instead of email,
-              and only if they personally recognize the person they are talking to</strong>
-          </p>
-        </li>
-        <li>
-          <p><strong>Change their passwords every two months</strong></p>
-        </li>
-      </ul>
-      <p>
-        Remembering a large number of passwords can be daunting.
-        We will purchase the services of a password management tool which generates and stores passwords.
-        maintainers and contributors are obliged to create a secure password for the tool itself,
-        following the abovementioned advice.
-      </p>
+        <h3 id="personal-and-company-devices">Protecting personal and company devices</h3>
+        <p>
+          When maintainers and contributors use their digital devices to access company emails or accounts,
+          they introduce security risk to our data.
+          We advise our maintainers and contributors to keep both their personal and company-issued computer, tablet and cell phone secure.
+          They can do this if they:
+        </p>
 
-      <h3 id="transferring-data-securely">Transferring data securely</h3>
-      <p>Transferring data introduces security risk. maintainer or contributors must:</p>
-      <ul>
-        <li>
-          <p><strong>
-              Avoid transferring sensitive data (e.g. customer information, maintainer or contributor records)
-              to other devices or accounts unless absolutely necessary.
-            </strong></p>
-        </li>
-        <li>
-          <p><strong>
-              Share confidential data over the company network or system and not over public Wi-Fi or private connection
-            </strong></p>
-        </li>
-        <li>
-          <p><strong>
-              Ensure that the recipients of the data are properly authorized
-              people or organizations and have adequate security policies
-            </strong></p>
-        </li>
-        <li>
-          <p><strong>
-              Report scams, privacy breaches and hacking attempts
-            </strong></p>
-        </li>
-      </ul>
-      <p>
-        Our team need to know about scams,
-        breaches and malware so they can better protect our infrastructure.
-        For this reason, we advise our maintainer or contributors to report perceived attacks,
-        suspicious emails or phishing attempts as soon as possible to our specialists.
-      <p>
-      <p>
-        Our team must investigate promptly,
-        resolve the issue and send a companywide alert when necessary.
-        Our Security Specialists are responsible for advising maintainer or contributors on how to detect scam emails.
-        We encourage our maintainer or contributors to reach out to them with any questions or concerns.
-      </p>
-      
-      <h3 id="additional-measures">Additional measures</h3>
-      <p>To reduce the likelihood of security breaches, we also instruct our maintainer or contributors to:</p>
-      <ul>
-        <li>
-          <p><strong>Turn off their screens and lock their devices when leaving their desks</strong></p>
-        </li>
-        <li>
-          <p><strong>
-            Report stolen or damaged equipment as soon as possible
-            <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME" target="_blank" id="links">here</a>
-          </strong></p>
-        </li>
-        <li>
-          <p><strong>Change all account passwords at once when a device is stolen</strong></p>
-        </li>
-        <li>
-          <p><strong>Report a perceived threat or possible security weakness in company systems</strong></p>
-        </li>
-        <li>
-          <p><strong>Refrain from downloading suspicious, unauthorized or illegal software on their company equipment</strong></p>
-        </li>
-        <li>
-          <p><strong>Avoid accessing suspicious websites</strong></p>
-        </li>
-      </ul>
-      <p>We also expect our maintainer or contributors to comply with our social media and internet usage policy.</p>
-      <p>Our team should also:</p>
-      <ul>
-        <li>
-          <p><strong>Install firewalls, anti malware software and access authentication systems</strong></p>
-        </li>
-        <li>
-          <p><strong>Arrange for security training to all maintainer or contributors</strong></p>
-        </li>
-        <li>
-          <p><strong>Inform maintainer or contributors regularly about new scam emails or viruses and ways to combat them</strong></p>
-        </li>
-        <li>
-          <p><strong>Investigate security breaches thoroughly</strong></p>
-        </li>
-        <li>
-          <p><strong>Follow this policies provisions as other maintainer or contributors do</strong></p>
-        </li>
-      </ul>
-      <p>Our company will have all physical and digital shields to protect information.</p>
+        <ul>
+          <li>
+            <p><strong>Keep all devices password protected</strong></p>
+          </li>
+          <li>
+            <p><strong>Choose and upgrade a complete antivirus software</strong></p>
+          </li>
+          <li>
+            <p><strong>Ensure they do not leave their devices exposed or unattended</strong></p>
+          </li>
+          <li>
+            <p><strong>Install security updates of browsers and systems monthly or as soon as updates are available</strong></p>
+          </li>
+          <li>
+            <p><strong>Log into company accounts and systems through secure and private networks only</strong></p>
+          </li>
+        </ul>
 
-      <h3 id="contact">Contacting Us</h3>
-      <p>
-        If you have any questions about this Cybersecurity Policy, you can
-        <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
-          target="_blank" id="links">contact us</a>.
-      </p>
+        <h3 id="keeping-emails-safe">Keeping emails safe</h3>
+        <p>
+          Emails often host scams and malicious software
+          (e.g. <a href="https://encyclopedia.kaspersky.com/knowledge/email-worm"
+          target="_blank" class="links">worms</a>).
+          To avoid virus infection or data theft, we instruct maintainers and contributors to:
+        </p>
+        <ul>
+          <li>
+            <p><strong>
+                Avoid opening attachments and clicking on links when the content is not adequately explained
+                (e.g. "watch this video, it’s amazing.")
+              </strong></p>
+          </li>
+          <li>
+            <p><strong>
+                Be suspicious of clickbait titles (e.g. offering prizes, advice.)
+              </strong></p>
+          </li>
+          <li>
+            <p><strong>
+                Check email and names of people they received a message from to ensure they are legitimate.
+              </strong></p>
+          </li>
+        </ul>
+        <p>
+          If a maintainer or contributor isn’t sure that an email they received is safe, they can
+          <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
+          target="_blank" class="links">contact us</a>.
+        </p>
 
+        <h3 id="managing-passwords-properly">Managing passwords properly</h3>
+        <p>
+          Password leaks are dangerous since they can compromise our entire infrastructure.
+          Not only should passwords be secure so they won’t be easily hacked,
+          but they should also remain secret. For this reason, we advice our maintainers and contributors to:
+        </p>
+        <ul>
+          <li>
+            <p><strong>
+                Choose passwords with at least eight characters
+                (including capital and lower-case letters, numbers and symbols)
+                and avoid information that can be easily guessed (e.g. birthdays)
+              </strong></p>
+          </li>
+          <li>
+            <p><strong>
+                Remember passwords instead of writing them down.
+                If maintainers and contributors need to write their passwords,
+                they are obliged to keep the paper or digital document confidential and destroy it when their work is done
+              </strong></p>
+          </li>
+          <li>
+            <p><strong>
+                Exchange credentials only when absolutely necessary.
+                When exchanging them in-person isn’t possible,
+                maintainers and contributors should prefer the phone instead of email,
+                and only if they personally recognize the person they are talking to</strong>
+            </p>
+          </li>
+          <li>
+            <p><strong>Change their passwords every two months</strong></p>
+          </li>
+        </ul>
+        <p>
+          Remembering a large number of passwords can be daunting.
+          We will purchase the services of a password management tool which generates and stores passwords.
+          maintainers and contributors are obliged to create a secure password for the tool itself,
+          following the abovementioned advice.
+        </p>
+
+        <h3 id="transferring-data-securely">Transferring data securely</h3>
+        <p>Transferring data introduces security risk. maintainer or contributors must:</p>
+        <ul>
+          <li>
+            <p><strong>
+                Avoid transferring sensitive data (e.g. customer information, maintainer or contributor records)
+                to other devices or accounts unless absolutely necessary.
+              </strong></p>
+          </li>
+          <li>
+            <p><strong>
+                Share confidential data over the company network or system and not over public Wi-Fi or private connection
+              </strong></p>
+          </li>
+          <li>
+            <p><strong>
+                Ensure that the recipients of the data are properly authorized
+                people or organizations and have adequate security policies
+              </strong></p>
+          </li>
+          <li>
+            <p><strong>
+                Report scams, privacy breaches and hacking attempts
+              </strong></p>
+          </li>
+        </ul>
+        <p>
+          Our team need to know about scams,
+          breaches and malware so they can better protect our infrastructure.
+          For this reason, we advise our maintainer or contributors to report perceived attacks,
+          suspicious emails or phishing attempts as soon as possible to our specialists.
+        <p>
+        <p>
+          Our team must investigate promptly,
+          resolve the issue and send a companywide alert when necessary.
+          Our Security Specialists are responsible for advising maintainer or contributors on how to detect scam emails.
+          We encourage our maintainer or contributors to reach out to them with any questions or concerns.
+        </p>
+        
+        <h3 id="additional-measures">Additional measures</h3>
+        <p>To reduce the likelihood of security breaches, we also instruct our maintainer or contributors to:</p>
+        <ul>
+          <li>
+            <p><strong>Turn off their screens and lock their devices when leaving their desks</strong></p>
+          </li>
+          <li>
+            <p><strong>
+              Report stolen or damaged equipment as soon as possible
+              <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME" target="_blank" class="links">here</a>
+            </strong></p>
+          </li>
+          <li>
+            <p><strong>Change all account passwords at once when a device is stolen</strong></p>
+          </li>
+          <li>
+            <p><strong>Report a perceived threat or possible security weakness in company systems</strong></p>
+          </li>
+          <li>
+            <p><strong>Refrain from downloading suspicious, unauthorized or illegal software on their company equipment</strong></p>
+          </li>
+          <li>
+            <p><strong>Avoid accessing suspicious websites</strong></p>
+          </li>
+        </ul>
+        <p>We also expect our maintainer or contributors to comply with our social media and internet usage policy.</p>
+        <p>Our team should also:</p>
+        <ul>
+          <li>
+            <p><strong>Install firewalls, anti malware software and access authentication systems</strong></p>
+          </li>
+          <li>
+            <p><strong>Arrange for security training to all maintainer or contributors</strong></p>
+          </li>
+          <li>
+            <p><strong>Inform maintainer or contributors regularly about new scam emails or viruses and ways to combat them</strong></p>
+          </li>
+          <li>
+            <p><strong>Investigate security breaches thoroughly</strong></p>
+          </li>
+          <li>
+            <p><strong>Follow this policies provisions as other maintainer or contributors do</strong></p>
+          </li>
+        </ul>
+        <p>Our company will have all physical and digital shields to protect information.</p>
+
+        <h3 id="contact">Contacting Us</h3>
+        <p>
+          If you have any questions about this Cybersecurity Policy, you can
+          <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
+            target="_blank" class="links">contact us</a>.
+        </p>
+
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 
-
-<footer>
-  <div class="footer-menu-container">
-
-    <div class="footer-menu-category">
-      <h2 class="menu-category-title">fyndro</h2>
+  <footer>
+    <div class="footer-section">
+      <h2 class="footer-section-title">fyndro</h2>
 
       <ul class="links">
-        <li>
-          <a href="https://cmihai99.github.io/fyndro">Home</a>
-        </li>
         <li>
           <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
           target="_blank">Report a Bug</a>
@@ -392,44 +377,15 @@ See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
           target="_blank">Request a Feature</a>
         </li>
         <li>
-          <a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US"
-          target="_blank">Donate on PayPal</a>
+          <a href="https://cmihai99.github.io/fyndro/services">Our Services</a>
         </li>
       </ul>
     </div>
 
-    <div class="footer-menu-category">
-      <h2 class="menu-category-title">our services</h2>
+    <div class="footer-section">
+      <h2 class="footer-section-title">company</h2>
 
       <ul class="links">
-        <li>
-          <a href="#">Lorem ipsum</a>
-        </li>
-        <li>
-          <a href="#">Lorem ipsum</a>
-        </li>
-        <li>
-          <a href="#">Lorem ipsum</a>
-        </li>
-        <li>
-          <a href="#">Lorem ipsum</a>
-        </li>
-        <li>
-          <a href="#">Lorem ipsum</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-menu-category">
-      <h2 class="menu-category-title">company</h2>
-
-      <ul class="links">
-        <li>
-          <a href="https://cmihai99.github.io/fyndro/about">About</a>
-        </li>
-        <li>
-          <a href="https://cmihai99.github.io/fyndro/faq">FAQ</a>
-        </li>
         <li>
           <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
           target="_blank">Contact Us</a>
@@ -440,13 +396,10 @@ See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
       </ul>
     </div>
 
-    <div class="footer-menu-category">
-      <h2 class="menu-category-title">connect</h2>
+    <div class="footer-section">
+      <h2 class="footer-section-title">connect</h2>
 
       <ul class="links">
-        <li>
-          <a href="https://github.com/CMihai99/fyndro" target="_blank">Star on GitHub</a>
-        </li>
         <li>
           <a href="https://twitter.com/androteamfaq" target="_blank">Follow on Twitter</a>
         </li>
@@ -454,19 +407,29 @@ See https://github.com/CMihai99/fyndro/tree/main/LICENSES for a list of licenses
           <a href="https://www.instagram.com/androteamfaq" target="_blank">Follow on Instagram</a>
         </li>
         <li>
-          <a href="https://discord.gg/4S9wnVya" target="_blank">Chat on Discord</a>
+          <a href="https://discord.gg/ruTBDN5rf7" target="_blank">Chat on Discord</a>
         </li>
       </ul>
     </div>
 
-    <div class="footer-menu-category">
+    <div class="footer-section">
+      <h2 class="footer-section-title">support</h2>
+
       <ul class="links">
-        <li id="trademark">© 2021 Fyndro, All Rights Reserved.</li>
+        <li>
+          <a href="https://github.com/CMihai99/fyndro" target="_blank">Star on GitHub</a>
+        </li>
+        <li>
+          <a href="https://www.paypal.com/paypalme/Impulse884?locale.x=en_US"
+          target="_blank">Contribute via PayPal</a>
+        </li>
       </ul>
     </div>
 
-  </div>
-
-</div>
-</footer>
+    <div class="footer-section">
+      <ul class="links">
+        <li id="trademark">© 2021 Fyndro</li>
+      </ul>
+    </div>
+  </footer>
 </html>
