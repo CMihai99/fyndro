@@ -16,7 +16,7 @@
 
 ::-webkit-scrollbar-thumb {
   background: #bdbdbd;
-  
+
   :hover {
     background: #aaa;
   }
@@ -35,9 +35,6 @@
   --borders: #858585;
   --border-radius: 7px;
   scrollbar-width: thin;
-}
-
-* {
   box-sizing: border-box;
 }
 

@@ -83,4 +83,4 @@ class footer extends HTMLElement {
 }
 
 // Register it with the customElements.define() method
-customElements.define('footer-component', footer);
+customElements.define("footer-component", footer);

@@ -79,4 +79,4 @@ class navbar extends HTMLElement {
 }
 
 // Register it with the customElements.define() method
-customElements.define('navbar-component', navbar);
+customElements.define("navbar-component", navbar);
