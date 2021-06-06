@@ -5,27 +5,6 @@
 // For a list of licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
 // ===-----------------------------------------------------------------------------------===
 
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(#eee);
-}
-
-::-webkit-scrollbar-thumb {
-  background: #bdbdbd;
-
-  :hover {
-    background: #aaa;
-  }
-
-  :active {
-    background: var(--borders);
-  }
-}
-
 :root {
   --background: #fff;
   --divider: #dbdbdb;
