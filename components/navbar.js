@@ -1,9 +1,4 @@
-// ES5 class declaring custom navbar component, with the constructor method and special super keyword.
 class navbar extends HTMLElement {
-  constructor() {
-    super();
-  }
-
   // connectedCallback is used to add a navigation-bar to the page.
   // It runs each time your custom element is inserted into the DOM.
   connectedCallback() {
@@ -78,5 +73,5 @@ class navbar extends HTMLElement {
   }
 }
 
-// Register it with the customElements.define() method
+// Register component
 customElements.define("navbar-component", navbar);

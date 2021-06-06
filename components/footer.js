@@ -1,9 +1,4 @@
-// ES5 class declaring custom footer component, with the constructor method and special super keyword.
 class footer extends HTMLElement {
-  constructor() {
-    super();
-  }
-
   // connectedCallback is used to add a footer to the page.
   // It runs each time your custom element is inserted into the DOM.
   connectedCallback() {
@@ -82,5 +77,5 @@ class footer extends HTMLElement {
   }
 }
 
-// Register it with the customElements.define() method
+// Register component
 customElements.define("footer-component", footer);
