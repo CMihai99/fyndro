@@ -1,3 +1,10 @@
+// ===-----------------------------------------------------------------------------------===
+// Copyright (c) 2021 Fyndro
+//
+// For copying notice, see https://github.com/CMihai99/fyndro/blob/main/COPYING.
+// For licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
+// ===-----------------------------------------------------------------------------------===
+
 class navbar extends HTMLElement {
   // connectedCallback is used to add a navigation-bar to the page.
   // It runs each time your custom element is inserted into the DOM.

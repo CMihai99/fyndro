@@ -2,8 +2,8 @@
 ===-----------------------------------------------------------------------------------===
 Copyright (c) 2021 Fyndro
 
-For copyright information, see https://github.com/CMihai99/fyndro/blob/main/COPYING.
-For a list of licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
+For copying notice, see https://github.com/CMihai99/fyndro/blob/main/COPYING.
+For licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
 ===-----------------------------------------------------------------------------------===
 -->
 
