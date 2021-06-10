@@ -9,32 +9,6 @@ For licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
 
 # [Fyndro](https://cmihai99.github.io/fyndro) [![GitHub issues](https://img.shields.io/github/issues/CMihai99/fyndro)](https://github.com/CMihai99/fyndro/issues) [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/fyndro)](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue+is%3Aclosed) ![Codacy](https://img.shields.io/codacy/grade/23f542e075834f949e2871a52692a5da)
 
-## Download Archive
-
-```
-fyndro/
-├── .github/
-├── components/
-├── css/
-├── Documentation/
-├── legal/
-├── LICENSES/
-├── resources/
-├── scss/
-├── .gitattributes
-├── .gitignore
-├── .htaccess
-├── CODEOFCONDUCT.md
-├── CODEOFETHICS.md
-├── CODEOWNERS.md
-├── COPYING
-├── CREDITS.md
-├── index.html
-├── MAINTAINERS.md
-├── README.md
-└── tsconfig.json
-```
-
 ## Browser Support
 
 We aim to support every major web browser. Any issue encountered should be reported as a
@@ -57,7 +31,7 @@ If your problem or idea is not addressed yet,
 
 Note: Feature implementations and bug fixes may take up to 2 weeks.
 
-## Contribute
+## Contributing
 
 To be a truly great community, We need to welcome contributors from all over the globe,
 with different backgrounds and with a wide range of experience. A diverse
@@ -75,7 +49,7 @@ To give clarity of what is expected of our members, we have adopted a Code of Co
 which we think articulates our values well. You can read it [here](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodeOfConduct.md),
 and you can also read our Code of Ethics [here](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodeOfEthics.md).
 
-## Learn More
+## More
 
 Be sure to look at the documentation for a bird's eye view on every tricky part you encounter.
 If you are interested in contributing fixes and features, see [PullRequests.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/maintainer/PullRequests.md) for information on everything related to pull requests.
