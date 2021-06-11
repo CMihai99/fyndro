@@ -11,49 +11,44 @@ For licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
 
 ## Browser Support
 
-We aim to support every major web browser. Any issue encountered should be reported as a
-[bug](https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D):
-
 -   Microsoft Edge 14+
 -   Google Chrome 56.0.2924+
 -   Mozilla Firefox 64+
 -   Opera 38+
-<!--
--   Samsung Internet 6.2.01.12+
--   Huawei Browser 9.1.0.103+
--->
+<!-- -   Samsung Internet 6.2.01.12+
+-   Huawei Browser 9.1.0.103+ -->
 
 ## Bugs and Features
 
-First, search for [existing and closed issues](https://github.com/CMihai99/fyndro/issues?q=is%3Aissue).
-If your problem or idea is not addressed yet,
-[open a new issue](https://github.com/CMihai99/fyndro/issues/new/choose).
-
-Note: Feature implementations and bug fixes may take up to 2 weeks.
+First, look through existing and closed issues.
+Feature implementations and bug fixes of any sort may take up to 2 weeks.
+If you want, you can open a new issue if your problem or idea is not addressed yet.
 
 ## Contributing
 
-To be a truly great community, We need to welcome contributors from all over the globe,
-with different backgrounds and with a wide range of experience. A diverse
-and friendly community will produce greater code and have greater ideas.
+To be a truly great community, we need to welcome contributors from all over
+the world, with different backgrounds and with a wide range of experience.
 
 You can give a helping hand by:
 
 -   Reporting a bug
 -   Requesting a feature
--   Closing a solved issue
 -   Fixing a bug
 -   Implementing a feature
 
+If you are interested in contributing fixes and features, see [PullRequests.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/maintainer/PullRequests.md) for information on everything related to pull requests.
+
 To give clarity of what is expected of our members, we have adopted a Code of Conduct
-which we think articulates our values well. You can read it [here](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodeOfConduct.md),
-and you can also read our Code of Ethics [here](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodeOfEthics.md).
+which we think articulates our values well. You can read it [here](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodeOfConduct.md).
+You can also read our Code of Ethics which describes our company ethics [here](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/CodeOfEthics.md).
 
 ## More
 
-Be sure to look at the documentation for a bird's eye view on every tricky part you encounter.
-If you are interested in contributing fixes and features, see [PullRequests.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/maintainer/PullRequests.md) for information on everything related to pull requests.
+Be sure to look at the documentation for explanation on every tricky part you encounter.
 
 We recommend that you first read [GettingStarted.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/GettingStarted.md) for information on everything you need to know by describing the
 process you need to go through, and how to work with the community. It will also try to
 explain some of the reasons why the community works like it does, and how to setup development.
+
+If you happen to encounter any security-related issue, we recommend that you see [SecurityBugs.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/how-to/SecurityBugs.md).
+For other kinds of issues, please fill out a form [here](https://github.com/CMihai99/fyndro/issues/new/choose).
