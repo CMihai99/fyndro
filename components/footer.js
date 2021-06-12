@@ -38,9 +38,6 @@ class footer extends HTMLElement {
             <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
             target="_blank">Contact Us</a>
           </li>
-          <li>
-            <a href="https://cmihai99.github.io/fyndro/legal">Legal</a>
-          </li>
         </ul>
       </div>
 
