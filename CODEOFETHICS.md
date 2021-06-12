@@ -48,8 +48,8 @@ You must respect others' personal space, opinions and privacy.
 
 Any kind of violence is strictly prohibited and will result in immediate termination.
 You're also not allowed to harass or victimize others. What constitutes harassment or victimization?
-To answer this, we have a policy on [harassment](https://cmihai99.github.io/fyndro/legal/harassment)
-and [sexual harassment](https://cmihai99.github.io/fyndro/legal/sexual-harassment).
+To answer this, we have a policy on [harassment](https://cmihai99.github.io/fyndro/harassment)
+and [sexual harassment](https://cmihai99.github.io/fyndro/sexual-harassment).
 
 As a general rule, try to put yourself in someone else's place.
 How would you feel if someone behaved a specific way to you?
@@ -104,10 +104,8 @@ for example, when interviewing candidates, ask the same interview questions
 to all of them and avoid judging non-job-related criteria, like dress, appearance, etc.
 
 Also, don't discriminate against people with protected characteristics,
-as this is forbidden by our [terms and regulations](https://github.com/CMihai99/fyndro/blob/main/legal/terms-of-use.html).
-If you suspect you may have an unconscious bias that influences your decisions
-(taking [Harvard's Implicit Association Test](https://implicit.harvard.edu/implicit/takeatest.html)
-could help you determine this),
+as this is forbidden by our [terms and regulations](https://github.com/CMihai99/fyndro/blob/main/terms-of-use.html).
+If you suspect you may have an unconscious bias that influences your decisions,
 ask for help from a project maintainer.
 
 When exercising authority, be fair. Don't show favoritism toward
@@ -134,7 +132,7 @@ or online copy that may be governed by law (such as consent forms), please ask v
 project maintainers before finalizing anything.
 
 You must not expose, disclose or endanger information of customers, employees, stakeholders or our business.
-Always follow our [cybersecurity policy](https://github.com/CMihai99/fyndro/blob/main/legal/cybersecurity.html), too.
+Always follow our [cybersecurity policy](https://github.com/CMihai99/fyndro/blob/main/cybersecurity.html), too.
 Following laws regarding fraud, bribery, corruption and any kind of assault is a given.
 You are also obliged to follow laws on child labor and avoid doing business with unlawful organizations.
 
