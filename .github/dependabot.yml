@@ -7,14 +7,20 @@ updates:
   - package-ecosystem: "npm"
     # Look for `package.json` and `lock` files in the `root` directory
     directory: "/"
-    # Check the npm registry for updates every day (weekdays)
+    # Check the npm registry for updates live
     schedule:
-      interval: "daily"
-
-  # Enable version updates for yarn
-  - package-ecosystem: "yarn"
-    # Look for a `Dockerfile` in the `root` directory
-    directory: "/"
-    # Check for updates once every day (weekdays)
-    schedule:
-      interval: "daily"
+      interval: "live"
+    # Reviewers to set on update pull requests
+    reviewers:
+      - "CMihai99"
+    # Assignees to set on update pull requests
+    assignees:
+      - "CMihai99"
+    # Labels to set on update pull requests
+    labels:
+      - "dependencies"
+      - "dependabot"
+    # Specify how Dependabot should update your package manifest
+    version_requirement_updates: "increase_versions_if_necessary"
+    # Allow up to 5 open pull requests for dependencies
+    open-pull-requests-limit: 5
