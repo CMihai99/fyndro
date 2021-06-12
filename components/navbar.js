@@ -31,7 +31,7 @@ class navbar extends HTMLElement {
       <div class="nav navbar-nav navbar-right">
         <li>
           <div class="options-toggle-icons" data-toggle="dropdown">
-            <img src="resources/dropdown-icon.svg">
+            <img src="resources/options-menu.svg">
             <span class="caret"></span>
           </div>
 
