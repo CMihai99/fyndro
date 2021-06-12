@@ -1,0 +1,13 @@
+{
+  "tabSize": 2,
+  "indentSize": 2,
+  "insertSpaceBeforeAndAfterBinaryOperators": true,
+  "insertSpaceAfterSemicolonInForStatements": false,
+  "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+  "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+  "insertSpaceBeforeFunctionParenthesis": false,
+  "placeOpenBraceOnNewLineForFunctions": false,
+  "placeOpenBraceOnNewLineForControlBlocks": false
+}
