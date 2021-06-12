@@ -9,13 +9,12 @@ For licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
 
 # List of maintainers and how to submit changes
 
-Please try to follow the guidelines and entry descriptions below.
-This will make things easier on the maintainers.
-Not all guidelines apply to every patch so apply common sense.
+Please try to follow the guidelines and entry descriptions below. This will make
+things easier on the maintainers. Not all guidelines apply to every patch.
 
 When adding to this list, please keep entries in alphabetical order.
 
-Do not add any entries after EVERYTHING ELSE. That will be at the end of the file, no matter the circumstances.
+Do not add any entries after EVERYTHING ELSE. That will be at the end of this file.
 
 ## Tips for patch submitters
 
@@ -26,21 +25,21 @@ Do not add any entries after EVERYTHING ELSE. That will be at the end of the fil
 
 3.  When you are happy with a change, make it generally available for testing and await feedback.
 
-4.  Make a patch available to the relevant maintainer in the list.
-    Use `diff -u` to make the patch easy to merge. Be prepared to get
-    your changes sent back with seemingly silly requests about formatting and naming.
-    These aren't as silly as they seem. One job the maintainers (and especially Mihai)
-    do is keep things looking the same. Sometimes this means that the clever hack
-    in your code to get around a problem needs to become a feature ready for next time.
+4.  Make a patch available to the relevant maintainer in the list. Use `diff -u`
+    to make the patch easy to merge. Be prepared to get your changes sent back with
+    seemingly silly requests about formatting and naming. These aren't as silly
+    as they seem. One job the maintainers (and especially Mihai) do is keep things
+    looking the same. Sometimes this means that the clever hack in your code to get
+    around a problem needs to become a feature ready for next time.
 
     Try to include any credit lines you want added with the patch.
 
     Document known bugs. If it doesn't work for everything or
     it does something very odd once a month, document it.
 
-    Remember that submissions must be made under the terms of the Fyndro certificate of contribution
-    and should include a `Signed-off-by:` line. The current version of the "Developer's Certificate of Origin"
-    (DCO) is listed in [Documentation/process/SubmittingPatches.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmittingPatches.md).
+    Remember that submissions must be made under the terms of the Fyndro certificate
+    of contribution and should include a `Signed-off-by:` line. The current version
+    of the "Developer's Certificate of Origin" (DCO) is listed in [Documentation/process/SubmittingPatches.md](https://github.com/CMihai99/fyndro/blob/main/Documentation/process/SubmittingPatches.md).
 
 5.  Always add 2 trailing spaces at the end of each attribute (e.g. S: Maintained  )
 

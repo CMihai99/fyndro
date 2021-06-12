@@ -9,12 +9,12 @@ For licenses we use, see https://github.com/CMihai99/fyndro/tree/main/LICENSES.
 
 # List of credits
 
-This is at least a partial credits-file of people that have contributed to Fyndro.
-Please try to follow the entry descriptions below.
+This is at least a partial credits-file of people that have contributed to
+Fyndro. Please try to follow the entry descriptions below.
 
 When adding to this list, please keep the entries in alphabetical order.
 
-Do not add any entries after Mihai Calinescu. He will be at the end of the file, no matter the circumstances.
+Do not add any entries after Mihai Calinescu. He will be at the end of this file.
 
 ## Section entry descriptions
 
