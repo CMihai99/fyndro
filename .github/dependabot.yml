@@ -7,9 +7,9 @@ updates:
   - package-ecosystem: "npm"
     # Look for `package.json` and `lock` files in the `root` directory
     directory: "/"
-    # Check the npm registry for updates live
+    # Check the npm registry for updates
     schedule:
-      interval: "live"
+      interval: "daily"
     # Reviewers to set on update pull requests
     reviewers:
       - "CMihai99"
