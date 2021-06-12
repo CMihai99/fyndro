@@ -24,10 +24,11 @@
 .nav-icon {
   width: 36px;
   height: 36px;
-  margin: 14.5px 0 0 50px; // top, right, bottom, left
+  margin: 14.5px 0 0 50px;
 }
 
 .search-toggle-bar {
+
   input,
   input::placeholder {
     color: var(--borders);
@@ -42,7 +43,7 @@
 .form-control {
   width: 199px;
   height: 30px;
-  margin: -33px 0 0 120px; // top, right, bottom, left
+  margin: -33px 0 0 120px;
   color: var(--text);
   border-radius: var(--border-radius);
   border: 1px var(--borders);
@@ -52,14 +53,14 @@
 
 .form-control:focus {
   width: 400px;
-  border-radius: var(--border-radius) var(--border-radius) 0 0; // top-left, top-right, bottom-right, bottom-left
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
   box-shadow: 0 0 2px var(--links);
 }
 
 .dropdown-menu {
   .divider {
     height: 0.75px;
-    margin: 6px 0; // top and bottom, right and left
+    margin: 6px 0;
   }
 }
 
@@ -67,17 +68,17 @@
   width: 400px;
   height: auto;
   color: var(--text);
-  border-radius: 0 0 var(--border-radius) var(--border-radius); // top-left, top-right, bottom-right, bottom-left
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
   border: 1px var(--borders);
   box-shadow: 0 0 1.75px var(--borders);
-  margin: -17.5px 0 0 120px; // top, right, bottom, left
+  margin: -17.5px 0 0 120px;
   padding: 0;
   animation: searchMenuWidth 0.2s ease;
   will-change: transform;
 
   a {
     height: 40px;
-    padding: 10px 20px; // top and bottom, right and left
+    padding: 10px 20px;
   }
 
   .divider {
@@ -103,7 +104,7 @@
   color: var(--black);
   cursor: pointer;
   transition: opacity 0.25s;
-  margin: 23.75px 65px 0 0; // top, right, bottom, left
+  margin: 23.75px 65px 0 0;
   padding: 0;
   background-color: transparent;
 }
@@ -114,7 +115,7 @@
 
 #options-menu {
   border-radius: 7px;
-  margin: 10px 60px 0 0; // top, right, bottom, left
+  margin: 10px 60px 0 0;
   box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
   animation: dropdownFadeIn 0.15s ease-in-out;
   will-change: transform;
@@ -131,14 +132,12 @@
   }
 }
 
-@media
-  (min-width: 320px) and (max-width: 480px), // tablets and smartphones (portrait)
-  (min-width: 481px) and (max-width: 767px) { // tablets and smartphones (landscape)
-  // foo
-}
+// tablets and smartphones (portrait)
+@media (min-width: 320px) and (max-width: 480px),
+// tablets and smartphones (landscape)
+(min-width: 481px) and (max-width: 767px) {}
 
-@media
-  (min-width: 768px) and (max-width: 1024px), // tablets, ipads (portrait)
-  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { // tablets, ipads (landscape)
-  // foo
-}
+// tablets, ipads (portrait)
+@media (min-width: 768px) and (max-width: 1024px),
+// tablets, ipads (landscape)
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
