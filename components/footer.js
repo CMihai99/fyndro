@@ -12,10 +12,10 @@ class footer extends HTMLElement {
     this.innerHTML =
     `
     <footer>
-      <div class="footer-section">
-        <h2 class="footer-section-title">fyndro</h2>
+      <div class="section">
+        <h3>fyndro</h3>
 
-        <ul class="links">
+        <ul>
           <li>
             <a href="https://github.com/CMihai99/fyndro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBug%5D"
             target="_blank">Report a Bug</a>
@@ -30,10 +30,10 @@ class footer extends HTMLElement {
         </ul>
       </div>
 
-      <div class="footer-section">
-        <h2 class="footer-section-title">company</h2>
+      <div class="section">
+        <h3>company</h3>
 
-        <ul class="links">
+        <ul>
           <li>
             <a href="mailto:androteamfaq@gmail.com?subject=Sent%20from%20your%20website&body=Hey%20Fyndro%2C%20I%20am%20contacting%20you%20in%20regard%20with%20REASON.%0D%0A%0D%0ABest%20wishes%2C%0D%0AYOUR%20NAME"
             target="_blank">Contact Us</a>
@@ -41,10 +41,10 @@ class footer extends HTMLElement {
         </ul>
       </div>
 
-      <div class="footer-section">
-        <h2 class="footer-section-title">connect</h2>
+      <div class="section">
+        <h3>connect</h3>
 
-        <ul class="links">
+        <ul>
           <li>
             <a href="https://twitter.com/androteamfaq" target="_blank">Follow on Twitter</a>
           </li>
@@ -57,10 +57,10 @@ class footer extends HTMLElement {
         </ul>
       </div>
 
-      <div class="footer-section">
-        <h2 class="footer-section-title">support</h2>
+      <div class="section">
+        <h3>support</h3>
 
-        <ul class="links">
+        <ul>
           <li>
             <a href="https://github.com/CMihai99/fyndro" target="_blank">Star on GitHub</a>
           </li>
@@ -71,9 +71,11 @@ class footer extends HTMLElement {
         </ul>
       </div>
 
-      <div class="footer-section">
-        <ul class="links">
-          <li id="trademark">© 2021 Fyndro</li>
+      <div class="section">
+        <ul>
+          <li>
+            <p class="trademark">© 2021 Fyndro</p>
+          </li>
         </ul>
       </div>
     </footer>
