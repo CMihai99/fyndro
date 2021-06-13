@@ -24,18 +24,24 @@ footer {
   li {
     padding: 3.5px 0;
     list-style-type: none;
-  }
 
-  li a,
-  li a:visited {
-    color: var(--gray);
-    text-decoration: none;
-    font-size: 14.5px;
-    margin: 0;
-  }
-
-  li a:hover {
-    color: var(--text);
+    a {
+      color: var(--gray);
+      text-decoration: none;
+      font-size: 14.5px;
+      margin: 0;
+  
+      &:hover {
+        color: var(--text);
+      }
+  
+      &:visited {
+        color: var(--gray);
+        text-decoration: none;
+        font-size: 14.5px;
+        margin: 0;
+      }
+    }
   }
 }
 
@@ -63,12 +69,10 @@ footer {
   color: var(--gray);
 }
 
-// tablets and smartphones (portrait)
+// phones
 @media (min-width: 320px) and (max-width: 480px),
-// tablets and smartphones (landscape)
 (min-width: 481px) and (max-width: 767px) {}
 
-// tablets, ipads (portrait)
+// tablets
 @media (min-width: 768px) and (max-width: 1024px),
-// tablets, ipads (landscape)
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}

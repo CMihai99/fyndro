@@ -20,11 +20,15 @@
   margin: 14.5px 0 0 50px;
 }
 
-.search-toggle-bar input,
+.search-toggle-bar input {
+  color: var(--borders);
+}
 .search-toggle-bar input::placeholder {
   color: var(--borders);
 }
-.search-toggle-bar input:focus,
+.search-toggle-bar input:focus {
+  opacity: 0.9;
+}
 .search-toggle-bar input:focus::placeholder {
   opacity: 0.9;
 }
@@ -39,7 +43,6 @@
   box-shadow: 0 0 1.75px var(--borders);
   transition: width 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
-
 .form-control:focus {
   width: 400px;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
@@ -90,7 +93,6 @@
   padding: 0;
   background-color: transparent;
 }
-
 .options-toggle-icons:hover {
   opacity: 0.5;
 }

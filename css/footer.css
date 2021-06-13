@@ -18,8 +18,7 @@ footer {
   padding: 3.5px 0;
   list-style-type: none;
 }
-.links li a,
-.links li a:visited {
+.links li a {
   color: var(--gray);
   text-decoration: none;
   font-size: 14.5px;
@@ -27,6 +26,12 @@ footer {
 }
 .links li a:hover {
   color: var(--text);
+}
+.links li a:visited {
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 14.5px;
+  margin: 0;
 }
 
 .footer-section {

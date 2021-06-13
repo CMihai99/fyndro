@@ -28,15 +28,20 @@
 }
 
 .search-toggle-bar {
-
-  input,
-  input::placeholder {
+  input {
     color: var(--borders);
-  }
 
-  input:focus,
-  input:focus::placeholder {
-    opacity: 0.9;
+    &::placeholder {
+      color: var(--borders);
+    }
+
+    &:focus {
+      opacity: 0.9;
+
+      &::placeholder {
+        opacity: 0.9;
+      }
+    }
   }
 }
 
@@ -49,12 +54,12 @@
   border: 1px var(--borders);
   box-shadow: 0 0 1.75px var(--borders);
   transition: width 0.3s, border-radius 0.3s, box-shadow 0.3s;
-}
 
-.form-control:focus {
-  width: 400px;
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
-  box-shadow: 0 0 2px var(--links);
+  &:focus {
+    width: 400px;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    box-shadow: 0 0 2px var(--links);
+  }
 }
 
 .dropdown-menu {
@@ -107,10 +112,10 @@
   margin: 23.75px 65px 0 0;
   padding: 0;
   background-color: transparent;
-}
 
-.options-toggle-icons:hover {
-  opacity: 0.5;
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 #options-menu {
@@ -132,12 +137,10 @@
   }
 }
 
-// tablets and smartphones (portrait)
+// phones
 @media (min-width: 320px) and (max-width: 480px),
-// tablets and smartphones (landscape)
 (min-width: 481px) and (max-width: 767px) {}
 
-// tablets, ipads (portrait)
+// tablets
 @media (min-width: 768px) and (max-width: 1024px),
-// tablets, ipads (landscape)
 (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
