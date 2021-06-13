@@ -44,13 +44,13 @@ strong {
   color: var(--links);
   text-decoration: none;
 
-  &.links:hover,
-  &.links:active,
-  &.links:focus {
+  &:hover,
+  &:active,
+  &:focus {
     color: #3277df;
   }
 
-  &.links:visited {
+  &:visited {
     color: #145dca;
   }
 }

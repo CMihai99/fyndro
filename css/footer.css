@@ -11,47 +11,43 @@ footer {
   padding-left: 18.125rem;
 }
 
-.links {
-  padding: 0;
-}
-.links li {
-  padding: 3.5px 0;
-  list-style-type: none;
-}
-.links li a {
-  color: var(--gray);
-  text-decoration: none;
-  font-size: 14.5px;
-  margin: 0;
-}
-.links li a:hover {
-  color: var(--text);
-}
-.links li a:visited {
-  color: var(--gray);
-  text-decoration: none;
-  font-size: 14.5px;
-  margin: 0;
-}
-
-.footer-section {
+.section {
   padding: 15px 50px 25px;
 }
-.footer-section ul li {
-  color: var(--text);
-}
-
-.footer-section-title {
-  color: var(--gray);
-  font-weight: bold;
+.section h3 {
+  color: #777777;
   letter-spacing: 0.5px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Segoe UI";
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 13.5px;
   margin-bottom: 10.5px;
 }
+.section ul {
+  padding: 0;
+}
+.section ul li {
+  padding: 3.5px 0;
+  list-style-type: none;
+  color: var(--text);
+}
+.section ul li a {
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 14.5px;
+  margin: 0;
+}
+.section ul li a:hover {
+  color: var(--text);
+}
+.section ul li a:visited {
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 14.5px;
+  margin: 0;
+}
 
-#trademark {
+.trademark {
   padding: 157px 0 0 0;
   font-size: 13.5px;
   color: var(--gray);

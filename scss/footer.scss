@@ -18,52 +18,49 @@ footer {
   padding-left: 18.125rem;
 }
 
-.links {
-  padding: 0;
+.section {
+  padding: 15px 50px 25px;
 
-  li {
-    padding: 3.5px 0;
-    list-style-type: none;
+  h3 {
+    color: #777777;
+    letter-spacing: 0.5px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    margin-bottom: 10.5px;
+  }
 
-    a {
-      color: var(--gray);
-      text-decoration: none;
-      font-size: 14.5px;
-      margin: 0;
+  ul {
+    padding: 0;
   
-      &:hover {
-        color: var(--text);
-      }
+    li {
+      padding: 3.5px 0;
+      list-style-type: none;
+      color: var(--text);
   
-      &:visited {
+      a {
         color: var(--gray);
         text-decoration: none;
         font-size: 14.5px;
         margin: 0;
+    
+        &:hover {
+          color: var(--text);
+        }
+    
+        &:visited {
+          color: var(--gray);
+          text-decoration: none;
+          font-size: 14.5px;
+          margin: 0;
+        }
       }
     }
   }
 }
 
-.footer-section {
-  padding: 15px 50px 25px;
-
-  ul li {
-    color: var(--text);
-  }
-}
-
-.footer-section-title {
-  color: var(--gray);
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-size: 13.5px;
-  margin-bottom: 10.5px;
-}
-
-#trademark {
+.trademark {
   padding: 157px 0 0 0;
   font-size: 13.5px;
   color: var(--gray);

@@ -37,10 +37,10 @@ strong {
   color: var(--links);
   text-decoration: none;
 }
-.links.links:hover, .links.links:active, .links.links:focus {
+.links:hover, .links:active, .links:focus {
   color: #3277df;
 }
-.links.links:visited {
+.links:visited {
   color: #145dca;
 }
 
